@@ -1,0 +1,141 @@
+[
+  {
+    "id": "srd24:subclass:thief",
+    "kind": "subclass",
+    "name": "Thief",
+    "source": "srd24",
+    "page": "XPHB 137",
+    "class": "srd24:class:rogue",
+    "tags": [
+      "rogue-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "3": {
+        "grants": [
+          "srd24:thief:thief"
+        ]
+      },
+      "9": {
+        "grants": [
+          "srd24:thief:supreme-sneak"
+        ]
+      },
+      "13": {
+        "grants": [
+          "srd24:thief:use-magic-device"
+        ]
+      },
+      "17": {
+        "grants": [
+          "srd24:thief:thiefs-reflexes"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd24:thief:fast-hands",
+    "kind": "subclass-feature",
+    "name": "Fast Hands",
+    "source": "srd24",
+    "page": "XPHB 137",
+    "tags": [
+      "thief-feature",
+      "rogue-feature"
+    ],
+    "text": "As a Bonus Action, you can do one of the following.\n\n**Sleight of Hand.** Make a Dexterity (Sleight of Hand) check to pick a lock or disarm a trap with Thieves' Tools or to pick a pocket.\n\n**Use an Object.** Take the Utilize action, or take the Magic action to use a magic item that requires that action.",
+    "actions": [
+      {
+        "id": "sleight-of-hand",
+        "name": "Sleight of Hand",
+        "activation": "bonus-action",
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      },
+      {
+        "id": "thieves-tools",
+        "name": "Thieves' Tools",
+        "activation": "bonus-action",
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      },
+      {
+        "id": "use-an-object",
+        "name": "Use an Object",
+        "activation": "bonus-action",
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:thief:second-story-work",
+    "kind": "subclass-feature",
+    "name": "Second-Story Work",
+    "source": "srd24",
+    "page": "XPHB 137",
+    "tags": [
+      "thief-feature",
+      "rogue-feature"
+    ],
+    "text": "You've trained to get into especially hard-to-reach places, granting you these benefits.\n\n**Climber.** You gain a Climb Speed equal to your Speed.\n\n**Jumper.** You can determine your jump distance using your Dexterity rather than your Strength."
+  },
+  {
+    "id": "srd24:thief:thief",
+    "kind": "subclass-feature",
+    "name": "Thief",
+    "source": "srd24",
+    "page": "XPHB 137",
+    "tags": [
+      "thief-feature",
+      "rogue-feature"
+    ],
+    "text": "*Hunt for Treasure as a Classic Adventurer*\n\nA mix of burglar, treasure hunter, and explorer, you are the epitome of an adventurer. In addition to improving your agility and stealth, you gain abilities useful for delving into ruins and getting maximum benefit from the magic items you find there.",
+    "grants": [
+      "srd24:thief:fast-hands",
+      "srd24:thief:second-story-work"
+    ]
+  },
+  {
+    "id": "srd24:thief:supreme-sneak",
+    "kind": "subclass-feature",
+    "name": "Supreme Sneak",
+    "source": "srd24",
+    "page": "XPHB 137",
+    "tags": [
+      "thief-feature",
+      "rogue-feature"
+    ],
+    "text": "You gain the following Cunning Strike option.\n\n**Stealth Attack (Cost: 1d6).** If you have the Hide action's Invisible condition, this attack doesn't end that condition on you if you end the turn behind Three-Quarters Cover or Total Cover."
+  },
+  {
+    "id": "srd24:thief:use-magic-device",
+    "kind": "subclass-feature",
+    "name": "Use Magic Device",
+    "source": "srd24",
+    "page": "XPHB 137",
+    "tags": [
+      "thief-feature",
+      "rogue-feature"
+    ],
+    "text": "You've learned how to maximize use of magic items, granting you the following benefits.\n\n**Attunement.** You can attune to up to four magic items at once.\n\n**Charges.** Whenever you use a magic item property that expends charges, roll 1d6. On a roll of 6, you use the property without expending the charges.\n\n**Scrolls.** You can use any Spell Scroll, using Intelligence as your spellcasting ability for the spell. If the spell is a cantrip or a level 1 spell, you can cast it reliably. If the scroll contains a higher-level spell, you must first succeed on an Intelligence (Arcana) check (DC 10 plus the spell's level). On a successful check, you cast the spell from the scroll. On a failed check, the scroll disintegrates."
+  },
+  {
+    "id": "srd24:thief:thiefs-reflexes",
+    "kind": "subclass-feature",
+    "name": "Thief's Reflexes",
+    "source": "srd24",
+    "page": "XPHB 137",
+    "tags": [
+      "thief-feature",
+      "rogue-feature"
+    ],
+    "text": "You are adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal Initiative and your second turn at your Initiative minus 10."
+  }
+]

@@ -1,0 +1,761 @@
+[
+  {
+    "id": "srd24:feat:ability-score-improvement",
+    "kind": "feat",
+    "name": "Ability Score Improvement",
+    "source": "srd24",
+    "tags": [
+      "srd-feat",
+      "general-feat"
+    ],
+    "text": "Increase one ability score of your choice by 2, or increase two ability scores of your choice by 1. This feat can't increase an ability score above 20.\n\n**Repeatable.** You can take this feat more than once.",
+    "page": "XPHB 202",
+    "x-repeatable": true,
+    "requires": {
+      "all": [
+        {
+          "type": "level",
+          "min": 4
+        }
+      ]
+    },
+    "choices": [
+      {
+        "id": "srd24:feat:ability-score-improvement:abilities",
+        "name": "Ability Score Increase",
+        "count": 2,
+        "repeatable": true,
+        "maxPer": 2,
+        "from": {
+          "ids": [
+            "srd24:ability-point:str",
+            "srd24:ability-point:dex",
+            "srd24:ability-point:con",
+            "srd24:ability-point:int",
+            "srd24:ability-point:wis",
+            "srd24:ability-point:cha"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:feat:alert",
+    "kind": "feat",
+    "name": "Alert",
+    "source": "srd24",
+    "tags": [
+      "srd-feat",
+      "origin-feat"
+    ],
+    "text": "You gain the following benefits.\n\n**Initiative Proficiency.** When you roll Initiative, you can add your Proficiency Bonus to the roll.\n\n**Initiative Swap.** Immediately after you roll Initiative, you can swap your Initiative with the Initiative of one willing ally in the same combat. You can't make this swap if you or the ally has the Incapacitated condition.",
+    "page": "XPHB 200"
+  },
+  {
+    "id": "srd24:feat:archery",
+    "kind": "feat",
+    "name": "Archery",
+    "source": "srd24",
+    "tags": [
+      "srd-feat",
+      "fighting-style-feat",
+      "fighter-fighting-style"
+    ],
+    "text": "You gain a +2 bonus to attack rolls you make with Ranged weapons.",
+    "page": "XPHB 209",
+    "requires": {
+      "text": "Fighting Style"
+    },
+    "modifiers": [
+      {
+        "target": "attacks.ranged",
+        "op": "add",
+        "value": 2,
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:feat:boon-of-combat-prowess",
+    "kind": "feat",
+    "name": "Boon of Combat Prowess",
+    "source": "srd24",
+    "tags": [
+      "srd-feat",
+      "epic-boon"
+    ],
+    "text": "You gain the following benefits.\n\n**Peerless Aim.** When you miss with an attack roll, you can hit instead. Once you use this benefit, you can't use it again until the start of your next turn.",
+    "page": "XPHB 210",
+    "requires": {
+      "all": [
+        {
+          "type": "level",
+          "min": 19
+        }
+      ]
+    },
+    "choices": [
+      {
+        "id": "srd24:feat:boon-of-combat-prowess:abilities",
+        "name": "Ability Score Increase",
+        "count": 1,
+        "repeatable": false,
+        "from": {
+          "ids": [
+            "srd24:ability-point:str",
+            "srd24:ability-point:dex",
+            "srd24:ability-point:con",
+            "srd24:ability-point:int",
+            "srd24:ability-point:wis",
+            "srd24:ability-point:cha"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:feat:boon-of-dimensional-travel",
+    "kind": "feat",
+    "name": "Boon of Dimensional Travel",
+    "source": "srd24",
+    "tags": [
+      "srd-feat",
+      "epic-boon"
+    ],
+    "text": "You gain the following benefits.\n\n**Blink Steps.** Immediately after you take the Attack action or the Magic action, you can teleport up to 30 feet to an unoccupied space you can see.",
+    "page": "XPHB 210",
+    "requires": {
+      "all": [
+        {
+          "type": "level",
+          "min": 19
+        }
+      ]
+    },
+    "choices": [
+      {
+        "id": "srd24:feat:boon-of-dimensional-travel:abilities",
+        "name": "Ability Score Increase",
+        "count": 1,
+        "repeatable": false,
+        "from": {
+          "ids": [
+            "srd24:ability-point:str",
+            "srd24:ability-point:dex",
+            "srd24:ability-point:con",
+            "srd24:ability-point:int",
+            "srd24:ability-point:wis",
+            "srd24:ability-point:cha"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:feat:boon-of-fate",
+    "kind": "feat",
+    "name": "Boon of Fate",
+    "source": "srd24",
+    "tags": [
+      "srd-feat",
+      "epic-boon"
+    ],
+    "text": "You gain the following benefits.\n\n**Improve Fate.** When you or another creature within 60 feet of you succeeds on or fails a D20 Test, you can roll 2d4 and apply the total rolled as a bonus or penalty to the d20 roll. Once you use this benefit, you can't use it again until you roll Initiative or finish a Short or Long Rest.",
+    "page": "XPHB 210",
+    "requires": {
+      "all": [
+        {
+          "type": "level",
+          "min": 19
+        }
+      ]
+    },
+    "choices": [
+      {
+        "id": "srd24:feat:boon-of-fate:abilities",
+        "name": "Ability Score Increase",
+        "count": 1,
+        "repeatable": false,
+        "from": {
+          "ids": [
+            "srd24:ability-point:str",
+            "srd24:ability-point:dex",
+            "srd24:ability-point:con",
+            "srd24:ability-point:int",
+            "srd24:ability-point:wis",
+            "srd24:ability-point:cha"
+          ]
+        }
+      }
+    ],
+    "resources": [
+      {
+        "id": "srd24:feat:boon-of-fate",
+        "name": "Boon of Fate",
+        "max": 1,
+        "recharge": [
+          {
+            "on": "short-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:feat:boon-of-irresistible-offense",
+    "kind": "feat",
+    "name": "Boon of Irresistible Offense",
+    "source": "srd24",
+    "tags": [
+      "srd-feat",
+      "epic-boon"
+    ],
+    "text": "You gain the following benefits.\n\n**Overcome Defenses.** The Bludgeoning, Piercing, and Slashing damage you deal always ignores Resistance.\n\n**Overwhelming Strike.** When you roll a 20 on the d20 for an attack roll, you can deal extra damage to the target equal to the ability score increased by this feat. The extra damage's type is the same as the attack's type.",
+    "page": "XPHB 211",
+    "requires": {
+      "all": [
+        {
+          "type": "level",
+          "min": 19
+        }
+      ]
+    },
+    "choices": [
+      {
+        "id": "srd24:feat:boon-of-irresistible-offense:abilities",
+        "name": "Ability Score Increase",
+        "count": 1,
+        "repeatable": false,
+        "from": {
+          "ids": [
+            "srd24:ability-point:str",
+            "srd24:ability-point:dex"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:feat:boon-of-spell-recall",
+    "kind": "feat",
+    "name": "Boon of Spell Recall",
+    "source": "srd24",
+    "tags": [
+      "srd-feat",
+      "epic-boon"
+    ],
+    "text": "You gain the following benefits.\n\n**Free Casting.** Whenever you cast a spell with a level 1-4 spell slot, roll 1d4. If the number you roll is the same as the slot's level, the slot isn't expended.",
+    "page": "XPHB 211",
+    "requires": {
+      "all": [
+        {
+          "type": "level",
+          "min": 19
+        },
+        {
+          "type": "spellcaster"
+        }
+      ]
+    },
+    "choices": [
+      {
+        "id": "srd24:feat:boon-of-spell-recall:abilities",
+        "name": "Ability Score Increase",
+        "count": 1,
+        "repeatable": false,
+        "from": {
+          "ids": [
+            "srd24:ability-point:int",
+            "srd24:ability-point:wis",
+            "srd24:ability-point:cha"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:feat:boon-of-the-night-spirit",
+    "kind": "feat",
+    "name": "Boon of the Night Spirit",
+    "source": "srd24",
+    "tags": [
+      "srd-feat",
+      "epic-boon"
+    ],
+    "text": "You gain the following benefits.\n\n**Merge with Shadows.** While within Dim Light or Darkness, you can give yourself the Invisible condition as a Bonus Action. The condition ends on you immediately after you take an action, a Bonus Action, or a Reaction.\n\n**Shadowy Form.** While within Dim Light or Darkness, you have Resistance to all damage except Psychic and Radiant.",
+    "page": "XPHB 211",
+    "requires": {
+      "all": [
+        {
+          "type": "level",
+          "min": 19
+        }
+      ]
+    },
+    "choices": [
+      {
+        "id": "srd24:feat:boon-of-the-night-spirit:abilities",
+        "name": "Ability Score Increase",
+        "count": 1,
+        "repeatable": false,
+        "from": {
+          "ids": [
+            "srd24:ability-point:str",
+            "srd24:ability-point:dex",
+            "srd24:ability-point:con",
+            "srd24:ability-point:int",
+            "srd24:ability-point:wis",
+            "srd24:ability-point:cha"
+          ]
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "boon-of-the-night-spirit",
+        "name": "Boon of the Night Spirit",
+        "activation": "bonus-action",
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:feat:boon-of-truesight",
+    "kind": "feat",
+    "name": "Boon of Truesight",
+    "source": "srd24",
+    "tags": [
+      "srd-feat",
+      "epic-boon"
+    ],
+    "text": "You gain the following benefits.\n\n**Truesight.** You have Truesight with a range of 60 feet.",
+    "page": "XPHB 211",
+    "requires": {
+      "all": [
+        {
+          "type": "level",
+          "min": 19
+        }
+      ]
+    },
+    "choices": [
+      {
+        "id": "srd24:feat:boon-of-truesight:abilities",
+        "name": "Ability Score Increase",
+        "count": 1,
+        "repeatable": false,
+        "from": {
+          "ids": [
+            "srd24:ability-point:str",
+            "srd24:ability-point:dex",
+            "srd24:ability-point:con",
+            "srd24:ability-point:int",
+            "srd24:ability-point:wis",
+            "srd24:ability-point:cha"
+          ]
+        }
+      }
+    ],
+    "modifiers": [
+      {
+        "target": "senses.truesight",
+        "op": "base",
+        "value": 60
+      }
+    ]
+  },
+  {
+    "id": "srd24:feat:defense",
+    "kind": "feat",
+    "name": "Defense",
+    "source": "srd24",
+    "tags": [
+      "srd-feat",
+      "fighting-style-feat",
+      "fighter-fighting-style"
+    ],
+    "text": "While you're wearing Light, Medium, or Heavy armor, you gain a +1 bonus to Armor Class.",
+    "page": "XPHB 209",
+    "requires": {
+      "text": "Fighting Style"
+    },
+    "modifiers": [
+      {
+        "target": "ac",
+        "op": "add",
+        "value": 1,
+        "when": {
+          "text": "while you're wearing Light, Medium, or Heavy armor",
+          "context": "wearing-light-medium-or-heavy-armor"
+        },
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:feat:grappler",
+    "kind": "feat",
+    "name": "Grappler",
+    "source": "srd24",
+    "tags": [
+      "srd-feat",
+      "general-feat"
+    ],
+    "text": "You gain the following benefits.\n\n**Punch and Grab.** When you hit a creature with an Unarmed Strike as part of the Attack action on your turn, you can use both the Damage and the Grapple option. You can use this benefit only once per turn.\n\n**Attack Advantage.** You have Advantage on attack rolls against a creature Grappled by you.\n\n**Fast Wrestler.** You don't have to spend extra movement to move a creature Grappled by you if the creature is your size or smaller.",
+    "page": "XPHB 204",
+    "requires": {
+      "all": [
+        {
+          "type": "level",
+          "min": 4
+        },
+        {
+          "type": "ability",
+          "ability": "str",
+          "min": 13
+        }
+      ]
+    },
+    "choices": [
+      {
+        "id": "srd24:feat:grappler:abilities",
+        "name": "Ability Score Increase",
+        "count": 1,
+        "repeatable": false,
+        "from": {
+          "ids": [
+            "srd24:ability-point:str",
+            "srd24:ability-point:dex"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:feat:great-weapon-fighting",
+    "kind": "feat",
+    "name": "Great Weapon Fighting",
+    "source": "srd24",
+    "tags": [
+      "srd-feat",
+      "fighting-style-feat",
+      "fighter-fighting-style"
+    ],
+    "text": "When you roll damage for an attack you make with a Melee weapon that you are holding with two hands, you can treat any 1 or 2 on a damage die as a 3. The weapon must have the Two-Handed or Versatile property to gain this benefit.",
+    "page": "XPHB 209",
+    "requires": {
+      "text": "Fighting Style"
+    }
+  },
+  {
+    "id": "srd24:feat:magic-initiate",
+    "kind": "feat",
+    "name": "Magic Initiate",
+    "source": "srd24",
+    "tags": [
+      "srd-feat"
+    ],
+    "text": "You gain the following benefits.\n\n**Two Cantrips.** You learn two cantrips of your choice from the Cleric, Druid, or Wizard spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat's spells (choose when you select this feat).\n\n**Level 1 Spell.** Choose a level 1 spell from the same list you selected for this feat's cantrips. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have.\n\n**Spell Change.** Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list.\n\n**Repeatable.** You can take this feat more than once, but you must choose a different spell list each time.",
+    "page": "XPHB 201",
+    "x-repeatable": true
+  },
+  {
+    "id": "srd24:feat:magic-initiate-cleric",
+    "kind": "feat",
+    "name": "Magic Initiate (Cleric)",
+    "source": "srd24",
+    "tags": [
+      "srd-feat",
+      "origin-feat"
+    ],
+    "text": "You gain the following benefits.\n\n**Two Cantrips.** You learn two cantrips of your choice from the Cleric spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat's spells (choose when you select this feat).\n\n**Level 1 Spell.** Choose a level 1 spell from the Cleric spell list. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have.\n\n**Spell Change.** Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list.\n\n**Repeatable.** You can take this feat more than once, but you must choose a different spell list each time.",
+    "page": "XPHB 201",
+    "x-repeatable": true,
+    "choices": [
+      {
+        "id": "srd24:feat:magic-initiate-cleric:known-spells",
+        "name": "Cantrip",
+        "count": 2,
+        "from": {
+          "kind": "spell",
+          "allTags": [
+            "spell-level:0",
+            "cleric-spell"
+          ]
+        }
+      },
+      {
+        "id": "srd24:feat:magic-initiate-cleric:ability",
+        "name": "Spellcasting ability",
+        "count": 1,
+        "from": {
+          "kind": "casting-ability",
+          "ids": [
+            "srd24:casting-ability:int",
+            "srd24:casting-ability:wis",
+            "srd24:casting-ability:cha"
+          ]
+        }
+      },
+      {
+        "id": "srd24:feat:magic-initiate-cleric:innate-spells",
+        "name": "Spell",
+        "count": 1,
+        "from": {
+          "kind": "spell",
+          "allTags": [
+            "spell-level:1",
+            "cleric-spell"
+          ]
+        }
+      }
+    ],
+    "innateSpells": [
+      {
+        "spell": {
+          "choice": "srd24:feat:magic-initiate-cleric:known-spells"
+        },
+        "ability": {
+          "choice": "srd24:feat:magic-initiate-cleric:ability"
+        }
+      },
+      {
+        "spell": {
+          "choice": "srd24:feat:magic-initiate-cleric:innate-spells"
+        },
+        "ability": {
+          "choice": "srd24:feat:magic-initiate-cleric:ability"
+        },
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd24:feat:magic-initiate-druid",
+    "kind": "feat",
+    "name": "Magic Initiate (Druid)",
+    "source": "srd24",
+    "tags": [
+      "srd-feat",
+      "origin-feat"
+    ],
+    "text": "You gain the following benefits.\n\n**Two Cantrips.** You learn two cantrips of your choice from the Druid spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat's spells (choose when you select this feat).\n\n**Level 1 Spell.** Choose a level 1 spell from the Druid spell list. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have.\n\n**Spell Change.** Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list.\n\n**Repeatable.** You can take this feat more than once, but you must choose a different spell list each time.",
+    "page": "XPHB 201",
+    "x-repeatable": true,
+    "choices": [
+      {
+        "id": "srd24:feat:magic-initiate-druid:known-spells",
+        "name": "Cantrip",
+        "count": 2,
+        "from": {
+          "kind": "spell",
+          "allTags": [
+            "spell-level:0",
+            "druid-spell"
+          ]
+        }
+      },
+      {
+        "id": "srd24:feat:magic-initiate-druid:ability",
+        "name": "Spellcasting ability",
+        "count": 1,
+        "from": {
+          "kind": "casting-ability",
+          "ids": [
+            "srd24:casting-ability:int",
+            "srd24:casting-ability:wis",
+            "srd24:casting-ability:cha"
+          ]
+        }
+      },
+      {
+        "id": "srd24:feat:magic-initiate-druid:innate-spells",
+        "name": "Spell",
+        "count": 1,
+        "from": {
+          "kind": "spell",
+          "allTags": [
+            "spell-level:1",
+            "druid-spell"
+          ]
+        }
+      }
+    ],
+    "innateSpells": [
+      {
+        "spell": {
+          "choice": "srd24:feat:magic-initiate-druid:known-spells"
+        },
+        "ability": {
+          "choice": "srd24:feat:magic-initiate-druid:ability"
+        }
+      },
+      {
+        "spell": {
+          "choice": "srd24:feat:magic-initiate-druid:innate-spells"
+        },
+        "ability": {
+          "choice": "srd24:feat:magic-initiate-druid:ability"
+        },
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd24:feat:magic-initiate-wizard",
+    "kind": "feat",
+    "name": "Magic Initiate (Wizard)",
+    "source": "srd24",
+    "tags": [
+      "srd-feat",
+      "origin-feat"
+    ],
+    "text": "You gain the following benefits.\n\n**Two Cantrips.** You learn two cantrips of your choice from the Wizard spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat's spells (choose when you select this feat).\n\n**Level 1 Spell.** Choose a level 1 spell from the Wizard spell list. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have.\n\n**Spell Change.** Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list.\n\n**Repeatable.** You can take this feat more than once, but you must choose a different spell list each time.",
+    "page": "XPHB 201",
+    "x-repeatable": true,
+    "choices": [
+      {
+        "id": "srd24:feat:magic-initiate-wizard:known-spells",
+        "name": "Cantrip",
+        "count": 2,
+        "from": {
+          "kind": "spell",
+          "allTags": [
+            "spell-level:0",
+            "wizard-spell"
+          ]
+        }
+      },
+      {
+        "id": "srd24:feat:magic-initiate-wizard:ability",
+        "name": "Spellcasting ability",
+        "count": 1,
+        "from": {
+          "kind": "casting-ability",
+          "ids": [
+            "srd24:casting-ability:int",
+            "srd24:casting-ability:wis",
+            "srd24:casting-ability:cha"
+          ]
+        }
+      },
+      {
+        "id": "srd24:feat:magic-initiate-wizard:innate-spells",
+        "name": "Spell",
+        "count": 1,
+        "from": {
+          "kind": "spell",
+          "allTags": [
+            "spell-level:1",
+            "wizard-spell"
+          ]
+        }
+      }
+    ],
+    "innateSpells": [
+      {
+        "spell": {
+          "choice": "srd24:feat:magic-initiate-wizard:known-spells"
+        },
+        "ability": {
+          "choice": "srd24:feat:magic-initiate-wizard:ability"
+        }
+      },
+      {
+        "spell": {
+          "choice": "srd24:feat:magic-initiate-wizard:innate-spells"
+        },
+        "ability": {
+          "choice": "srd24:feat:magic-initiate-wizard:ability"
+        },
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd24:feat:savage-attacker",
+    "kind": "feat",
+    "name": "Savage Attacker",
+    "source": "srd24",
+    "tags": [
+      "srd-feat",
+      "origin-feat"
+    ],
+    "text": "You've trained to deal particularly damaging strikes. Once per turn when you hit a target with a weapon, you can roll the weapon's damage dice twice and use either roll against the target.",
+    "page": "XPHB 201"
+  },
+  {
+    "id": "srd24:feat:skilled",
+    "kind": "feat",
+    "name": "Skilled",
+    "source": "srd24",
+    "tags": [
+      "srd-feat",
+      "origin-feat"
+    ],
+    "text": "You gain proficiency in any combination of three skills or tools of your choice.\n\n**Repeatable.** You can take this feat more than once.",
+    "page": "XPHB 201",
+    "x-repeatable": true,
+    "choices": [
+      {
+        "id": "srd24:feat:skilled:proficiency",
+        "name": "Skill or Tool",
+        "count": 3,
+        "from": {
+          "kind": [
+            "skill",
+            "tool"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:feat:two-weapon-fighting",
+    "kind": "feat",
+    "name": "Two-Weapon Fighting",
+    "source": "srd24",
+    "tags": [
+      "srd-feat",
+      "fighting-style-feat",
+      "fighter-fighting-style"
+    ],
+    "text": "When you make an extra attack as a result of using a weapon that has the Light property, you can add your ability modifier to the damage of that attack if you aren't already adding it to the damage.",
+    "page": "XPHB 210",
+    "requires": {
+      "text": "Fighting Style"
+    }
+  }
+]

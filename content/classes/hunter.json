@@ -1,0 +1,123 @@
+[
+  {
+    "id": "srd24:subclass:hunter",
+    "kind": "subclass",
+    "name": "Hunter",
+    "source": "srd24",
+    "page": "XPHB 127",
+    "class": "srd24:class:ranger",
+    "tags": [
+      "ranger-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "3": {
+        "grants": [
+          "srd24:hunter:hunter"
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd24:hunter:defensive-tactics"
+        ]
+      },
+      "11": {
+        "grants": [
+          "srd24:hunter:superior-hunters-prey"
+        ]
+      },
+      "15": {
+        "grants": [
+          "srd24:hunter:superior-hunters-defense"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd24:hunter:hunters-prey",
+    "kind": "subclass-feature",
+    "name": "Hunter's Prey",
+    "source": "srd24",
+    "page": "XPHB 127",
+    "tags": [
+      "hunter-feature",
+      "ranger-feature"
+    ],
+    "text": "You gain one of the following feature options of your choice. Whenever you finish a Short or Long Rest, you can replace the chosen option with the other one.\n\n**Colossus Slayer.** Your tenacity can wear down even the most resilient foes. When you hit a creature with a weapon, the weapon deals an extra 1d8 damage to the target if it's missing any of its Hit Points. You can deal this extra damage only once per turn.\n\n**Horde Breaker.** Once on each of your turns when you make an attack with a weapon, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target, that is within the weapon's range, and that you haven't attacked this turn."
+  },
+  {
+    "id": "srd24:hunter:hunters-lore",
+    "kind": "subclass-feature",
+    "name": "Hunter's Lore",
+    "source": "srd24",
+    "page": "XPHB 127",
+    "tags": [
+      "hunter-feature",
+      "ranger-feature"
+    ],
+    "text": "You can call on the forces of nature to reveal certain strengths and weaknesses of your prey. While a creature is marked by your Hunter's Mark, you know whether that creature has any Immunities, Resistances, or Vulnerabilities, and if the creature has any, you know what they are."
+  },
+  {
+    "id": "srd24:hunter:hunter",
+    "kind": "subclass-feature",
+    "name": "Hunter",
+    "source": "srd24",
+    "page": "XPHB 127",
+    "tags": [
+      "hunter-feature",
+      "ranger-feature"
+    ],
+    "text": "*Protect Nature and People from Destruction*\n\nYou stalk prey in the wilds and elsewhere, using your abilities as a Hunter to protect nature and people everywhere from forces that would destroy them.",
+    "grants": [
+      "srd24:hunter:hunters-prey",
+      "srd24:hunter:hunters-lore"
+    ]
+  },
+  {
+    "id": "srd24:hunter:defensive-tactics",
+    "kind": "subclass-feature",
+    "name": "Defensive Tactics",
+    "source": "srd24",
+    "page": "XPHB 127",
+    "tags": [
+      "hunter-feature",
+      "ranger-feature"
+    ],
+    "text": "You gain one of the following feature options of your choice. Whenever you finish a Short or Long Rest, you can replace the chosen option with the other one.\n\n**Escape the Horde.** Opportunity Attack have Disadvantage against you.\n\n**Multiattack Defense.** When a creature hits you with an attack roll, that creature has Disadvantage on all other attack rolls against you this turn."
+  },
+  {
+    "id": "srd24:hunter:superior-hunters-prey",
+    "kind": "subclass-feature",
+    "name": "Superior Hunter's Prey",
+    "source": "srd24",
+    "page": "XPHB 127",
+    "tags": [
+      "hunter-feature",
+      "ranger-feature"
+    ],
+    "text": "Once per turn when you deal damage to a creature marked by your Hunter's Mark, you can also deal that spell's extra damage to a different creature that you can see within 30 feet of the first creature."
+  },
+  {
+    "id": "srd24:hunter:superior-hunters-defense",
+    "kind": "subclass-feature",
+    "name": "Superior Hunter's Defense",
+    "source": "srd24",
+    "page": "XPHB 127",
+    "tags": [
+      "hunter-feature",
+      "ranger-feature"
+    ],
+    "text": "When you take damage, you can take a Reaction to give yourself Resistance to that damage and any other damage of the same type until the end of the current turn.",
+    "actions": [
+      {
+        "id": "superior-hunters-defense",
+        "name": "Superior Hunter's Defense",
+        "activation": "reaction",
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ]
+  }
+]

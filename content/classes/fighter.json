@@ -1,0 +1,376 @@
+[
+  {
+    "id": "srd24:class:fighter",
+    "kind": "class",
+    "name": "Fighter",
+    "source": "srd24",
+    "page": "XPHB 90",
+    "key": "fighter",
+    "hitDie": "d10",
+    "tags": [
+      "srd-class"
+    ],
+    "text": "**Hit Dice:** 1d10 per fighter level.\n\n**Hit Points at 1st Level:** 10 + your Constitution modifier.\n\n**Hit Points at Higher Levels:** 1d10 (or 6) + your Constitution modifier per fighter level after 1st.\n\n**Armor:** Light, medium, heavy, shield\n**Weapons:** Simple, martial\n**Tools:** None\n**Saving Throws:** Strength, Constitution\n**Skills:** Choose 2 from acrobatics, animal handling, athletics, history, insight, intimidation, persuasion, perception, survival\n\n**Equipment:** You start with the following equipment, in addition to the equipment granted by your background:\n\n*Choose A, B, or C:* (A) Chain Mail, Greatsword, Flail, 8 Javelins, Dungeoneer's Pack, and 4 GP; (B) Studded Leather Armor, Scimitar, Shortsword, Longbow, 20 Arrows, Quiver, Dungeoneer's Pack, and 11 GP; or (C) 155 GP",
+    "primaryAbility": [
+      "str",
+      "dex"
+    ],
+    "x-multiclass-proficiencies": {
+      "weapons": [
+        "martial"
+      ],
+      "armor": [
+        "light",
+        "medium",
+        "shield"
+      ],
+      "armorProficiencies": [
+        {
+          "light": true,
+          "medium": true,
+          "shield": true
+        }
+      ]
+    },
+    "tables": {
+      "second-wind": [
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "weapon-mastery": [
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    "levels": {
+      "1": {
+        "choices": [
+          {
+            "id": "srd24:class:fighter:skill",
+            "name": "Skill Proficiency",
+            "count": 2,
+            "from": {
+              "ids": [
+                "srd24:skill:acrobatics",
+                "srd24:skill:animal-handling",
+                "srd24:skill:athletics",
+                "srd24:skill:history",
+                "srd24:skill:insight",
+                "srd24:skill:intimidation",
+                "srd24:skill:persuasion",
+                "srd24:skill:perception",
+                "srd24:skill:survival"
+              ]
+            }
+          },
+          {
+            "id": "srd24:class:fighter:weapon-mastery-1",
+            "name": "Weapon Mastery",
+            "count": 3,
+            "from": {
+              "kind": "weapon-mastery",
+              "tags": [
+                "simple-weapon",
+                "martial-weapon"
+              ]
+            }
+          },
+          {
+            "id": "srd24:class:fighter:fighting-style-1",
+            "name": "Fighting Style",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "fighting-style-feat"
+              ]
+            }
+          }
+        ],
+        "modifiers": [
+          {
+            "target": "saves.str",
+            "op": "proficiency",
+            "value": "proficient"
+          },
+          {
+            "target": "saves.con",
+            "op": "proficiency",
+            "value": "proficient"
+          },
+          {
+            "target": "proficiencies.armor",
+            "op": "include",
+            "value": [
+              "light",
+              "medium",
+              "heavy",
+              "shield"
+            ]
+          },
+          {
+            "target": "proficiencies.weapon",
+            "op": "include",
+            "value": [
+              "simple",
+              "martial"
+            ]
+          }
+        ],
+        "grants": [
+          "srd24:fighter:fighting-style",
+          "srd24:fighter:second-wind",
+          "srd24:fighter:weapon-mastery"
+        ]
+      },
+      "2": {
+        "grants": [
+          "srd24:fighter:action-surge",
+          "srd24:fighter:tactical-mind"
+        ]
+      },
+      "3": {
+        "grants": [
+          "srd24:fighter:fighter-subclass"
+        ],
+        "choices": [
+          {
+            "id": "srd24:class:fighter:subclass",
+            "name": "Fighter Subclass",
+            "count": 1,
+            "from": {
+              "kind": "subclass",
+              "tags": [
+                "fighter-subclass"
+              ]
+            }
+          }
+        ]
+      },
+      "4": {
+        "choices": [
+          {
+            "id": "srd24:class:fighter:asi-4",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          },
+          {
+            "id": "srd24:class:fighter:weapon-mastery-4",
+            "name": "Weapon Mastery",
+            "count": 1,
+            "from": {
+              "kind": "weapon-mastery",
+              "tags": [
+                "simple-weapon",
+                "martial-weapon"
+              ]
+            }
+          }
+        ]
+      },
+      "5": {
+        "grants": [
+          "srd24:fighter:extra-attack",
+          "srd24:fighter:tactical-shift"
+        ]
+      },
+      "6": {
+        "choices": [
+          {
+            "id": "srd24:class:fighter:asi-6",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "8": {
+        "choices": [
+          {
+            "id": "srd24:class:fighter:asi-8",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "9": {
+        "grants": [
+          "srd24:fighter:indomitable",
+          "srd24:fighter:tactical-master"
+        ]
+      },
+      "10": {
+        "choices": [
+          {
+            "id": "srd24:class:fighter:weapon-mastery-10",
+            "name": "Weapon Mastery",
+            "count": 1,
+            "from": {
+              "kind": "weapon-mastery",
+              "tags": [
+                "simple-weapon",
+                "martial-weapon"
+              ]
+            }
+          }
+        ]
+      },
+      "11": {
+        "grants": [
+          "srd24:fighter:two-extra-attacks"
+        ]
+      },
+      "12": {
+        "choices": [
+          {
+            "id": "srd24:class:fighter:asi-12",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "13": {
+        "grants": [
+          "srd24:fighter:indomitable-13",
+          "srd24:fighter:studied-attacks"
+        ]
+      },
+      "14": {
+        "choices": [
+          {
+            "id": "srd24:class:fighter:asi-14",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "16": {
+        "choices": [
+          {
+            "id": "srd24:class:fighter:asi-16",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          },
+          {
+            "id": "srd24:class:fighter:weapon-mastery-16",
+            "name": "Weapon Mastery",
+            "count": 1,
+            "from": {
+              "kind": "weapon-mastery",
+              "tags": [
+                "simple-weapon",
+                "martial-weapon"
+              ]
+            }
+          }
+        ]
+      },
+      "17": {
+        "grants": [
+          "srd24:fighter:action-surge-17",
+          "srd24:fighter:indomitable-17"
+        ]
+      },
+      "19": {
+        "grants": [
+          "srd24:fighter:epic-boon"
+        ],
+        "choices": [
+          {
+            "id": "srd24:class:fighter:epic-boon-19",
+            "name": "Epic Boon",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "epic-boon"
+              ]
+            }
+          }
+        ]
+      },
+      "20": {
+        "grants": [
+          "srd24:fighter:three-extra-attacks"
+        ]
+      }
+    }
+  }
+]

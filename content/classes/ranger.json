@@ -1,0 +1,340 @@
+[
+  {
+    "id": "srd24:class:ranger",
+    "kind": "class",
+    "name": "Ranger",
+    "source": "srd24",
+    "page": "XPHB 118",
+    "key": "ranger",
+    "hitDie": "d10",
+    "tags": [
+      "srd-class"
+    ],
+    "text": "**Hit Dice:** 1d10 per ranger level.\n\n**Hit Points at 1st Level:** 10 + your Constitution modifier.\n\n**Hit Points at Higher Levels:** 1d10 (or 6) + your Constitution modifier per ranger level after 1st.\n\n**Armor:** Light, medium, shield\n**Weapons:** Simple, martial\n**Tools:** None\n**Saving Throws:** Strength, Dexterity\n**Skills:** Choose 3 from animal handling, athletics, insight, investigation, nature, perception, stealth, survival\n\n**Equipment:** You start with the following equipment, in addition to the equipment granted by your background:\n\n*Choose A or B:* (A) Studded Leather Armor, Scimitar, Shortsword, Longbow, 20 Arrows, Quiver, Druidic Focus (sprig of mistletoe), Explorer's Pack, and 7 GP; or (B) 150 GP",
+    "primaryAbility": [
+      "dex",
+      "wis"
+    ],
+    "x-multiclass-proficiencies": {
+      "skills": [
+        {
+          "choose": {
+            "from": [
+              "animal handling",
+              "athletics",
+              "insight",
+              "investigation",
+              "nature",
+              "perception",
+              "stealth",
+              "survival"
+            ],
+            "count": 1
+          }
+        }
+      ],
+      "weapons": [
+        "martial"
+      ],
+      "armor": [
+        "light",
+        "medium",
+        "shield"
+      ],
+      "armorProficiencies": [
+        {
+          "light": true,
+          "medium": true,
+          "shield": true
+        }
+      ]
+    },
+    "spellcasting": {
+      "ability": "wis",
+      "progression": "half",
+      "type": "prepared",
+      "list": "ranger-spell",
+      "prepared": "@table(ranger, prepared-spells)"
+    },
+    "tables": {
+      "favored-enemy": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        5,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        6
+      ],
+      "prepared-spells": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        6,
+        7,
+        7,
+        9,
+        9,
+        10,
+        10,
+        11,
+        11,
+        12,
+        12,
+        14,
+        14,
+        15,
+        15
+      ]
+    },
+    "levels": {
+      "1": {
+        "grants": [
+          "srd24:spell:hunters-mark",
+          "srd24:ranger:spellcasting",
+          "srd24:ranger:favored-enemy",
+          "srd24:ranger:weapon-mastery"
+        ],
+        "choices": [
+          {
+            "id": "srd24:class:ranger:skill",
+            "name": "Skill Proficiency",
+            "count": 3,
+            "from": {
+              "ids": [
+                "srd24:skill:animal-handling",
+                "srd24:skill:athletics",
+                "srd24:skill:insight",
+                "srd24:skill:investigation",
+                "srd24:skill:nature",
+                "srd24:skill:perception",
+                "srd24:skill:stealth",
+                "srd24:skill:survival"
+              ]
+            }
+          },
+          {
+            "id": "srd24:class:ranger:weapon-mastery-1",
+            "name": "Weapon Mastery",
+            "count": 2,
+            "from": {
+              "kind": "weapon-mastery",
+              "tags": [
+                "simple-weapon",
+                "martial-weapon"
+              ]
+            }
+          }
+        ],
+        "modifiers": [
+          {
+            "target": "saves.str",
+            "op": "proficiency",
+            "value": "proficient"
+          },
+          {
+            "target": "saves.dex",
+            "op": "proficiency",
+            "value": "proficient"
+          },
+          {
+            "target": "proficiencies.armor",
+            "op": "include",
+            "value": [
+              "light",
+              "medium",
+              "shield"
+            ]
+          },
+          {
+            "target": "proficiencies.weapon",
+            "op": "include",
+            "value": [
+              "simple",
+              "martial"
+            ]
+          }
+        ]
+      },
+      "2": {
+        "grants": [
+          "srd24:ranger:deft-explorer",
+          "srd24:ranger:fighting-style"
+        ],
+        "choices": [
+          {
+            "id": "srd24:class:ranger:fighting-style-2",
+            "name": "Fighting Style",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "fighting-style-feat"
+              ]
+            }
+          }
+        ]
+      },
+      "3": {
+        "grants": [
+          "srd24:ranger:ranger-subclass"
+        ],
+        "choices": [
+          {
+            "id": "srd24:class:ranger:subclass",
+            "name": "Ranger Subclass",
+            "count": 1,
+            "from": {
+              "kind": "subclass",
+              "tags": [
+                "ranger-subclass"
+              ]
+            }
+          }
+        ]
+      },
+      "4": {
+        "choices": [
+          {
+            "id": "srd24:class:ranger:asi-4",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "5": {
+        "grants": [
+          "srd24:ranger:extra-attack"
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd24:ranger:roving"
+        ]
+      },
+      "8": {
+        "choices": [
+          {
+            "id": "srd24:class:ranger:asi-8",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "9": {
+        "grants": [
+          "srd24:ranger:expertise"
+        ]
+      },
+      "10": {
+        "grants": [
+          "srd24:ranger:tireless"
+        ]
+      },
+      "12": {
+        "choices": [
+          {
+            "id": "srd24:class:ranger:asi-12",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "13": {
+        "grants": [
+          "srd24:ranger:relentless-hunter"
+        ]
+      },
+      "14": {
+        "grants": [
+          "srd24:ranger:natures-veil"
+        ]
+      },
+      "16": {
+        "choices": [
+          {
+            "id": "srd24:class:ranger:asi-16",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "17": {
+        "grants": [
+          "srd24:ranger:precise-hunter"
+        ]
+      },
+      "18": {
+        "grants": [
+          "srd24:ranger:feral-senses"
+        ]
+      },
+      "19": {
+        "grants": [
+          "srd24:ranger:epic-boon"
+        ],
+        "choices": [
+          {
+            "id": "srd24:class:ranger:epic-boon-19",
+            "name": "Epic Boon",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "epic-boon"
+              ]
+            }
+          }
+        ]
+      },
+      "20": {
+        "grants": [
+          "srd24:ranger:foe-slayer"
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,327 @@
+[
+  {
+    "id": "srd24:item:airship",
+    "kind": "item",
+    "name": "Airship",
+    "source": "srd24",
+    "tags": [
+      "vehicle"
+    ],
+    "page": "XPHB 230",
+    "itemType": "vehicle",
+    "value": 4000000
+  },
+  {
+    "id": "srd24:item:camel",
+    "kind": "item",
+    "name": "Camel",
+    "source": "srd24",
+    "tags": [
+      "mount"
+    ],
+    "page": "XPHB 229",
+    "itemType": "mount",
+    "value": 5000
+  },
+  {
+    "id": "srd24:item:carriage",
+    "kind": "item",
+    "name": "Carriage",
+    "source": "srd24",
+    "tags": [
+      "vehicle"
+    ],
+    "page": "XPHB 230",
+    "itemType": "vehicle",
+    "weight": 600,
+    "value": 10000
+  },
+  {
+    "id": "srd24:item:cart",
+    "kind": "item",
+    "name": "Cart",
+    "source": "srd24",
+    "tags": [
+      "vehicle"
+    ],
+    "page": "XPHB 230",
+    "itemType": "vehicle",
+    "weight": 200,
+    "value": 1500
+  },
+  {
+    "id": "srd24:item:chariot",
+    "kind": "item",
+    "name": "Chariot",
+    "source": "srd24",
+    "tags": [
+      "vehicle"
+    ],
+    "page": "XPHB 230",
+    "itemType": "vehicle",
+    "weight": 100,
+    "value": 25000
+  },
+  {
+    "id": "srd24:item:draft-horse",
+    "kind": "item",
+    "name": "Draft Horse",
+    "source": "srd24",
+    "tags": [
+      "mount"
+    ],
+    "page": "XPHB 229",
+    "itemType": "mount",
+    "value": 5000
+  },
+  {
+    "id": "srd24:item:elephant",
+    "kind": "item",
+    "name": "Elephant",
+    "source": "srd24",
+    "tags": [
+      "mount"
+    ],
+    "page": "XPHB 229",
+    "itemType": "mount",
+    "value": 20000
+  },
+  {
+    "id": "srd24:item:exotic-saddle",
+    "kind": "item",
+    "name": "Exotic Saddle",
+    "source": "srd24",
+    "tags": [
+      "tack"
+    ],
+    "page": "XPHB 230",
+    "itemType": "tack",
+    "weight": 40,
+    "value": 6000,
+    "text": "A saddle comes with a bit, a bridle, reins, and any other equipment needed to use the saddle. An Exotic Saddle is required for riding an aquatic or a flying mount."
+  },
+  {
+    "id": "srd24:item:feed-per-day",
+    "kind": "item",
+    "name": "Feed (per day)",
+    "source": "srd24",
+    "tags": [
+      "tack"
+    ],
+    "page": "XPHB 230",
+    "itemType": "tack",
+    "weight": 10,
+    "value": 5
+  },
+  {
+    "id": "srd24:item:galley",
+    "kind": "item",
+    "name": "Galley",
+    "source": "srd24",
+    "tags": [
+      "vehicle",
+      "ship"
+    ],
+    "page": "XPHB 230",
+    "itemType": "vehicle",
+    "value": 3000000,
+    "text": "**Speed.** A ship sailing against a strong wind moves at half speed. In a dead calm (no wind), waterborne ships can't move under sail and must be rowed. Keelboats and Rowboats are used on lakes and rivers. If going downstream, add the speed of the current (typically 3 miles per hour) to the speed of the vehicle. These vehicles can't be rowed against any significant current, but they can be pulled upstream by draft animals on the shores. A Rowboat can be carried and weighs 100 pounds.\n\n**Crew.** A ship larger than a Keelboat or Rowboat needs a crew of skilled hirelings (see \"Services\") to function. The minimum number of skilled hirelings needed to crew a ship depends on the type of ship.\n\n**Passengers.** The number of Small and Medium passengers the ship can accommodate using hammocks. A ship outfitted with private accommodations can carry one-fifth as many passengers. A passenger usually pays 5 SP per day for a hammock, but prices can vary from ship to ship. A small private cabin usually costs 2 GP per day.\n\n**Damage Threshold.** See the rules glossary.\n\n**Ship Repair.** Repairs to a damaged ship can be made while the vessel is berthed. Repairing 1 Hit Point of damage requires 1 day and costs 20 GP for materials and labor. If the repairs are made in a location where supplies and skilled labor are abundant, such as a city shipyard, the repair time and cost are halved."
+  },
+  {
+    "id": "srd24:item:keelboat",
+    "kind": "item",
+    "name": "Keelboat",
+    "source": "srd24",
+    "tags": [
+      "vehicle",
+      "ship"
+    ],
+    "page": "XPHB 230",
+    "itemType": "vehicle",
+    "value": 300000,
+    "text": "**Speed.** A ship sailing against a strong wind moves at half speed. In a dead calm (no wind), waterborne ships can't move under sail and must be rowed. Keelboats and Rowboats are used on lakes and rivers. If going downstream, add the speed of the current (typically 3 miles per hour) to the speed of the vehicle. These vehicles can't be rowed against any significant current, but they can be pulled upstream by draft animals on the shores. A Rowboat can be carried and weighs 100 pounds.\n\n**Crew.** A ship larger than a Keelboat or Rowboat needs a crew of skilled hirelings (see \"Services\") to function. The minimum number of skilled hirelings needed to crew a ship depends on the type of ship.\n\n**Passengers.** The number of Small and Medium passengers the ship can accommodate using hammocks. A ship outfitted with private accommodations can carry one-fifth as many passengers. A passenger usually pays 5 SP per day for a hammock, but prices can vary from ship to ship. A small private cabin usually costs 2 GP per day.\n\n**Damage Threshold.** See the rules glossary.\n\n**Ship Repair.** Repairs to a damaged ship can be made while the vessel is berthed. Repairing 1 Hit Point of damage requires 1 day and costs 20 GP for materials and labor. If the repairs are made in a location where supplies and skilled labor are abundant, such as a city shipyard, the repair time and cost are halved."
+  },
+  {
+    "id": "srd24:item:longship",
+    "kind": "item",
+    "name": "Longship",
+    "source": "srd24",
+    "tags": [
+      "vehicle",
+      "ship"
+    ],
+    "page": "XPHB 230",
+    "itemType": "vehicle",
+    "value": 1000000,
+    "text": "**Speed.** A ship sailing against a strong wind moves at half speed. In a dead calm (no wind), waterborne ships can't move under sail and must be rowed. Keelboats and Rowboats are used on lakes and rivers. If going downstream, add the speed of the current (typically 3 miles per hour) to the speed of the vehicle. These vehicles can't be rowed against any significant current, but they can be pulled upstream by draft animals on the shores. A Rowboat can be carried and weighs 100 pounds.\n\n**Crew.** A ship larger than a Keelboat or Rowboat needs a crew of skilled hirelings (see \"Services\") to function. The minimum number of skilled hirelings needed to crew a ship depends on the type of ship.\n\n**Passengers.** The number of Small and Medium passengers the ship can accommodate using hammocks. A ship outfitted with private accommodations can carry one-fifth as many passengers. A passenger usually pays 5 SP per day for a hammock, but prices can vary from ship to ship. A small private cabin usually costs 2 GP per day.\n\n**Damage Threshold.** See the rules glossary.\n\n**Ship Repair.** Repairs to a damaged ship can be made while the vessel is berthed. Repairing 1 Hit Point of damage requires 1 day and costs 20 GP for materials and labor. If the repairs are made in a location where supplies and skilled labor are abundant, such as a city shipyard, the repair time and cost are halved."
+  },
+  {
+    "id": "srd24:item:mastiff",
+    "kind": "item",
+    "name": "Mastiff",
+    "source": "srd24",
+    "tags": [
+      "mount"
+    ],
+    "page": "XPHB 229",
+    "itemType": "mount",
+    "value": 2500
+  },
+  {
+    "id": "srd24:item:military-saddle",
+    "kind": "item",
+    "name": "Military Saddle",
+    "source": "srd24",
+    "tags": [
+      "tack"
+    ],
+    "page": "XPHB 230",
+    "itemType": "tack",
+    "weight": 30,
+    "value": 2000,
+    "text": "A saddle comes with a bit, a bridle, reins, and any other equipment needed to use the saddle. A Military Saddle gives Advantage on any ability check you make to remain mounted."
+  },
+  {
+    "id": "srd24:item:mule",
+    "kind": "item",
+    "name": "Mule",
+    "source": "srd24",
+    "tags": [
+      "mount"
+    ],
+    "page": "XPHB 229",
+    "itemType": "mount",
+    "value": 800
+  },
+  {
+    "id": "srd24:item:pony",
+    "kind": "item",
+    "name": "Pony",
+    "source": "srd24",
+    "tags": [
+      "mount"
+    ],
+    "page": "XPHB 229",
+    "itemType": "mount",
+    "value": 3000
+  },
+  {
+    "id": "srd24:item:riding-horse",
+    "kind": "item",
+    "name": "Riding Horse",
+    "source": "srd24",
+    "tags": [
+      "mount"
+    ],
+    "page": "XPHB 229",
+    "itemType": "mount",
+    "value": 7500
+  },
+  {
+    "id": "srd24:item:riding-saddle",
+    "kind": "item",
+    "name": "Riding Saddle",
+    "source": "srd24",
+    "tags": [
+      "tack"
+    ],
+    "page": "XPHB 230",
+    "itemType": "tack",
+    "weight": 25,
+    "value": 1000,
+    "text": "A saddle comes with a bit, a bridle, reins, and any other equipment needed to use the saddle."
+  },
+  {
+    "id": "srd24:item:rowboat",
+    "kind": "item",
+    "name": "Rowboat",
+    "source": "srd24",
+    "tags": [
+      "vehicle",
+      "ship"
+    ],
+    "page": "XPHB 230",
+    "itemType": "vehicle",
+    "weight": 100,
+    "value": 5000,
+    "text": "**Speed.** A ship sailing against a strong wind moves at half speed. In a dead calm (no wind), waterborne ships can't move under sail and must be rowed. Keelboats and Rowboats are used on lakes and rivers. If going downstream, add the speed of the current (typically 3 miles per hour) to the speed of the vehicle. These vehicles can't be rowed against any significant current, but they can be pulled upstream by draft animals on the shores. A Rowboat can be carried and weighs 100 pounds.\n\n**Crew.** A ship larger than a Keelboat or Rowboat needs a crew of skilled hirelings (see \"Services\") to function. The minimum number of skilled hirelings needed to crew a ship depends on the type of ship.\n\n**Passengers.** The number of Small and Medium passengers the ship can accommodate using hammocks. A ship outfitted with private accommodations can carry one-fifth as many passengers. A passenger usually pays 5 SP per day for a hammock, but prices can vary from ship to ship. A small private cabin usually costs 2 GP per day.\n\n**Damage Threshold.** See the rules glossary.\n\n**Ship Repair.** Repairs to a damaged ship can be made while the vessel is berthed. Repairing 1 Hit Point of damage requires 1 day and costs 20 GP for materials and labor. If the repairs are made in a location where supplies and skilled labor are abundant, such as a city shipyard, the repair time and cost are halved."
+  },
+  {
+    "id": "srd24:item:sailing-ship",
+    "kind": "item",
+    "name": "Sailing Ship",
+    "source": "srd24",
+    "tags": [
+      "vehicle",
+      "ship"
+    ],
+    "page": "XPHB 230",
+    "itemType": "vehicle",
+    "value": 1000000,
+    "text": "**Speed.** A ship sailing against a strong wind moves at half speed. In a dead calm (no wind), waterborne ships can't move under sail and must be rowed. Keelboats and Rowboats are used on lakes and rivers. If going downstream, add the speed of the current (typically 3 miles per hour) to the speed of the vehicle. These vehicles can't be rowed against any significant current, but they can be pulled upstream by draft animals on the shores. A Rowboat can be carried and weighs 100 pounds.\n\n**Crew.** A ship larger than a Keelboat or Rowboat needs a crew of skilled hirelings (see \"Services\") to function. The minimum number of skilled hirelings needed to crew a ship depends on the type of ship.\n\n**Passengers.** The number of Small and Medium passengers the ship can accommodate using hammocks. A ship outfitted with private accommodations can carry one-fifth as many passengers. A passenger usually pays 5 SP per day for a hammock, but prices can vary from ship to ship. A small private cabin usually costs 2 GP per day.\n\n**Damage Threshold.** See the rules glossary.\n\n**Ship Repair.** Repairs to a damaged ship can be made while the vessel is berthed. Repairing 1 Hit Point of damage requires 1 day and costs 20 GP for materials and labor. If the repairs are made in a location where supplies and skilled labor are abundant, such as a city shipyard, the repair time and cost are halved."
+  },
+  {
+    "id": "srd24:item:sled",
+    "kind": "item",
+    "name": "Sled",
+    "source": "srd24",
+    "tags": [
+      "vehicle"
+    ],
+    "page": "XPHB 230",
+    "itemType": "vehicle",
+    "weight": 300,
+    "value": 2000
+  },
+  {
+    "id": "srd24:item:stabling-per-day",
+    "kind": "item",
+    "name": "Stabling (per day)",
+    "source": "srd24",
+    "tags": [
+      "tack"
+    ],
+    "page": "XPHB 230",
+    "itemType": "tack",
+    "value": 5
+  },
+  {
+    "id": "srd24:item:wagon",
+    "kind": "item",
+    "name": "Wagon",
+    "source": "srd24",
+    "tags": [
+      "vehicle"
+    ],
+    "page": "XPHB 230",
+    "itemType": "vehicle",
+    "weight": 400,
+    "value": 3500
+  },
+  {
+    "id": "srd24:item:warhorse",
+    "kind": "item",
+    "name": "Warhorse",
+    "source": "srd24",
+    "tags": [
+      "mount"
+    ],
+    "page": "XPHB 229",
+    "itemType": "mount",
+    "value": 40000
+  },
+  {
+    "id": "srd24:item:warship",
+    "kind": "item",
+    "name": "Warship",
+    "source": "srd24",
+    "tags": [
+      "vehicle",
+      "ship"
+    ],
+    "page": "XPHB 230",
+    "itemType": "vehicle",
+    "value": 2500000,
+    "text": "**Speed.** A ship sailing against a strong wind moves at half speed. In a dead calm (no wind), waterborne ships can't move under sail and must be rowed. Keelboats and Rowboats are used on lakes and rivers. If going downstream, add the speed of the current (typically 3 miles per hour) to the speed of the vehicle. These vehicles can't be rowed against any significant current, but they can be pulled upstream by draft animals on the shores. A Rowboat can be carried and weighs 100 pounds.\n\n**Crew.** A ship larger than a Keelboat or Rowboat needs a crew of skilled hirelings (see \"Services\") to function. The minimum number of skilled hirelings needed to crew a ship depends on the type of ship.\n\n**Passengers.** The number of Small and Medium passengers the ship can accommodate using hammocks. A ship outfitted with private accommodations can carry one-fifth as many passengers. A passenger usually pays 5 SP per day for a hammock, but prices can vary from ship to ship. A small private cabin usually costs 2 GP per day.\n\n**Damage Threshold.** See the rules glossary.\n\n**Ship Repair.** Repairs to a damaged ship can be made while the vessel is berthed. Repairing 1 Hit Point of damage requires 1 day and costs 20 GP for materials and labor. If the repairs are made in a location where supplies and skilled labor are abundant, such as a city shipyard, the repair time and cost are halved."
+  }
+]

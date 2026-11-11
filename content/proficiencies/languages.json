@@ -1,0 +1,364 @@
+[
+  {
+    "id": "srd24:language:abyssal",
+    "kind": "language",
+    "name": "Abyssal",
+    "source": "srd24",
+    "tags": [
+      "rare-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Abyssal"
+        ]
+      }
+    ],
+    "page": "XPHB 37"
+  },
+  {
+    "id": "srd24:language:celestial",
+    "kind": "language",
+    "name": "Celestial",
+    "source": "srd24",
+    "tags": [
+      "rare-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Celestial"
+        ]
+      }
+    ],
+    "page": "XPHB 37"
+  },
+  {
+    "id": "srd24:language:common",
+    "kind": "language",
+    "name": "Common",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Common"
+        ]
+      }
+    ],
+    "page": "XPHB 37"
+  },
+  {
+    "id": "srd24:language:common-sign-language",
+    "kind": "language",
+    "name": "Common Sign Language",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Common Sign Language"
+        ]
+      }
+    ],
+    "page": "XPHB 37"
+  },
+  {
+    "id": "srd24:language:deep-speech",
+    "kind": "language",
+    "name": "Deep Speech",
+    "source": "srd24",
+    "tags": [
+      "rare-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Deep Speech"
+        ]
+      }
+    ],
+    "page": "XPHB 37"
+  },
+  {
+    "id": "srd24:language:draconic",
+    "kind": "language",
+    "name": "Draconic",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Draconic"
+        ]
+      }
+    ],
+    "text": "Script: Draconic.",
+    "page": "XPHB 37"
+  },
+  {
+    "id": "srd24:language:druidic",
+    "kind": "language",
+    "name": "Druidic",
+    "source": "srd24",
+    "tags": [
+      "rare-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Druidic"
+        ]
+      }
+    ],
+    "page": "XPHB 37"
+  },
+  {
+    "id": "srd24:language:dwarvish",
+    "kind": "language",
+    "name": "Dwarvish",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Dwarvish"
+        ]
+      }
+    ],
+    "page": "XPHB 37"
+  },
+  {
+    "id": "srd24:language:elvish",
+    "kind": "language",
+    "name": "Elvish",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Elvish"
+        ]
+      }
+    ],
+    "page": "XPHB 37"
+  },
+  {
+    "id": "srd24:language:giant",
+    "kind": "language",
+    "name": "Giant",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Giant"
+        ]
+      }
+    ],
+    "page": "XPHB 37"
+  },
+  {
+    "id": "srd24:language:gnomish",
+    "kind": "language",
+    "name": "Gnomish",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Gnomish"
+        ]
+      }
+    ],
+    "page": "XPHB 37"
+  },
+  {
+    "id": "srd24:language:goblin",
+    "kind": "language",
+    "name": "Goblin",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Goblin"
+        ]
+      }
+    ],
+    "page": "XPHB 37"
+  },
+  {
+    "id": "srd24:language:halfling",
+    "kind": "language",
+    "name": "Halfling",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Halfling"
+        ]
+      }
+    ],
+    "page": "XPHB 37"
+  },
+  {
+    "id": "srd24:language:infernal",
+    "kind": "language",
+    "name": "Infernal",
+    "source": "srd24",
+    "tags": [
+      "rare-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Infernal"
+        ]
+      }
+    ],
+    "page": "XPHB 37"
+  },
+  {
+    "id": "srd24:language:orc",
+    "kind": "language",
+    "name": "Orc",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Orc"
+        ]
+      }
+    ],
+    "page": "XPHB 37"
+  },
+  {
+    "id": "srd24:language:primordial",
+    "kind": "language",
+    "name": "Primordial",
+    "source": "srd24",
+    "tags": [
+      "rare-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Primordial"
+        ]
+      }
+    ],
+    "page": "XPHB 37"
+  },
+  {
+    "id": "srd24:language:sylvan",
+    "kind": "language",
+    "name": "Sylvan",
+    "source": "srd24",
+    "tags": [
+      "rare-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Sylvan"
+        ]
+      }
+    ],
+    "page": "XPHB 37"
+  },
+  {
+    "id": "srd24:language:thieves-cant",
+    "kind": "language",
+    "name": "Thieves' Cant",
+    "source": "srd24",
+    "tags": [
+      "rare-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Thieves' Cant"
+        ]
+      }
+    ],
+    "page": "XPHB 37"
+  },
+  {
+    "id": "srd24:language:undercommon",
+    "kind": "language",
+    "name": "Undercommon",
+    "source": "srd24",
+    "tags": [
+      "rare-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Undercommon"
+        ]
+      }
+    ],
+    "page": "XPHB 37"
+  }
+]

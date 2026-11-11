@@ -1,0 +1,235 @@
+[
+  {
+    "id": "srd24:fighter:fighting-style",
+    "kind": "class-feature",
+    "name": "Fighting Style",
+    "source": "srd24",
+    "page": "XPHB 91",
+    "tags": [
+      "fighter-feature"
+    ],
+    "text": "You have honed your martial prowess and gain a Fighting Style feat of your choice. Defense is recommended.\n\nWhenever you gain a Fighter level, you can replace the feat you chose with a different Fighting Style feat."
+  },
+  {
+    "id": "srd24:fighter:second-wind",
+    "kind": "class-feature",
+    "name": "Second Wind",
+    "source": "srd24",
+    "page": "XPHB 91",
+    "tags": [
+      "fighter-feature"
+    ],
+    "text": "You have a limited well of physical and mental stamina that you can draw on. As a Bonus Action, you can use it to regain Hit Points equal to 1d10 plus your Fighter level.\n\nYou can use this feature twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.\n\nWhen you reach certain Fighter levels, you gain more uses of this feature, as shown in the Second Wind column of the Fighter Features table.",
+    "resources": [
+      {
+        "id": "srd24:fighter:second-wind",
+        "name": "Second Wind",
+        "max": "@table(fighter, second-wind)",
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          },
+          {
+            "on": "short-rest",
+            "amount": 1
+          }
+        ],
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "second-wind",
+        "name": "Second Wind",
+        "activation": "bonus-action",
+        "cost": {
+          "srd24:fighter:second-wind": 1
+        },
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:fighter:weapon-mastery",
+    "kind": "class-feature",
+    "name": "Weapon Mastery",
+    "source": "srd24",
+    "page": "XPHB 91",
+    "tags": [
+      "fighter-feature"
+    ],
+    "text": "Your training with weapons allows you to use the mastery properties of three kinds of Simple or Martial weapons of your choice. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.\n\nWhen you reach certain Fighter levels, you gain the ability to use the mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Fighter Features table."
+  },
+  {
+    "id": "srd24:fighter:action-surge",
+    "kind": "class-feature",
+    "name": "Action Surge",
+    "source": "srd24",
+    "page": "XPHB 91",
+    "tags": [
+      "fighter-feature"
+    ],
+    "text": "You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action, except the Magic action.\n\nOnce you use this feature, you can't do so again until you finish a Short or Long Rest. Starting at level 17, you can use it twice before a rest but only once on a turn."
+  },
+  {
+    "id": "srd24:fighter:tactical-mind",
+    "kind": "class-feature",
+    "name": "Tactical Mind",
+    "source": "srd24",
+    "page": "XPHB 91",
+    "tags": [
+      "fighter-feature"
+    ],
+    "text": "You have a mind for tactics on and off the battlefield. When you fail an ability check, you can expend a use of your Second Wind to push yourself toward success. Rather than regaining Hit Points, you roll 1d10 and add the number rolled to the ability check, potentially turning it into a success. If the check still fails, this use of Second Wind isn't expended."
+  },
+  {
+    "id": "srd24:fighter:fighter-subclass",
+    "kind": "class-feature",
+    "name": "Fighter Subclass",
+    "source": "srd24",
+    "page": "XPHB 92",
+    "tags": [
+      "fighter-feature"
+    ],
+    "text": "You gain a Fighter subclass of your choice. A subclass is a specialization that grants you features at certain Fighter levels. For the rest of your career, you gain each of your subclass's features that are of your Fighter level or lower."
+  },
+  {
+    "id": "srd24:fighter:extra-attack",
+    "kind": "class-feature",
+    "name": "Extra Attack",
+    "source": "srd24",
+    "page": "XPHB 92",
+    "tags": [
+      "fighter-feature"
+    ],
+    "text": "You can attack twice instead of once whenever you take the Attack action on your turn."
+  },
+  {
+    "id": "srd24:fighter:tactical-shift",
+    "kind": "class-feature",
+    "name": "Tactical Shift",
+    "source": "srd24",
+    "page": "XPHB 92",
+    "tags": [
+      "fighter-feature"
+    ],
+    "text": "Whenever you activate your Second Wind with a Bonus Action, you can move up to half your Speed without provoking Opportunity Attack."
+  },
+  {
+    "id": "srd24:fighter:indomitable",
+    "kind": "class-feature",
+    "name": "Indomitable",
+    "source": "srd24",
+    "page": "XPHB 92",
+    "tags": [
+      "fighter-feature"
+    ],
+    "text": "If you fail a saving throw, you can reroll it with a bonus equal to your Fighter level. You must use the new roll, and you can't use this feature again until you finish a Long Rest.\n\nYou can use this feature twice before a Long Rest starting at level 13 and three times before a Long Rest starting at level 17.",
+    "actions": [
+      {
+        "id": "indomitable",
+        "name": "Indomitable",
+        "activation": "action",
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:fighter:tactical-master",
+    "kind": "class-feature",
+    "name": "Tactical Master",
+    "source": "srd24",
+    "page": "XPHB 92",
+    "tags": [
+      "fighter-feature"
+    ],
+    "text": "When you attack with a weapon whose mastery property you can use, you can replace that property with the Push, Sap, or Slow property for that attack."
+  },
+  {
+    "id": "srd24:fighter:two-extra-attacks",
+    "kind": "class-feature",
+    "name": "Two Extra Attacks",
+    "source": "srd24",
+    "page": "XPHB 92",
+    "tags": [
+      "fighter-feature"
+    ],
+    "text": "You can attack three times instead of once whenever you take the Attack action on your turn."
+  },
+  {
+    "id": "srd24:fighter:indomitable-13",
+    "kind": "class-feature",
+    "name": "Indomitable",
+    "source": "srd24",
+    "page": "XPHB 92",
+    "tags": [
+      "fighter-feature"
+    ],
+    "text": "If you fail a saving throw, you can reroll it with a bonus equal to your Fighter level. You must use the new roll, and you can't use this feature again until you finish a Long Rest.\n\nYou can use this feature twice before a Long Rest starting at level 13 and three times before a Long Rest starting at level 17."
+  },
+  {
+    "id": "srd24:fighter:studied-attacks",
+    "kind": "class-feature",
+    "name": "Studied Attacks",
+    "source": "srd24",
+    "page": "XPHB 92",
+    "tags": [
+      "fighter-feature"
+    ],
+    "text": "You study your opponents and learn from each attack you make. If you make an attack roll against a creature and miss, you have Advantage on your next attack roll against that creature before the end of your next turn."
+  },
+  {
+    "id": "srd24:fighter:action-surge-17",
+    "kind": "class-feature",
+    "name": "Action Surge",
+    "source": "srd24",
+    "page": "XPHB 91",
+    "tags": [
+      "fighter-feature"
+    ],
+    "text": "You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action, except the Magic action.\n\nOnce you use this feature, you can't do so again until you finish a Short or Long Rest. Starting at level 17, you can use it twice before a rest but only once on a turn."
+  },
+  {
+    "id": "srd24:fighter:indomitable-17",
+    "kind": "class-feature",
+    "name": "Indomitable",
+    "source": "srd24",
+    "page": "XPHB 92",
+    "tags": [
+      "fighter-feature"
+    ],
+    "text": "If you fail a saving throw, you can reroll it with a bonus equal to your Fighter level. You must use the new roll, and you can't use this feature again until you finish a Long Rest.\n\nYou can use this feature twice before a Long Rest starting at level 13 and three times before a Long Rest starting at level 17."
+  },
+  {
+    "id": "srd24:fighter:epic-boon",
+    "kind": "class-feature",
+    "name": "Epic Boon",
+    "source": "srd24",
+    "page": "XPHB 92",
+    "tags": [
+      "fighter-feature"
+    ],
+    "text": "You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Combat Prowess is recommended."
+  },
+  {
+    "id": "srd24:fighter:three-extra-attacks",
+    "kind": "class-feature",
+    "name": "Three Extra Attacks",
+    "source": "srd24",
+    "page": "XPHB 92",
+    "tags": [
+      "fighter-feature"
+    ],
+    "text": "You can attack four times instead of once whenever you take the Attack action on your turn."
+  }
+]

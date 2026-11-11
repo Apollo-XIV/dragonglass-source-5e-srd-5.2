@@ -1,0 +1,473 @@
+[
+  {
+    "id": "srd24:class:warlock",
+    "kind": "class",
+    "name": "Warlock",
+    "source": "srd24",
+    "page": "XPHB 152",
+    "key": "warlock",
+    "hitDie": "d8",
+    "tags": [
+      "srd-class"
+    ],
+    "text": "**Hit Dice:** 1d8 per warlock level.\n\n**Hit Points at 1st Level:** 8 + your Constitution modifier.\n\n**Hit Points at Higher Levels:** 1d8 (or 5) + your Constitution modifier per warlock level after 1st.\n\n**Armor:** Light\n**Weapons:** Simple\n**Tools:** None\n**Saving Throws:** Wisdom, Charisma\n**Skills:** Choose 2 from arcana, deception, history, intimidation, investigation, nature, religion\n\n**Equipment:** You start with the following equipment, in addition to the equipment granted by your background:\n\n*Choose A or B:* (A) Leather Armor, Sickle, 2 Daggers, Arcane Focus (orb), Book (occult lore), Scholar's Pack, and 15 GP; or (B) 100 GP",
+    "primaryAbility": [
+      "cha"
+    ],
+    "x-multiclass-proficiencies": {
+      "armor": [
+        "light"
+      ],
+      "armorProficiencies": [
+        {
+          "light": true
+        }
+      ]
+    },
+    "spellcasting": {
+      "ability": "cha",
+      "progression": "pact",
+      "type": "prepared",
+      "list": "warlock-spell",
+      "cantrips": "@table(warlock, cantrips-known)",
+      "prepared": "@table(warlock, prepared-spells)",
+      "extra": [
+        {
+          "level": 11,
+          "choose": 1,
+          "spellLevels": [
+            6
+          ]
+        },
+        {
+          "level": 13,
+          "choose": 1,
+          "spellLevels": [
+            7
+          ]
+        },
+        {
+          "level": 15,
+          "choose": 1,
+          "spellLevels": [
+            8
+          ]
+        },
+        {
+          "level": 17,
+          "choose": 1,
+          "spellLevels": [
+            9
+          ]
+        }
+      ]
+    },
+    "tables": {
+      "invocations": [
+        1,
+        3,
+        3,
+        3,
+        5,
+        5,
+        6,
+        6,
+        7,
+        7,
+        7,
+        8,
+        8,
+        8,
+        9,
+        9,
+        9,
+        10,
+        10,
+        10
+      ],
+      "prepared-spells": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        10,
+        11,
+        11,
+        12,
+        12,
+        13,
+        13,
+        14,
+        14,
+        15,
+        15
+      ],
+      "spell-slots": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4
+      ],
+      "slot-level": [
+        1,
+        1,
+        2,
+        2,
+        3,
+        3,
+        4,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "cantrips-known": [
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    "levels": {
+      "1": {
+        "choices": [
+          {
+            "id": "srd24:class:warlock:skill",
+            "name": "Skill Proficiency",
+            "count": 2,
+            "from": {
+              "ids": [
+                "srd24:skill:arcana",
+                "srd24:skill:deception",
+                "srd24:skill:history",
+                "srd24:skill:intimidation",
+                "srd24:skill:investigation",
+                "srd24:skill:nature",
+                "srd24:skill:religion"
+              ]
+            }
+          },
+          {
+            "id": "srd24:class:warlock:eldritch-invocations-1",
+            "name": "Eldritch Invocations",
+            "count": 1,
+            "from": {
+              "kind": "eldritch-invocation",
+              "tags": [
+                "warlock-invocation"
+              ]
+            }
+          }
+        ],
+        "modifiers": [
+          {
+            "target": "saves.wis",
+            "op": "proficiency",
+            "value": "proficient"
+          },
+          {
+            "target": "saves.cha",
+            "op": "proficiency",
+            "value": "proficient"
+          },
+          {
+            "target": "proficiencies.armor",
+            "op": "include",
+            "value": [
+              "light"
+            ]
+          },
+          {
+            "target": "proficiencies.weapon",
+            "op": "include",
+            "value": [
+              "simple"
+            ]
+          }
+        ],
+        "grants": [
+          "srd24:warlock:eldritch-invocations",
+          "srd24:warlock:pact-magic",
+          "srd24:warlock:eldritch-invocation-options"
+        ]
+      },
+      "2": {
+        "grants": [
+          "srd24:warlock:magical-cunning"
+        ],
+        "choices": [
+          {
+            "id": "srd24:class:warlock:eldritch-invocations-2",
+            "name": "Eldritch Invocations",
+            "count": 2,
+            "from": {
+              "kind": "eldritch-invocation",
+              "tags": [
+                "warlock-invocation"
+              ]
+            }
+          }
+        ]
+      },
+      "3": {
+        "grants": [
+          "srd24:warlock:warlock-subclass"
+        ],
+        "choices": [
+          {
+            "id": "srd24:class:warlock:subclass",
+            "name": "Warlock Subclass",
+            "count": 1,
+            "from": {
+              "kind": "subclass",
+              "tags": [
+                "warlock-subclass"
+              ]
+            }
+          }
+        ]
+      },
+      "4": {
+        "choices": [
+          {
+            "id": "srd24:class:warlock:asi-4",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "5": {
+        "choices": [
+          {
+            "id": "srd24:class:warlock:eldritch-invocations-5",
+            "name": "Eldritch Invocations",
+            "count": 2,
+            "from": {
+              "kind": "eldritch-invocation",
+              "tags": [
+                "warlock-invocation"
+              ]
+            }
+          }
+        ]
+      },
+      "7": {
+        "choices": [
+          {
+            "id": "srd24:class:warlock:eldritch-invocations-7",
+            "name": "Eldritch Invocations",
+            "count": 1,
+            "from": {
+              "kind": "eldritch-invocation",
+              "tags": [
+                "warlock-invocation"
+              ]
+            }
+          }
+        ]
+      },
+      "8": {
+        "choices": [
+          {
+            "id": "srd24:class:warlock:asi-8",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "9": {
+        "grants": [
+          "srd24:spell:contact-other-plane",
+          "srd24:warlock:contact-patron"
+        ],
+        "choices": [
+          {
+            "id": "srd24:class:warlock:eldritch-invocations-9",
+            "name": "Eldritch Invocations",
+            "count": 1,
+            "from": {
+              "kind": "eldritch-invocation",
+              "tags": [
+                "warlock-invocation"
+              ]
+            }
+          }
+        ]
+      },
+      "11": {
+        "grants": [
+          "srd24:warlock:mystic-arcanum"
+        ]
+      },
+      "12": {
+        "choices": [
+          {
+            "id": "srd24:class:warlock:asi-12",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          },
+          {
+            "id": "srd24:class:warlock:eldritch-invocations-12",
+            "name": "Eldritch Invocations",
+            "count": 1,
+            "from": {
+              "kind": "eldritch-invocation",
+              "tags": [
+                "warlock-invocation"
+              ]
+            }
+          }
+        ]
+      },
+      "13": {
+        "grants": [
+          "srd24:warlock:mystic-arcanum-13"
+        ]
+      },
+      "15": {
+        "grants": [
+          "srd24:warlock:mystic-arcanum-15"
+        ],
+        "choices": [
+          {
+            "id": "srd24:class:warlock:eldritch-invocations-15",
+            "name": "Eldritch Invocations",
+            "count": 1,
+            "from": {
+              "kind": "eldritch-invocation",
+              "tags": [
+                "warlock-invocation"
+              ]
+            }
+          }
+        ]
+      },
+      "16": {
+        "choices": [
+          {
+            "id": "srd24:class:warlock:asi-16",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "17": {
+        "grants": [
+          "srd24:warlock:mystic-arcanum-17"
+        ]
+      },
+      "18": {
+        "choices": [
+          {
+            "id": "srd24:class:warlock:eldritch-invocations-18",
+            "name": "Eldritch Invocations",
+            "count": 1,
+            "from": {
+              "kind": "eldritch-invocation",
+              "tags": [
+                "warlock-invocation"
+              ]
+            }
+          }
+        ]
+      },
+      "19": {
+        "grants": [
+          "srd24:warlock:epic-boon"
+        ],
+        "choices": [
+          {
+            "id": "srd24:class:warlock:epic-boon-19",
+            "name": "Epic Boon",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "epic-boon"
+              ]
+            }
+          }
+        ]
+      },
+      "20": {
+        "grants": [
+          "srd24:warlock:eldritch-master"
+        ]
+      }
+    }
+  }
+]

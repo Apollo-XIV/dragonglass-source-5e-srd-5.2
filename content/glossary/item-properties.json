@@ -1,0 +1,167 @@
+[
+  {
+    "id": "srd24:item-property:two-handed",
+    "kind": "item-property",
+    "name": "Two-Handed",
+    "source": "srd24",
+    "tags": [
+      "item-property"
+    ],
+    "text": "**Two-Handed.** A Two-Handed weapon requires two hands when you attack with it.",
+    "x-abbreviation": "2H"
+  },
+  {
+    "id": "srd24:item-property:ammunition",
+    "kind": "item-property",
+    "name": "Ammunition",
+    "source": "srd24",
+    "tags": [
+      "item-property"
+    ],
+    "text": "**Ammunition.** You can use a weapon that has the Ammunition property to make a ranged attack only if you have ammunition to fire from it. The type of ammunition required is specified with the weapon's range. Each attack expends one piece of ammunition. Drawing the ammunition is part of the attack (you need a free hand to load a one-handed weapon). After a fight, you can spend 1 minute to recover half the ammunition (round down) you used in the fight; the rest is lost.",
+    "x-abbreviation": "A"
+  },
+  {
+    "id": "srd24:item-property:ammunition-af",
+    "kind": "item-property",
+    "name": "Ammunition",
+    "source": "srd24",
+    "tags": [
+      "item-property"
+    ],
+    "text": "**Ammunition.** You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. Loading a one-handed weapon requires a free hand. The ammunition of a firearm is destroyed upon use.\n\nIf you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon. A sling must be loaded to deal any damage when used in this way.",
+    "x-abbreviation": "AF"
+  },
+  {
+    "id": "srd24:item-property:burst-fire",
+    "kind": "item-property",
+    "name": "Burst Fire",
+    "source": "srd24",
+    "tags": [
+      "item-property"
+    ],
+    "text": "**Burst Fire.** A weapon that has the burst fire property can make a single-target attack, or it can spray a 10-foot-cube area within normal range with shots. Each creature in the area must succeed on a DC 15 Dexterity saving throw or take the weapon's normal damage. This action uses ten pieces of ammunition.",
+    "x-abbreviation": "BF"
+  },
+  {
+    "id": "srd24:item-property:evolving-item",
+    "kind": "item-property",
+    "name": "Evolving Item",
+    "source": "srd24",
+    "tags": [
+      "item-property"
+    ],
+    "text": "**Evolving Item.** This item is an Evolving Item, see Evolving Magic Items for more information.",
+    "x-abbreviation": "Evo"
+  },
+  {
+    "id": "srd24:item-property:finesse",
+    "kind": "item-property",
+    "name": "Finesse",
+    "source": "srd24",
+    "tags": [
+      "item-property"
+    ],
+    "text": "**Finesse.** When making an attack with a Finesse weapon, use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.",
+    "x-abbreviation": "F"
+  },
+  {
+    "id": "srd24:item-property:heavy",
+    "kind": "item-property",
+    "name": "Heavy",
+    "source": "srd24",
+    "tags": [
+      "item-property"
+    ],
+    "text": "**Heavy.** You have Disadvantage on attack rolls with a Heavy weapon if it's a Melee weapon and your Strength score isn't at least 13 or if it's a Ranged weapon and your Dexterity score isn't at least 13.",
+    "x-abbreviation": "H"
+  },
+  {
+    "id": "srd24:item-property:light",
+    "kind": "item-property",
+    "name": "Light",
+    "source": "srd24",
+    "tags": [
+      "item-property"
+    ],
+    "text": "**Light.** When you take the Attack action on your turn and attack with a Light weapon, you can make one extra attack as a Bonus Action later on the same turn. That extra attack must be made with a different Light weapon, and you don't add your ability modifier to the extra attack's damage unless that modifier is negative. For example, you can attack with a Shortsword in one hand and a Dagger in the other using the Attack action and a Bonus Action, but you don't add your Strength or Dexterity modifier to the damage roll of the Bonus Action unless that modifier is negative.",
+    "x-abbreviation": "L"
+  },
+  {
+    "id": "srd24:item-property:loading",
+    "kind": "item-property",
+    "name": "Loading",
+    "source": "srd24",
+    "tags": [
+      "item-property"
+    ],
+    "text": "**Loading.** You can fire only one piece of ammunition from a Loading weapon when you use an action, a Bonus Action, or a Reaction to fire it, regardless of the number of attacks you can normally make.",
+    "x-abbreviation": "LD"
+  },
+  {
+    "id": "srd24:item-property:reach",
+    "kind": "item-property",
+    "name": "Reach",
+    "source": "srd24",
+    "tags": [
+      "item-property"
+    ],
+    "text": "**Reach.** A Reach weapon adds 5 feet to your reach when you attack with it, as well as when determining your reach for Opportunity Attack with it.",
+    "x-abbreviation": "R"
+  },
+  {
+    "id": "srd24:item-property:reload",
+    "kind": "item-property",
+    "name": "Reload",
+    "source": "srd24",
+    "tags": [
+      "item-property"
+    ],
+    "text": "**Reload.** A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice).",
+    "x-abbreviation": "RLD"
+  },
+  {
+    "id": "srd24:item-property:s",
+    "kind": "item-property",
+    "name": "S",
+    "source": "srd24",
+    "tags": [
+      "item-property"
+    ],
+    "text": "",
+    "x-abbreviation": "S"
+  },
+  {
+    "id": "srd24:item-property:thrown",
+    "kind": "item-property",
+    "name": "Thrown",
+    "source": "srd24",
+    "tags": [
+      "item-property"
+    ],
+    "text": "**Thrown.** If a weapon has the Thrown property, you can throw the weapon to make a ranged attack, and you can draw that weapon as part of the attack. If the weapon is a Melee weapon, use the same ability modifier for the attack and damage rolls that you use for a melee attack with that weapon.",
+    "x-abbreviation": "T"
+  },
+  {
+    "id": "srd24:item-property:versatile",
+    "kind": "item-property",
+    "name": "Versatile",
+    "source": "srd24",
+    "tags": [
+      "item-property"
+    ],
+    "text": "**Versatile.** A Versatile weapon can be used with one or two hands. A damage value in parentheses appears with the property. The weapon deals that damage when used with two hands to make a melee attack.",
+    "x-abbreviation": "V"
+  },
+  {
+    "id": "srd24:item-property:vestige-of-divergence",
+    "kind": "item-property",
+    "name": "Vestige of Divergence",
+    "source": "srd24",
+    "tags": [
+      "item-property"
+    ],
+    "text": "**Vestige of Divergence.** This item is a Vestige of Divergence, see Vestiges of Divergence for more information.",
+    "x-abbreviation": "Vst"
+  }
+]

@@ -1,0 +1,382 @@
+[
+  {
+    "id": "srd24:barbarian:rage",
+    "kind": "class-feature",
+    "name": "Rage",
+    "source": "srd24",
+    "page": "XPHB 51",
+    "tags": [
+      "barbarian-feature"
+    ],
+    "text": "You can imbue yourself with a primal power called Rage, a force that grants you extraordinary might and resilience. You can enter it as a Bonus Action if you aren't wearing Heavy armor.\n\nYou can enter your Rage the number of times shown for your Barbarian level in the Rages column of the Barbarian Features table. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.\n\nWhile active, your Rage follows the rules below.\n\n**Damage Resistance.** You have Resistance to Bludgeoning, Piercing, and Slashing damage.\n\n**Rage Damage.** When you make an attack using Strength—with either a weapon or an Unarmed Strike—and deal damage to the target, you gain a bonus to the damage that increases as you gain levels as a Barbarian, as shown in the Rage Damage column of the Barbarian Features table.\n\n**Strength Advantage.** You have Advantage on Strength checks and Strength saving throws.\n\n**No Concentration or Spells.** You can't maintain Concentration, and you can't cast spells.\n\n**Duration.** The Rage lasts until the end of your next turn, and it ends early if you don Heavy armor or have the Incapacitated condition. If your Rage is still active on your next turn, you can extend the Rage for another round by doing one of the following:\n\n- Make an attack roll against an enemy.\n- Force an enemy to make a saving throw.\n- Take a Bonus Action to extend your Rage.\n\nEach time the Rage is extended, it lasts until the end of your next turn. You can maintain a Rage for up to 10 minutes.",
+    "resources": [
+      {
+        "id": "srd24:barbarian:rages",
+        "name": "Rages",
+        "max": "@table(barbarian, rages)",
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          },
+          {
+            "on": "short-rest",
+            "amount": 1
+          }
+        ],
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "rage",
+        "name": "Rage",
+        "activation": "bonus-action",
+        "cost": {
+          "srd24:barbarian:rages": 1
+        },
+        "applies": "rage",
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ],
+    "effects": [
+      {
+        "id": "rage",
+        "name": "Rage",
+        "duration": "10 minutes",
+        "modifiers": [
+          {
+            "target": "damage.melee",
+            "op": "add",
+            "value": "@table(barbarian, rage-damage)",
+            "when": {
+              "text": "on Strength-based melee attacks",
+              "context": "strength-melee"
+            }
+          },
+          {
+            "target": "resistances",
+            "op": "include",
+            "value": [
+              "slashing",
+              "piercing",
+              "bludgeoning"
+            ]
+          },
+          {
+            "target": "checks.str",
+            "op": "advantage"
+          },
+          {
+            "target": "saves.str",
+            "op": "advantage"
+          }
+        ],
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:barbarian:unarmored-defense",
+    "kind": "class-feature",
+    "name": "Unarmored Defense",
+    "source": "srd24",
+    "page": "XPHB 51",
+    "tags": [
+      "barbarian-feature"
+    ],
+    "text": "While you aren't wearing any armor, your base Armor Class equals 10 plus your Dexterity and Constitution modifiers. You can use a Shield and still gain this benefit.",
+    "modifiers": [
+      {
+        "target": "ac",
+        "op": "base",
+        "value": "10 + @abilities.dex.mod + @abilities.con.mod",
+        "notes": "Only while wearing no armour; a shield may be used.",
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:barbarian:weapon-mastery",
+    "kind": "class-feature",
+    "name": "Weapon Mastery",
+    "source": "srd24",
+    "page": "XPHB 52",
+    "tags": [
+      "barbarian-feature"
+    ],
+    "text": "Your training with weapons allows you to use the mastery properties of two kinds of Simple or Martial Melee weapons of your choice, such as Greataxes and Handaxes. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.\n\nWhen you reach certain Barbarian levels, you gain the ability to use the mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Barbarian Features table."
+  },
+  {
+    "id": "srd24:barbarian:danger-sense",
+    "kind": "class-feature",
+    "name": "Danger Sense",
+    "source": "srd24",
+    "page": "XPHB 52",
+    "tags": [
+      "barbarian-feature"
+    ],
+    "text": "You gain an uncanny sense of when things aren't as they should be, giving you an edge when you dodge perils. You have Advantage on Dexterity saving throws unless you have the Incapacitated condition.",
+    "modifiers": [
+      {
+        "target": "saves.dex",
+        "op": "advantage",
+        "when": {
+          "text": "unless you have the Incapacitated condition",
+          "context": "unless-you-have-the-incapacitated-condition"
+        },
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:barbarian:reckless-attack",
+    "kind": "class-feature",
+    "name": "Reckless Attack",
+    "source": "srd24",
+    "page": "XPHB 52",
+    "tags": [
+      "barbarian-feature"
+    ],
+    "text": "You can throw aside all concern for defense to attack with increased ferocity. When you make your first attack roll on your turn, you can decide to attack recklessly. Doing so gives you Advantage on attack rolls using Strength until the start of your next turn, but attack rolls against you have Advantage during that time."
+  },
+  {
+    "id": "srd24:barbarian:barbarian-subclass",
+    "kind": "class-feature",
+    "name": "Barbarian Subclass",
+    "source": "srd24",
+    "page": "XPHB 52",
+    "tags": [
+      "barbarian-feature"
+    ],
+    "text": "You gain a Barbarian subclass of your choice. A subclass is a specialization that grants you features at certain Barbarian levels. For the rest of your career, you gain each of your subclass's features that are of your Barbarian level or lower."
+  },
+  {
+    "id": "srd24:barbarian:primal-knowledge",
+    "kind": "class-feature",
+    "name": "Primal Knowledge",
+    "source": "srd24",
+    "page": "XPHB 52",
+    "tags": [
+      "barbarian-feature"
+    ],
+    "text": "You gain proficiency in another skill of your choice from the skill list available to Barbarians at level 1.\n\nIn addition, while your Rage is active, you can channel primal power when you attempt certain tasks; whenever you make an ability check using one of the following skills, you can make it as a Strength check even if it normally uses a different ability: Acrobatics, Intimidation, Perception, Stealth, or Survival. When you use this ability, your Strength represents primal power coursing through you, honing your agility, bearing, and senses."
+  },
+  {
+    "id": "srd24:barbarian:extra-attack",
+    "kind": "class-feature",
+    "name": "Extra Attack",
+    "source": "srd24",
+    "page": "XPHB 53",
+    "tags": [
+      "barbarian-feature"
+    ],
+    "text": "You can attack twice instead of once whenever you take the Attack action on your turn."
+  },
+  {
+    "id": "srd24:barbarian:fast-movement",
+    "kind": "class-feature",
+    "name": "Fast Movement",
+    "source": "srd24",
+    "page": "XPHB 53",
+    "tags": [
+      "barbarian-feature"
+    ],
+    "text": "Your speed increases by 10 feet while you aren't wearing Heavy armor.",
+    "modifiers": [
+      {
+        "target": "speed.walk",
+        "op": "add",
+        "value": 10,
+        "when": {
+          "text": "while you aren't wearing Heavy armor",
+          "context": "while-you-arent-wearing-heavy-armor"
+        },
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:barbarian:feral-instinct",
+    "kind": "class-feature",
+    "name": "Feral Instinct",
+    "source": "srd24",
+    "page": "XPHB 53",
+    "tags": [
+      "barbarian-feature"
+    ],
+    "text": "Your instincts are so honed that you have Advantage on Initiative rolls.",
+    "modifiers": [
+      {
+        "target": "initiative",
+        "op": "advantage",
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:barbarian:instinctive-pounce",
+    "kind": "class-feature",
+    "name": "Instinctive Pounce",
+    "source": "srd24",
+    "page": "XPHB 53",
+    "tags": [
+      "barbarian-feature"
+    ],
+    "text": "As part of the Bonus Action you take to enter your Rage, you can move up to half your Speed."
+  },
+  {
+    "id": "srd24:barbarian:brutal-strike",
+    "kind": "class-feature",
+    "name": "Brutal Strike",
+    "source": "srd24",
+    "page": "XPHB 53",
+    "tags": [
+      "barbarian-feature"
+    ],
+    "text": "If you use Reckless Attack, you can forgo any Advantage on one Strength-based attack roll of your choice on your turn. The chosen attack roll mustn't have Disadvantage. If the chosen attack roll hits, the target takes an extra 1d10 damage of the same type dealt by the weapon or Unarmed Strike, and you can cause one Brutal Strike effect of your choice. You have the following effect options.\n\n**Forceful Blow.** The target is pushed 15 feet straight away from you. You can then move up to half your Speed straight toward the target without provoking Opportunity Attack.\n\n**Hamstring Blow.** The target's Speed is reduced by 15 feet until the start of your next turn. A target can be affected by only one Hamstring Blow at a time—the most recent one.",
+    "actions": [
+      {
+        "id": "brutal-strike",
+        "name": "Brutal Strike",
+        "activation": "special",
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:barbarian:relentless-rage",
+    "kind": "class-feature",
+    "name": "Relentless Rage",
+    "source": "srd24",
+    "page": "XPHB 53",
+    "tags": [
+      "barbarian-feature"
+    ],
+    "text": "Your Rage can keep you fighting despite grievous wounds. If you drop to 0 Hit Points while your Rage is active and don't die outright, you can make a DC 10 Constitution saving throw. If you succeed, your Hit Points instead change to a number equal to twice your Barbarian level.\n\nEach time you use this feature after the first, the DC increases by 5. When you finish a Short or Long Rest, the DC resets to 10.",
+    "resources": [
+      {
+        "id": "srd24:barbarian:relentless-rage",
+        "name": "Relentless Rage",
+        "max": 20,
+        "recharge": [
+          {
+            "on": "short-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:barbarian:improved-brutal-strike",
+    "kind": "class-feature",
+    "name": "Improved Brutal Strike",
+    "source": "srd24",
+    "page": "XPHB 53",
+    "tags": [
+      "barbarian-feature"
+    ],
+    "text": "You have honed new ways to attack furiously. The following effects are now among your Brutal Strike options.\n\n**Staggering Blow.** The target has Disadvantage on the next saving throw it makes, and it can't make Opportunity Attack until the start of your next turn.\n\n**Sundering Blow.** Before the start of your next turn, the next attack roll made by another creature against the target gains a +5 bonus to the roll. An attack roll can gain only one Sundering Blow bonus."
+  },
+  {
+    "id": "srd24:barbarian:persistent-rage",
+    "kind": "class-feature",
+    "name": "Persistent Rage",
+    "source": "srd24",
+    "page": "XPHB 53",
+    "tags": [
+      "barbarian-feature"
+    ],
+    "text": "When you roll Initiative, you can regain all expended uses of Rage. After you regain uses of Rage in this way, you can't do so again until you finish a Long Rest.\n\nIn addition, your Rage is so fierce that it now lasts for 10 minutes without you needing to do anything to extend it from round to round. Your Rage ends early if you have the Unconscious condition (not just the Incapacitated condition) or don Heavy armor.",
+    "resources": [
+      {
+        "id": "srd24:barbarian:persistent-rage",
+        "name": "Persistent Rage",
+        "max": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:barbarian:improved-brutal-strike-17",
+    "kind": "class-feature",
+    "name": "Improved Brutal Strike",
+    "source": "srd24",
+    "page": "XPHB 53",
+    "tags": [
+      "barbarian-feature"
+    ],
+    "text": "The extra damage of your Brutal Strike increases to 2d10. In addition, you can use two different Brutal Strike effects whenever you use your Brutal Strike feature."
+  },
+  {
+    "id": "srd24:barbarian:indomitable-might",
+    "kind": "class-feature",
+    "name": "Indomitable Might",
+    "source": "srd24",
+    "page": "XPHB 53",
+    "tags": [
+      "barbarian-feature"
+    ],
+    "text": "If your total for a Strength check or Strength saving throw is less than your Strength score, you can use that score in place of the total."
+  },
+  {
+    "id": "srd24:barbarian:epic-boon",
+    "kind": "class-feature",
+    "name": "Epic Boon",
+    "source": "srd24",
+    "page": "XPHB 53",
+    "tags": [
+      "barbarian-feature"
+    ],
+    "text": "You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Irresistible Offense is recommended."
+  },
+  {
+    "id": "srd24:barbarian:primal-champion",
+    "kind": "class-feature",
+    "name": "Primal Champion",
+    "source": "srd24",
+    "page": "XPHB 53",
+    "tags": [
+      "barbarian-feature"
+    ],
+    "text": "You embody primal power. Your Strength and Constitution scores increase by 4, to a maximum of 25."
+  }
+]

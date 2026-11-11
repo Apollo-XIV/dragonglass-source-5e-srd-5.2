@@ -1,0 +1,283 @@
+[
+  {
+    "id": "srd24:ranger:spellcasting",
+    "kind": "class-feature",
+    "name": "Spellcasting",
+    "source": "srd24",
+    "page": "XPHB 119",
+    "tags": [
+      "ranger-feature"
+    ],
+    "text": "You have learned to channel the magical essence of nature to cast spells. See chapter 7 for the rules on spellcasting. The information below details how you use those rules with Ranger spells, which appear in the Ranger spell list later in the class's description.\n\n**Spell Slots.** The Ranger Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.\n\n**Prepared Spells of Level 1+.** You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Ranger spells. Cure Wounds and Ensnaring Strike are recommended.\n\nThe number of spells on your list increases as you gain Ranger levels, as shown in the Prepared Spells column of the Ranger Features table. Whenever that number increases, choose additional Ranger spells until the number of spells on your list matches the number in the Ranger Features table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 5 Ranger, your list of prepared spells can include six Ranger spells of level 1 or 2 in any combination.\n\nIf another Ranger feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Ranger spells for you.\n\n**Changing Your Prepared Spells.** Whenever you finish a Long Rest, you can replace one spell on your list with another Ranger spell for which you have spell slots.\n\n**Spellcasting Ability.** Wisdom is your spellcasting ability for your Ranger spells.\n\n**Spellcasting Focus.** You can use a Druidic Focus as a Spellcasting Focus for your Ranger spells."
+  },
+  {
+    "id": "srd24:ranger:favored-enemy",
+    "kind": "class-feature",
+    "name": "Favored Enemy",
+    "source": "srd24",
+    "page": "XPHB 120",
+    "tags": [
+      "ranger-feature"
+    ],
+    "text": "You always have the Hunter's Mark spell prepared. You can cast it twice without expending a spell slot, and you regain all expended uses of this ability when you finish a Long Rest.\n\nThe number of times you can cast the spell without a spell slot increases when you reach certain Ranger levels, as shown in the Favored Enemy column of the Ranger Features table.",
+    "resources": [
+      {
+        "id": "srd24:ranger:favored-enemy",
+        "name": "Favored Enemy",
+        "max": "@table(ranger, favored-enemy)",
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:ranger:weapon-mastery",
+    "kind": "class-feature",
+    "name": "Weapon Mastery",
+    "source": "srd24",
+    "page": "XPHB 120",
+    "tags": [
+      "ranger-feature"
+    ],
+    "text": "Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as Longbows and Shortswords.\n\nWhenever you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the mastery properties of Scimitars and Longswords."
+  },
+  {
+    "id": "srd24:ranger:deft-explorer",
+    "kind": "class-feature",
+    "name": "Deft Explorer",
+    "source": "srd24",
+    "page": "XPHB 120",
+    "tags": [
+      "ranger-feature"
+    ],
+    "text": "Thanks to your travels, you gain the following benefits.\n\n**Expertise.** Choose one of your skill proficiencies with which you lack Expertise. You gain Expertise in that skill.\n\n**Languages.** You know two languages of your choice from the language tables in chapter 2."
+  },
+  {
+    "id": "srd24:ranger:fighting-style",
+    "kind": "class-feature",
+    "name": "Fighting Style",
+    "source": "srd24",
+    "page": "XPHB 120",
+    "tags": [
+      "ranger-feature"
+    ],
+    "text": "You gain a Fighting Style feat of your choice. Instead of choosing one of those feats, you can choose the option below."
+  },
+  {
+    "id": "srd24:ranger:ranger-subclass",
+    "kind": "class-feature",
+    "name": "Ranger Subclass",
+    "source": "srd24",
+    "page": "XPHB 120",
+    "tags": [
+      "ranger-feature"
+    ],
+    "text": "You gain a Ranger subclass of your choice. A subclass is a specialization that grants you features at certain Ranger levels. For the rest of your career, you gain each of your subclass's features that are of your Ranger level or lower."
+  },
+  {
+    "id": "srd24:ranger:extra-attack",
+    "kind": "class-feature",
+    "name": "Extra Attack",
+    "source": "srd24",
+    "page": "XPHB 120",
+    "tags": [
+      "ranger-feature"
+    ],
+    "text": "You can attack twice instead of once whenever you take the Attack action on your turn."
+  },
+  {
+    "id": "srd24:ranger:roving",
+    "kind": "class-feature",
+    "name": "Roving",
+    "source": "srd24",
+    "page": "XPHB 121",
+    "tags": [
+      "ranger-feature"
+    ],
+    "text": "Your Speed increases by 10 feet while you aren't wearing Heavy armor. You also have a Climb Speed and a Swim Speed equal to your Speed.",
+    "modifiers": [
+      {
+        "target": "speed.walk",
+        "op": "add",
+        "value": 10,
+        "when": {
+          "text": "while you aren't wearing Heavy armor",
+          "context": "while-you-arent-wearing-heavy-armor"
+        },
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:ranger:expertise",
+    "kind": "class-feature",
+    "name": "Expertise",
+    "source": "srd24",
+    "page": "XPHB 121",
+    "tags": [
+      "ranger-feature"
+    ],
+    "text": "Choose two of your skill proficiencies with which you lack Expertise. You gain Expertise in those skills."
+  },
+  {
+    "id": "srd24:ranger:tireless",
+    "kind": "class-feature",
+    "name": "Tireless",
+    "source": "srd24",
+    "page": "XPHB 121",
+    "tags": [
+      "ranger-feature"
+    ],
+    "text": "Primal forces now help fuel you on your journeys, granting you the following benefits.\n\n**Temporary Hit Points.** As a Magic action, you can give yourself a number of Temporary Hit Points equal to 1d8 plus your Wisdom modifier (minimum of 1). You can use this action a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.\n\n**Decrease Exhaustion.** Whenever you finish a Short Rest, your Exhaustion level, if any, decreases by 1.",
+    "resources": [
+      {
+        "id": "srd24:ranger:tireless:temporary-hit-points",
+        "name": "Temporary Hit Points",
+        "max": "max(1, @abilities.wis.mod)",
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "temporary-hit-points",
+        "name": "Temporary Hit Points",
+        "activation": "action",
+        "cost": {
+          "srd24:ranger:tireless:temporary-hit-points": 1
+        },
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:ranger:relentless-hunter",
+    "kind": "class-feature",
+    "name": "Relentless Hunter",
+    "source": "srd24",
+    "page": "XPHB 121",
+    "tags": [
+      "ranger-feature"
+    ],
+    "text": "Taking damage can't break your Concentration on Hunter's Mark."
+  },
+  {
+    "id": "srd24:ranger:natures-veil",
+    "kind": "class-feature",
+    "name": "Nature's Veil",
+    "source": "srd24",
+    "page": "XPHB 121",
+    "tags": [
+      "ranger-feature"
+    ],
+    "text": "You invoke spirits of nature to magically hide yourself. As a Bonus Action, you can give yourself the Invisible condition until the end of your next turn.\n\nYou can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.",
+    "resources": [
+      {
+        "id": "srd24:ranger:natures-veil",
+        "name": "Nature's Veil",
+        "max": "max(1, @abilities.wis.mod)",
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "natures-veil",
+        "name": "Nature's Veil",
+        "activation": "bonus-action",
+        "cost": {
+          "srd24:ranger:natures-veil": 1
+        },
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:ranger:precise-hunter",
+    "kind": "class-feature",
+    "name": "Precise Hunter",
+    "source": "srd24",
+    "page": "XPHB 121",
+    "tags": [
+      "ranger-feature"
+    ],
+    "text": "You have Advantage on attack rolls against the creature currently marked by your Hunter's Mark."
+  },
+  {
+    "id": "srd24:ranger:feral-senses",
+    "kind": "class-feature",
+    "name": "Feral Senses",
+    "source": "srd24",
+    "page": "XPHB 121",
+    "tags": [
+      "ranger-feature"
+    ],
+    "text": "Your connection to the forces of nature grants you Blindsight with a range of 30 feet.",
+    "modifiers": [
+      {
+        "target": "senses.blindsight",
+        "op": "base",
+        "value": 30,
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:ranger:epic-boon",
+    "kind": "class-feature",
+    "name": "Epic Boon",
+    "source": "srd24",
+    "page": "XPHB 121",
+    "tags": [
+      "ranger-feature"
+    ],
+    "text": "You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Dimensional Travel is recommended."
+  },
+  {
+    "id": "srd24:ranger:foe-slayer",
+    "kind": "class-feature",
+    "name": "Foe Slayer",
+    "source": "srd24",
+    "page": "XPHB 121",
+    "tags": [
+      "ranger-feature"
+    ],
+    "text": "The damage die of your Hunter's Mark is a d10 rather than a d6."
+  }
+]

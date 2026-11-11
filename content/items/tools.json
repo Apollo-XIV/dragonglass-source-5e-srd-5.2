@@ -1,0 +1,595 @@
+[
+  {
+    "id": "srd24:item:alchemists-supplies",
+    "kind": "item",
+    "name": "Alchemist's Supplies",
+    "source": "srd24",
+    "tags": [
+      "tool",
+      "artisans-tools"
+    ],
+    "page": "XPHB 220",
+    "itemType": "tool",
+    "weight": 8,
+    "value": 5000,
+    "text": "- **Ability:** Intelligence\n- **Utilize:** Identify a substance (DC 15), or start a fire (DC 15)\n- **Craft:** Acid, Alchemist's Fire, Component Pouch, Oil, Paper, Perfume"
+  },
+  {
+    "id": "srd24:item:artisans-tools",
+    "kind": "item",
+    "name": "Artisan's Tools",
+    "source": "srd24",
+    "tags": [
+      "tool",
+      "artisans-tools",
+      "item-group"
+    ],
+    "page": "XPHB 220",
+    "itemType": "tool",
+    "text": "**Artisan's Tool.** Artisan's Tools are each focused on crafting items and pursuing a trade. Each type of Artisan's Tools tools requires a separate proficiency.\n\nIf you have proficiency with a tool, add your Proficiency Bonus to any ability check you make that uses the tool. If you have proficiency in a skill that's used with that check, you have Advantage on the check too.\n\nThis group covers: Alchemist's Supplies, Brewer's Supplies, Calligrapher's Supplies, Carpenter's Tools, Cartographer's Tools, Cobbler's Tools, Cook's Utensils, Glassblower's Tools, Jeweler's Tools, Leatherworker's Tools, Mason's Tools, Painter's Supplies, Potter's Tools, Smith's Tools, Tinker's Tools, Weaver's Tools, Woodcarver's Tools."
+  },
+  {
+    "id": "srd24:item:bagpipes",
+    "kind": "item",
+    "name": "Bagpipes",
+    "source": "srd24",
+    "tags": [
+      "tool",
+      "musical-instrument"
+    ],
+    "page": "XPHB 221",
+    "itemType": "tool",
+    "weight": 6,
+    "value": 3000,
+    "text": "- **Ability:** Charisma\n- **Utilize:** Play a known tune (DC 10), or improvise a song (DC 15)"
+  },
+  {
+    "id": "srd24:item:brewers-supplies",
+    "kind": "item",
+    "name": "Brewer's Supplies",
+    "source": "srd24",
+    "tags": [
+      "tool",
+      "artisans-tools"
+    ],
+    "page": "XPHB 220",
+    "itemType": "tool",
+    "weight": 9,
+    "value": 2000,
+    "text": "- **Ability:** Intelligence\n- **Utilize:** Detect poisoned drink (DC 15), or identify alcohol (DC 10)\n- **Craft:** Antitoxin"
+  },
+  {
+    "id": "srd24:item:calligraphers-supplies",
+    "kind": "item",
+    "name": "Calligrapher's Supplies",
+    "source": "srd24",
+    "tags": [
+      "tool",
+      "artisans-tools"
+    ],
+    "page": "XPHB 220",
+    "itemType": "tool",
+    "weight": 5,
+    "value": 1000,
+    "text": "- **Ability:** Dexterity\n- **Utilize:** Write text with impressive flourishes that guard against forgery (DC 15)\n- **Craft:** Ink, Spell Scroll"
+  },
+  {
+    "id": "srd24:item:carpenters-tools",
+    "kind": "item",
+    "name": "Carpenter's Tools",
+    "source": "srd24",
+    "tags": [
+      "tool",
+      "artisans-tools"
+    ],
+    "page": "XPHB 220",
+    "itemType": "tool",
+    "weight": 6,
+    "value": 800,
+    "text": "- **Ability:** Strength\n- **Utilize:** Seal or pry open a door or container (DC 20)\n- **Craft:** Club, Greatclub, Quarterstaff, Barrel, Chest, Ladder, Pole, Portable Ram, Torch"
+  },
+  {
+    "id": "srd24:item:cartographers-tools",
+    "kind": "item",
+    "name": "Cartographer's Tools",
+    "source": "srd24",
+    "tags": [
+      "tool",
+      "artisans-tools"
+    ],
+    "page": "XPHB 220",
+    "itemType": "tool",
+    "weight": 6,
+    "value": 1500,
+    "text": "- **Ability:** Wisdom\n- **Utilize:** Draft a map of a small area (DC 15)\n- **Craft:** Map"
+  },
+  {
+    "id": "srd24:item:cobblers-tools",
+    "kind": "item",
+    "name": "Cobbler's Tools",
+    "source": "srd24",
+    "tags": [
+      "tool",
+      "artisans-tools"
+    ],
+    "page": "XPHB 220",
+    "itemType": "tool",
+    "weight": 5,
+    "value": 500,
+    "text": "- **Ability:** Dexterity\n- **Utilize:** Modify footwear to give Advantage on the wearer's next Dexterity (Acrobatics) check (DC 10)\n- **Craft:** Climber's Kit"
+  },
+  {
+    "id": "srd24:item:cooks-utensils",
+    "kind": "item",
+    "name": "Cook's Utensils",
+    "source": "srd24",
+    "tags": [
+      "tool",
+      "artisans-tools"
+    ],
+    "page": "XPHB 220",
+    "itemType": "tool",
+    "weight": 8,
+    "value": 100,
+    "text": "- **Ability:** Wisdom\n- **Utilize:** Improve food's flavor (DC 10), or detect spoiled or poisoned food (DC 15)\n- **Craft:** Rations"
+  },
+  {
+    "id": "srd24:item:dice-set",
+    "kind": "item",
+    "name": "Dice Set",
+    "source": "srd24",
+    "tags": [
+      "tool",
+      "gaming-set"
+    ],
+    "page": "XPHB 221",
+    "itemType": "tool",
+    "value": 10,
+    "text": "- **Ability:** Wisdom\n- **Utilize:** Discern whether someone is cheating (DC 10), or win the game (DC 20)"
+  },
+  {
+    "id": "srd24:item:disguise-kit",
+    "kind": "item",
+    "name": "Disguise Kit",
+    "source": "srd24",
+    "tags": [
+      "tool",
+      "kit"
+    ],
+    "page": "XPHB 221",
+    "itemType": "tool",
+    "weight": 3,
+    "value": 2500,
+    "text": "- **Ability:** Charisma\n- **Utilize:** Apply makeup (DC 10)\n- **Craft:** Costume"
+  },
+  {
+    "id": "srd24:item:dragonchess-set",
+    "kind": "item",
+    "name": "Dragonchess Set",
+    "source": "srd24",
+    "tags": [
+      "tool",
+      "gaming-set"
+    ],
+    "page": "XPHB 221",
+    "itemType": "tool",
+    "value": 100,
+    "text": "- **Ability:** Wisdom\n- **Utilize:** Discern whether someone is cheating (DC 10), or win the game (DC 20)"
+  },
+  {
+    "id": "srd24:item:drum",
+    "kind": "item",
+    "name": "Drum",
+    "source": "srd24",
+    "tags": [
+      "tool",
+      "musical-instrument"
+    ],
+    "page": "XPHB 221",
+    "itemType": "tool",
+    "weight": 3,
+    "value": 600,
+    "text": "- **Ability:** Charisma\n- **Utilize:** Play a known tune (DC 10), or improvise a song (DC 15)"
+  },
+  {
+    "id": "srd24:item:dulcimer",
+    "kind": "item",
+    "name": "Dulcimer",
+    "source": "srd24",
+    "tags": [
+      "tool",
+      "musical-instrument"
+    ],
+    "page": "XPHB 221",
+    "itemType": "tool",
+    "weight": 10,
+    "value": 2500,
+    "text": "- **Ability:** Charisma\n- **Utilize:** Play a known tune (DC 10), or improvise a song (DC 15)"
+  },
+  {
+    "id": "srd24:item:flute",
+    "kind": "item",
+    "name": "Flute",
+    "source": "srd24",
+    "tags": [
+      "tool",
+      "musical-instrument"
+    ],
+    "page": "XPHB 221",
+    "itemType": "tool",
+    "weight": 1,
+    "value": 200,
+    "text": "- **Ability:** Charisma\n- **Utilize:** Play a known tune (DC 10), or improvise a song (DC 15)"
+  },
+  {
+    "id": "srd24:item:forgery-kit",
+    "kind": "item",
+    "name": "Forgery Kit",
+    "source": "srd24",
+    "tags": [
+      "tool",
+      "kit"
+    ],
+    "page": "XPHB 221",
+    "itemType": "tool",
+    "weight": 5,
+    "value": 1500,
+    "text": "- **Ability:** Dexterity\n- **Utilize:** Mimic 10 or fewer words of someone else's handwriting (DC 15), or duplicate a wax seal (DC 20)"
+  },
+  {
+    "id": "srd24:item:gaming-set",
+    "kind": "item",
+    "name": "Gaming Set",
+    "source": "srd24",
+    "tags": [
+      "tool",
+      "gaming-set",
+      "item-group"
+    ],
+    "page": "XPHB 221",
+    "itemType": "tool",
+    "text": "**Tool (Gaming Set).** If you have proficiency with a tool, add your Proficiency Bonus to any ability check you make that uses the tool. If you have proficiency in a skill that's used with that check, you have Advantage on the check too.\n\nProficiency with a gaming set applies to one type of game, such as Three-Dragon Ante or games of chance that use dice.\n\n**Components.** A gaming set has all the pieces needed to play a specific game or type of game, such as a complete deck of cards or a board and tokens.\n\n**History.** Your mastery of a game includes knowledge of its history, as well as of important events it was connected to or prominent historical figures involved with it.\n\n**Insight.** Playing games with someone is a good way to gain understanding of their personality, granting you a better ability to discern their lies from their truths and read their mood.\n\n**Sleight of Hand.** Sleight of Hand is a useful skill for cheating at a game, as it allows you to swap pieces, palm cards, or alter a die roll. Alternatively, engrossing a target in a game by manipulating the components with dexterous movements is a great distraction for a pickpocketing attempt.\n\n**Gaming Set**\n| Activity | DC |\n| --- | --- |\n| Catch a player cheating | 15 |\n| Gain insight into an opponent's personality | 15 |\n\nThis group covers: Dice Set, Dragonchess Set, Playing Cards, Three-Dragon Ante Set."
+  },
+  {
+    "id": "srd24:item:glassblowers-tools",
+    "kind": "item",
+    "name": "Glassblower's Tools",
+    "source": "srd24",
+    "tags": [
+      "tool",
+      "artisans-tools"
+    ],
+    "page": "XPHB 220",
+    "itemType": "tool",
+    "weight": 5,
+    "value": 3000,
+    "text": "- **Ability:** Intelligence\n- **Utilize:** Discern what a glass object held in the past 24 hours (DC 15)\n- **Craft:** Glass Bottle, Magnifying Glass, Spyglass, Vial"
+  },
+  {
+    "id": "srd24:item:herbalism-kit",
+    "kind": "item",
+    "name": "Herbalism Kit",
+    "source": "srd24",
+    "tags": [
+      "tool",
+      "kit"
+    ],
+    "page": "XPHB 221",
+    "itemType": "tool",
+    "weight": 3,
+    "value": 500,
+    "text": "- **Ability:** Intelligence\n- **Utilize:** Identify a plant (DC 10)\n- **Craft:** Antitoxin, Candle, Healer's Kit, Potion of Healing"
+  },
+  {
+    "id": "srd24:item:horn",
+    "kind": "item",
+    "name": "Horn",
+    "source": "srd24",
+    "tags": [
+      "tool",
+      "musical-instrument"
+    ],
+    "page": "XPHB 221",
+    "itemType": "tool",
+    "weight": 2,
+    "value": 300,
+    "text": "- **Ability:** Charisma\n- **Utilize:** Play a known tune (DC 10), or improvise a song (DC 15)"
+  },
+  {
+    "id": "srd24:item:jewelers-tools",
+    "kind": "item",
+    "name": "Jeweler's Tools",
+    "source": "srd24",
+    "tags": [
+      "tool",
+      "artisans-tools"
+    ],
+    "page": "XPHB 220",
+    "itemType": "tool",
+    "weight": 2,
+    "value": 2500,
+    "text": "- **Ability:** Intelligence\n- **Utilize:** Discern a gem's value (DC 15)\n- **Craft:** Arcane Focus, Holy Symbol"
+  },
+  {
+    "id": "srd24:item:leatherworkers-tools",
+    "kind": "item",
+    "name": "Leatherworker's Tools",
+    "source": "srd24",
+    "tags": [
+      "tool",
+      "artisans-tools"
+    ],
+    "page": "XPHB 221",
+    "itemType": "tool",
+    "weight": 5,
+    "value": 500,
+    "text": "- **Ability:** Dexterity\n- **Utilize:** Add a design to a leather item (DC 10)\n- **Craft:** Sling, Whip, Hide Armor, Leather Armor, Studded Leather Armor, Backpack, Crossbow Bolt Case, Map or Scroll Case, Parchment, Pouch, Quiver, Waterskin"
+  },
+  {
+    "id": "srd24:item:lute",
+    "kind": "item",
+    "name": "Lute",
+    "source": "srd24",
+    "tags": [
+      "tool",
+      "musical-instrument"
+    ],
+    "page": "XPHB 221",
+    "itemType": "tool",
+    "weight": 2,
+    "value": 3500,
+    "text": "- **Ability:** Charisma\n- **Utilize:** Play a known tune (DC 10), or improvise a song (DC 15)"
+  },
+  {
+    "id": "srd24:item:lyre",
+    "kind": "item",
+    "name": "Lyre",
+    "source": "srd24",
+    "tags": [
+      "tool",
+      "musical-instrument"
+    ],
+    "page": "XPHB 221",
+    "itemType": "tool",
+    "weight": 2,
+    "value": 3000,
+    "text": "- **Ability:** Charisma\n- **Utilize:** Play a known tune (DC 10), or improvise a song (DC 15)"
+  },
+  {
+    "id": "srd24:item:masons-tools",
+    "kind": "item",
+    "name": "Mason's Tools",
+    "source": "srd24",
+    "tags": [
+      "tool",
+      "artisans-tools"
+    ],
+    "page": "XPHB 221",
+    "itemType": "tool",
+    "weight": 8,
+    "value": 1000,
+    "text": "- **Ability:** Strength\n- **Utilize:** Chisel a symbol or hole in stone (DC 10)\n- **Craft:** Block and Tackle"
+  },
+  {
+    "id": "srd24:item:musical-instrument",
+    "kind": "item",
+    "name": "Musical Instrument",
+    "source": "srd24",
+    "tags": [
+      "tool",
+      "musical-instrument",
+      "item-group"
+    ],
+    "page": "XPHB 221",
+    "itemType": "tool",
+    "text": "**Tool (Musical Instrument).** If you have proficiency with a tool, add your Proficiency Bonus to any ability check you make that uses the tool. If you have proficiency in a skill that's used with that check, you have Advantage on the check too.\n\nProficiency with a musical instrument indicates you are familiar with the techniques used to play it. You also have knowledge of some songs commonly performed with that instrument.\n\n**History.** Your expertise aids you in recalling lore related to your instrument.\n\n**Performance.** Your ability to put on a good show is improved when you incorporate an instrument into your act.\n\n**Compose a Tune.** As part of a long rest, you can compose a new tune and lyrics for your instrument. You might use this ability to impress a noble or spread scandalous rumors with a catchy tune.\n\n**Musical Instrument**\n| Activity | DC |\n| --- | --- |\n| Identify a tune | 10 |\n| Improvise a tune | 20 |\n\nThis group covers: Bagpipes, Drum, Dulcimer, Flute, Horn, Lute, Lyre, Pan Flute, Shawm, Viol."
+  },
+  {
+    "id": "srd24:item:navigators-tools",
+    "kind": "item",
+    "name": "Navigator's Tools",
+    "source": "srd24",
+    "tags": [
+      "tool",
+      "kit"
+    ],
+    "page": "XPHB 221",
+    "itemType": "tool",
+    "weight": 2,
+    "value": 2500,
+    "text": "- **Ability:** Wisdom\n- **Utilize:** Plot a course (DC 10), or determine position by stargazing (DC 15)"
+  },
+  {
+    "id": "srd24:item:painters-supplies",
+    "kind": "item",
+    "name": "Painter's Supplies",
+    "source": "srd24",
+    "tags": [
+      "tool",
+      "artisans-tools"
+    ],
+    "page": "XPHB 221",
+    "itemType": "tool",
+    "weight": 5,
+    "value": 1000,
+    "text": "- **Ability:** Wisdom\n- **Utilize:** Paint a recognizable image of something you've seen (DC 10)\n- **Craft:** Druidic Focus, Holy Symbol"
+  },
+  {
+    "id": "srd24:item:pan-flute",
+    "kind": "item",
+    "name": "Pan Flute",
+    "source": "srd24",
+    "tags": [
+      "tool",
+      "musical-instrument"
+    ],
+    "page": "XPHB 221",
+    "itemType": "tool",
+    "weight": 2,
+    "value": 1200,
+    "text": "- **Ability:** Charisma\n- **Utilize:** Play a known tune (DC 10), or improvise a song (DC 15)"
+  },
+  {
+    "id": "srd24:item:playing-cards",
+    "kind": "item",
+    "name": "Playing Cards",
+    "source": "srd24",
+    "tags": [
+      "tool",
+      "gaming-set"
+    ],
+    "page": "XPHB 221",
+    "itemType": "tool",
+    "value": 50,
+    "text": "- **Ability:** Wisdom\n- **Utilize:** Discern whether someone is cheating (DC 10), or win the game (DC 20)"
+  },
+  {
+    "id": "srd24:item:poisoners-kit",
+    "kind": "item",
+    "name": "Poisoner's Kit",
+    "source": "srd24",
+    "tags": [
+      "tool",
+      "kit"
+    ],
+    "page": "XPHB 221",
+    "itemType": "tool",
+    "weight": 2,
+    "value": 5000,
+    "text": "- **Ability:** Intelligence\n- **Utilize:** Detect a poisoned object (DC 10)\n- **Craft:** Basic Poison"
+  },
+  {
+    "id": "srd24:item:potters-tools",
+    "kind": "item",
+    "name": "Potter's Tools",
+    "source": "srd24",
+    "tags": [
+      "tool",
+      "artisans-tools"
+    ],
+    "page": "XPHB 221",
+    "itemType": "tool",
+    "weight": 3,
+    "value": 1000,
+    "text": "- **Ability:** Intelligence\n- **Utilize:** Discern what a ceramic object held in the past 24 hours (DC 15)\n- **Craft:** Jug, Lamp"
+  },
+  {
+    "id": "srd24:item:shawm",
+    "kind": "item",
+    "name": "Shawm",
+    "source": "srd24",
+    "tags": [
+      "tool",
+      "musical-instrument"
+    ],
+    "page": "XPHB 221",
+    "itemType": "tool",
+    "weight": 1,
+    "value": 200,
+    "text": "- **Ability:** Charisma\n- **Utilize:** Play a known tune (DC 10), or improvise a song (DC 15)"
+  },
+  {
+    "id": "srd24:item:smiths-tools",
+    "kind": "item",
+    "name": "Smith's Tools",
+    "source": "srd24",
+    "tags": [
+      "tool",
+      "artisans-tools"
+    ],
+    "page": "XPHB 221",
+    "itemType": "tool",
+    "weight": 8,
+    "value": 2000,
+    "text": "- **Ability:** Strength\n- **Utilize:** Pry open a door or container (DC 20)\n- **Craft:** Any Melee weapon (except Club, Greatclub, Quarterstaff, and Whip), Medium armor (except Hide), Heavy armor, Ball Bearings, Bucket, Caltrops, Chain, Crowbar, Firearm Bullets, Grappling Hook, Iron Pot, Iron Spikes, Sling Bullets"
+  },
+  {
+    "id": "srd24:item:thieves-tools",
+    "kind": "item",
+    "name": "Thieves' Tools",
+    "source": "srd24",
+    "tags": [
+      "tool",
+      "kit"
+    ],
+    "page": "XPHB 221",
+    "itemType": "tool",
+    "weight": 1,
+    "value": 2500,
+    "text": "- **Ability:** Dexterity\n- **Utilize:** Pick a lock (DC 15), or disarm a trap (DC 15)"
+  },
+  {
+    "id": "srd24:item:three-dragon-ante-set",
+    "kind": "item",
+    "name": "Three-Dragon Ante Set",
+    "source": "srd24",
+    "tags": [
+      "tool",
+      "gaming-set"
+    ],
+    "page": "XPHB 221",
+    "itemType": "tool",
+    "value": 100,
+    "text": "- **Ability:** Wisdom\n- **Utilize:** Discern whether someone is cheating (DC 10), or win the game (DC 20)"
+  },
+  {
+    "id": "srd24:item:tinkers-tools",
+    "kind": "item",
+    "name": "Tinker's Tools",
+    "source": "srd24",
+    "tags": [
+      "tool",
+      "artisans-tools"
+    ],
+    "page": "XPHB 221",
+    "itemType": "tool",
+    "weight": 10,
+    "value": 5000,
+    "text": "- **Ability:** Dexterity\n- **Utilize:** Assemble a Tiny item composed of scrap, which falls apart in 1 minute (DC 20)\n- **Craft:** Musket, Pistol, Bell, Bullseye Lantern, Flask, Hooded Lantern, Hunting Trap, Lock, Manacles, Mirror, Shovel, Signal Whistle, Tinderbox"
+  },
+  {
+    "id": "srd24:item:viol",
+    "kind": "item",
+    "name": "Viol",
+    "source": "srd24",
+    "tags": [
+      "tool",
+      "musical-instrument"
+    ],
+    "page": "XPHB 221",
+    "itemType": "tool",
+    "weight": 1,
+    "value": 3000,
+    "text": "- **Ability:** Charisma\n- **Utilize:** Play a known tune (DC 10), or improvise a song (DC 15)"
+  },
+  {
+    "id": "srd24:item:weavers-tools",
+    "kind": "item",
+    "name": "Weaver's Tools",
+    "source": "srd24",
+    "tags": [
+      "tool",
+      "artisans-tools"
+    ],
+    "page": "XPHB 221",
+    "itemType": "tool",
+    "weight": 5,
+    "value": 100,
+    "text": "- **Ability:** Dexterity\n- **Utilize:** Mend a tear in clothing (DC 10), or sew a Tiny design (DC 10)\n- **Craft:** Padded Armor, Basket, Bedroll, Blanket, Fine Clothes, Net, Robe, Rope, Sack, String, Tent, Traveler's Clothes"
+  },
+  {
+    "id": "srd24:item:woodcarvers-tools",
+    "kind": "item",
+    "name": "Woodcarver's Tools",
+    "source": "srd24",
+    "tags": [
+      "tool",
+      "artisans-tools"
+    ],
+    "page": "XPHB 221",
+    "itemType": "tool",
+    "weight": 5,
+    "value": 100,
+    "text": "- **Ability:** Dexterity\n- **Utilize:** Carve a pattern in wood (DC 10)\n- **Craft:** Club, Greatclub, Quarterstaff, Ranged weapons (except Pistol, Musket, and Sling), Arcane Focus, Arrows, Bolts, Druidic Focus, Ink Pen, Needles"
+  }
+]

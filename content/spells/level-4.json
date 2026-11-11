@@ -1,0 +1,1199 @@
+[
+  {
+    "id": "srd24:spell:arcane-eye",
+    "kind": "spell",
+    "name": "Arcane Eye",
+    "source": "srd24",
+    "tags": [
+      "wizard-spell",
+      "spell-level:4",
+      "spell-level-max:4",
+      "spell-level-max:5",
+      "spell-level-max:6",
+      "spell-level-max:7",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:divination"
+    ],
+    "spellLevel": 4,
+    "page": "XPHB 242",
+    "school": "divination",
+    "castingTime": "1 action",
+    "range": "30 feet",
+    "components": "V, S, M (a bit of bat fur)",
+    "duration": "Concentration, up to 1 hour",
+    "concentration": true,
+    "text": "You create an Invisible, invulnerable eye within range that hovers for the duration. You mentally receive visual information from the eye, which can see in every direction. It also has Darkvision with a range of 30 feet.\n\nAs a Bonus Action, you can move the eye up to 30 feet in any direction. A solid barrier blocks the eye's movement, but the eye can pass through an opening as small as 1 inch in diameter."
+  },
+  {
+    "id": "srd24:spell:aura-of-life",
+    "kind": "spell",
+    "name": "Aura of Life",
+    "source": "srd24",
+    "tags": [
+      "cleric-spell",
+      "paladin-spell",
+      "spell-level:4",
+      "spell-level-max:4",
+      "spell-level-max:5",
+      "spell-level-max:6",
+      "spell-level-max:7",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:abjuration"
+    ],
+    "spellLevel": 4,
+    "page": "XPHB 244",
+    "school": "abjuration",
+    "castingTime": "1 action",
+    "range": "Self (30-foot emanation)",
+    "components": "V",
+    "duration": "Concentration, up to 10 minutes",
+    "concentration": true,
+    "text": "An aura radiates from you in a 30-foot Emanation for the duration. While in the aura, you and your allies have Resistance to Necrotic damage, and your Hit Point maximums can't be reduced. If an ally with 0 Hit Points starts its turn in the aura, that ally regains 1 Hit Point."
+  },
+  {
+    "id": "srd24:spell:banishment",
+    "kind": "spell",
+    "name": "Banishment",
+    "source": "srd24",
+    "tags": [
+      "cleric-spell",
+      "paladin-spell",
+      "sorcerer-spell",
+      "warlock-spell",
+      "wizard-spell",
+      "spell-level:4",
+      "spell-level-max:4",
+      "spell-level-max:5",
+      "spell-level-max:6",
+      "spell-level-max:7",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:abjuration"
+    ],
+    "spellLevel": 4,
+    "page": "XPHB 245",
+    "school": "abjuration",
+    "castingTime": "1 action",
+    "range": "30 feet",
+    "components": "V, S, M (a pentacle)",
+    "duration": "Concentration, up to 1 minute",
+    "concentration": true,
+    "text": "One creature that you can see within range must succeed on a Charisma saving throw or be transported to a harmless demiplane for the duration. While there, the target has the Incapacitated condition. When the spell ends, the target reappears in the space it left or in the nearest unoccupied space if that space is occupied.\n\nIf the target is an Aberration, a Celestial, an Elemental, a Fey, or a Fiend, the target doesn't return if the spell lasts for 1 minute. The target is instead transported to a random location on a plane (DM's choice) associated with its creature type.",
+    "higherLevels": "You can target one additional creature for each spell slot level above 4.",
+    "actions": [
+      {
+        "id": "cast",
+        "name": "Banishment",
+        "activation": "action",
+        "range": "30 feet",
+        "save": {
+          "ability": "cha"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:spell:black-tentacles",
+    "kind": "spell",
+    "name": "Black Tentacles",
+    "source": "srd24",
+    "tags": [
+      "wizard-spell",
+      "spell-level:4",
+      "spell-level-max:4",
+      "spell-level-max:5",
+      "spell-level-max:6",
+      "spell-level-max:7",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:conjuration"
+    ],
+    "spellLevel": 4,
+    "page": "XPHB 270",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "90 feet",
+    "components": "V, S, M (a tentacle)",
+    "duration": "Concentration, up to 1 minute",
+    "concentration": true,
+    "text": "Squirming, ebony tentacles fill a 20-foot square on ground that you can see within range. For the duration, these tentacles turn the ground in that area into Difficult Terrain.\n\nEach creature in that area makes a Strength saving throw. On a failed save, it takes 3d6 Bludgeoning damage, and it has the Restrained condition until the spell ends. A creature also makes that save if it enters the area or ends its turn there. A creature makes that save only once per turn.\n\nA Restrained creature can take an action to make a Strength (Athletics) check against your spell save DC, ending the condition on itself on a success.",
+    "actions": [
+      {
+        "id": "cast",
+        "name": "Black Tentacles",
+        "activation": "action",
+        "range": "90 feet",
+        "save": {
+          "ability": "str"
+        },
+        "damage": "3d6",
+        "damageType": "bludgeoning"
+      }
+    ]
+  },
+  {
+    "id": "srd24:spell:blight",
+    "kind": "spell",
+    "name": "Blight",
+    "source": "srd24",
+    "tags": [
+      "druid-spell",
+      "sorcerer-spell",
+      "warlock-spell",
+      "wizard-spell",
+      "spell-level:4",
+      "spell-level-max:4",
+      "spell-level-max:5",
+      "spell-level-max:6",
+      "spell-level-max:7",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:necromancy"
+    ],
+    "spellLevel": 4,
+    "page": "XPHB 247",
+    "school": "necromancy",
+    "castingTime": "1 action",
+    "range": "30 feet",
+    "components": "V, S",
+    "duration": "Instantaneous",
+    "text": "A creature that you can see within range makes a Constitution saving throw, taking 8d8 Necrotic damage on a failed save or half as much damage on a successful one. A Plant creature automatically fails the save.\n\nAlternatively, target a nonmagical plant that isn't a creature, such as a tree or shrub. It doesn't make a save; it simply withers and dies.",
+    "higherLevels": "The damage increases by 1d8 for each spell slot level above 4.",
+    "actions": [
+      {
+        "id": "cast",
+        "name": "Blight",
+        "activation": "action",
+        "range": "30 feet",
+        "save": {
+          "ability": "con"
+        },
+        "damage": "8d8",
+        "damageType": "necrotic"
+      }
+    ]
+  },
+  {
+    "id": "srd24:spell:charm-monster",
+    "kind": "spell",
+    "name": "Charm Monster",
+    "source": "srd24",
+    "tags": [
+      "bard-spell",
+      "druid-spell",
+      "sorcerer-spell",
+      "warlock-spell",
+      "wizard-spell",
+      "spell-level:4",
+      "spell-level-max:4",
+      "spell-level-max:5",
+      "spell-level-max:6",
+      "spell-level-max:7",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:enchantment"
+    ],
+    "spellLevel": 4,
+    "page": "XPHB 249",
+    "school": "enchantment",
+    "castingTime": "1 action",
+    "range": "30 feet",
+    "components": "V, S",
+    "duration": "1 hour",
+    "text": "One creature you can see within range makes a Wisdom saving throw. It does so with Advantage if you or your allies are fighting it. On a failed save, the target has the Charmed condition until the spell ends or until you or your allies damage it. The Charmed creature is Friendly to you. When the spell ends, the target knows it was Charmed by you.",
+    "higherLevels": "You can target one additional creature for each spell slot level above 4.",
+    "actions": [
+      {
+        "id": "cast",
+        "name": "Charm Monster",
+        "activation": "action",
+        "range": "30 feet",
+        "save": {
+          "ability": "wis"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:spell:compulsion",
+    "kind": "spell",
+    "name": "Compulsion",
+    "source": "srd24",
+    "tags": [
+      "bard-spell",
+      "spell-level:4",
+      "spell-level-max:4",
+      "spell-level-max:5",
+      "spell-level-max:6",
+      "spell-level-max:7",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:enchantment"
+    ],
+    "spellLevel": 4,
+    "page": "XPHB 252",
+    "school": "enchantment",
+    "castingTime": "1 action",
+    "range": "30 feet",
+    "components": "V, S",
+    "duration": "Concentration, up to 1 minute",
+    "concentration": true,
+    "text": "Each creature of your choice that you can see within range must succeed on a Wisdom saving throw or have the Charmed condition until the spell ends.\n\nFor the duration, you can take a Bonus Action to designate a direction that is horizontal to you. Each Charmed target must use as much of its movement as possible to move in that direction on its next turn, taking the safest route. After moving in this way, a target repeats the save, ending the spell on itself on a success.",
+    "actions": [
+      {
+        "id": "cast",
+        "name": "Compulsion",
+        "activation": "action",
+        "range": "30 feet",
+        "save": {
+          "ability": "wis"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:spell:confusion",
+    "kind": "spell",
+    "name": "Confusion",
+    "source": "srd24",
+    "tags": [
+      "bard-spell",
+      "druid-spell",
+      "sorcerer-spell",
+      "wizard-spell",
+      "spell-level:4",
+      "spell-level-max:4",
+      "spell-level-max:5",
+      "spell-level-max:6",
+      "spell-level-max:7",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:enchantment"
+    ],
+    "spellLevel": 4,
+    "page": "XPHB 253",
+    "school": "enchantment",
+    "castingTime": "1 action",
+    "range": "90 feet",
+    "components": "V, S, M (three nut shells)",
+    "duration": "Concentration, up to 1 minute",
+    "concentration": true,
+    "text": "Each creature in a 10-foot-radius Sphere centered on a point you choose within range must succeed on a Wisdom saving throw, or that target can't take Bonus Actions or Reactions and must roll 1d10 at the start of each of its turns to determine its behavior for that turn, consulting the table below.\n\n| 1d10 | Behavior for the Turn |\n| --- | --- |\n| 1 | The target doesn't take an action, and it uses all its movement to move. Roll 1d4 for the direction: **1**, north; **2**, east; **3**, south; or **4**, west. |\n| 2-6 | The target doesn't move or take actions. |\n| 7-8 | The target doesn't move, and it takes the Attack action to make one melee attack against a random creature within reach. If none are within reach, the target takes no action. |\n| 9-10 | The target chooses its behavior. |\n\nAt the end of each of its turns, an affected target repeats the save, ending the spell on itself on a success.",
+    "higherLevels": "The Sphere's radius increases by 5 feet for each spell slot level above 4.",
+    "actions": [
+      {
+        "id": "cast",
+        "name": "Confusion",
+        "activation": "action",
+        "range": "90 feet",
+        "save": {
+          "ability": "wis"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:spell:conjure-minor-elementals",
+    "kind": "spell",
+    "name": "Conjure Minor Elementals",
+    "source": "srd24",
+    "tags": [
+      "druid-spell",
+      "wizard-spell",
+      "spell-level:4",
+      "spell-level-max:4",
+      "spell-level-max:5",
+      "spell-level-max:6",
+      "spell-level-max:7",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:conjuration"
+    ],
+    "spellLevel": 4,
+    "page": "XPHB 255",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "Self (15-foot emanation)",
+    "components": "V, S",
+    "duration": "Concentration, up to 10 minutes",
+    "concentration": true,
+    "text": "You conjure spirits from the Elemental Planes that flit around you in a 15-foot Emanation for the duration. Until the spell ends, any attack you make deals an extra 2d8 damage when you hit a creature in the Emanation. This damage is Acid, Cold, Fire, or Lightning (your choice when you make the attack).\n\nIn addition, the ground in the Emanation is Difficult Terrain for your enemies.",
+    "higherLevels": "The damage increases by 1d8 for each spell slot level above 4."
+  },
+  {
+    "id": "srd24:spell:conjure-woodland-beings",
+    "kind": "spell",
+    "name": "Conjure Woodland Beings",
+    "source": "srd24",
+    "tags": [
+      "druid-spell",
+      "ranger-spell",
+      "spell-level:4",
+      "spell-level-max:4",
+      "spell-level-max:5",
+      "spell-level-max:6",
+      "spell-level-max:7",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:conjuration"
+    ],
+    "spellLevel": 4,
+    "page": "XPHB 255",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "Self (10-foot emanation)",
+    "components": "V, S",
+    "duration": "Concentration, up to 10 minutes",
+    "concentration": true,
+    "text": "You conjure nature spirits that flit around you in a 10-foot Emanation for the duration. Whenever the Emanation enters the space of a creature you can see and whenever a creature you can see enters the Emanation or ends its turn there, you can force that creature to make a Wisdom saving throw. The creature takes 5d8 Force damage on a failed save or half as much damage on a successful one. A creature makes this save only once per turn.\n\nIn addition, you can take the Disengage action as a Bonus Action for the spell's duration.",
+    "higherLevels": "The damage increases by 1d8 for each spell slot level above 4.",
+    "actions": [
+      {
+        "id": "cast",
+        "name": "Conjure Woodland Beings",
+        "activation": "action",
+        "range": "Self (10-foot emanation)",
+        "save": {
+          "ability": "wis"
+        },
+        "damage": "5d8",
+        "damageType": "force"
+      }
+    ]
+  },
+  {
+    "id": "srd24:spell:control-water",
+    "kind": "spell",
+    "name": "Control Water",
+    "source": "srd24",
+    "tags": [
+      "cleric-spell",
+      "druid-spell",
+      "wizard-spell",
+      "spell-level:4",
+      "spell-level-max:4",
+      "spell-level-max:5",
+      "spell-level-max:6",
+      "spell-level-max:7",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:transmutation"
+    ],
+    "spellLevel": 4,
+    "page": "XPHB 256",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "300 feet",
+    "components": "V, S, M (a mixture of water and dust)",
+    "duration": "Concentration, up to 10 minutes",
+    "concentration": true,
+    "text": "Until the spell ends, you control any water inside an area you choose that is a Cube up to 100 feet on a side, using one of the following effects. As a Magic action on your later turns, you can repeat the same effect or choose a different one.\n\n**Flood.** You cause the water level of all standing water in the area to rise by as much as 20 feet. If you choose an area in a large body of water, you instead create a 20-foot tall wave that travels from one side of the area to the other and then crashes. Any Huge or smaller vehicles in the wave's path are carried with it to the other side. Any Huge or smaller vehicles struck by the wave have a 25 percent chance of capsizing.\n\nThe water level remains elevated until the spell ends or you choose a different effect. If this effect produced a wave, the wave repeats on the start of your next turn while the flood effect lasts.\n\n**Part Water.** You part water in the area and create a trench. The trench extends across the spell's area, and the separated water forms a wall to either side. The trench remains until the spell ends or you choose a different effect. The water then slowly fills in the trench over the course of the next round until the normal water level is restored.\n\n**Redirect Flow.** You cause flowing water in the area to move in a direction you choose, even if the water has to flow over obstacles, up walls, or in other unlikely directions. The water in the area moves as you direct it, but once it moves beyond the spell's area, it resumes its flow based on the terrain. The water continues to move in the direction you chose until the spell ends or you choose a different effect.\n\n**Whirlpool.** You cause a whirlpool to form in the center of the area, which must be at least 50 feet square and 25 feet deep. The whirlpool lasts until you choose a different effect or the spell ends. The whirlpool is 5 feet wide at the base, up to 50 feet wide at the top, and 25 feet tall. Any creature in the water and within 25 feet of the whirlpool is pulled 10 feet toward it. When a creature enters the whirlpool for the first time on a turn or ends its turn there, it makes a Strength saving throw. On a failed save, the creature takes 2d8 Bludgeoning damage. On a successful save, the creature takes half as much damage. A creature can swim away from the whirlpool only if it first takes an action to pull away and succeeds on a Strength (Athletics) check against your spell save DC.",
+    "actions": [
+      {
+        "id": "cast",
+        "name": "Control Water",
+        "activation": "action",
+        "range": "300 feet",
+        "save": {
+          "ability": "str"
+        },
+        "damage": "2d8",
+        "damageType": "bludgeoning"
+      }
+    ]
+  },
+  {
+    "id": "srd24:spell:death-ward",
+    "kind": "spell",
+    "name": "Death Ward",
+    "source": "srd24",
+    "tags": [
+      "cleric-spell",
+      "paladin-spell",
+      "spell-level:4",
+      "spell-level-max:4",
+      "spell-level-max:5",
+      "spell-level-max:6",
+      "spell-level-max:7",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:abjuration"
+    ],
+    "spellLevel": 4,
+    "page": "XPHB 261",
+    "school": "abjuration",
+    "castingTime": "1 action",
+    "range": "Touch",
+    "components": "V, S",
+    "duration": "8 hours",
+    "text": "You touch a creature and grant it a measure of protection from death. The first time the target would drop to 0 Hit Points before the spell ends, the target instead drops to 1 Hit Point, and the spell ends.\n\nIf the spell is still in effect when the target is subjected to an effect that would kill it instantly without dealing damage, that effect is negated against the target, and the spell ends."
+  },
+  {
+    "id": "srd24:spell:dimension-door",
+    "kind": "spell",
+    "name": "Dimension Door",
+    "source": "srd24",
+    "tags": [
+      "bard-spell",
+      "sorcerer-spell",
+      "warlock-spell",
+      "wizard-spell",
+      "spell-level:4",
+      "spell-level-max:4",
+      "spell-level-max:5",
+      "spell-level-max:6",
+      "spell-level-max:7",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:conjuration"
+    ],
+    "spellLevel": 4,
+    "page": "XPHB 262",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "500 feet",
+    "components": "V",
+    "duration": "Instantaneous",
+    "text": "You teleport to a location within range. You arrive at exactly the spot desired. It can be a place you can see, one you can visualize, or one you can describe by stating distance and direction, such as \"200 feet straight downward\" or \"300 feet upward to the northwest at a 45-degree angle.\"\n\nYou can also teleport one willing creature. The creature must be within 5 feet of you when you teleport, and it teleports to a space within 5 feet of your destination space.\n\nIf you, the other creature, or both would arrive in a space occupied by a creature or completely filled by one or more objects, you and any creature traveling with you each take 4d6 Force damage, and the teleportation fails.",
+    "actions": [
+      {
+        "id": "cast",
+        "name": "Dimension Door",
+        "activation": "action",
+        "range": "500 feet",
+        "damage": "4d6",
+        "damageType": "force"
+      }
+    ]
+  },
+  {
+    "id": "srd24:spell:divination",
+    "kind": "spell",
+    "name": "Divination",
+    "source": "srd24",
+    "tags": [
+      "cleric-spell",
+      "druid-spell",
+      "wizard-spell",
+      "spell-level:4",
+      "spell-level-max:4",
+      "spell-level-max:5",
+      "spell-level-max:6",
+      "spell-level-max:7",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:divination",
+      "ritual"
+    ],
+    "spellLevel": 4,
+    "page": "XPHB 264",
+    "school": "divination",
+    "castingTime": "1 action",
+    "range": "Self",
+    "components": "V, S, M (incense worth 25+ GP, which the spell consumes)",
+    "duration": "Instantaneous",
+    "ritual": true,
+    "text": "This spell puts you in contact with a god or a god's servants. You ask one question about a specific goal, event, or activity to occur within 7 days. The DM offers a truthful reply, which might be a short phrase or cryptic rhyme. The spell doesn't account for circumstances that might change the answer, such as the casting of other spells.\n\nIf you cast the spell more than once before finishing a Long Rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer."
+  },
+  {
+    "id": "srd24:spell:dominate-beast",
+    "kind": "spell",
+    "name": "Dominate Beast",
+    "source": "srd24",
+    "tags": [
+      "druid-spell",
+      "ranger-spell",
+      "sorcerer-spell",
+      "spell-level:4",
+      "spell-level-max:4",
+      "spell-level-max:5",
+      "spell-level-max:6",
+      "spell-level-max:7",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:enchantment"
+    ],
+    "spellLevel": 4,
+    "page": "XPHB 265",
+    "school": "enchantment",
+    "castingTime": "1 action",
+    "range": "60 feet",
+    "components": "V, S",
+    "duration": "Concentration, up to 1 minute",
+    "concentration": true,
+    "text": "One Beast you can see within range must succeed on a Wisdom saving throw or have the Charmed condition for the duration. The target has Advantage on the save if you or your allies are fighting it. Whenever the target takes damage, it repeats the save, ending the spell on itself on a success.\n\nYou have a telepathic link with the Charmed target while the two of you are on the same plane of existence. On your turn, you can use this link to issue commands to the target (no action required), such as \"Attack that creature,\" \"Move over there,\" or \"Fetch that object.\" The target does its best to obey on its turn. If it completes an order and doesn't receive further direction from you, it acts and moves as it likes, focusing on protecting itself.\n\nYou can command the target to take a Reaction but must take your own Reaction to do so.",
+    "higherLevels": "Your Concentration can last longer with a spell slot of level 5 (up to 10 minutes), 6 (up to 1 hour), or 7+ (up to 8 hours).",
+    "actions": [
+      {
+        "id": "cast",
+        "name": "Dominate Beast",
+        "activation": "action",
+        "range": "60 feet",
+        "save": {
+          "ability": "wis"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:spell:fabricate",
+    "kind": "spell",
+    "name": "Fabricate",
+    "source": "srd24",
+    "tags": [
+      "wizard-spell",
+      "spell-level:4",
+      "spell-level-max:4",
+      "spell-level-max:5",
+      "spell-level-max:6",
+      "spell-level-max:7",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:transmutation"
+    ],
+    "spellLevel": 4,
+    "page": "XPHB 271",
+    "school": "transmutation",
+    "castingTime": "10 minutes",
+    "range": "120 feet",
+    "components": "V, S",
+    "duration": "Instantaneous",
+    "text": "You convert raw materials into products of the same material. For example, you can fabricate a wooden bridge from a clump of trees, a rope from a patch of hemp, or clothes from flax or wool.\n\nChoose raw materials that you can see within range. You can fabricate a Large or smaller object (contained within a 10-foot Cube or eight connected 5-foot Cubes) given a sufficient quantity of material. If you're working with metal, stone, or another mineral substance, however, the fabricated object can be no larger than Medium (contained within a 5-foot Cube). The quality of any fabricated objects is based on the quality of the raw materials.\n\nCreatures and magic items can't be created by this spell. You also can't use it to create items that require a high degree of skill—such as weapons and armor—unless you have proficiency with the type of Artisan's Tools used to craft such objects."
+  },
+  {
+    "id": "srd24:spell:faithful-hound",
+    "kind": "spell",
+    "name": "Faithful Hound",
+    "source": "srd24",
+    "tags": [
+      "wizard-spell",
+      "spell-level:4",
+      "spell-level-max:4",
+      "spell-level-max:5",
+      "spell-level-max:6",
+      "spell-level-max:7",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:conjuration"
+    ],
+    "spellLevel": 4,
+    "page": "XPHB 300",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "30 feet",
+    "components": "V, S, M (a silver whistle)",
+    "duration": "8 hours",
+    "text": "You conjure a phantom watchdog in an unoccupied space that you can see within range. The hound remains for the duration or until the two of you are more than 300 feet apart from each other.\n\nNo one but you can see the hound, and it is intangible and invulnerable. When a Small or larger creature comes within 30 feet of it without first speaking the password that you specify when you cast this spell, the hound starts barking loudly. The hound has Truesight with a range of 30 feet.\n\nAt the start of each of your turns, the hound attempts to bite one enemy within 5 feet of it. That enemy must succeed on a Dexterity saving throw or take 4d8 Force damage.\n\nOn your later turns, you can take a Magic action to move the hound up to 30 feet.",
+    "actions": [
+      {
+        "id": "cast",
+        "name": "Faithful Hound",
+        "activation": "action",
+        "range": "30 feet",
+        "save": {
+          "ability": "dex"
+        },
+        "damage": "4d8",
+        "damageType": "force"
+      }
+    ]
+  },
+  {
+    "id": "srd24:spell:fire-shield",
+    "kind": "spell",
+    "name": "Fire Shield",
+    "source": "srd24",
+    "tags": [
+      "druid-spell",
+      "sorcerer-spell",
+      "wizard-spell",
+      "spell-level:4",
+      "spell-level-max:4",
+      "spell-level-max:5",
+      "spell-level-max:6",
+      "spell-level-max:7",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:evocation"
+    ],
+    "spellLevel": 4,
+    "page": "XPHB 274",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "Self",
+    "components": "V, S, M (a bit of phosphorus or a firefly)",
+    "duration": "10 minutes",
+    "text": "Wispy flames wreathe your body for the duration, shedding Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.\n\nThe flames provide you with a warm shield or a chill shield, as you choose. The warm shield grants you Resistance to Cold damage, and the chill shield grants you Resistance to Fire damage.\n\nIn addition, whenever a creature within 5 feet of you hits you with a melee attack roll, the shield erupts with flame. The attacker takes 2d8 Fire damage from a warm shield or 2d8 Cold damage from a chill shield.",
+    "actions": [
+      {
+        "id": "cast-fire",
+        "name": "Fire Shield (fire)",
+        "activation": "action",
+        "range": "Self",
+        "damage": "2d8",
+        "damageType": "fire"
+      },
+      {
+        "id": "cast-cold",
+        "name": "Fire Shield (cold)",
+        "activation": "action",
+        "range": "Self",
+        "damage": "2d8",
+        "damageType": "cold"
+      }
+    ]
+  },
+  {
+    "id": "srd24:spell:freedom-of-movement",
+    "kind": "spell",
+    "name": "Freedom of Movement",
+    "source": "srd24",
+    "tags": [
+      "bard-spell",
+      "cleric-spell",
+      "druid-spell",
+      "ranger-spell",
+      "spell-level:4",
+      "spell-level-max:4",
+      "spell-level-max:5",
+      "spell-level-max:6",
+      "spell-level-max:7",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:abjuration"
+    ],
+    "spellLevel": 4,
+    "page": "XPHB 277",
+    "school": "abjuration",
+    "castingTime": "1 action",
+    "range": "Touch",
+    "components": "V, S, M (a leather strap)",
+    "duration": "1 hour",
+    "text": "You touch a willing creature. For the duration, the target's movement is unaffected by Difficult Terrain, and spells and other magical effects can neither reduce the target's Speed nor cause the target to have the Paralyzed or Restrained conditions. The target also has a Swim Speed equal to its Speed.\n\nIn addition, the target can spend 5 feet of movement to automatically escape from nonmagical restraints, such as manacles or a creature imposing the Grappled condition on it.",
+    "higherLevels": "You can target one additional creature for each spell slot level above 4."
+  },
+  {
+    "id": "srd24:spell:giant-insect",
+    "kind": "spell",
+    "name": "Giant Insect",
+    "source": "srd24",
+    "tags": [
+      "druid-spell",
+      "spell-level:4",
+      "spell-level-max:4",
+      "spell-level-max:5",
+      "spell-level-max:6",
+      "spell-level-max:7",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:conjuration"
+    ],
+    "spellLevel": 4,
+    "page": "XPHB 279",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "60 feet",
+    "components": "V, S",
+    "duration": "Concentration, up to 10 minutes",
+    "concentration": true,
+    "text": "You summon a giant centipede, spider, or wasp (chosen when you cast the spell). It manifests in an unoccupied space you can see within range and uses the Giant Insect stat block. The form you choose determines certain details in its stat block. The creature disappears when it drops to 0 Hit Points or when the spell ends.\n\nThe creature is an ally to you and your allies. In combat, the creature shares your Initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the Dodge action and uses its movement to avoid danger.",
+    "higherLevels": "Use the spell slot's level for the spell's level in the stat block."
+  },
+  {
+    "id": "srd24:spell:greater-invisibility",
+    "kind": "spell",
+    "name": "Greater Invisibility",
+    "source": "srd24",
+    "tags": [
+      "bard-spell",
+      "sorcerer-spell",
+      "wizard-spell",
+      "spell-level:4",
+      "spell-level-max:4",
+      "spell-level-max:5",
+      "spell-level-max:6",
+      "spell-level-max:7",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:illusion"
+    ],
+    "spellLevel": 4,
+    "page": "XPHB 281",
+    "school": "illusion",
+    "castingTime": "1 action",
+    "range": "Touch",
+    "components": "V, S",
+    "duration": "Concentration, up to 1 minute",
+    "concentration": true,
+    "text": "A creature you touch has the Invisible condition until the spell ends."
+  },
+  {
+    "id": "srd24:spell:guardian-of-faith",
+    "kind": "spell",
+    "name": "Guardian of Faith",
+    "source": "srd24",
+    "tags": [
+      "cleric-spell",
+      "spell-level:4",
+      "spell-level-max:4",
+      "spell-level-max:5",
+      "spell-level-max:6",
+      "spell-level-max:7",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:conjuration"
+    ],
+    "spellLevel": 4,
+    "page": "XPHB 281",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "30 feet",
+    "components": "V",
+    "duration": "8 hours",
+    "text": "A Large spectral guardian appears and hovers for the duration in an unoccupied space that you can see within range. The guardian occupies that space and is invulnerable, and it appears in a form appropriate for your deity or pantheon.\n\nAny enemy that moves to a space within 10 feet of the guardian for the first time on a turn or starts its turn there makes a Dexterity saving throw, taking 20 Radiant damage on a failed save or half as much damage on a successful one. The guardian vanishes when it has dealt a total of 60 damage.",
+    "actions": [
+      {
+        "id": "cast",
+        "name": "Guardian of Faith",
+        "activation": "action",
+        "range": "30 feet",
+        "save": {
+          "ability": "dex"
+        },
+        "damage": "20",
+        "damageType": "radiant"
+      }
+    ]
+  },
+  {
+    "id": "srd24:spell:hallucinatory-terrain",
+    "kind": "spell",
+    "name": "Hallucinatory Terrain",
+    "source": "srd24",
+    "tags": [
+      "bard-spell",
+      "druid-spell",
+      "warlock-spell",
+      "wizard-spell",
+      "spell-level:4",
+      "spell-level-max:4",
+      "spell-level-max:5",
+      "spell-level-max:6",
+      "spell-level-max:7",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:illusion"
+    ],
+    "spellLevel": 4,
+    "page": "XPHB 283",
+    "school": "illusion",
+    "castingTime": "10 minutes",
+    "range": "300 feet",
+    "components": "V, S, M (a mushroom)",
+    "duration": "24 hours",
+    "text": "You make natural terrain in a 150-foot Cube in range look, sound, and smell like another sort of natural terrain. Thus, open fields or a road can be made to resemble a swamp, hill, crevasse, or some other difficult or impassable terrain. A pond can be made to seem like a grassy meadow, a precipice like a gentle slope, or a rock-strewn gully like a wide and smooth road. Manufactured structures, equipment, and creatures within the area aren't changed.\n\nThe tactile characteristics of the terrain are unchanged, so creatures entering the area are likely to notice the illusion. If the difference isn't obvious by touch, a creature examining the illusion can take the Study action to make an Intelligence (Investigation) check against your spell save DC to disbelieve it. If a creature discerns that the terrain is illusory, the creature sees a vague image superimposed on the real terrain."
+  },
+  {
+    "id": "srd24:spell:ice-storm",
+    "kind": "spell",
+    "name": "Ice Storm",
+    "source": "srd24",
+    "tags": [
+      "druid-spell",
+      "sorcerer-spell",
+      "wizard-spell",
+      "spell-level:4",
+      "spell-level-max:4",
+      "spell-level-max:5",
+      "spell-level-max:6",
+      "spell-level-max:7",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:evocation"
+    ],
+    "spellLevel": 4,
+    "page": "XPHB 287",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "300 feet",
+    "components": "V, S, M (a mitten)",
+    "duration": "Instantaneous",
+    "text": "Hail falls in a 20-foot-radius, 40-foot-high Cylinder centered on a point within range. Each creature in the Cylinder makes a Dexterity saving throw. A creature takes 2d10 Bludgeoning damage and 4d6 Cold damage on a failed save or half as much damage on a successful one.\n\nHailstones turn ground in the Cylinder into Difficult Terrain until the end of your next turn.",
+    "higherLevels": "The Bludgeoning damage increases by 1d10 for each spell slot level above 4.",
+    "actions": [
+      {
+        "id": "cast-bludgeoning",
+        "name": "Ice Storm (bludgeoning)",
+        "activation": "action",
+        "range": "300 feet",
+        "save": {
+          "ability": "dex"
+        },
+        "damage": "2d10",
+        "damageType": "bludgeoning"
+      },
+      {
+        "id": "cast-cold",
+        "name": "Ice Storm (cold)",
+        "activation": "action",
+        "range": "300 feet",
+        "save": {
+          "ability": "dex"
+        },
+        "damage": "4d6",
+        "damageType": "cold"
+      }
+    ]
+  },
+  {
+    "id": "srd24:spell:locate-creature",
+    "kind": "spell",
+    "name": "Locate Creature",
+    "source": "srd24",
+    "tags": [
+      "bard-spell",
+      "cleric-spell",
+      "druid-spell",
+      "paladin-spell",
+      "ranger-spell",
+      "wizard-spell",
+      "spell-level:4",
+      "spell-level-max:4",
+      "spell-level-max:5",
+      "spell-level-max:6",
+      "spell-level-max:7",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:divination"
+    ],
+    "spellLevel": 4,
+    "page": "XPHB 292",
+    "school": "divination",
+    "castingTime": "1 action",
+    "range": "Self",
+    "components": "V, S, M (fur from a bloodhound)",
+    "duration": "Concentration, up to 1 hour",
+    "concentration": true,
+    "text": "Describe or name a creature that is familiar to you. You sense the direction to the creature's location if that creature is within 1,000 feet of you. If the creature is moving, you know the direction of its movement.\n\nThe spell can locate a specific creature known to you or the nearest creature of a specific kind (such as a human or a unicorn) if you have seen such a creature up close—within 30 feet—at least once. If the creature you described or named is in a different form, such as under the effects of a Flesh to Stone or Polymorph spell, this spell doesn't locate the creature.\n\nThis spell can't locate a creature if any thickness of lead blocks a direct path between you and the creature."
+  },
+  {
+    "id": "srd24:spell:phantasmal-killer",
+    "kind": "spell",
+    "name": "Phantasmal Killer",
+    "source": "srd24",
+    "tags": [
+      "bard-spell",
+      "wizard-spell",
+      "spell-level:4",
+      "spell-level-max:4",
+      "spell-level-max:5",
+      "spell-level-max:6",
+      "spell-level-max:7",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:illusion"
+    ],
+    "spellLevel": 4,
+    "page": "XPHB 304",
+    "school": "illusion",
+    "castingTime": "1 action",
+    "range": "120 feet",
+    "components": "V, S",
+    "duration": "Concentration, up to 1 minute",
+    "concentration": true,
+    "text": "You tap into the nightmares of a creature you can see within range and create an illusion of its deepest fears, visible only to that creature. The target makes a Wisdom saving throw. On a failed save, the target takes 4d10 Psychic damage and has Disadvantage on ability checks and attack rolls for the duration. On a successful save, the target takes half as much damage, and the spell ends.\n\nFor the duration, the target makes a Wisdom saving throw at the end of each of its turns. On a failed save, it takes the Psychic damage again. On a successful save, the spell ends.",
+    "higherLevels": "The damage increases by 1d10 for each spell slot level above 4.",
+    "actions": [
+      {
+        "id": "cast",
+        "name": "Phantasmal Killer",
+        "activation": "action",
+        "range": "120 feet",
+        "save": {
+          "ability": "wis"
+        },
+        "damage": "4d10",
+        "damageType": "psychic"
+      }
+    ]
+  },
+  {
+    "id": "srd24:spell:polymorph",
+    "kind": "spell",
+    "name": "Polymorph",
+    "source": "srd24",
+    "tags": [
+      "bard-spell",
+      "druid-spell",
+      "sorcerer-spell",
+      "wizard-spell",
+      "spell-level:4",
+      "spell-level-max:4",
+      "spell-level-max:5",
+      "spell-level-max:6",
+      "spell-level-max:7",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:transmutation"
+    ],
+    "spellLevel": 4,
+    "page": "XPHB 306",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "60 feet",
+    "components": "V, S, M (a caterpillar cocoon)",
+    "duration": "Concentration, up to 1 hour",
+    "concentration": true,
+    "text": "You attempt to transform a creature that you can see within range into a Beast. The target must succeed on a Wisdom saving throw or shape-shift into Beast form for the duration. That form can be any Beast you choose that has a Challenge Rating equal to or less than the target's (or the target's level if it doesn't have a Challenge Rating). The target's game statistics are replaced by the stat block of the chosen Beast, but the target retains its alignment, personality, creature type, Hit Points, and Hit Point Dice.\n\nThe target gains a number of Temporary Hit Points equal to the Hit Points of the Beast form. These Temporary Hit Points vanish if any remain when the spell ends. The spell ends early on the target if it has no Temporary Hit Points left.\n\nThe target is limited in the actions it can perform by the anatomy of its new form, and it can't speak or cast spells.\n\nThe target's gear melds into the new form. The creature can't use or otherwise benefit from any of that equipment.",
+    "actions": [
+      {
+        "id": "cast",
+        "name": "Polymorph",
+        "activation": "action",
+        "range": "60 feet",
+        "save": {
+          "ability": "wis"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:spell:private-sanctum",
+    "kind": "spell",
+    "name": "Private Sanctum",
+    "source": "srd24",
+    "tags": [
+      "wizard-spell",
+      "spell-level:4",
+      "spell-level-max:4",
+      "spell-level-max:5",
+      "spell-level-max:6",
+      "spell-level-max:7",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:abjuration"
+    ],
+    "spellLevel": 4,
+    "page": "XPHB 301",
+    "school": "abjuration",
+    "castingTime": "10 minutes",
+    "range": "120 feet",
+    "components": "V, S, M (a thin sheet of lead)",
+    "duration": "24 hours",
+    "text": "You make an area within range magically secure. The area is a Cube that can be as small as 5 feet to as large as 100 feet on each side. The spell lasts for the duration.\n\nWhen you cast the spell, you decide what sort of security the spell provides, choosing any of the following properties:\n\n- Sound can't pass through the barrier at the edge of the warded area.\n- The barrier of the warded area appears dark and foggy, preventing vision (including Darkvision) through it.\n- Sensors created by Divination spells can't appear inside the protected area or pass through the barrier at its perimeter.\n- Creatures in the area can't be targeted by Divination spells.\n- Nothing can teleport into or out of the warded area.\n- Planar travel is blocked within the warded area.\n\nCasting this spell on the same spot every day for 365 days makes the spell last until dispelled.",
+    "higherLevels": "You can increase the size of the Cube by 100 feet for each spell slot level above 4."
+  },
+  {
+    "id": "srd24:spell:resilient-sphere",
+    "kind": "spell",
+    "name": "Resilient Sphere",
+    "source": "srd24",
+    "tags": [
+      "wizard-spell",
+      "spell-level:4",
+      "spell-level-max:4",
+      "spell-level-max:5",
+      "spell-level-max:6",
+      "spell-level-max:7",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:abjuration"
+    ],
+    "spellLevel": 4,
+    "page": "XPHB 303",
+    "school": "abjuration",
+    "castingTime": "1 action",
+    "range": "30 feet",
+    "components": "V, S, M (a glass sphere)",
+    "duration": "Concentration, up to 1 minute",
+    "concentration": true,
+    "text": "A shimmering sphere encloses a Large or smaller creature or object within range. An unwilling creature must succeed on a Dexterity saving throw or be enclosed for the duration.\n\nNothing—not physical objects, energy, or other spell effects—can pass through the barrier, in or out, though a creature in the sphere can breathe there. The sphere is immune to all damage, and a creature or object inside can't be damaged by attacks or effects originating from outside, nor can a creature inside the sphere damage anything outside it.\n\nThe sphere is weightless and just large enough to contain the creature or object inside. An enclosed creature can take an action to push against the sphere's walls and thus roll the sphere at up to half the creature's Speed. Similarly, the globe can be picked up and moved by other creatures.\n\nA Disintegrate spell targeting the globe destroys it without harming anything inside.",
+    "actions": [
+      {
+        "id": "cast",
+        "name": "Resilient Sphere",
+        "activation": "action",
+        "range": "30 feet",
+        "save": {
+          "ability": "dex"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:spell:secret-chest",
+    "kind": "spell",
+    "name": "Secret Chest",
+    "source": "srd24",
+    "tags": [
+      "wizard-spell",
+      "spell-level:4",
+      "spell-level-max:4",
+      "spell-level-max:5",
+      "spell-level-max:6",
+      "spell-level-max:7",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:conjuration"
+    ],
+    "spellLevel": 4,
+    "page": "XPHB 290",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "Touch",
+    "components": "V, S, M (a chest, 3 feet by 2 feet by 2 feet, constructed from rare materials worth 5,000+ GP, and a Tiny replica of the chest made from the same materials worth 50+ GP)",
+    "duration": "Until dispelled",
+    "text": "You hide a chest and all its contents on the Ethereal Plane. You must touch the chest and the miniature replica that serve as Material components for the spell. The chest can contain up to 12 cubic feet of nonliving material (3 feet by 2 feet by 2 feet).\n\nWhile the chest remains on the Ethereal Plane, you can take a Magic action and touch the replica to recall the chest. It appears in an unoccupied space on the ground within 5 feet of you. You can send the chest back to the Ethereal Plane by taking a Magic action to touch the chest and the replica.\n\nAfter 60 days, there is a cumulative 5 percent chance at the end of each day that the spell ends. The spell also ends if you cast this spell again or if the Tiny replica chest is destroyed. If the spell ends and the larger chest is on the Ethereal Plane, the chest remains there for you or someone else to find."
+  },
+  {
+    "id": "srd24:spell:stone-shape",
+    "kind": "spell",
+    "name": "Stone Shape",
+    "source": "srd24",
+    "tags": [
+      "cleric-spell",
+      "druid-spell",
+      "wizard-spell",
+      "spell-level:4",
+      "spell-level-max:4",
+      "spell-level-max:5",
+      "spell-level-max:6",
+      "spell-level-max:7",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:transmutation"
+    ],
+    "spellLevel": 4,
+    "page": "XPHB 321",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "Touch",
+    "components": "V, S, M (soft clay)",
+    "duration": "Instantaneous",
+    "text": "You touch a stone object of Medium size or smaller or a section of stone no more than 5 feet in any dimension and form it into any shape you like. For example, you could shape a large rock into a weapon, statue, or coffer, or you could make a small passage through a wall that is 5 feet thick. You could also shape a stone door or its frame to seal the door shut. The object you create can have up to two hinges and a latch, but finer mechanical detail isn't possible."
+  },
+  {
+    "id": "srd24:spell:stoneskin",
+    "kind": "spell",
+    "name": "Stoneskin",
+    "source": "srd24",
+    "tags": [
+      "druid-spell",
+      "ranger-spell",
+      "sorcerer-spell",
+      "wizard-spell",
+      "spell-level:4",
+      "spell-level-max:4",
+      "spell-level-max:5",
+      "spell-level-max:6",
+      "spell-level-max:7",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:transmutation"
+    ],
+    "spellLevel": 4,
+    "page": "XPHB 321",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "Touch",
+    "components": "V, S, M (diamond dust worth 100+ GP, which the spell consumes)",
+    "duration": "Concentration, up to 1 hour",
+    "concentration": true,
+    "text": "Until the spell ends, one willing creature you touch has Resistance to Bludgeoning, Piercing, and Slashing damage."
+  },
+  {
+    "id": "srd24:spell:vitriolic-sphere",
+    "kind": "spell",
+    "name": "Vitriolic Sphere",
+    "source": "srd24",
+    "tags": [
+      "sorcerer-spell",
+      "wizard-spell",
+      "spell-level:4",
+      "spell-level-max:4",
+      "spell-level-max:5",
+      "spell-level-max:6",
+      "spell-level-max:7",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:evocation"
+    ],
+    "spellLevel": 4,
+    "page": "XPHB 337",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "150 feet",
+    "components": "V, S, M (a drop of bile)",
+    "duration": "Instantaneous",
+    "text": "You point at a location within range, and a glowing, 1-foot-diameter ball of acid streaks there and explodes in a 20-foot-radius Sphere. Each creature in that area makes a Dexterity saving throw. On a failed save, a creature takes 10d4 Acid damage and another 5d4 Acid damage at the end of its next turn. On a successful save, a creature takes half the initial damage only.",
+    "higherLevels": "The initial damage increases by 2d4 for each spell slot level above 4.",
+    "actions": [
+      {
+        "id": "cast-acid",
+        "name": "Vitriolic Sphere (acid, 10d4)",
+        "activation": "action",
+        "range": "150 feet",
+        "save": {
+          "ability": "dex"
+        },
+        "damage": "10d4",
+        "damageType": "acid"
+      },
+      {
+        "id": "cast-acid-5d4",
+        "name": "Vitriolic Sphere (acid, 5d4)",
+        "activation": "action",
+        "range": "150 feet",
+        "save": {
+          "ability": "dex"
+        },
+        "damage": "5d4",
+        "damageType": "acid"
+      }
+    ]
+  },
+  {
+    "id": "srd24:spell:wall-of-fire",
+    "kind": "spell",
+    "name": "Wall of Fire",
+    "source": "srd24",
+    "tags": [
+      "druid-spell",
+      "sorcerer-spell",
+      "wizard-spell",
+      "spell-level:4",
+      "spell-level-max:4",
+      "spell-level-max:5",
+      "spell-level-max:6",
+      "spell-level-max:7",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:evocation"
+    ],
+    "spellLevel": 4,
+    "page": "XPHB 338",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "120 feet",
+    "components": "V, S, M (a piece of charcoal)",
+    "duration": "Concentration, up to 1 minute",
+    "concentration": true,
+    "text": "You create a wall of fire on a solid surface within range. You can make the wall up to 60 feet long, 20 feet high, and 1 foot thick, or a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall is opaque and lasts for the duration.\n\nWhen the wall appears, each creature in its area makes a Dexterity saving throw, taking 5d8 Fire damage on a failed save or half as much damage on a successful one.\n\nOne side of the wall, selected by you when you cast this spell, deals 5d8 Fire damage to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals no damage.",
+    "higherLevels": "The damage increases by 1d8 for each spell slot level above 4.",
+    "actions": [
+      {
+        "id": "cast",
+        "name": "Wall of Fire",
+        "activation": "action",
+        "range": "120 feet",
+        "save": {
+          "ability": "dex"
+        },
+        "damage": "5d8",
+        "damageType": "fire"
+      }
+    ]
+  }
+]

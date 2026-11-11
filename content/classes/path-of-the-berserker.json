@@ -1,0 +1,163 @@
+[
+  {
+    "id": "srd24:subclass:path-of-the-berserker",
+    "kind": "subclass",
+    "name": "Path of the Berserker",
+    "source": "srd24",
+    "page": "XPHB 54",
+    "class": "srd24:class:barbarian",
+    "tags": [
+      "barbarian-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "3": {
+        "grants": [
+          "srd24:berserker:path-of-the-berserker"
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd24:berserker:mindless-rage"
+        ]
+      },
+      "10": {
+        "grants": [
+          "srd24:berserker:retaliation"
+        ]
+      },
+      "14": {
+        "grants": [
+          "srd24:berserker:intimidating-presence"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd24:berserker:frenzy",
+    "kind": "subclass-feature",
+    "name": "Frenzy",
+    "source": "srd24",
+    "page": "XPHB 54",
+    "tags": [
+      "berserker-feature",
+      "barbarian-feature"
+    ],
+    "text": "If you use Reckless Attack while your Rage is active, you deal extra damage to the first target you hit on your turn with a Strength-based attack. To determine the extra damage, roll a number of d6s equal to your Rage Damage bonus, and add them together. The damage has the same type as the weapon or Unarmed Strike used for the attack."
+  },
+  {
+    "id": "srd24:berserker:path-of-the-berserker",
+    "kind": "subclass-feature",
+    "name": "Path of the Berserker",
+    "source": "srd24",
+    "page": "XPHB 54",
+    "tags": [
+      "berserker-feature",
+      "barbarian-feature"
+    ],
+    "text": "*Channel Rage into Violent Fury*\n\nBarbarians who walk the Path of the Berserker direct their Rage primarily toward violence. Their path is one of untrammeled fury, and they thrill in the chaos of battle as they allow their Rage to seize and empower them.",
+    "grants": [
+      "srd24:berserker:frenzy"
+    ]
+  },
+  {
+    "id": "srd24:berserker:mindless-rage",
+    "kind": "subclass-feature",
+    "name": "Mindless Rage",
+    "source": "srd24",
+    "page": "XPHB 54",
+    "tags": [
+      "berserker-feature",
+      "barbarian-feature"
+    ],
+    "text": "You have Immunity to the Charmed and Frightened conditions while your Rage is active. If you're Charmed or Frightened when you enter your Rage, the condition ends on you.",
+    "modifiers": [
+      {
+        "target": "conditionImmunities",
+        "op": "include",
+        "value": [
+          "charmed",
+          "frightened"
+        ],
+        "when": {
+          "text": "while your Rage is active",
+          "context": "while-your-rage-is-active"
+        },
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:berserker:retaliation",
+    "kind": "subclass-feature",
+    "name": "Retaliation",
+    "source": "srd24",
+    "page": "XPHB 54",
+    "tags": [
+      "berserker-feature",
+      "barbarian-feature"
+    ],
+    "text": "When you take damage from a creature that is within 5 feet of you, you can take a Reaction to make one melee attack against that creature, using a weapon or an Unarmed Strike.",
+    "actions": [
+      {
+        "id": "retaliation",
+        "name": "Retaliation",
+        "activation": "reaction",
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:berserker:intimidating-presence",
+    "kind": "subclass-feature",
+    "name": "Intimidating Presence",
+    "source": "srd24",
+    "page": "XPHB 54",
+    "tags": [
+      "berserker-feature",
+      "barbarian-feature"
+    ],
+    "text": "As a Bonus Action, you can strike terror into others with your menacing presence and primal power. When you do so, each creature of your choice in a 30-foot Emanation originating from you must make a Wisdom saving throw (DC 8 plus your Strength modifier and Proficiency Bonus). On a failed save, a creature has the Frightened condition for 1 minute. At the end of each of the Frightened creature's turns, the creature repeats the save, ending the effect on itself on a success.\n\nOnce you use this feature, you can't use it again until you finish a Long Rest unless you expend a use of your Rage (no action required) to restore your use of it.",
+    "resources": [
+      {
+        "id": "srd24:berserker:intimidating-presence",
+        "name": "Intimidating Presence",
+        "max": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "intimidating-presence",
+        "name": "Intimidating Presence",
+        "activation": "bonus-action",
+        "cost": {
+          "srd24:berserker:intimidating-presence": 1
+        },
+        "save": {
+          "ability": "wis",
+          "dc": "8 + @abilities.str.mod + @prof"
+        },
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ]
+  }
+]

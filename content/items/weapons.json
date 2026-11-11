@@ -1,0 +1,1087 @@
+[
+  {
+    "id": "srd24:item:arrow",
+    "kind": "item",
+    "name": "Arrow",
+    "source": "srd24",
+    "tags": [
+      "ammunition"
+    ],
+    "page": "XPHB 222",
+    "itemType": "ammunition",
+    "weight": 0.05,
+    "value": 5,
+    "text": "Arrows are used with a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.\n\nArrows are typically stored in a Quiver (bought separately)."
+  },
+  {
+    "id": "srd24:item:arrows-20",
+    "kind": "item",
+    "name": "Arrows (20)",
+    "source": "srd24",
+    "tags": [
+      "ammunition",
+      "bundle"
+    ],
+    "page": "XPHB 222",
+    "itemType": "ammunition",
+    "weight": 1,
+    "value": 100,
+    "text": "Arrows are used with a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.\n\nArrows are typically stored in a Quiver (bought separately)."
+  },
+  {
+    "id": "srd24:item:battleaxe",
+    "kind": "item",
+    "name": "Battleaxe",
+    "source": "srd24",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "martial-weapon"
+    ],
+    "page": "XPHB 215",
+    "itemType": "weapon",
+    "weight": 4,
+    "value": 1000,
+    "weapon": {
+      "damage": "1d8",
+      "damageType": "slashing",
+      "category": "martial-melee",
+      "properties": [
+        "versatile (1d10)"
+      ]
+    }
+  },
+  {
+    "id": "srd24:item:blowgun",
+    "kind": "item",
+    "name": "Blowgun",
+    "source": "srd24",
+    "tags": [
+      "weapon",
+      "ranged-weapon",
+      "martial-weapon"
+    ],
+    "page": "XPHB 215",
+    "itemType": "weapon",
+    "weight": 1,
+    "value": 1000,
+    "weapon": {
+      "damage": "1",
+      "damageType": "piercing",
+      "category": "martial-ranged",
+      "properties": [
+        "ammunition (range 25/100)",
+        "loading"
+      ],
+      "range": "25/100 ft."
+    },
+    "text": "**Range.** A Range weapon has a range in parentheses after the Ammunition or Thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second is the weapon's long range. When attacking a target beyond normal range, you have Disadvantage on the attack roll. You can't attack a target beyond the long range."
+  },
+  {
+    "id": "srd24:item:bolt",
+    "kind": "item",
+    "name": "Bolt",
+    "source": "srd24",
+    "tags": [
+      "ammunition"
+    ],
+    "page": "XPHB 222",
+    "itemType": "ammunition",
+    "weight": 0.075,
+    "value": 5,
+    "text": "Crossbow bolts are used with a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.\n\nBolts are typically stored in a Crossbow Bolt Case (bought separately)."
+  },
+  {
+    "id": "srd24:item:bolts-20",
+    "kind": "item",
+    "name": "Bolts (20)",
+    "source": "srd24",
+    "tags": [
+      "ammunition",
+      "bundle"
+    ],
+    "page": "XPHB 222",
+    "itemType": "ammunition",
+    "weight": 1.5,
+    "value": 100,
+    "text": "Crossbow bolts are used with a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.\n\nBolts are typically stored in a Crossbow Bolt Case (bought separately)."
+  },
+  {
+    "id": "srd24:item:club",
+    "kind": "item",
+    "name": "Club",
+    "source": "srd24",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "simple-weapon",
+      "light"
+    ],
+    "page": "XPHB 215",
+    "itemType": "weapon",
+    "weight": 2,
+    "value": 10,
+    "weapon": {
+      "damage": "1d4",
+      "damageType": "bludgeoning",
+      "category": "simple-melee",
+      "properties": [
+        "light"
+      ]
+    }
+  },
+  {
+    "id": "srd24:item:dagger",
+    "kind": "item",
+    "name": "Dagger",
+    "source": "srd24",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "simple-weapon",
+      "finesse",
+      "light"
+    ],
+    "page": "XPHB 215",
+    "itemType": "weapon",
+    "weight": 1,
+    "value": 200,
+    "weapon": {
+      "damage": "1d4",
+      "damageType": "piercing",
+      "category": "simple-melee",
+      "properties": [
+        "finesse",
+        "light",
+        "thrown (range 20/60)"
+      ],
+      "range": "20/60 ft."
+    }
+  },
+  {
+    "id": "srd24:item:dart",
+    "kind": "item",
+    "name": "Dart",
+    "source": "srd24",
+    "tags": [
+      "weapon",
+      "ranged-weapon",
+      "simple-weapon",
+      "finesse"
+    ],
+    "page": "XPHB 215",
+    "itemType": "weapon",
+    "weight": 0.25,
+    "value": 5,
+    "weapon": {
+      "damage": "1d4",
+      "damageType": "piercing",
+      "category": "simple-ranged",
+      "properties": [
+        "finesse",
+        "thrown (range 20/60)"
+      ],
+      "range": "20/60 ft."
+    },
+    "text": "**Range.** A Range weapon has a range in parentheses after the Ammunition or Thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second is the weapon's long range. When attacking a target beyond normal range, you have Disadvantage on the attack roll. You can't attack a target beyond the long range."
+  },
+  {
+    "id": "srd24:item:firearm-bullet",
+    "kind": "item",
+    "name": "Firearm Bullet",
+    "source": "srd24",
+    "tags": [
+      "ammunition"
+    ],
+    "page": "XPHB 222",
+    "itemType": "ammunition",
+    "weight": 0.2,
+    "value": 30,
+    "text": "Firearm Bullets are destroyed upon use in a modern firearm."
+  },
+  {
+    "id": "srd24:item:firearm-bullets-10",
+    "kind": "item",
+    "name": "Firearm Bullets (10)",
+    "source": "srd24",
+    "tags": [
+      "ammunition",
+      "bundle"
+    ],
+    "page": "XPHB 222",
+    "itemType": "ammunition",
+    "weight": 2,
+    "value": 300,
+    "text": "Firearm Bullets are destroyed upon use in a modern firearm."
+  },
+  {
+    "id": "srd24:item:flail",
+    "kind": "item",
+    "name": "Flail",
+    "source": "srd24",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "martial-weapon"
+    ],
+    "page": "XPHB 215",
+    "itemType": "weapon",
+    "weight": 2,
+    "value": 1000,
+    "weapon": {
+      "damage": "1d8",
+      "damageType": "bludgeoning",
+      "category": "martial-melee"
+    }
+  },
+  {
+    "id": "srd24:item:glaive",
+    "kind": "item",
+    "name": "Glaive",
+    "source": "srd24",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "martial-weapon"
+    ],
+    "page": "XPHB 215",
+    "itemType": "weapon",
+    "weight": 6,
+    "value": 2000,
+    "weapon": {
+      "damage": "1d10",
+      "damageType": "slashing",
+      "category": "martial-melee",
+      "properties": [
+        "heavy",
+        "reach",
+        "two-handed"
+      ]
+    }
+  },
+  {
+    "id": "srd24:item:greataxe",
+    "kind": "item",
+    "name": "Greataxe",
+    "source": "srd24",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "martial-weapon"
+    ],
+    "page": "XPHB 215",
+    "itemType": "weapon",
+    "weight": 7,
+    "value": 3000,
+    "weapon": {
+      "damage": "1d12",
+      "damageType": "slashing",
+      "category": "martial-melee",
+      "properties": [
+        "heavy",
+        "two-handed"
+      ]
+    }
+  },
+  {
+    "id": "srd24:item:greatclub",
+    "kind": "item",
+    "name": "Greatclub",
+    "source": "srd24",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "simple-weapon"
+    ],
+    "page": "XPHB 215",
+    "itemType": "weapon",
+    "weight": 10,
+    "value": 20,
+    "weapon": {
+      "damage": "1d8",
+      "damageType": "bludgeoning",
+      "category": "simple-melee",
+      "properties": [
+        "two-handed"
+      ]
+    }
+  },
+  {
+    "id": "srd24:item:greatsword",
+    "kind": "item",
+    "name": "Greatsword",
+    "source": "srd24",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "martial-weapon"
+    ],
+    "page": "XPHB 215",
+    "itemType": "weapon",
+    "weight": 6,
+    "value": 5000,
+    "weapon": {
+      "damage": "2d6",
+      "damageType": "slashing",
+      "category": "martial-melee",
+      "properties": [
+        "heavy",
+        "two-handed"
+      ]
+    }
+  },
+  {
+    "id": "srd24:item:halberd",
+    "kind": "item",
+    "name": "Halberd",
+    "source": "srd24",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "martial-weapon"
+    ],
+    "page": "XPHB 215",
+    "itemType": "weapon",
+    "weight": 6,
+    "value": 2000,
+    "weapon": {
+      "damage": "1d10",
+      "damageType": "slashing",
+      "category": "martial-melee",
+      "properties": [
+        "heavy",
+        "reach",
+        "two-handed"
+      ]
+    }
+  },
+  {
+    "id": "srd24:item:hand-crossbow",
+    "kind": "item",
+    "name": "Hand Crossbow",
+    "source": "srd24",
+    "tags": [
+      "weapon",
+      "ranged-weapon",
+      "martial-weapon",
+      "light"
+    ],
+    "page": "XPHB 215",
+    "itemType": "weapon",
+    "weight": 3,
+    "value": 7500,
+    "weapon": {
+      "damage": "1d6",
+      "damageType": "piercing",
+      "category": "martial-ranged",
+      "properties": [
+        "ammunition (range 30/120)",
+        "light",
+        "loading"
+      ],
+      "range": "30/120 ft."
+    },
+    "text": "**Range.** A Range weapon has a range in parentheses after the Ammunition or Thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second is the weapon's long range. When attacking a target beyond normal range, you have Disadvantage on the attack roll. You can't attack a target beyond the long range."
+  },
+  {
+    "id": "srd24:item:handaxe",
+    "kind": "item",
+    "name": "Handaxe",
+    "source": "srd24",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "simple-weapon",
+      "light"
+    ],
+    "page": "XPHB 215",
+    "itemType": "weapon",
+    "weight": 2,
+    "value": 500,
+    "weapon": {
+      "damage": "1d6",
+      "damageType": "slashing",
+      "category": "simple-melee",
+      "properties": [
+        "light",
+        "thrown (range 20/60)"
+      ],
+      "range": "20/60 ft."
+    }
+  },
+  {
+    "id": "srd24:item:heavy-crossbow",
+    "kind": "item",
+    "name": "Heavy Crossbow",
+    "source": "srd24",
+    "tags": [
+      "weapon",
+      "ranged-weapon",
+      "martial-weapon"
+    ],
+    "page": "XPHB 215",
+    "itemType": "weapon",
+    "weight": 18,
+    "value": 5000,
+    "weapon": {
+      "damage": "1d10",
+      "damageType": "piercing",
+      "category": "martial-ranged",
+      "properties": [
+        "ammunition (range 100/400)",
+        "heavy",
+        "loading",
+        "two-handed"
+      ],
+      "range": "100/400 ft."
+    },
+    "text": "**Range.** A Range weapon has a range in parentheses after the Ammunition or Thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second is the weapon's long range. When attacking a target beyond normal range, you have Disadvantage on the attack roll. You can't attack a target beyond the long range."
+  },
+  {
+    "id": "srd24:item:javelin",
+    "kind": "item",
+    "name": "Javelin",
+    "source": "srd24",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "simple-weapon"
+    ],
+    "page": "XPHB 215",
+    "itemType": "weapon",
+    "weight": 2,
+    "value": 50,
+    "weapon": {
+      "damage": "1d6",
+      "damageType": "piercing",
+      "category": "simple-melee",
+      "properties": [
+        "thrown (range 30/120)"
+      ],
+      "range": "30/120 ft."
+    }
+  },
+  {
+    "id": "srd24:item:lance",
+    "kind": "item",
+    "name": "Lance",
+    "source": "srd24",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "martial-weapon"
+    ],
+    "page": "XPHB 215",
+    "itemType": "weapon",
+    "weight": 6,
+    "value": 1000,
+    "weapon": {
+      "damage": "1d10",
+      "damageType": "piercing",
+      "category": "martial-melee",
+      "properties": [
+        "heavy",
+        "reach",
+        "two-handed"
+      ]
+    },
+    "text": "A Lance requires two hands to wield when you aren't mounted."
+  },
+  {
+    "id": "srd24:item:light-crossbow",
+    "kind": "item",
+    "name": "Light Crossbow",
+    "source": "srd24",
+    "tags": [
+      "weapon",
+      "ranged-weapon",
+      "simple-weapon"
+    ],
+    "page": "XPHB 215",
+    "itemType": "weapon",
+    "weight": 5,
+    "value": 2500,
+    "weapon": {
+      "damage": "1d8",
+      "damageType": "piercing",
+      "category": "simple-ranged",
+      "properties": [
+        "ammunition (range 80/320)",
+        "loading",
+        "two-handed"
+      ],
+      "range": "80/320 ft."
+    },
+    "text": "**Range.** A Range weapon has a range in parentheses after the Ammunition or Thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second is the weapon's long range. When attacking a target beyond normal range, you have Disadvantage on the attack roll. You can't attack a target beyond the long range."
+  },
+  {
+    "id": "srd24:item:light-hammer",
+    "kind": "item",
+    "name": "Light Hammer",
+    "source": "srd24",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "simple-weapon",
+      "light"
+    ],
+    "page": "XPHB 215",
+    "itemType": "weapon",
+    "weight": 2,
+    "value": 200,
+    "weapon": {
+      "damage": "1d4",
+      "damageType": "bludgeoning",
+      "category": "simple-melee",
+      "properties": [
+        "light",
+        "thrown (range 20/60)"
+      ],
+      "range": "20/60 ft."
+    }
+  },
+  {
+    "id": "srd24:item:longbow",
+    "kind": "item",
+    "name": "Longbow",
+    "source": "srd24",
+    "tags": [
+      "weapon",
+      "ranged-weapon",
+      "martial-weapon"
+    ],
+    "page": "XPHB 215",
+    "itemType": "weapon",
+    "weight": 2,
+    "value": 5000,
+    "weapon": {
+      "damage": "1d8",
+      "damageType": "piercing",
+      "category": "martial-ranged",
+      "properties": [
+        "ammunition (range 150/600)",
+        "heavy",
+        "two-handed"
+      ],
+      "range": "150/600 ft."
+    },
+    "text": "**Range.** A Range weapon has a range in parentheses after the Ammunition or Thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second is the weapon's long range. When attacking a target beyond normal range, you have Disadvantage on the attack roll. You can't attack a target beyond the long range."
+  },
+  {
+    "id": "srd24:item:longsword",
+    "kind": "item",
+    "name": "Longsword",
+    "source": "srd24",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "martial-weapon"
+    ],
+    "page": "XPHB 215",
+    "itemType": "weapon",
+    "weight": 3,
+    "value": 1500,
+    "weapon": {
+      "damage": "1d8",
+      "damageType": "slashing",
+      "category": "martial-melee",
+      "properties": [
+        "versatile (1d10)"
+      ]
+    }
+  },
+  {
+    "id": "srd24:item:mace",
+    "kind": "item",
+    "name": "Mace",
+    "source": "srd24",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "simple-weapon"
+    ],
+    "page": "XPHB 215",
+    "itemType": "weapon",
+    "weight": 4,
+    "value": 500,
+    "weapon": {
+      "damage": "1d6",
+      "damageType": "bludgeoning",
+      "category": "simple-melee"
+    }
+  },
+  {
+    "id": "srd24:item:maul",
+    "kind": "item",
+    "name": "Maul",
+    "source": "srd24",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "martial-weapon"
+    ],
+    "page": "XPHB 215",
+    "itemType": "weapon",
+    "weight": 10,
+    "value": 1000,
+    "weapon": {
+      "damage": "2d6",
+      "damageType": "bludgeoning",
+      "category": "martial-melee",
+      "properties": [
+        "heavy",
+        "two-handed"
+      ]
+    }
+  },
+  {
+    "id": "srd24:item:morningstar",
+    "kind": "item",
+    "name": "Morningstar",
+    "source": "srd24",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "martial-weapon"
+    ],
+    "page": "XPHB 215",
+    "itemType": "weapon",
+    "weight": 4,
+    "value": 1500,
+    "weapon": {
+      "damage": "1d8",
+      "damageType": "piercing",
+      "category": "martial-melee"
+    }
+  },
+  {
+    "id": "srd24:item:musket",
+    "kind": "item",
+    "name": "Musket",
+    "source": "srd24",
+    "tags": [
+      "weapon",
+      "ranged-weapon",
+      "martial-weapon"
+    ],
+    "page": "XPHB 215",
+    "itemType": "weapon",
+    "weight": 10,
+    "value": 50000,
+    "weapon": {
+      "damage": "1d12",
+      "damageType": "piercing",
+      "category": "martial-ranged",
+      "properties": [
+        "ammunition (range 40/120)",
+        "loading",
+        "two-handed"
+      ],
+      "range": "40/120 ft."
+    },
+    "text": "**Range.** A Range weapon has a range in parentheses after the Ammunition or Thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second is the weapon's long range. When attacking a target beyond normal range, you have Disadvantage on the attack roll. You can't attack a target beyond the long range."
+  },
+  {
+    "id": "srd24:item:needle",
+    "kind": "item",
+    "name": "Needle",
+    "source": "srd24",
+    "tags": [
+      "ammunition"
+    ],
+    "page": "XPHB 222",
+    "itemType": "ammunition",
+    "weight": 0.02,
+    "value": 2,
+    "text": "Blowgun needles are used with a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.\n\nNeedles are typically stored in a Pouch (bought separately)."
+  },
+  {
+    "id": "srd24:item:needles-50",
+    "kind": "item",
+    "name": "Needles (50)",
+    "source": "srd24",
+    "tags": [
+      "ammunition",
+      "bundle"
+    ],
+    "page": "XPHB 222",
+    "itemType": "ammunition",
+    "weight": 1,
+    "value": 100,
+    "text": "Blowgun needles are used with a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.\n\nNeedles are typically stored in a Pouch (bought separately)."
+  },
+  {
+    "id": "srd24:item:pike",
+    "kind": "item",
+    "name": "Pike",
+    "source": "srd24",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "martial-weapon"
+    ],
+    "page": "XPHB 215",
+    "itemType": "weapon",
+    "weight": 18,
+    "value": 500,
+    "weapon": {
+      "damage": "1d10",
+      "damageType": "piercing",
+      "category": "martial-melee",
+      "properties": [
+        "heavy",
+        "reach",
+        "two-handed"
+      ]
+    }
+  },
+  {
+    "id": "srd24:item:pistol",
+    "kind": "item",
+    "name": "Pistol",
+    "source": "srd24",
+    "tags": [
+      "weapon",
+      "ranged-weapon",
+      "martial-weapon"
+    ],
+    "page": "XPHB 215",
+    "itemType": "weapon",
+    "weight": 3,
+    "value": 25000,
+    "weapon": {
+      "damage": "1d10",
+      "damageType": "piercing",
+      "category": "martial-ranged",
+      "properties": [
+        "ammunition (range 30/90)",
+        "loading"
+      ],
+      "range": "30/90 ft."
+    },
+    "text": "**Range.** A Range weapon has a range in parentheses after the Ammunition or Thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second is the weapon's long range. When attacking a target beyond normal range, you have Disadvantage on the attack roll. You can't attack a target beyond the long range."
+  },
+  {
+    "id": "srd24:item:quarterstaff",
+    "kind": "item",
+    "name": "Quarterstaff",
+    "source": "srd24",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "simple-weapon"
+    ],
+    "page": "XPHB 215",
+    "itemType": "weapon",
+    "weight": 4,
+    "value": 20,
+    "weapon": {
+      "damage": "1d6",
+      "damageType": "bludgeoning",
+      "category": "simple-melee",
+      "properties": [
+        "versatile (1d8)"
+      ]
+    }
+  },
+  {
+    "id": "srd24:item:rapier",
+    "kind": "item",
+    "name": "Rapier",
+    "source": "srd24",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "martial-weapon",
+      "finesse"
+    ],
+    "page": "XPHB 215",
+    "itemType": "weapon",
+    "weight": 2,
+    "value": 2500,
+    "weapon": {
+      "damage": "1d8",
+      "damageType": "piercing",
+      "category": "martial-melee",
+      "properties": [
+        "finesse"
+      ]
+    }
+  },
+  {
+    "id": "srd24:item:scimitar",
+    "kind": "item",
+    "name": "Scimitar",
+    "source": "srd24",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "martial-weapon",
+      "finesse",
+      "light"
+    ],
+    "page": "XPHB 215",
+    "itemType": "weapon",
+    "weight": 3,
+    "value": 2500,
+    "weapon": {
+      "damage": "1d6",
+      "damageType": "slashing",
+      "category": "martial-melee",
+      "properties": [
+        "finesse",
+        "light"
+      ]
+    }
+  },
+  {
+    "id": "srd24:item:shortbow",
+    "kind": "item",
+    "name": "Shortbow",
+    "source": "srd24",
+    "tags": [
+      "weapon",
+      "ranged-weapon",
+      "simple-weapon"
+    ],
+    "page": "XPHB 215",
+    "itemType": "weapon",
+    "weight": 2,
+    "value": 2500,
+    "weapon": {
+      "damage": "1d6",
+      "damageType": "piercing",
+      "category": "simple-ranged",
+      "properties": [
+        "ammunition (range 80/320)",
+        "two-handed"
+      ],
+      "range": "80/320 ft."
+    },
+    "text": "**Range.** A Range weapon has a range in parentheses after the Ammunition or Thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second is the weapon's long range. When attacking a target beyond normal range, you have Disadvantage on the attack roll. You can't attack a target beyond the long range."
+  },
+  {
+    "id": "srd24:item:shortsword",
+    "kind": "item",
+    "name": "Shortsword",
+    "source": "srd24",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "martial-weapon",
+      "finesse",
+      "light"
+    ],
+    "page": "XPHB 215",
+    "itemType": "weapon",
+    "weight": 2,
+    "value": 1000,
+    "weapon": {
+      "damage": "1d6",
+      "damageType": "piercing",
+      "category": "martial-melee",
+      "properties": [
+        "finesse",
+        "light"
+      ]
+    }
+  },
+  {
+    "id": "srd24:item:sickle",
+    "kind": "item",
+    "name": "Sickle",
+    "source": "srd24",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "simple-weapon",
+      "light"
+    ],
+    "page": "XPHB 215",
+    "itemType": "weapon",
+    "weight": 2,
+    "value": 100,
+    "weapon": {
+      "damage": "1d4",
+      "damageType": "slashing",
+      "category": "simple-melee",
+      "properties": [
+        "light"
+      ]
+    }
+  },
+  {
+    "id": "srd24:item:sling",
+    "kind": "item",
+    "name": "Sling",
+    "source": "srd24",
+    "tags": [
+      "weapon",
+      "ranged-weapon",
+      "simple-weapon"
+    ],
+    "page": "XPHB 215",
+    "itemType": "weapon",
+    "value": 10,
+    "weapon": {
+      "damage": "1d4",
+      "damageType": "bludgeoning",
+      "category": "simple-ranged",
+      "properties": [
+        "ammunition (range 30/120)"
+      ],
+      "range": "30/120 ft."
+    },
+    "text": "**Range.** A Range weapon has a range in parentheses after the Ammunition or Thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second is the weapon's long range. When attacking a target beyond normal range, you have Disadvantage on the attack roll. You can't attack a target beyond the long range."
+  },
+  {
+    "id": "srd24:item:sling-bullet",
+    "kind": "item",
+    "name": "Sling Bullet",
+    "source": "srd24",
+    "tags": [
+      "ammunition"
+    ],
+    "page": "XPHB 222",
+    "itemType": "ammunition",
+    "weight": 0.075,
+    "value": 0.2,
+    "text": "Sling bullets are used with a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.\n\nSling Bullets are typically stored in a Pouch (bought separately)."
+  },
+  {
+    "id": "srd24:item:sling-bullets-20",
+    "kind": "item",
+    "name": "Sling Bullets (20)",
+    "source": "srd24",
+    "tags": [
+      "ammunition",
+      "bundle"
+    ],
+    "page": "XPHB 222",
+    "itemType": "ammunition",
+    "weight": 1.5,
+    "value": 4,
+    "text": "Sling bullets are used with a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.\n\nSling Bullets are typically stored in a Pouch (bought separately)."
+  },
+  {
+    "id": "srd24:item:spear",
+    "kind": "item",
+    "name": "Spear",
+    "source": "srd24",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "simple-weapon"
+    ],
+    "page": "XPHB 215",
+    "itemType": "weapon",
+    "weight": 3,
+    "value": 100,
+    "weapon": {
+      "damage": "1d6",
+      "damageType": "piercing",
+      "category": "simple-melee",
+      "properties": [
+        "thrown (range 20/60)",
+        "versatile (1d8)"
+      ],
+      "range": "20/60 ft."
+    }
+  },
+  {
+    "id": "srd24:item:trident",
+    "kind": "item",
+    "name": "Trident",
+    "source": "srd24",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "martial-weapon"
+    ],
+    "page": "XPHB 215",
+    "itemType": "weapon",
+    "weight": 4,
+    "value": 500,
+    "weapon": {
+      "damage": "1d8",
+      "damageType": "piercing",
+      "category": "martial-melee",
+      "properties": [
+        "thrown (range 20/60)",
+        "versatile (1d10)"
+      ],
+      "range": "20/60 ft."
+    }
+  },
+  {
+    "id": "srd24:item:war-pick",
+    "kind": "item",
+    "name": "War Pick",
+    "source": "srd24",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "martial-weapon"
+    ],
+    "page": "XPHB 215",
+    "itemType": "weapon",
+    "weight": 2,
+    "value": 500,
+    "weapon": {
+      "damage": "1d8",
+      "damageType": "piercing",
+      "category": "martial-melee",
+      "properties": [
+        "versatile (1d10)"
+      ]
+    }
+  },
+  {
+    "id": "srd24:item:warhammer",
+    "kind": "item",
+    "name": "Warhammer",
+    "source": "srd24",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "martial-weapon"
+    ],
+    "page": "XPHB 215",
+    "itemType": "weapon",
+    "weight": 5,
+    "value": 1500,
+    "weapon": {
+      "damage": "1d8",
+      "damageType": "bludgeoning",
+      "category": "martial-melee",
+      "properties": [
+        "versatile (1d10)"
+      ]
+    }
+  },
+  {
+    "id": "srd24:item:whip",
+    "kind": "item",
+    "name": "Whip",
+    "source": "srd24",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "martial-weapon",
+      "finesse"
+    ],
+    "page": "XPHB 215",
+    "itemType": "weapon",
+    "weight": 3,
+    "value": 200,
+    "weapon": {
+      "damage": "1d4",
+      "damageType": "slashing",
+      "category": "martial-melee",
+      "properties": [
+        "finesse",
+        "reach"
+      ]
+    }
+  }
+]

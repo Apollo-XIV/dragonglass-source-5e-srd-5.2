@@ -1,0 +1,151 @@
+[
+  {
+    "id": "srd24:warlock:eldritch-invocations",
+    "kind": "class-feature",
+    "name": "Eldritch Invocations",
+    "source": "srd24",
+    "page": "XPHB 153",
+    "tags": [
+      "warlock-feature"
+    ],
+    "text": "You have unearthed Eldritch Invocations, pieces of forbidden knowledge that imbue you with an abiding magical ability or other lessons. You gain one invocation of your choice, such as Pact of the Tome. Invocations are described in the \"Eldritch Invocation Options\" section later in this class's description.\n\n**Prerequisites.** If an invocation has a prerequisite, you must meet it to learn that invocation. For example, if an invocation requires you to be a level 5+ Warlock, you can select the invocation once you reach Warlock level 5.\n\n**Replacing and Gaining Invocations.** Whenever you gain a Warlock level, you can replace one of your invocations with another one for which you qualify. You can't replace an invocation if it's a prerequisite for another invocation that you have.\n\nWhen you gain certain Warlock levels, you gain more invocations of your choice, as shown in the Invocations column of the Warlock Features table.\n\nYou can't pick the same invocation more than once unless its description says otherwise."
+  },
+  {
+    "id": "srd24:warlock:pact-magic",
+    "kind": "class-feature",
+    "name": "Pact Magic",
+    "source": "srd24",
+    "page": "XPHB 153",
+    "tags": [
+      "warlock-feature"
+    ],
+    "text": "Through occult ceremony, you have formed a pact with a mysterious entity to gain magical powers. The entity is a voice in the shadows—its identity unclear—but its boon to you is concrete: the ability to cast spells. See chapter 7 for the rules on spellcasting. The information below details how you use those rules with Warlock spells, which appear in the Warlock spell list later in the class's description.\n\n**Cantrips.** You know two Warlock cantrips of your choice. Eldritch Blast and Prestidigitation are recommended. Whenever you gain a Warlock level, you can replace one of your cantrips from this feature with another Warlock cantrip of your choice.\n\nWhen you reach Warlock levels 4 and 10, you learn another Warlock cantrip of your choice, as shown in the Cantrips column of the Warlock Features table.\n\n**Spell Slots.** The Warlock Features table shows how many spell slots you have to cast your Warlock spells of levels 1–5. The table also shows the level of those slots, all of which are the same level. You regain all expended Pact Magic spell slots when you finish a Short or Long Rest.\n\nFor example, when you're a level 5 Warlock, you have two level 3 spell slots. To cast the level 1 spell Witch Bolt, you must spend one of those slots, and you cast it as a level 3 spell.\n\n**Prepared Spells of Level 1+.** You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Warlock spells. Charm Person and Hex are recommended.\n\nThe number of spells on your list increases as you gain Warlock levels, as shown in the Prepared Spells column of the Warlock Features table. Whenever that number increases, choose additional Warlock spells until the number of spells on your list matches the number in the table. The chosen spells must be of a level no higher than what's shown in the table's Slot Level column for your level. When you reach level 6, for example, you learn a new Warlock spell, which can be of levels 1–3.\n\nIf another Warlock feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Warlock spells for you.\n\n**Changing Your Prepared Spells.** Whenever you gain a Warlock level, you can replace one spell on your list with another Warlock spell of an eligible level.\n\n**Spellcasting Ability.** Charisma is the spellcasting ability for your Warlock spells.\n\n**Spellcasting Focus.** You can use an Arcane Focus as a Spellcasting Focus for your Warlock spells."
+  },
+  {
+    "id": "srd24:warlock:eldritch-invocation-options",
+    "kind": "class-feature",
+    "name": "Eldritch Invocation Options",
+    "source": "srd24",
+    "page": "XPHB 153",
+    "tags": [
+      "warlock-feature"
+    ],
+    "text": "Eldritch Invocation options appear in alphabetical order."
+  },
+  {
+    "id": "srd24:warlock:magical-cunning",
+    "kind": "class-feature",
+    "name": "Magical Cunning",
+    "source": "srd24",
+    "page": "XPHB 154",
+    "tags": [
+      "warlock-feature"
+    ],
+    "text": "You can perform an esoteric rite for 1 minute. At the end of it, you regain expended Pact Magic spell slots but no more than a number equal to half your maximum (round up). Once you use this feature, you can't do so again until you finish a Long Rest.",
+    "resources": [
+      {
+        "id": "srd24:warlock:magical-cunning",
+        "name": "Magical Cunning",
+        "max": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:warlock:warlock-subclass",
+    "kind": "class-feature",
+    "name": "Warlock Subclass",
+    "source": "srd24",
+    "page": "XPHB 154",
+    "tags": [
+      "warlock-feature"
+    ],
+    "text": "You gain a Warlock subclass of your choice. A subclass is a specialization that grants you features at certain Warlock levels. For the rest of your career, you gain each of your subclass's features that are of your Warlock level or lower."
+  },
+  {
+    "id": "srd24:warlock:contact-patron",
+    "kind": "class-feature",
+    "name": "Contact Patron",
+    "source": "srd24",
+    "page": "XPHB 155",
+    "tags": [
+      "warlock-feature"
+    ],
+    "text": "In the past, you usually contacted your patron through intermediaries. Now you can communicate directly; you always have the Contact Other Plane spell prepared. With this feature, you can cast the spell without expending a spell slot to contact your patron, and you automatically succeed on the spell's saving throw.\n\nOnce you cast the spell with this feature, you can't do so in this way again until you finish a Long Rest."
+  },
+  {
+    "id": "srd24:warlock:mystic-arcanum",
+    "kind": "class-feature",
+    "name": "Mystic Arcanum",
+    "source": "srd24",
+    "page": "XPHB 155",
+    "tags": [
+      "warlock-feature"
+    ],
+    "text": "Your patron grants you a magical secret called an arcanum. Choose one level 6 Warlock spell as this arcanum.\n\nYou can cast your arcanum spell once without expending a spell slot, and you must finish a Long Rest before you can cast it in this way again.\n\nAs shown in the Warlock Features table, you gain another Warlock spell of your choice that can be cast in this way when you reach Warlock levels 13 (level 7 spell), 15 (level 8 spell), and 17 (level 9 spell). You regain all uses of your Mystic Arcanum when you finish a Long Rest.\n\nWhenever you gain a Warlock level, you can replace one of your arcanum spells with another Warlock spell of the same level."
+  },
+  {
+    "id": "srd24:warlock:mystic-arcanum-13",
+    "kind": "class-feature",
+    "name": "Mystic Arcanum",
+    "source": "srd24",
+    "page": "XPHB 155",
+    "tags": [
+      "warlock-feature"
+    ],
+    "text": "You gain a level 7 Warlock Spell of your choice."
+  },
+  {
+    "id": "srd24:warlock:mystic-arcanum-15",
+    "kind": "class-feature",
+    "name": "Mystic Arcanum",
+    "source": "srd24",
+    "page": "XPHB 155",
+    "tags": [
+      "warlock-feature"
+    ],
+    "text": "You gain a level 8 Warlock Spell of your choice."
+  },
+  {
+    "id": "srd24:warlock:mystic-arcanum-17",
+    "kind": "class-feature",
+    "name": "Mystic Arcanum",
+    "source": "srd24",
+    "page": "XPHB 155",
+    "tags": [
+      "warlock-feature"
+    ],
+    "text": "You gain a level 9 Warlock Spell of your choice."
+  },
+  {
+    "id": "srd24:warlock:epic-boon",
+    "kind": "class-feature",
+    "name": "Epic Boon",
+    "source": "srd24",
+    "page": "XPHB 155",
+    "tags": [
+      "warlock-feature"
+    ],
+    "text": "You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Fate is recommended."
+  },
+  {
+    "id": "srd24:warlock:eldritch-master",
+    "kind": "class-feature",
+    "name": "Eldritch Master",
+    "source": "srd24",
+    "page": "XPHB 155",
+    "tags": [
+      "warlock-feature"
+    ],
+    "text": "When you use your Magical Cunning feature, you regain all your expended Pact Magic spell slots."
+  }
+]

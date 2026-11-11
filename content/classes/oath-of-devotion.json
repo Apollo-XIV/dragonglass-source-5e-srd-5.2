@@ -1,0 +1,183 @@
+[
+  {
+    "id": "srd24:subclass:oath-of-devotion",
+    "kind": "subclass",
+    "name": "Oath of Devotion",
+    "source": "srd24",
+    "page": "XPHB 113",
+    "class": "srd24:class:paladin",
+    "tags": [
+      "paladin-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "3": {
+        "grants": [
+          "srd24:devotion:oath-of-devotion",
+          "srd24:spell:protection-from-evil-and-good",
+          "srd24:spell:shield-of-faith"
+        ]
+      },
+      "5": {
+        "grants": [
+          "srd24:spell:aid",
+          "srd24:spell:zone-of-truth"
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd24:devotion:aura-of-devotion"
+        ]
+      },
+      "9": {
+        "grants": [
+          "srd24:spell:beacon-of-hope",
+          "srd24:spell:dispel-magic"
+        ]
+      },
+      "13": {
+        "grants": [
+          "srd24:spell:freedom-of-movement",
+          "srd24:spell:guardian-of-faith"
+        ]
+      },
+      "15": {
+        "grants": [
+          "srd24:devotion:smite-of-protection"
+        ]
+      },
+      "17": {
+        "grants": [
+          "srd24:spell:commune",
+          "srd24:spell:flame-strike"
+        ]
+      },
+      "20": {
+        "grants": [
+          "srd24:devotion:holy-nimbus"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd24:devotion:oath-of-devotion-spells",
+    "kind": "subclass-feature",
+    "name": "Oath of Devotion Spells",
+    "source": "srd24",
+    "page": "XPHB 113",
+    "tags": [
+      "devotion-feature",
+      "paladin-feature"
+    ],
+    "text": "The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the Oath of Devotion Spells table, you thereafter always have the listed spells prepared.\n\n**Oath of Devotion Spells**\n| Paladin Level | Spells |\n| --- | --- |\n| 3 | Protection from Evil and Good, Shield of Faith |\n| 5 | Aid, Zone of Truth |\n| 9 | Beacon of Hope, Dispel Magic |\n| 13 | Freedom of Movement, Guardian of Faith |\n| 17 | Commune, Flame Strike |"
+  },
+  {
+    "id": "srd24:devotion:sacred-weapon",
+    "kind": "subclass-feature",
+    "name": "Sacred Weapon",
+    "source": "srd24",
+    "page": "XPHB 113",
+    "tags": [
+      "devotion-feature",
+      "paladin-feature"
+    ],
+    "text": "When you take the Attack action, you can expend one use of your Channel Divinity to imbue one Melee weapon that you are holding with positive energy. For 10 minutes or until you use this feature again, you add your Charisma modifier to attack rolls you make with that weapon (minimum bonus of +1), and each time you hit with it, you cause it to deal its normal damage type or Radiant damage.\n\nThe weapon also emits Bright Light in a 20-foot radius and Dim Light 20 feet beyond that.\n\nYou can end this effect early (no action required). This effect also ends if you aren't carrying the weapon.",
+    "actions": [
+      {
+        "id": "sacred-weapon",
+        "name": "Sacred Weapon",
+        "activation": "special",
+        "cost": {
+          "srd24:paladin:channel-divinity": 1
+        },
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:devotion:oath-of-devotion",
+    "kind": "subclass-feature",
+    "name": "Oath of Devotion",
+    "source": "srd24",
+    "page": "XPHB 113",
+    "tags": [
+      "devotion-feature",
+      "paladin-feature"
+    ],
+    "text": "*Uphold the Ideals of Justice and Order*\n\nThe Oath of Devotion binds Paladins to the ideals of justice and order. These Paladins meet the archetype of the knight in shining armor. They hold themselves to the highest standards of conduct, and some—for better or worse—hold the rest of the world to the same standards.\n\nMany who swear this oath are devoted to gods of law and good and use their gods' tenets as the measure of personal devotion. Others hold angels as their ideals and incorporate images of angelic wings into their helmets or coats of arms.\n\nThese paladins share the following tenets:\n\n- Let your word be your promise.\n- Protect the weak and never fear to act.\n- Let your honorable deeds be an example.",
+    "grants": [
+      "srd24:devotion:oath-of-devotion-spells",
+      "srd24:devotion:sacred-weapon"
+    ]
+  },
+  {
+    "id": "srd24:devotion:aura-of-devotion",
+    "kind": "subclass-feature",
+    "name": "Aura of Devotion",
+    "source": "srd24",
+    "page": "XPHB 114",
+    "tags": [
+      "devotion-feature",
+      "paladin-feature"
+    ],
+    "text": "You and your allies have Immunity to the Charmed condition while in your Aura of Protection. If a Charmed ally enters the aura, that condition has no effect on that ally while there."
+  },
+  {
+    "id": "srd24:devotion:smite-of-protection",
+    "kind": "subclass-feature",
+    "name": "Smite of Protection",
+    "source": "srd24",
+    "page": "XPHB 114",
+    "tags": [
+      "devotion-feature",
+      "paladin-feature"
+    ],
+    "text": "Your magical smite now radiates protective energy. Whenever you cast Divine Smite, you and your allies have Half Cover while in your Aura of Protection. The aura has this benefit until the start of your next turn."
+  },
+  {
+    "id": "srd24:devotion:holy-nimbus",
+    "kind": "subclass-feature",
+    "name": "Holy Nimbus",
+    "source": "srd24",
+    "page": "XPHB 114",
+    "tags": [
+      "devotion-feature",
+      "paladin-feature"
+    ],
+    "text": "As a Bonus Action, you can imbue your Aura of Protection with holy power, granting the benefits below for 10 minutes or until you end them (no action required). Once you use this feature, you can't use it again until you finish a Long Rest. You can also restore your use of it by expending a level 5 spell slot (no action required).\n\n**Holy Ward.** You have Advantage on any saving throw you are forced to make by a Fiend or an Undead.\n\n**Radiant Damage.** Whenever an enemy starts its turn in the aura, that creature takes Radiant damage equal to your Charisma modifier plus your Proficiency Bonus.\n\n**Sunlight.** The aura is filled with Bright Light that is sunlight.",
+    "resources": [
+      {
+        "id": "srd24:devotion:holy-nimbus",
+        "name": "Holy Nimbus",
+        "max": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "holy-nimbus",
+        "name": "Holy Nimbus",
+        "activation": "bonus-action",
+        "cost": {
+          "srd24:devotion:holy-nimbus": 1
+        },
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ]
+  }
+]

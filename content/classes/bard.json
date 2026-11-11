@@ -1,0 +1,343 @@
+[
+  {
+    "id": "srd24:class:bard",
+    "kind": "class",
+    "name": "Bard",
+    "source": "srd24",
+    "page": "XPHB 58",
+    "key": "bard",
+    "hitDie": "d8",
+    "tags": [
+      "srd-class"
+    ],
+    "text": "**Hit Dice:** 1d8 per bard level.\n\n**Hit Points at 1st Level:** 8 + your Constitution modifier.\n\n**Hit Points at Higher Levels:** 1d8 (or 5) + your Constitution modifier per bard level after 1st.\n\n**Armor:** Light\n**Weapons:** Simple\n**Tools:** Choose three Musical Instruments\n**Saving Throws:** Dexterity, Charisma\n**Skills:** Any\n\n**Equipment:** You start with the following equipment, in addition to the equipment granted by your background:\n\n*Choose A or B:* (A) Leather Armor, 2 Dagger, Musical Instrument of your choice, Entertainer's Pack, 19 GP; or (B) 90 GP",
+    "primaryAbility": [
+      "cha"
+    ],
+    "x-multiclass-proficiencies": {
+      "skills": [
+        {
+          "choose": {
+            "from": [
+              "athletics",
+              "acrobatics",
+              "sleight of hand",
+              "stealth",
+              "arcana",
+              "history",
+              "investigation",
+              "nature",
+              "religion",
+              "animal handling",
+              "insight",
+              "medicine",
+              "perception",
+              "survival",
+              "deception",
+              "intimidation",
+              "performance",
+              "persuasion"
+            ],
+            "count": 1
+          }
+        }
+      ],
+      "tools": [
+        "Choose one {@item Musical Instrument|XPHB}"
+      ],
+      "toolProficiencies": [
+        {
+          "anyMusicalInstrument": 1
+        }
+      ],
+      "armor": [
+        "light"
+      ],
+      "armorProficiencies": [
+        {
+          "light": true
+        }
+      ]
+    },
+    "spellcasting": {
+      "ability": "cha",
+      "progression": "full",
+      "type": "prepared",
+      "list": "bard-spell",
+      "cantrips": "@table(bard, cantrips-known)",
+      "prepared": "@table(bard, prepared-spells)"
+    },
+    "tables": {
+      "bardic-die": [
+        "1d6",
+        "1d6",
+        "1d6",
+        "1d6",
+        "1d8",
+        "1d8",
+        "1d8",
+        "1d8",
+        "1d8",
+        "1d10",
+        "1d10",
+        "1d10",
+        "1d10",
+        "1d10",
+        "1d12",
+        "1d12",
+        "1d12",
+        "1d12",
+        "1d12",
+        "1d12"
+      ],
+      "prepared-spells": [
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        16,
+        16,
+        17,
+        17,
+        18,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "cantrips-known": [
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    "levels": {
+      "1": {
+        "choices": [
+          {
+            "id": "srd24:class:bard:skill",
+            "name": "Skill Proficiency",
+            "count": 3,
+            "from": {
+              "kind": "skill"
+            }
+          },
+          {
+            "id": "srd24:class:bard:tool",
+            "name": "Tool Proficiency",
+            "count": 3,
+            "from": {
+              "kind": "tool",
+              "tags": [
+                "musical-instrument"
+              ]
+            },
+            "text": "Choose three Musical Instruments"
+          }
+        ],
+        "modifiers": [
+          {
+            "target": "saves.dex",
+            "op": "proficiency",
+            "value": "proficient"
+          },
+          {
+            "target": "saves.cha",
+            "op": "proficiency",
+            "value": "proficient"
+          },
+          {
+            "target": "proficiencies.armor",
+            "op": "include",
+            "value": [
+              "light"
+            ]
+          },
+          {
+            "target": "proficiencies.weapon",
+            "op": "include",
+            "value": [
+              "simple"
+            ]
+          }
+        ],
+        "grants": [
+          "srd24:bard:bardic-inspiration",
+          "srd24:bard:spellcasting"
+        ]
+      },
+      "2": {
+        "grants": [
+          "srd24:bard:expertise",
+          "srd24:bard:jack-of-all-trades"
+        ]
+      },
+      "3": {
+        "grants": [
+          "srd24:bard:bard-subclass"
+        ],
+        "choices": [
+          {
+            "id": "srd24:class:bard:subclass",
+            "name": "Bard Subclass",
+            "count": 1,
+            "from": {
+              "kind": "subclass",
+              "tags": [
+                "bard-subclass"
+              ]
+            }
+          }
+        ]
+      },
+      "4": {
+        "choices": [
+          {
+            "id": "srd24:class:bard:asi-4",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "5": {
+        "grants": [
+          "srd24:bard:font-of-inspiration"
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd24:bard:countercharm"
+        ]
+      },
+      "8": {
+        "choices": [
+          {
+            "id": "srd24:class:bard:asi-8",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "9": {
+        "grants": [
+          "srd24:bard:expertise-9"
+        ]
+      },
+      "10": {
+        "spellListAdditions": [
+          {
+            "class": "srd24:class:bard",
+            "fromClasses": [
+              "srd24:class:cleric",
+              "srd24:class:druid",
+              "srd24:class:wizard"
+            ]
+          }
+        ],
+        "grants": [
+          "srd24:bard:magical-secrets"
+        ]
+      },
+      "12": {
+        "choices": [
+          {
+            "id": "srd24:class:bard:asi-12",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "16": {
+        "choices": [
+          {
+            "id": "srd24:class:bard:asi-16",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "18": {
+        "grants": [
+          "srd24:bard:superior-inspiration"
+        ]
+      },
+      "19": {
+        "grants": [
+          "srd24:bard:epic-boon"
+        ],
+        "choices": [
+          {
+            "id": "srd24:class:bard:epic-boon-19",
+            "name": "Epic Boon",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "epic-boon"
+              ]
+            }
+          }
+        ]
+      },
+      "20": {
+        "grants": [
+          "srd24:spell:power-word-heal",
+          "srd24:spell:power-word-kill",
+          "srd24:bard:words-of-creation"
+        ]
+      }
+    }
+  }
+]

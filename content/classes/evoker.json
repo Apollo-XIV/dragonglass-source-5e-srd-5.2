@@ -1,0 +1,279 @@
+[
+  {
+    "id": "srd24:subclass:evoker",
+    "kind": "subclass",
+    "name": "Evoker",
+    "source": "srd24",
+    "page": "XPHB 174",
+    "class": "srd24:class:wizard",
+    "tags": [
+      "wizard-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "3": {
+        "grants": [
+          "srd24:evoker:evoker"
+        ],
+        "choices": [
+          {
+            "id": "srd24:subclass:evoker:known-spells-3",
+            "name": "Spell",
+            "count": 2,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:2",
+                "wizard-spell",
+                "school:evocation"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      },
+      "5": {
+        "choices": [
+          {
+            "id": "srd24:subclass:evoker:known-spells-5",
+            "name": "Spell",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:3",
+                "wizard-spell",
+                "school:evocation"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd24:evoker:sculpt-spells"
+        ]
+      },
+      "7": {
+        "choices": [
+          {
+            "id": "srd24:subclass:evoker:known-spells-7",
+            "name": "Spell",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:4",
+                "wizard-spell",
+                "school:evocation"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      },
+      "9": {
+        "choices": [
+          {
+            "id": "srd24:subclass:evoker:known-spells-9",
+            "name": "Spell",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:5",
+                "wizard-spell",
+                "school:evocation"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      },
+      "10": {
+        "grants": [
+          "srd24:evoker:empowered-evocation"
+        ]
+      },
+      "11": {
+        "choices": [
+          {
+            "id": "srd24:subclass:evoker:known-spells-11",
+            "name": "Spell",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:6",
+                "wizard-spell",
+                "school:evocation"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      },
+      "13": {
+        "choices": [
+          {
+            "id": "srd24:subclass:evoker:known-spells-13",
+            "name": "Spell",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:7",
+                "wizard-spell",
+                "school:evocation"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      },
+      "14": {
+        "grants": [
+          "srd24:evoker:overchannel"
+        ]
+      },
+      "15": {
+        "choices": [
+          {
+            "id": "srd24:subclass:evoker:known-spells-15",
+            "name": "Spell",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:8",
+                "wizard-spell",
+                "school:evocation"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      },
+      "17": {
+        "choices": [
+          {
+            "id": "srd24:subclass:evoker:known-spells-17",
+            "name": "Spell",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:9",
+                "wizard-spell",
+                "school:evocation"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd24:evoker:evocation-savant",
+    "kind": "subclass-feature",
+    "name": "Evocation Savant",
+    "source": "srd24",
+    "page": "XPHB 174",
+    "tags": [
+      "evoker-feature",
+      "wizard-feature"
+    ],
+    "text": "Choose two Wizard spells from the Evocation school, each of which must be no higher than level 2, and add them to your spellbook for free.\n\nIn addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Evocation school to your spellbook for free. The chosen spell must be of a level for which you have spell slots."
+  },
+  {
+    "id": "srd24:evoker:potent-cantrip",
+    "kind": "subclass-feature",
+    "name": "Potent Cantrip",
+    "source": "srd24",
+    "page": "XPHB 174",
+    "tags": [
+      "evoker-feature",
+      "wizard-feature"
+    ],
+    "text": "Your damaging cantrips affect even creatures that avoid the brunt of the effect. When you cast a cantrip at a creature and you miss with the attack roll or the target succeeds on a saving throw against the cantrip, the target takes half the cantrip's damage (if any) but suffers no additional effect from the cantrip."
+  },
+  {
+    "id": "srd24:evoker:evoker",
+    "kind": "subclass-feature",
+    "name": "Evoker",
+    "source": "srd24",
+    "page": "XPHB 174",
+    "tags": [
+      "evoker-feature",
+      "wizard-feature"
+    ],
+    "text": "*Create Explosive Elemental Effects*\n\nYour studies focus on magic that creates powerful elemental effects such as bitter cold, searing flame, rolling thunder, crackling lightning, and burning acid. Some Evokers find employment in military forces, serving as artillery to blast armies from afar. Others use their power to protect others, while some seek their own gain.",
+    "grants": [
+      "srd24:evoker:evocation-savant",
+      "srd24:evoker:potent-cantrip"
+    ]
+  },
+  {
+    "id": "srd24:evoker:sculpt-spells",
+    "kind": "subclass-feature",
+    "name": "Sculpt Spells",
+    "source": "srd24",
+    "page": "XPHB 174",
+    "tags": [
+      "evoker-feature",
+      "wizard-feature"
+    ],
+    "text": "You can create pockets of relative safety within the effects of your evocations. When you cast an Evocation spell that affects other creatures that you can see, you can choose a number of them equal to 1 plus the spell's level. The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save."
+  },
+  {
+    "id": "srd24:evoker:empowered-evocation",
+    "kind": "subclass-feature",
+    "name": "Empowered Evocation",
+    "source": "srd24",
+    "page": "XPHB 174",
+    "tags": [
+      "evoker-feature",
+      "wizard-feature"
+    ],
+    "text": "Whenever you cast a Wizard spell from the Evocation school, you can add your Intelligence modifier to one damage roll of that spell."
+  },
+  {
+    "id": "srd24:evoker:overchannel",
+    "kind": "subclass-feature",
+    "name": "Overchannel",
+    "source": "srd24",
+    "page": "XPHB 174",
+    "tags": [
+      "evoker-feature",
+      "wizard-feature"
+    ],
+    "text": "You can increase the power of your spells. When you cast a Wizard spell with a spell slot of levels 1–5 that deals damage, you can deal maximum damage with that spell on the turn you cast it.\n\nThe first time you do so, you suffer no adverse effect. If you use this feature again before you finish a Long Rest, you take 2d12 Necrotic damage for each level of the spell slot immediately after you cast it. This damage ignores Resistance and Immunity.\n\nEach time you use this feature again before finishing a Long Rest, the Necrotic damage per spell level increases by 1d12.",
+    "resources": [
+      {
+        "id": "srd24:evoker:overchannel",
+        "name": "Overchannel",
+        "max": 20,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ]
+  }
+]

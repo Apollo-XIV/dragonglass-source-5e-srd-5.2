@@ -1,0 +1,295 @@
+[
+  {
+    "id": "srd24:class:druid",
+    "kind": "class",
+    "name": "Druid",
+    "source": "srd24",
+    "page": "XPHB 78",
+    "key": "druid",
+    "hitDie": "d8",
+    "tags": [
+      "srd-class"
+    ],
+    "text": "**Hit Dice:** 1d8 per druid level.\n\n**Hit Points at 1st Level:** 8 + your Constitution modifier.\n\n**Hit Points at Higher Levels:** 1d8 (or 5) + your Constitution modifier per druid level after 1st.\n\n**Armor:** Light, shield\n**Weapons:** Simple\n**Tools:** Herbalism Kit\n**Saving Throws:** Intelligence, Wisdom\n**Skills:** Choose 2 from arcana, animal handling, insight, medicine, nature, perception, religion, survival\n\n**Equipment:** You start with the following equipment, in addition to the equipment granted by your background:\n\n*Choose A or B:* (A) Leather Armor, Shield, Sickle, Druidic Focus (Quarterstaff), Explorer's Pack, Herbalism kit, 9 GP; or (B) 50 GP",
+    "primaryAbility": [
+      "wis"
+    ],
+    "x-multiclass-proficiencies": {
+      "armor": [
+        "light",
+        "shield"
+      ],
+      "armorProficiencies": [
+        {
+          "light": true,
+          "shield": true
+        }
+      ]
+    },
+    "spellcasting": {
+      "ability": "wis",
+      "progression": "full",
+      "type": "prepared",
+      "list": "druid-spell",
+      "cantrips": "@table(druid, cantrips-known)",
+      "prepared": "@table(druid, prepared-spells)"
+    },
+    "tables": {
+      "wild-shape": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4
+      ],
+      "prepared-spells": [
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        16,
+        16,
+        17,
+        17,
+        18,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "cantrips-known": [
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    "levels": {
+      "1": {
+        "grants": [
+          "srd24:spell:speak-with-animals",
+          "srd24:tool:herbalism-kit",
+          "srd24:druid:druidic",
+          "srd24:druid:primal-order",
+          "srd24:druid:spellcasting"
+        ],
+        "choices": [
+          {
+            "id": "srd24:class:druid:skill",
+            "name": "Skill Proficiency",
+            "count": 2,
+            "from": {
+              "ids": [
+                "srd24:skill:arcana",
+                "srd24:skill:animal-handling",
+                "srd24:skill:insight",
+                "srd24:skill:medicine",
+                "srd24:skill:nature",
+                "srd24:skill:perception",
+                "srd24:skill:religion",
+                "srd24:skill:survival"
+              ]
+            }
+          }
+        ],
+        "modifiers": [
+          {
+            "target": "saves.int",
+            "op": "proficiency",
+            "value": "proficient"
+          },
+          {
+            "target": "saves.wis",
+            "op": "proficiency",
+            "value": "proficient"
+          },
+          {
+            "target": "proficiencies.armor",
+            "op": "include",
+            "value": [
+              "light",
+              "shield"
+            ]
+          },
+          {
+            "target": "proficiencies.weapon",
+            "op": "include",
+            "value": [
+              "simple"
+            ]
+          }
+        ]
+      },
+      "2": {
+        "grants": [
+          "srd24:spell:find-familiar",
+          "srd24:druid:wild-companion",
+          "srd24:druid:wild-shape"
+        ]
+      },
+      "3": {
+        "grants": [
+          "srd24:druid:druid-subclass"
+        ],
+        "choices": [
+          {
+            "id": "srd24:class:druid:subclass",
+            "name": "Druid Subclass",
+            "count": 1,
+            "from": {
+              "kind": "subclass",
+              "tags": [
+                "druid-subclass"
+              ]
+            }
+          }
+        ]
+      },
+      "4": {
+        "choices": [
+          {
+            "id": "srd24:class:druid:asi-4",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "5": {
+        "grants": [
+          "srd24:druid:wild-resurgence"
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd24:druid:elemental-fury"
+        ]
+      },
+      "8": {
+        "choices": [
+          {
+            "id": "srd24:class:druid:asi-8",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "12": {
+        "choices": [
+          {
+            "id": "srd24:class:druid:asi-12",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "15": {
+        "grants": [
+          "srd24:druid:improved-elemental-fury"
+        ]
+      },
+      "16": {
+        "choices": [
+          {
+            "id": "srd24:class:druid:asi-16",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "18": {
+        "grants": [
+          "srd24:druid:beast-spells"
+        ]
+      },
+      "19": {
+        "grants": [
+          "srd24:druid:epic-boon"
+        ],
+        "choices": [
+          {
+            "id": "srd24:class:druid:epic-boon-19",
+            "name": "Epic Boon",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "epic-boon"
+              ]
+            }
+          }
+        ]
+      },
+      "20": {
+        "grants": [
+          "srd24:druid:archdruid"
+        ]
+      }
+    }
+  }
+]

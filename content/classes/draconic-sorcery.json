@@ -1,0 +1,222 @@
+[
+  {
+    "id": "srd24:subclass:draconic-sorcery",
+    "kind": "subclass",
+    "name": "Draconic Sorcery",
+    "source": "srd24",
+    "page": "XPHB 148",
+    "class": "srd24:class:sorcerer",
+    "tags": [
+      "sorcerer-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "3": {
+        "grants": [
+          "srd24:draconic:draconic-sorcery",
+          "srd24:spell:alter-self",
+          "srd24:spell:chromatic-orb",
+          "srd24:spell:command",
+          "srd24:spell:dragons-breath"
+        ]
+      },
+      "5": {
+        "grants": [
+          "srd24:spell:fear",
+          "srd24:spell:fly"
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd24:draconic:elemental-affinity"
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd24:spell:arcane-eye",
+          "srd24:spell:charm-monster"
+        ]
+      },
+      "9": {
+        "grants": [
+          "srd24:spell:legend-lore",
+          "srd24:spell:summon-dragon"
+        ]
+      },
+      "14": {
+        "grants": [
+          "srd24:draconic:dragon-wings"
+        ]
+      },
+      "18": {
+        "grants": [
+          "srd24:draconic:dragon-companion"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd24:draconic:draconic-resilience",
+    "kind": "subclass-feature",
+    "name": "Draconic Resilience",
+    "source": "srd24",
+    "page": "XPHB 148",
+    "tags": [
+      "draconic-feature",
+      "sorcerer-feature"
+    ],
+    "text": "The magic in your body manifests physical traits of your draconic gift. Your Hit Point maximum increases by 3, and it increases by 1 whenever you gain another Sorcerer level.\n\nParts of you are also covered by dragon-like scales. While you aren't wearing armor, your base Armor Class equals 10 plus your Dexterity and Charisma modifiers.",
+    "modifiers": [
+      {
+        "target": "ac",
+        "op": "base",
+        "value": "10 + @abilities.dex.mod + @abilities.cha.mod",
+        "notes": "Only while wearing no armour.",
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      },
+      {
+        "target": "hp.max",
+        "op": "add",
+        "value": "@level(sorcerer)",
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:draconic:draconic-spells",
+    "kind": "subclass-feature",
+    "name": "Draconic Spells",
+    "source": "srd24",
+    "page": "XPHB 148",
+    "tags": [
+      "draconic-feature",
+      "sorcerer-feature"
+    ],
+    "text": "When you reach a Sorcerer level specified in the Draconic Spells table, you thereafter always have the listed spells prepared.\n\n**Draconic Spells**\n| Sorcerer Level | Spells |\n| --- | --- |\n| 3 | Alter Self, Chromatic Orb, Command, Dragon's Breath |\n| 5 | Fear, Fly |\n| 7 | Arcane Eye, Charm Monster |\n| 9 | Legend Lore, Summon Dragon |"
+  },
+  {
+    "id": "srd24:draconic:draconic-sorcery",
+    "kind": "subclass-feature",
+    "name": "Draconic Sorcery",
+    "source": "srd24",
+    "page": "XPHB 148",
+    "tags": [
+      "draconic-feature",
+      "sorcerer-feature"
+    ],
+    "text": "*Breathe the Magic of Dragons*\n\nYour innate magic comes from the gift of a dragon. Perhaps an ancient dragon facing death bequeathed some of its magical power to you or your ancestor. You might have absorbed magic from a site infused with dragons' power. Or perhaps you handled a treasure taken from a dragon's hoard that was steeped in draconic power. Or you might have a dragon for an ancestor.",
+    "grants": [
+      "srd24:draconic:draconic-resilience",
+      "srd24:draconic:draconic-spells"
+    ]
+  },
+  {
+    "id": "srd24:draconic:elemental-affinity",
+    "kind": "subclass-feature",
+    "name": "Elemental Affinity",
+    "source": "srd24",
+    "page": "XPHB 148",
+    "tags": [
+      "draconic-feature",
+      "sorcerer-feature"
+    ],
+    "text": "Your draconic magic has an affinity with a damage type associated with dragons. Choose one of those types: Acid, Cold, Fire, Lightning, or Poison.\n\nYou have Resistance to that damage type, and when you cast a spell that deals damage of that type, you can add your Charisma modifier to one damage roll of that spell."
+  },
+  {
+    "id": "srd24:draconic:dragon-wings",
+    "kind": "subclass-feature",
+    "name": "Dragon Wings",
+    "source": "srd24",
+    "page": "XPHB 148",
+    "tags": [
+      "draconic-feature",
+      "sorcerer-feature"
+    ],
+    "text": "As a Bonus Action, you can cause draconic wings to appear on your back. The wings last for 1 hour or until you dismiss them (no action required). For the duration, you have a Fly Speed of 60 feet.\n\nOnce you use this feature, you can't use it again until you finish a Long Rest unless you spend 3 Sorcery Points (no action required) to restore your use of it.",
+    "actions": [
+      {
+        "id": "dragon-wings",
+        "name": "Dragon Wings",
+        "activation": "bonus-action",
+        "cost": {
+          "srd24:draconic:dragon-wings": 1
+        },
+        "applies": "winged",
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ],
+    "resources": [
+      {
+        "id": "srd24:draconic:dragon-wings",
+        "name": "Dragon Wings",
+        "max": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ],
+    "effects": [
+      {
+        "id": "winged",
+        "name": "Winged",
+        "duration": "1 hour",
+        "modifiers": [
+          {
+            "target": "speed.fly",
+            "op": "base",
+            "value": 60
+          }
+        ],
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:draconic:dragon-companion",
+    "kind": "subclass-feature",
+    "name": "Dragon Companion",
+    "source": "srd24",
+    "page": "XPHB 148",
+    "tags": [
+      "draconic-feature",
+      "sorcerer-feature"
+    ],
+    "text": "You can cast Summon Dragon without a Material component. You can also cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest.\n\nWhenever you start casting the spell, you can modify it so that it doesn't require Concentration. If you do so, the spell's duration becomes 1 minute for that casting.",
+    "resources": [
+      {
+        "id": "srd24:draconic:dragon-companion",
+        "name": "Dragon Companion",
+        "max": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ]
+  }
+]

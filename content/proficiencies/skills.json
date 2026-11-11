@@ -1,0 +1,344 @@
+[
+  {
+    "id": "srd24:skill:acrobatics",
+    "kind": "skill",
+    "name": "Acrobatics",
+    "source": "srd24",
+    "ability": "dex",
+    "tags": [
+      "skill"
+    ],
+    "text": "Stay on your feet in a tricky situation, or perform an acrobatic stunt.",
+    "modifiers": [
+      {
+        "target": "skills.acrobatics",
+        "op": "proficiency",
+        "value": "proficient"
+      }
+    ],
+    "page": "XPHB 14"
+  },
+  {
+    "id": "srd24:skill:animal-handling",
+    "kind": "skill",
+    "name": "Animal Handling",
+    "source": "srd24",
+    "ability": "wis",
+    "tags": [
+      "skill"
+    ],
+    "text": "Calm or train an animal, or get an animal to behave in a certain way.",
+    "modifiers": [
+      {
+        "target": "skills.animal-handling",
+        "op": "proficiency",
+        "value": "proficient"
+      }
+    ],
+    "page": "XPHB 14"
+  },
+  {
+    "id": "srd24:skill:arcana",
+    "kind": "skill",
+    "name": "Arcana",
+    "source": "srd24",
+    "ability": "int",
+    "tags": [
+      "skill"
+    ],
+    "text": "Recall lore about spells, magic items, and the planes of existence.",
+    "modifiers": [
+      {
+        "target": "skills.arcana",
+        "op": "proficiency",
+        "value": "proficient"
+      }
+    ],
+    "page": "XPHB 14"
+  },
+  {
+    "id": "srd24:skill:athletics",
+    "kind": "skill",
+    "name": "Athletics",
+    "source": "srd24",
+    "ability": "str",
+    "tags": [
+      "skill"
+    ],
+    "text": "Jump farther than normal, stay afloat in rough water, or break something.",
+    "modifiers": [
+      {
+        "target": "skills.athletics",
+        "op": "proficiency",
+        "value": "proficient"
+      }
+    ],
+    "page": "XPHB 14"
+  },
+  {
+    "id": "srd24:skill:deception",
+    "kind": "skill",
+    "name": "Deception",
+    "source": "srd24",
+    "ability": "cha",
+    "tags": [
+      "skill"
+    ],
+    "text": "Tell a convincing lie, or wear a disguise convincingly.",
+    "modifiers": [
+      {
+        "target": "skills.deception",
+        "op": "proficiency",
+        "value": "proficient"
+      }
+    ],
+    "page": "XPHB 14"
+  },
+  {
+    "id": "srd24:skill:history",
+    "kind": "skill",
+    "name": "History",
+    "source": "srd24",
+    "ability": "int",
+    "tags": [
+      "skill"
+    ],
+    "text": "Recall lore about historical events, people, nations, and cultures.",
+    "modifiers": [
+      {
+        "target": "skills.history",
+        "op": "proficiency",
+        "value": "proficient"
+      }
+    ],
+    "page": "XPHB 14"
+  },
+  {
+    "id": "srd24:skill:insight",
+    "kind": "skill",
+    "name": "Insight",
+    "source": "srd24",
+    "ability": "wis",
+    "tags": [
+      "skill"
+    ],
+    "text": "Discern a person's mood and intentions.",
+    "modifiers": [
+      {
+        "target": "skills.insight",
+        "op": "proficiency",
+        "value": "proficient"
+      }
+    ],
+    "page": "XPHB 14"
+  },
+  {
+    "id": "srd24:skill:intimidation",
+    "kind": "skill",
+    "name": "Intimidation",
+    "source": "srd24",
+    "ability": "cha",
+    "tags": [
+      "skill"
+    ],
+    "text": "Awe or threaten someone into doing what you want.",
+    "modifiers": [
+      {
+        "target": "skills.intimidation",
+        "op": "proficiency",
+        "value": "proficient"
+      }
+    ],
+    "page": "XPHB 14"
+  },
+  {
+    "id": "srd24:skill:investigation",
+    "kind": "skill",
+    "name": "Investigation",
+    "source": "srd24",
+    "ability": "int",
+    "tags": [
+      "skill"
+    ],
+    "text": "Find obscure information in books, or deduce how something works.",
+    "modifiers": [
+      {
+        "target": "skills.investigation",
+        "op": "proficiency",
+        "value": "proficient"
+      }
+    ],
+    "page": "XPHB 14"
+  },
+  {
+    "id": "srd24:skill:medicine",
+    "kind": "skill",
+    "name": "Medicine",
+    "source": "srd24",
+    "ability": "wis",
+    "tags": [
+      "skill"
+    ],
+    "text": "Diagnose an illness, or determine what killed the recently slain.",
+    "modifiers": [
+      {
+        "target": "skills.medicine",
+        "op": "proficiency",
+        "value": "proficient"
+      }
+    ],
+    "page": "XPHB 14"
+  },
+  {
+    "id": "srd24:skill:nature",
+    "kind": "skill",
+    "name": "Nature",
+    "source": "srd24",
+    "ability": "int",
+    "tags": [
+      "skill"
+    ],
+    "text": "Recall lore about terrain, plants, animals, and weather.",
+    "modifiers": [
+      {
+        "target": "skills.nature",
+        "op": "proficiency",
+        "value": "proficient"
+      }
+    ],
+    "page": "XPHB 14"
+  },
+  {
+    "id": "srd24:skill:perception",
+    "kind": "skill",
+    "name": "Perception",
+    "source": "srd24",
+    "ability": "wis",
+    "tags": [
+      "skill"
+    ],
+    "text": "Using a combination of senses, notice something that's easy to miss.",
+    "modifiers": [
+      {
+        "target": "skills.perception",
+        "op": "proficiency",
+        "value": "proficient"
+      }
+    ],
+    "page": "XPHB 14"
+  },
+  {
+    "id": "srd24:skill:performance",
+    "kind": "skill",
+    "name": "Performance",
+    "source": "srd24",
+    "ability": "cha",
+    "tags": [
+      "skill"
+    ],
+    "text": "Act, tell a story, perform music, or dance.",
+    "modifiers": [
+      {
+        "target": "skills.performance",
+        "op": "proficiency",
+        "value": "proficient"
+      }
+    ],
+    "page": "XPHB 14"
+  },
+  {
+    "id": "srd24:skill:persuasion",
+    "kind": "skill",
+    "name": "Persuasion",
+    "source": "srd24",
+    "ability": "cha",
+    "tags": [
+      "skill"
+    ],
+    "text": "Honestly and graciously convince someone of something.",
+    "modifiers": [
+      {
+        "target": "skills.persuasion",
+        "op": "proficiency",
+        "value": "proficient"
+      }
+    ],
+    "page": "XPHB 14"
+  },
+  {
+    "id": "srd24:skill:religion",
+    "kind": "skill",
+    "name": "Religion",
+    "source": "srd24",
+    "ability": "int",
+    "tags": [
+      "skill"
+    ],
+    "text": "Recall lore about gods, religious rituals, and holy symbols.",
+    "modifiers": [
+      {
+        "target": "skills.religion",
+        "op": "proficiency",
+        "value": "proficient"
+      }
+    ],
+    "page": "XPHB 14"
+  },
+  {
+    "id": "srd24:skill:sleight-of-hand",
+    "kind": "skill",
+    "name": "Sleight of Hand",
+    "source": "srd24",
+    "ability": "dex",
+    "tags": [
+      "skill"
+    ],
+    "text": "Pick a pocket, conceal a handheld object, or perform legerdemain.",
+    "modifiers": [
+      {
+        "target": "skills.sleight-of-hand",
+        "op": "proficiency",
+        "value": "proficient"
+      }
+    ],
+    "page": "XPHB 14"
+  },
+  {
+    "id": "srd24:skill:stealth",
+    "kind": "skill",
+    "name": "Stealth",
+    "source": "srd24",
+    "ability": "dex",
+    "tags": [
+      "skill"
+    ],
+    "text": "Escape notice by moving quietly and hiding behind things.",
+    "modifiers": [
+      {
+        "target": "skills.stealth",
+        "op": "proficiency",
+        "value": "proficient"
+      }
+    ],
+    "page": "XPHB 14"
+  },
+  {
+    "id": "srd24:skill:survival",
+    "kind": "skill",
+    "name": "Survival",
+    "source": "srd24",
+    "ability": "wis",
+    "tags": [
+      "skill"
+    ],
+    "text": "Follow tracks, forage, find a trail, or avoid natural hazards.",
+    "modifiers": [
+      {
+        "target": "skills.survival",
+        "op": "proficiency",
+        "value": "proficient"
+      }
+    ],
+    "page": "XPHB 14"
+  }
+]

@@ -1,0 +1,309 @@
+[
+  {
+    "id": "srd24:class:sorcerer",
+    "kind": "class",
+    "name": "Sorcerer",
+    "source": "srd24",
+    "page": "XPHB 138",
+    "key": "sorcerer",
+    "hitDie": "d6",
+    "tags": [
+      "srd-class"
+    ],
+    "text": "**Hit Dice:** 1d6 per sorcerer level.\n\n**Hit Points at 1st Level:** 6 + your Constitution modifier.\n\n**Hit Points at Higher Levels:** 1d6 (or 4) + your Constitution modifier per sorcerer level after 1st.\n\n**Armor:** None\n**Weapons:** Simple\n**Tools:** None\n**Saving Throws:** Constitution, Charisma\n**Skills:** Choose 2 from arcana, deception, insight, intimidation, persuasion, religion\n\n**Equipment:** You start with the following equipment, in addition to the equipment granted by your background:\n\n*Choose A or B:* (A) Spear, 2 Daggers, Arcane Focus (crystal), Dungeoneer's Pack, and 28 GP; or (B) 50 GP",
+    "primaryAbility": [
+      "cha"
+    ],
+    "spellcasting": {
+      "ability": "cha",
+      "progression": "full",
+      "type": "prepared",
+      "list": "sorcerer-spell",
+      "cantrips": "@table(sorcerer, cantrips-known)",
+      "prepared": "@table(sorcerer, prepared-spells)"
+    },
+    "tables": {
+      "sorcery-points": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "prepared-spells": [
+        2,
+        4,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        16,
+        16,
+        17,
+        17,
+        18,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "cantrips-known": [
+        4,
+        4,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    "levels": {
+      "1": {
+        "choices": [
+          {
+            "id": "srd24:class:sorcerer:skill",
+            "name": "Skill Proficiency",
+            "count": 2,
+            "from": {
+              "ids": [
+                "srd24:skill:arcana",
+                "srd24:skill:deception",
+                "srd24:skill:insight",
+                "srd24:skill:intimidation",
+                "srd24:skill:persuasion",
+                "srd24:skill:religion"
+              ]
+            }
+          }
+        ],
+        "modifiers": [
+          {
+            "target": "saves.con",
+            "op": "proficiency",
+            "value": "proficient"
+          },
+          {
+            "target": "saves.cha",
+            "op": "proficiency",
+            "value": "proficient"
+          },
+          {
+            "target": "proficiencies.weapon",
+            "op": "include",
+            "value": [
+              "simple"
+            ]
+          }
+        ],
+        "grants": [
+          "srd24:sorcerer:spellcasting",
+          "srd24:sorcerer:innate-sorcery"
+        ]
+      },
+      "2": {
+        "grants": [
+          "srd24:sorcerer:font-of-magic",
+          "srd24:sorcerer:metamagic",
+          "srd24:sorcerer:metamagic-options"
+        ],
+        "choices": [
+          {
+            "id": "srd24:class:sorcerer:metamagic-2",
+            "name": "Metamagic",
+            "count": 2,
+            "from": {
+              "kind": "metamagic",
+              "tags": [
+                "sorcerer-metamagic"
+              ]
+            }
+          }
+        ]
+      },
+      "3": {
+        "grants": [
+          "srd24:sorcerer:sorcerer-subclass"
+        ],
+        "choices": [
+          {
+            "id": "srd24:class:sorcerer:subclass",
+            "name": "Sorcerer Subclass",
+            "count": 1,
+            "from": {
+              "kind": "subclass",
+              "tags": [
+                "sorcerer-subclass"
+              ]
+            }
+          }
+        ]
+      },
+      "4": {
+        "choices": [
+          {
+            "id": "srd24:class:sorcerer:asi-4",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "5": {
+        "grants": [
+          "srd24:sorcerer:sorcerous-restoration"
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd24:sorcerer:sorcery-incarnate"
+        ]
+      },
+      "8": {
+        "choices": [
+          {
+            "id": "srd24:class:sorcerer:asi-8",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "10": {
+        "grants": [
+          "srd24:sorcerer:metamagic-10"
+        ],
+        "choices": [
+          {
+            "id": "srd24:class:sorcerer:metamagic-10",
+            "name": "Metamagic",
+            "count": 2,
+            "from": {
+              "kind": "metamagic",
+              "tags": [
+                "sorcerer-metamagic"
+              ]
+            }
+          }
+        ]
+      },
+      "12": {
+        "choices": [
+          {
+            "id": "srd24:class:sorcerer:asi-12",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "16": {
+        "choices": [
+          {
+            "id": "srd24:class:sorcerer:asi-16",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "17": {
+        "grants": [
+          "srd24:sorcerer:metamagic-17"
+        ],
+        "choices": [
+          {
+            "id": "srd24:class:sorcerer:metamagic-17",
+            "name": "Metamagic",
+            "count": 2,
+            "from": {
+              "kind": "metamagic",
+              "tags": [
+                "sorcerer-metamagic"
+              ]
+            }
+          }
+        ]
+      },
+      "19": {
+        "grants": [
+          "srd24:sorcerer:epic-boon"
+        ],
+        "choices": [
+          {
+            "id": "srd24:class:sorcerer:epic-boon-19",
+            "name": "Epic Boon",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "epic-boon"
+              ]
+            }
+          }
+        ]
+      },
+      "20": {
+        "grants": [
+          "srd24:sorcerer:arcane-apotheosis"
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,197 @@
+[
+  {
+    "id": "srd24:resistance:acid",
+    "kind": "damage-resistance",
+    "name": "Acid Resistance",
+    "source": "srd24",
+    "modifiers": [
+      {
+        "target": "resistances",
+        "op": "include",
+        "value": [
+          "acid"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd24:resistance:bludgeoning",
+    "kind": "damage-resistance",
+    "name": "Bludgeoning Resistance",
+    "source": "srd24",
+    "modifiers": [
+      {
+        "target": "resistances",
+        "op": "include",
+        "value": [
+          "bludgeoning"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd24:resistance:cold",
+    "kind": "damage-resistance",
+    "name": "Cold Resistance",
+    "source": "srd24",
+    "modifiers": [
+      {
+        "target": "resistances",
+        "op": "include",
+        "value": [
+          "cold"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd24:resistance:fire",
+    "kind": "damage-resistance",
+    "name": "Fire Resistance",
+    "source": "srd24",
+    "modifiers": [
+      {
+        "target": "resistances",
+        "op": "include",
+        "value": [
+          "fire"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd24:resistance:force",
+    "kind": "damage-resistance",
+    "name": "Force Resistance",
+    "source": "srd24",
+    "modifiers": [
+      {
+        "target": "resistances",
+        "op": "include",
+        "value": [
+          "force"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd24:resistance:lightning",
+    "kind": "damage-resistance",
+    "name": "Lightning Resistance",
+    "source": "srd24",
+    "modifiers": [
+      {
+        "target": "resistances",
+        "op": "include",
+        "value": [
+          "lightning"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd24:resistance:necrotic",
+    "kind": "damage-resistance",
+    "name": "Necrotic Resistance",
+    "source": "srd24",
+    "modifiers": [
+      {
+        "target": "resistances",
+        "op": "include",
+        "value": [
+          "necrotic"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd24:resistance:piercing",
+    "kind": "damage-resistance",
+    "name": "Piercing Resistance",
+    "source": "srd24",
+    "modifiers": [
+      {
+        "target": "resistances",
+        "op": "include",
+        "value": [
+          "piercing"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd24:resistance:poison",
+    "kind": "damage-resistance",
+    "name": "Poison Resistance",
+    "source": "srd24",
+    "modifiers": [
+      {
+        "target": "resistances",
+        "op": "include",
+        "value": [
+          "poison"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd24:resistance:psychic",
+    "kind": "damage-resistance",
+    "name": "Psychic Resistance",
+    "source": "srd24",
+    "modifiers": [
+      {
+        "target": "resistances",
+        "op": "include",
+        "value": [
+          "psychic"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd24:resistance:radiant",
+    "kind": "damage-resistance",
+    "name": "Radiant Resistance",
+    "source": "srd24",
+    "modifiers": [
+      {
+        "target": "resistances",
+        "op": "include",
+        "value": [
+          "radiant"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd24:resistance:slashing",
+    "kind": "damage-resistance",
+    "name": "Slashing Resistance",
+    "source": "srd24",
+    "modifiers": [
+      {
+        "target": "resistances",
+        "op": "include",
+        "value": [
+          "slashing"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd24:resistance:thunder",
+    "kind": "damage-resistance",
+    "name": "Thunder Resistance",
+    "source": "srd24",
+    "modifiers": [
+      {
+        "target": "resistances",
+        "op": "include",
+        "value": [
+          "thunder"
+        ]
+      }
+    ]
+  }
+]

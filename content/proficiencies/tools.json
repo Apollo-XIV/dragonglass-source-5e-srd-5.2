@@ -1,0 +1,800 @@
+[
+  {
+    "id": "srd24:tool:alchemists-supplies",
+    "kind": "tool",
+    "name": "Alchemist's Supplies",
+    "source": "srd24",
+    "tags": [
+      "artisans-tools"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd24:tool:alchemists-supplies"
+        ]
+      }
+    ],
+    "page": "XPHB 220"
+  },
+  {
+    "id": "srd24:tool:bagpipes",
+    "kind": "tool",
+    "name": "Bagpipes",
+    "source": "srd24",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd24:tool:bagpipes"
+        ]
+      }
+    ],
+    "page": "XPHB 221"
+  },
+  {
+    "id": "srd24:tool:brewers-supplies",
+    "kind": "tool",
+    "name": "Brewer's Supplies",
+    "source": "srd24",
+    "tags": [
+      "artisans-tools"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd24:tool:brewers-supplies"
+        ]
+      }
+    ],
+    "page": "XPHB 220"
+  },
+  {
+    "id": "srd24:tool:calligraphers-supplies",
+    "kind": "tool",
+    "name": "Calligrapher's Supplies",
+    "source": "srd24",
+    "tags": [
+      "artisans-tools"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd24:tool:calligraphers-supplies"
+        ]
+      }
+    ],
+    "page": "XPHB 220"
+  },
+  {
+    "id": "srd24:tool:carpenters-tools",
+    "kind": "tool",
+    "name": "Carpenter's Tools",
+    "source": "srd24",
+    "tags": [
+      "artisans-tools"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd24:tool:carpenters-tools"
+        ]
+      }
+    ],
+    "page": "XPHB 220"
+  },
+  {
+    "id": "srd24:tool:cartographers-tools",
+    "kind": "tool",
+    "name": "Cartographer's Tools",
+    "source": "srd24",
+    "tags": [
+      "artisans-tools"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd24:tool:cartographers-tools"
+        ]
+      }
+    ],
+    "page": "XPHB 220"
+  },
+  {
+    "id": "srd24:tool:cobblers-tools",
+    "kind": "tool",
+    "name": "Cobbler's Tools",
+    "source": "srd24",
+    "tags": [
+      "artisans-tools"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd24:tool:cobblers-tools"
+        ]
+      }
+    ],
+    "page": "XPHB 220"
+  },
+  {
+    "id": "srd24:tool:cooks-utensils",
+    "kind": "tool",
+    "name": "Cook's Utensils",
+    "source": "srd24",
+    "tags": [
+      "artisans-tools"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd24:tool:cooks-utensils"
+        ]
+      }
+    ],
+    "page": "XPHB 220"
+  },
+  {
+    "id": "srd24:tool:drum",
+    "kind": "tool",
+    "name": "Drum",
+    "source": "srd24",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd24:tool:drum"
+        ]
+      }
+    ],
+    "page": "XPHB 221"
+  },
+  {
+    "id": "srd24:tool:dulcimer",
+    "kind": "tool",
+    "name": "Dulcimer",
+    "source": "srd24",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd24:tool:dulcimer"
+        ]
+      }
+    ],
+    "page": "XPHB 221"
+  },
+  {
+    "id": "srd24:tool:flute",
+    "kind": "tool",
+    "name": "Flute",
+    "source": "srd24",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd24:tool:flute"
+        ]
+      }
+    ],
+    "page": "XPHB 221"
+  },
+  {
+    "id": "srd24:tool:glassblowers-tools",
+    "kind": "tool",
+    "name": "Glassblower's Tools",
+    "source": "srd24",
+    "tags": [
+      "artisans-tools"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd24:tool:glassblowers-tools"
+        ]
+      }
+    ],
+    "page": "XPHB 220"
+  },
+  {
+    "id": "srd24:tool:horn",
+    "kind": "tool",
+    "name": "Horn",
+    "source": "srd24",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd24:tool:horn"
+        ]
+      }
+    ],
+    "page": "XPHB 221"
+  },
+  {
+    "id": "srd24:tool:jewelers-tools",
+    "kind": "tool",
+    "name": "Jeweler's Tools",
+    "source": "srd24",
+    "tags": [
+      "artisans-tools"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd24:tool:jewelers-tools"
+        ]
+      }
+    ],
+    "page": "XPHB 220"
+  },
+  {
+    "id": "srd24:tool:leatherworkers-tools",
+    "kind": "tool",
+    "name": "Leatherworker's Tools",
+    "source": "srd24",
+    "tags": [
+      "artisans-tools"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd24:tool:leatherworkers-tools"
+        ]
+      }
+    ],
+    "page": "XPHB 221"
+  },
+  {
+    "id": "srd24:tool:lute",
+    "kind": "tool",
+    "name": "Lute",
+    "source": "srd24",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd24:tool:lute"
+        ]
+      }
+    ],
+    "page": "XPHB 221"
+  },
+  {
+    "id": "srd24:tool:lyre",
+    "kind": "tool",
+    "name": "Lyre",
+    "source": "srd24",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd24:tool:lyre"
+        ]
+      }
+    ],
+    "page": "XPHB 221"
+  },
+  {
+    "id": "srd24:tool:masons-tools",
+    "kind": "tool",
+    "name": "Mason's Tools",
+    "source": "srd24",
+    "tags": [
+      "artisans-tools"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd24:tool:masons-tools"
+        ]
+      }
+    ],
+    "page": "XPHB 221"
+  },
+  {
+    "id": "srd24:tool:painters-supplies",
+    "kind": "tool",
+    "name": "Painter's Supplies",
+    "source": "srd24",
+    "tags": [
+      "artisans-tools"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd24:tool:painters-supplies"
+        ]
+      }
+    ],
+    "page": "XPHB 221"
+  },
+  {
+    "id": "srd24:tool:pan-flute",
+    "kind": "tool",
+    "name": "Pan Flute",
+    "source": "srd24",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd24:tool:pan-flute"
+        ]
+      }
+    ],
+    "page": "XPHB 221"
+  },
+  {
+    "id": "srd24:tool:potters-tools",
+    "kind": "tool",
+    "name": "Potter's Tools",
+    "source": "srd24",
+    "tags": [
+      "artisans-tools"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd24:tool:potters-tools"
+        ]
+      }
+    ],
+    "page": "XPHB 221"
+  },
+  {
+    "id": "srd24:tool:shawm",
+    "kind": "tool",
+    "name": "Shawm",
+    "source": "srd24",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd24:tool:shawm"
+        ]
+      }
+    ],
+    "page": "XPHB 221"
+  },
+  {
+    "id": "srd24:tool:smiths-tools",
+    "kind": "tool",
+    "name": "Smith's Tools",
+    "source": "srd24",
+    "tags": [
+      "artisans-tools"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd24:tool:smiths-tools"
+        ]
+      }
+    ],
+    "page": "XPHB 221"
+  },
+  {
+    "id": "srd24:tool:tinkers-tools",
+    "kind": "tool",
+    "name": "Tinker's Tools",
+    "source": "srd24",
+    "tags": [
+      "artisans-tools"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd24:tool:tinkers-tools"
+        ]
+      }
+    ],
+    "page": "XPHB 221"
+  },
+  {
+    "id": "srd24:tool:viol",
+    "kind": "tool",
+    "name": "Viol",
+    "source": "srd24",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd24:tool:viol"
+        ]
+      }
+    ],
+    "page": "XPHB 221"
+  },
+  {
+    "id": "srd24:tool:weavers-tools",
+    "kind": "tool",
+    "name": "Weaver's Tools",
+    "source": "srd24",
+    "tags": [
+      "artisans-tools"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd24:tool:weavers-tools"
+        ]
+      }
+    ],
+    "page": "XPHB 221"
+  },
+  {
+    "id": "srd24:tool:woodcarvers-tools",
+    "kind": "tool",
+    "name": "Woodcarver's Tools",
+    "source": "srd24",
+    "tags": [
+      "artisans-tools"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd24:tool:woodcarvers-tools"
+        ]
+      }
+    ],
+    "page": "XPHB 221"
+  },
+  {
+    "id": "srd24:tool:dice-set",
+    "kind": "tool",
+    "name": "Dice Set",
+    "source": "srd24",
+    "tags": [
+      "gaming-set"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd24:tool:dice-set"
+        ]
+      }
+    ],
+    "page": "XPHB 221"
+  },
+  {
+    "id": "srd24:tool:disguise-kit",
+    "kind": "tool",
+    "name": "Disguise Kit",
+    "source": "srd24",
+    "tags": [
+      "kit"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd24:tool:disguise-kit"
+        ]
+      }
+    ],
+    "page": "XPHB 221"
+  },
+  {
+    "id": "srd24:tool:dragonchess-set",
+    "kind": "tool",
+    "name": "Dragonchess Set",
+    "source": "srd24",
+    "tags": [
+      "gaming-set"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd24:tool:dragonchess-set"
+        ]
+      }
+    ],
+    "page": "XPHB 221"
+  },
+  {
+    "id": "srd24:tool:forgery-kit",
+    "kind": "tool",
+    "name": "Forgery Kit",
+    "source": "srd24",
+    "tags": [
+      "kit"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd24:tool:forgery-kit"
+        ]
+      }
+    ],
+    "page": "XPHB 221"
+  },
+  {
+    "id": "srd24:tool:herbalism-kit",
+    "kind": "tool",
+    "name": "Herbalism Kit",
+    "source": "srd24",
+    "tags": [
+      "kit"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd24:tool:herbalism-kit"
+        ]
+      }
+    ],
+    "page": "XPHB 221"
+  },
+  {
+    "id": "srd24:tool:horn-of-blasting",
+    "kind": "tool",
+    "name": "Horn of Blasting",
+    "source": "srd24",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd24:tool:horn-of-blasting"
+        ]
+      }
+    ],
+    "page": "XDMG 270"
+  },
+  {
+    "id": "srd24:tool:horn-of-valhalla-brass",
+    "kind": "tool",
+    "name": "Horn of Valhalla, Brass",
+    "source": "srd24",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd24:tool:horn-of-valhalla-brass"
+        ]
+      }
+    ],
+    "page": "XDMG 270"
+  },
+  {
+    "id": "srd24:tool:horn-of-valhalla-bronze",
+    "kind": "tool",
+    "name": "Horn of Valhalla, Bronze",
+    "source": "srd24",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd24:tool:horn-of-valhalla-bronze"
+        ]
+      }
+    ],
+    "page": "XDMG 270"
+  },
+  {
+    "id": "srd24:tool:horn-of-valhalla-iron",
+    "kind": "tool",
+    "name": "Horn of Valhalla, Iron",
+    "source": "srd24",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd24:tool:horn-of-valhalla-iron"
+        ]
+      }
+    ],
+    "page": "XDMG 270"
+  },
+  {
+    "id": "srd24:tool:horn-of-valhalla-silver",
+    "kind": "tool",
+    "name": "Horn of Valhalla, Silver",
+    "source": "srd24",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd24:tool:horn-of-valhalla-silver"
+        ]
+      }
+    ],
+    "page": "XDMG 270"
+  },
+  {
+    "id": "srd24:tool:navigators-tools",
+    "kind": "tool",
+    "name": "Navigator's Tools",
+    "source": "srd24",
+    "tags": [
+      "kit"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd24:tool:navigators-tools"
+        ]
+      }
+    ],
+    "page": "XPHB 221"
+  },
+  {
+    "id": "srd24:tool:playing-cards",
+    "kind": "tool",
+    "name": "Playing Cards",
+    "source": "srd24",
+    "tags": [
+      "gaming-set"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd24:tool:playing-cards"
+        ]
+      }
+    ],
+    "page": "XPHB 221"
+  },
+  {
+    "id": "srd24:tool:poisoners-kit",
+    "kind": "tool",
+    "name": "Poisoner's Kit",
+    "source": "srd24",
+    "tags": [
+      "kit"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd24:tool:poisoners-kit"
+        ]
+      }
+    ],
+    "page": "XPHB 221"
+  },
+  {
+    "id": "srd24:tool:thieves-tools",
+    "kind": "tool",
+    "name": "Thieves' Tools",
+    "source": "srd24",
+    "tags": [
+      "kit"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd24:tool:thieves-tools"
+        ]
+      }
+    ],
+    "page": "XPHB 221"
+  },
+  {
+    "id": "srd24:tool:three-dragon-ante-set",
+    "kind": "tool",
+    "name": "Three-Dragon Ante Set",
+    "source": "srd24",
+    "tags": [
+      "gaming-set"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd24:tool:three-dragon-ante-set"
+        ]
+      }
+    ],
+    "page": "XPHB 221"
+  }
+]

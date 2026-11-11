@@ -1,0 +1,315 @@
+[
+  {
+    "id": "srd24:class:paladin",
+    "kind": "class",
+    "name": "Paladin",
+    "source": "srd24",
+    "page": "XPHB 108",
+    "key": "paladin",
+    "hitDie": "d10",
+    "tags": [
+      "srd-class"
+    ],
+    "text": "**Hit Dice:** 1d10 per paladin level.\n\n**Hit Points at 1st Level:** 10 + your Constitution modifier.\n\n**Hit Points at Higher Levels:** 1d10 (or 6) + your Constitution modifier per paladin level after 1st.\n\n**Armor:** Light, medium, heavy, shield\n**Weapons:** Simple, martial\n**Tools:** None\n**Saving Throws:** Wisdom, Charisma\n**Skills:** Choose 2 from athletics, insight, intimidation, medicine, persuasion, religion\n\n**Equipment:** You start with the following equipment, in addition to the equipment granted by your background:\n\n*Choose A or B:* (A) Chain Mail, Shield, Longsword, 6 Javelins, Holy Symbol, Priest's Pack, and 9 GP; or (B) 150 GP",
+    "primaryAbility": [
+      "str",
+      "cha"
+    ],
+    "x-multiclass-proficiencies": {
+      "weapons": [
+        "martial"
+      ],
+      "armor": [
+        "light",
+        "medium",
+        "shield"
+      ],
+      "armorProficiencies": [
+        {
+          "light": true,
+          "medium": true,
+          "shield": true
+        }
+      ]
+    },
+    "spellcasting": {
+      "ability": "cha",
+      "progression": "half",
+      "type": "prepared",
+      "list": "paladin-spell",
+      "prepared": "@table(paladin, prepared-spells)"
+    },
+    "tables": {
+      "channel-divinity": [
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "prepared-spells": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        6,
+        7,
+        7,
+        9,
+        9,
+        10,
+        10,
+        11,
+        11,
+        12,
+        12,
+        14,
+        14,
+        15,
+        15
+      ]
+    },
+    "levels": {
+      "1": {
+        "choices": [
+          {
+            "id": "srd24:class:paladin:skill",
+            "name": "Skill Proficiency",
+            "count": 2,
+            "from": {
+              "ids": [
+                "srd24:skill:athletics",
+                "srd24:skill:insight",
+                "srd24:skill:intimidation",
+                "srd24:skill:medicine",
+                "srd24:skill:persuasion",
+                "srd24:skill:religion"
+              ]
+            }
+          },
+          {
+            "id": "srd24:class:paladin:weapon-mastery-1",
+            "name": "Weapon Mastery",
+            "count": 2,
+            "from": {
+              "kind": "weapon-mastery",
+              "tags": [
+                "simple-weapon",
+                "martial-weapon"
+              ]
+            }
+          }
+        ],
+        "modifiers": [
+          {
+            "target": "saves.wis",
+            "op": "proficiency",
+            "value": "proficient"
+          },
+          {
+            "target": "saves.cha",
+            "op": "proficiency",
+            "value": "proficient"
+          },
+          {
+            "target": "proficiencies.armor",
+            "op": "include",
+            "value": [
+              "light",
+              "medium",
+              "heavy",
+              "shield"
+            ]
+          },
+          {
+            "target": "proficiencies.weapon",
+            "op": "include",
+            "value": [
+              "simple",
+              "martial"
+            ]
+          }
+        ],
+        "grants": [
+          "srd24:paladin:lay-on-hands",
+          "srd24:paladin:spellcasting",
+          "srd24:paladin:weapon-mastery"
+        ]
+      },
+      "2": {
+        "grants": [
+          "srd24:spell:divine-smite",
+          "srd24:paladin:fighting-style",
+          "srd24:paladin:paladins-smite"
+        ],
+        "choices": [
+          {
+            "id": "srd24:class:paladin:fighting-style-2",
+            "name": "Fighting Style",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "fighting-style-feat"
+              ]
+            }
+          }
+        ]
+      },
+      "3": {
+        "grants": [
+          "srd24:paladin:channel-divinity",
+          "srd24:paladin:paladin-subclass"
+        ],
+        "choices": [
+          {
+            "id": "srd24:class:paladin:subclass",
+            "name": "Paladin Subclass",
+            "count": 1,
+            "from": {
+              "kind": "subclass",
+              "tags": [
+                "paladin-subclass"
+              ]
+            }
+          }
+        ]
+      },
+      "4": {
+        "choices": [
+          {
+            "id": "srd24:class:paladin:asi-4",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "5": {
+        "grants": [
+          "srd24:spell:find-steed",
+          "srd24:paladin:extra-attack",
+          "srd24:paladin:faithful-steed"
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd24:paladin:aura-of-protection"
+        ]
+      },
+      "8": {
+        "choices": [
+          {
+            "id": "srd24:class:paladin:asi-8",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "9": {
+        "grants": [
+          "srd24:paladin:abjure-foes"
+        ]
+      },
+      "10": {
+        "grants": [
+          "srd24:paladin:aura-of-courage"
+        ]
+      },
+      "11": {
+        "grants": [
+          "srd24:paladin:radiant-strikes"
+        ]
+      },
+      "12": {
+        "choices": [
+          {
+            "id": "srd24:class:paladin:asi-12",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "14": {
+        "grants": [
+          "srd24:paladin:restoring-touch"
+        ]
+      },
+      "16": {
+        "choices": [
+          {
+            "id": "srd24:class:paladin:asi-16",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "18": {
+        "grants": [
+          "srd24:paladin:aura-expansion"
+        ]
+      },
+      "19": {
+        "grants": [
+          "srd24:paladin:epic-boon"
+        ],
+        "choices": [
+          {
+            "id": "srd24:class:paladin:epic-boon-19",
+            "name": "Epic Boon",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "epic-boon"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+]

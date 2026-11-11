@@ -1,0 +1,536 @@
+[
+  {
+    "id": "srd24:mastery:battleaxe",
+    "kind": "weapon-mastery",
+    "name": "Battleaxe",
+    "source": "srd24",
+    "weapon": "srd24:item:battleaxe",
+    "mastery": "srd24:mastery-property:topple",
+    "tags": [
+      "melee-weapon",
+      "martial-weapon",
+      "mastery:topple"
+    ]
+  },
+  {
+    "id": "srd24:mastery:blowgun",
+    "kind": "weapon-mastery",
+    "name": "Blowgun",
+    "source": "srd24",
+    "weapon": "srd24:item:blowgun",
+    "mastery": "srd24:mastery-property:vex",
+    "tags": [
+      "ranged-weapon",
+      "martial-weapon",
+      "mastery:vex"
+    ]
+  },
+  {
+    "id": "srd24:mastery:club",
+    "kind": "weapon-mastery",
+    "name": "Club",
+    "source": "srd24",
+    "weapon": "srd24:item:club",
+    "mastery": "srd24:mastery-property:slow",
+    "tags": [
+      "melee-weapon",
+      "simple-weapon",
+      "light",
+      "mastery:slow"
+    ]
+  },
+  {
+    "id": "srd24:mastery:dagger",
+    "kind": "weapon-mastery",
+    "name": "Dagger",
+    "source": "srd24",
+    "weapon": "srd24:item:dagger",
+    "mastery": "srd24:mastery-property:nick",
+    "tags": [
+      "melee-weapon",
+      "simple-weapon",
+      "finesse",
+      "light",
+      "mastery:nick"
+    ]
+  },
+  {
+    "id": "srd24:mastery:dart",
+    "kind": "weapon-mastery",
+    "name": "Dart",
+    "source": "srd24",
+    "weapon": "srd24:item:dart",
+    "mastery": "srd24:mastery-property:vex",
+    "tags": [
+      "ranged-weapon",
+      "simple-weapon",
+      "finesse",
+      "mastery:vex"
+    ]
+  },
+  {
+    "id": "srd24:mastery:flail",
+    "kind": "weapon-mastery",
+    "name": "Flail",
+    "source": "srd24",
+    "weapon": "srd24:item:flail",
+    "mastery": "srd24:mastery-property:sap",
+    "tags": [
+      "melee-weapon",
+      "martial-weapon",
+      "mastery:sap"
+    ]
+  },
+  {
+    "id": "srd24:mastery:glaive",
+    "kind": "weapon-mastery",
+    "name": "Glaive",
+    "source": "srd24",
+    "weapon": "srd24:item:glaive",
+    "mastery": "srd24:mastery-property:graze",
+    "tags": [
+      "melee-weapon",
+      "martial-weapon",
+      "mastery:graze"
+    ]
+  },
+  {
+    "id": "srd24:mastery:greataxe",
+    "kind": "weapon-mastery",
+    "name": "Greataxe",
+    "source": "srd24",
+    "weapon": "srd24:item:greataxe",
+    "mastery": "srd24:mastery-property:cleave",
+    "tags": [
+      "melee-weapon",
+      "martial-weapon",
+      "mastery:cleave"
+    ]
+  },
+  {
+    "id": "srd24:mastery:greatclub",
+    "kind": "weapon-mastery",
+    "name": "Greatclub",
+    "source": "srd24",
+    "weapon": "srd24:item:greatclub",
+    "mastery": "srd24:mastery-property:push",
+    "tags": [
+      "melee-weapon",
+      "simple-weapon",
+      "mastery:push"
+    ]
+  },
+  {
+    "id": "srd24:mastery:greatsword",
+    "kind": "weapon-mastery",
+    "name": "Greatsword",
+    "source": "srd24",
+    "weapon": "srd24:item:greatsword",
+    "mastery": "srd24:mastery-property:graze",
+    "tags": [
+      "melee-weapon",
+      "martial-weapon",
+      "mastery:graze"
+    ]
+  },
+  {
+    "id": "srd24:mastery:halberd",
+    "kind": "weapon-mastery",
+    "name": "Halberd",
+    "source": "srd24",
+    "weapon": "srd24:item:halberd",
+    "mastery": "srd24:mastery-property:cleave",
+    "tags": [
+      "melee-weapon",
+      "martial-weapon",
+      "mastery:cleave"
+    ]
+  },
+  {
+    "id": "srd24:mastery:hand-crossbow",
+    "kind": "weapon-mastery",
+    "name": "Hand Crossbow",
+    "source": "srd24",
+    "weapon": "srd24:item:hand-crossbow",
+    "mastery": "srd24:mastery-property:vex",
+    "tags": [
+      "ranged-weapon",
+      "martial-weapon",
+      "light",
+      "mastery:vex"
+    ]
+  },
+  {
+    "id": "srd24:mastery:handaxe",
+    "kind": "weapon-mastery",
+    "name": "Handaxe",
+    "source": "srd24",
+    "weapon": "srd24:item:handaxe",
+    "mastery": "srd24:mastery-property:vex",
+    "tags": [
+      "melee-weapon",
+      "simple-weapon",
+      "light",
+      "mastery:vex"
+    ]
+  },
+  {
+    "id": "srd24:mastery:heavy-crossbow",
+    "kind": "weapon-mastery",
+    "name": "Heavy Crossbow",
+    "source": "srd24",
+    "weapon": "srd24:item:heavy-crossbow",
+    "mastery": "srd24:mastery-property:push",
+    "tags": [
+      "ranged-weapon",
+      "martial-weapon",
+      "mastery:push"
+    ]
+  },
+  {
+    "id": "srd24:mastery:javelin",
+    "kind": "weapon-mastery",
+    "name": "Javelin",
+    "source": "srd24",
+    "weapon": "srd24:item:javelin",
+    "mastery": "srd24:mastery-property:slow",
+    "tags": [
+      "melee-weapon",
+      "simple-weapon",
+      "mastery:slow"
+    ]
+  },
+  {
+    "id": "srd24:mastery:lance",
+    "kind": "weapon-mastery",
+    "name": "Lance",
+    "source": "srd24",
+    "weapon": "srd24:item:lance",
+    "mastery": "srd24:mastery-property:topple",
+    "tags": [
+      "melee-weapon",
+      "martial-weapon",
+      "mastery:topple"
+    ]
+  },
+  {
+    "id": "srd24:mastery:light-crossbow",
+    "kind": "weapon-mastery",
+    "name": "Light Crossbow",
+    "source": "srd24",
+    "weapon": "srd24:item:light-crossbow",
+    "mastery": "srd24:mastery-property:slow",
+    "tags": [
+      "ranged-weapon",
+      "simple-weapon",
+      "mastery:slow"
+    ]
+  },
+  {
+    "id": "srd24:mastery:light-hammer",
+    "kind": "weapon-mastery",
+    "name": "Light Hammer",
+    "source": "srd24",
+    "weapon": "srd24:item:light-hammer",
+    "mastery": "srd24:mastery-property:nick",
+    "tags": [
+      "melee-weapon",
+      "simple-weapon",
+      "light",
+      "mastery:nick"
+    ]
+  },
+  {
+    "id": "srd24:mastery:longbow",
+    "kind": "weapon-mastery",
+    "name": "Longbow",
+    "source": "srd24",
+    "weapon": "srd24:item:longbow",
+    "mastery": "srd24:mastery-property:slow",
+    "tags": [
+      "ranged-weapon",
+      "martial-weapon",
+      "mastery:slow"
+    ]
+  },
+  {
+    "id": "srd24:mastery:longsword",
+    "kind": "weapon-mastery",
+    "name": "Longsword",
+    "source": "srd24",
+    "weapon": "srd24:item:longsword",
+    "mastery": "srd24:mastery-property:sap",
+    "tags": [
+      "melee-weapon",
+      "martial-weapon",
+      "mastery:sap"
+    ]
+  },
+  {
+    "id": "srd24:mastery:mace",
+    "kind": "weapon-mastery",
+    "name": "Mace",
+    "source": "srd24",
+    "weapon": "srd24:item:mace",
+    "mastery": "srd24:mastery-property:sap",
+    "tags": [
+      "melee-weapon",
+      "simple-weapon",
+      "mastery:sap"
+    ]
+  },
+  {
+    "id": "srd24:mastery:maul",
+    "kind": "weapon-mastery",
+    "name": "Maul",
+    "source": "srd24",
+    "weapon": "srd24:item:maul",
+    "mastery": "srd24:mastery-property:topple",
+    "tags": [
+      "melee-weapon",
+      "martial-weapon",
+      "mastery:topple"
+    ]
+  },
+  {
+    "id": "srd24:mastery:morningstar",
+    "kind": "weapon-mastery",
+    "name": "Morningstar",
+    "source": "srd24",
+    "weapon": "srd24:item:morningstar",
+    "mastery": "srd24:mastery-property:sap",
+    "tags": [
+      "melee-weapon",
+      "martial-weapon",
+      "mastery:sap"
+    ]
+  },
+  {
+    "id": "srd24:mastery:musket",
+    "kind": "weapon-mastery",
+    "name": "Musket",
+    "source": "srd24",
+    "weapon": "srd24:item:musket",
+    "mastery": "srd24:mastery-property:slow",
+    "tags": [
+      "ranged-weapon",
+      "martial-weapon",
+      "mastery:slow"
+    ]
+  },
+  {
+    "id": "srd24:mastery:pike",
+    "kind": "weapon-mastery",
+    "name": "Pike",
+    "source": "srd24",
+    "weapon": "srd24:item:pike",
+    "mastery": "srd24:mastery-property:push",
+    "tags": [
+      "melee-weapon",
+      "martial-weapon",
+      "mastery:push"
+    ]
+  },
+  {
+    "id": "srd24:mastery:pistol",
+    "kind": "weapon-mastery",
+    "name": "Pistol",
+    "source": "srd24",
+    "weapon": "srd24:item:pistol",
+    "mastery": "srd24:mastery-property:vex",
+    "tags": [
+      "ranged-weapon",
+      "martial-weapon",
+      "mastery:vex"
+    ]
+  },
+  {
+    "id": "srd24:mastery:quarterstaff",
+    "kind": "weapon-mastery",
+    "name": "Quarterstaff",
+    "source": "srd24",
+    "weapon": "srd24:item:quarterstaff",
+    "mastery": "srd24:mastery-property:topple",
+    "tags": [
+      "melee-weapon",
+      "simple-weapon",
+      "mastery:topple"
+    ]
+  },
+  {
+    "id": "srd24:mastery:rapier",
+    "kind": "weapon-mastery",
+    "name": "Rapier",
+    "source": "srd24",
+    "weapon": "srd24:item:rapier",
+    "mastery": "srd24:mastery-property:vex",
+    "tags": [
+      "melee-weapon",
+      "martial-weapon",
+      "finesse",
+      "mastery:vex"
+    ]
+  },
+  {
+    "id": "srd24:mastery:scimitar",
+    "kind": "weapon-mastery",
+    "name": "Scimitar",
+    "source": "srd24",
+    "weapon": "srd24:item:scimitar",
+    "mastery": "srd24:mastery-property:nick",
+    "tags": [
+      "melee-weapon",
+      "martial-weapon",
+      "finesse",
+      "light",
+      "mastery:nick"
+    ]
+  },
+  {
+    "id": "srd24:mastery:shortbow",
+    "kind": "weapon-mastery",
+    "name": "Shortbow",
+    "source": "srd24",
+    "weapon": "srd24:item:shortbow",
+    "mastery": "srd24:mastery-property:vex",
+    "tags": [
+      "ranged-weapon",
+      "simple-weapon",
+      "mastery:vex"
+    ]
+  },
+  {
+    "id": "srd24:mastery:shortsword",
+    "kind": "weapon-mastery",
+    "name": "Shortsword",
+    "source": "srd24",
+    "weapon": "srd24:item:shortsword",
+    "mastery": "srd24:mastery-property:vex",
+    "tags": [
+      "melee-weapon",
+      "martial-weapon",
+      "finesse",
+      "light",
+      "mastery:vex"
+    ]
+  },
+  {
+    "id": "srd24:mastery:sickle",
+    "kind": "weapon-mastery",
+    "name": "Sickle",
+    "source": "srd24",
+    "weapon": "srd24:item:sickle",
+    "mastery": "srd24:mastery-property:nick",
+    "tags": [
+      "melee-weapon",
+      "simple-weapon",
+      "light",
+      "mastery:nick"
+    ]
+  },
+  {
+    "id": "srd24:mastery:sling",
+    "kind": "weapon-mastery",
+    "name": "Sling",
+    "source": "srd24",
+    "weapon": "srd24:item:sling",
+    "mastery": "srd24:mastery-property:slow",
+    "tags": [
+      "ranged-weapon",
+      "simple-weapon",
+      "mastery:slow"
+    ]
+  },
+  {
+    "id": "srd24:mastery:spear",
+    "kind": "weapon-mastery",
+    "name": "Spear",
+    "source": "srd24",
+    "weapon": "srd24:item:spear",
+    "mastery": "srd24:mastery-property:sap",
+    "tags": [
+      "melee-weapon",
+      "simple-weapon",
+      "mastery:sap"
+    ]
+  },
+  {
+    "id": "srd24:mastery:staff",
+    "kind": "weapon-mastery",
+    "name": "Staff",
+    "source": "srd24",
+    "weapon": "srd24:item:staff",
+    "mastery": "srd24:mastery-property:topple",
+    "tags": [
+      "spellcasting-focus",
+      "simple-weapon",
+      "mastery:topple"
+    ]
+  },
+  {
+    "id": "srd24:mastery:trident",
+    "kind": "weapon-mastery",
+    "name": "Trident",
+    "source": "srd24",
+    "weapon": "srd24:item:trident",
+    "mastery": "srd24:mastery-property:topple",
+    "tags": [
+      "melee-weapon",
+      "martial-weapon",
+      "mastery:topple"
+    ]
+  },
+  {
+    "id": "srd24:mastery:war-pick",
+    "kind": "weapon-mastery",
+    "name": "War Pick",
+    "source": "srd24",
+    "weapon": "srd24:item:war-pick",
+    "mastery": "srd24:mastery-property:sap",
+    "tags": [
+      "melee-weapon",
+      "martial-weapon",
+      "mastery:sap"
+    ]
+  },
+  {
+    "id": "srd24:mastery:warhammer",
+    "kind": "weapon-mastery",
+    "name": "Warhammer",
+    "source": "srd24",
+    "weapon": "srd24:item:warhammer",
+    "mastery": "srd24:mastery-property:push",
+    "tags": [
+      "melee-weapon",
+      "martial-weapon",
+      "mastery:push"
+    ]
+  },
+  {
+    "id": "srd24:mastery:whip",
+    "kind": "weapon-mastery",
+    "name": "Whip",
+    "source": "srd24",
+    "weapon": "srd24:item:whip",
+    "mastery": "srd24:mastery-property:slow",
+    "tags": [
+      "melee-weapon",
+      "martial-weapon",
+      "finesse",
+      "mastery:slow"
+    ]
+  },
+  {
+    "id": "srd24:mastery:wooden-staff",
+    "kind": "weapon-mastery",
+    "name": "Wooden Staff",
+    "source": "srd24",
+    "weapon": "srd24:item:wooden-staff",
+    "mastery": "srd24:mastery-property:topple",
+    "tags": [
+      "spellcasting-focus",
+      "simple-weapon",
+      "mastery:topple"
+    ]
+  }
+]

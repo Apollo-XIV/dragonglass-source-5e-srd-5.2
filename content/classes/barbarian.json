@@ -1,0 +1,357 @@
+[
+  {
+    "id": "srd24:class:barbarian",
+    "kind": "class",
+    "name": "Barbarian",
+    "source": "srd24",
+    "page": "XPHB 50",
+    "key": "barbarian",
+    "hitDie": "d12",
+    "tags": [
+      "srd-class"
+    ],
+    "text": "**Hit Dice:** 1d12 per barbarian level.\n\n**Hit Points at 1st Level:** 12 + your Constitution modifier.\n\n**Hit Points at Higher Levels:** 1d12 (or 7) + your Constitution modifier per barbarian level after 1st.\n\n**Armor:** Light, medium, shield\n**Weapons:** Simple, martial\n**Tools:** None\n**Saving Throws:** Strength, Constitution\n**Skills:** Choose 2 from animal handling, athletics, intimidation, nature, perception, survival\n\n**Equipment:** You start with the following equipment, in addition to the equipment granted by your background:\n\n*Choose A or B:* (A) Greataxe, 4 Handaxes, Explorer's Pack, and 15 GP; or (B) 75 GP",
+    "primaryAbility": [
+      "str"
+    ],
+    "x-multiclass-proficiencies": {
+      "weapons": [
+        "martial"
+      ],
+      "armor": [
+        "shield"
+      ],
+      "armorProficiencies": [
+        {
+          "shield": true
+        }
+      ]
+    },
+    "tables": {
+      "rages": [
+        2,
+        2,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        6
+      ],
+      "rage-damage": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "weapon-mastery": [
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    "levels": {
+      "1": {
+        "choices": [
+          {
+            "id": "srd24:class:barbarian:skill",
+            "name": "Skill Proficiency",
+            "count": 2,
+            "from": {
+              "ids": [
+                "srd24:skill:animal-handling",
+                "srd24:skill:athletics",
+                "srd24:skill:intimidation",
+                "srd24:skill:nature",
+                "srd24:skill:perception",
+                "srd24:skill:survival"
+              ]
+            }
+          },
+          {
+            "id": "srd24:class:barbarian:weapon-mastery-1",
+            "name": "Weapon Mastery",
+            "count": 2,
+            "from": {
+              "kind": "weapon-mastery",
+              "tags": [
+                "simple-weapon",
+                "martial-weapon"
+              ],
+              "allTags": [
+                "melee-weapon"
+              ]
+            }
+          }
+        ],
+        "modifiers": [
+          {
+            "target": "saves.str",
+            "op": "proficiency",
+            "value": "proficient"
+          },
+          {
+            "target": "saves.con",
+            "op": "proficiency",
+            "value": "proficient"
+          },
+          {
+            "target": "proficiencies.armor",
+            "op": "include",
+            "value": [
+              "light",
+              "medium",
+              "shield"
+            ]
+          },
+          {
+            "target": "proficiencies.weapon",
+            "op": "include",
+            "value": [
+              "simple",
+              "martial"
+            ]
+          }
+        ],
+        "grants": [
+          "srd24:barbarian:rage",
+          "srd24:barbarian:unarmored-defense",
+          "srd24:barbarian:weapon-mastery"
+        ]
+      },
+      "2": {
+        "grants": [
+          "srd24:barbarian:danger-sense",
+          "srd24:barbarian:reckless-attack"
+        ]
+      },
+      "3": {
+        "grants": [
+          "srd24:barbarian:barbarian-subclass",
+          "srd24:barbarian:primal-knowledge"
+        ],
+        "choices": [
+          {
+            "id": "srd24:class:barbarian:subclass",
+            "name": "Barbarian Subclass",
+            "count": 1,
+            "from": {
+              "kind": "subclass",
+              "tags": [
+                "barbarian-subclass"
+              ]
+            }
+          }
+        ]
+      },
+      "4": {
+        "choices": [
+          {
+            "id": "srd24:class:barbarian:asi-4",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          },
+          {
+            "id": "srd24:class:barbarian:weapon-mastery-4",
+            "name": "Weapon Mastery",
+            "count": 1,
+            "from": {
+              "kind": "weapon-mastery",
+              "tags": [
+                "simple-weapon",
+                "martial-weapon"
+              ],
+              "allTags": [
+                "melee-weapon"
+              ]
+            }
+          }
+        ]
+      },
+      "5": {
+        "grants": [
+          "srd24:barbarian:extra-attack",
+          "srd24:barbarian:fast-movement"
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd24:barbarian:feral-instinct",
+          "srd24:barbarian:instinctive-pounce"
+        ]
+      },
+      "8": {
+        "choices": [
+          {
+            "id": "srd24:class:barbarian:asi-8",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "9": {
+        "grants": [
+          "srd24:barbarian:brutal-strike"
+        ]
+      },
+      "10": {
+        "choices": [
+          {
+            "id": "srd24:class:barbarian:weapon-mastery-10",
+            "name": "Weapon Mastery",
+            "count": 1,
+            "from": {
+              "kind": "weapon-mastery",
+              "tags": [
+                "simple-weapon",
+                "martial-weapon"
+              ],
+              "allTags": [
+                "melee-weapon"
+              ]
+            }
+          }
+        ]
+      },
+      "11": {
+        "grants": [
+          "srd24:barbarian:relentless-rage"
+        ]
+      },
+      "12": {
+        "choices": [
+          {
+            "id": "srd24:class:barbarian:asi-12",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "13": {
+        "grants": [
+          "srd24:barbarian:improved-brutal-strike"
+        ]
+      },
+      "15": {
+        "grants": [
+          "srd24:barbarian:persistent-rage"
+        ]
+      },
+      "16": {
+        "choices": [
+          {
+            "id": "srd24:class:barbarian:asi-16",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "17": {
+        "grants": [
+          "srd24:barbarian:improved-brutal-strike-17"
+        ]
+      },
+      "18": {
+        "grants": [
+          "srd24:barbarian:indomitable-might"
+        ]
+      },
+      "19": {
+        "grants": [
+          "srd24:barbarian:epic-boon"
+        ],
+        "choices": [
+          {
+            "id": "srd24:class:barbarian:epic-boon-19",
+            "name": "Epic Boon",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "epic-boon"
+              ]
+            }
+          }
+        ]
+      },
+      "20": {
+        "grants": [
+          "srd24:barbarian:primal-champion"
+        ]
+      }
+    }
+  }
+]

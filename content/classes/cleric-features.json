@@ -1,0 +1,346 @@
+[
+  {
+    "id": "srd24:cleric:spellcasting",
+    "kind": "class-feature",
+    "name": "Spellcasting",
+    "source": "srd24",
+    "page": "XPHB 70",
+    "tags": [
+      "cleric-feature"
+    ],
+    "text": "You have learned to cast spells through prayer and meditation. See chapter 7 for the rules on spellcasting. The information below details how you use those rules with Cleric spells, which appear on the Cleric spell list later in the class's description.\n\n**Cantrips.** You know three cantrips of your choice from the Cleric spell list. Guidance, Sacred Flame, and Thaumaturgy are recommended.\n\nWhenever you gain a Cleric level, you can replace one of your cantrips with another cantrip of your choice from the Cleric spell list.\n\nWhen you reach Cleric levels 4 and 10, you learn another cantrip of your choice from the Cleric spell list, as shown in the Cantrips column of the Cleric Features table.\n\n**Spell Slots.** The Cleric Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.\n\n**Prepared Spells of Level 1+.** You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose four level 1 spells from the Cleric spell list. Bless, Cure Wounds, Guiding Bolt, and Shield of Faith are recommended.\n\nThe number of spells on your list increases as you gain Cleric levels, as shown in the Prepared Spells column of the Cleric Features table. Whenever that number increases, choose additional spells from the Cleric spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 3 Cleric, your list of prepared spells can include six spells of levels 1 and 2 in any combination.\n\nIf another Cleric feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Cleric spells for you.\n\n**Changing Your Prepared Spells.** Whenever you finish a Long Rest, you can change your list of prepared spells, replacing any of the spells there with other Cleric spells for which you have spell slots.\n\n**Spellcasting Ability.** Wisdom is your spellcasting ability for your Cleric spells.\n\n**Spellcasting Focus.** You can use a Holy Symbol as a Spellcasting Focus for your Cleric spells."
+  },
+  {
+    "id": "srd24:cleric:protector",
+    "kind": "class-feature",
+    "name": "Protector",
+    "source": "srd24",
+    "page": "XPHB 70",
+    "tags": [
+      "cleric-feature",
+      "cleric-divine-order-option"
+    ],
+    "text": "Trained for battle, you gain proficiency with Martial weapons and training with Heavy armor."
+  },
+  {
+    "id": "srd24:cleric:thaumaturge",
+    "kind": "class-feature",
+    "name": "Thaumaturge",
+    "source": "srd24",
+    "page": "XPHB 70",
+    "tags": [
+      "cleric-feature",
+      "cleric-divine-order-option"
+    ],
+    "text": "You know one extra cantrip from the Cleric spell list. In addition, your mystical connection to the divine gives you a bonus to your Intelligence (Arcana or Religion) checks. The bonus equals your Wisdom modifier (minimum of +1)."
+  },
+  {
+    "id": "srd24:cleric:divine-order",
+    "kind": "class-feature",
+    "name": "Divine Order",
+    "source": "srd24",
+    "page": "XPHB 70",
+    "tags": [
+      "cleric-feature"
+    ],
+    "text": "You have dedicated yourself to one of the following sacred roles of your choice.",
+    "choices": [
+      {
+        "id": "srd24:cleric:divine-order:options",
+        "name": "Divine Order",
+        "count": 1,
+        "from": {
+          "kind": "class-feature",
+          "tags": [
+            "cleric-divine-order-option"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:cleric:divine-spark",
+    "kind": "class-feature",
+    "name": "Divine Spark",
+    "source": "srd24",
+    "page": "XPHB 70",
+    "tags": [
+      "cleric-feature"
+    ],
+    "text": "As a Magic action, you point your Holy Symbol at another creature you can see within 30 feet of yourself and focus divine energy at it. Roll 1d8 and add your Wisdom modifier. You either restore Hit Points to the creature equal to that total or force the creature to make a Constitution saving throw. On a failed save, the creature takes Necrotic or Radiant damage (your choice) equal to that total. On a successful save, the creature takes half as much damage (round down).\n\nYou roll an additional d8 when you reach Cleric levels 7 (2d8), 13 (3d8), and 18 (4d8).",
+    "actions": [
+      {
+        "id": "divine-spark-heal",
+        "name": "Divine Spark: Heal",
+        "activation": "action",
+        "cost": {
+          "srd24:cleric:channel-divinity": 1
+        },
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      },
+      {
+        "id": "divine-spark-save",
+        "name": "Divine Spark: Save",
+        "activation": "action",
+        "cost": {
+          "srd24:cleric:channel-divinity": 1
+        },
+        "save": {
+          "ability": "con",
+          "dc": "@spellcasting.cleric.dc",
+          "onSuccess": "half"
+        },
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:cleric:turn-undead",
+    "kind": "class-feature",
+    "name": "Turn Undead",
+    "source": "srd24",
+    "page": "XPHB 70",
+    "tags": [
+      "cleric-feature"
+    ],
+    "text": "As a Magic action, you present your Holy Symbol and censure Undead creatures. Each Undead of your choice within 30 feet of you must make a Wisdom saving throw. If the creature fails its save, it has the Frightened and Incapacitated conditions for 1 minute. For that duration, it tries to move as far from you as it can on its turns. This effect ends early on the creature if it takes any damage, if you have the Incapacitated condition, or if you die.",
+    "actions": [
+      {
+        "id": "turn-undead",
+        "name": "Turn Undead",
+        "activation": "action",
+        "cost": {
+          "srd24:cleric:channel-divinity": 1
+        },
+        "save": {
+          "ability": "wis",
+          "dc": "@spellcasting.cleric.dc"
+        },
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:cleric:channel-divinity",
+    "kind": "class-feature",
+    "name": "Channel Divinity",
+    "source": "srd24",
+    "page": "XPHB 70",
+    "tags": [
+      "cleric-feature"
+    ],
+    "text": "You can channel divine energy directly from the Outer Planes to fuel magical effects. You start with two such effects: Divine Spark and Turn Undead, each of which is described below. Each time you use this class's Channel Divinity, choose which Channel Divinity effect from this class to create. You gain additional effect options at higher Cleric levels.\n\nYou can use this class's Channel Divinity twice. You regain one of its expended uses when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest. You gain additional uses when you reach certain Cleric levels, as shown in the Channel Divinity column of the Cleric Features table.\n\nIf a Channel Divinity effect requires a saving throw, the DC equals the spell save DC from this class's Spellcasting feature.",
+    "grants": [
+      "srd24:cleric:divine-spark",
+      "srd24:cleric:turn-undead"
+    ],
+    "resources": [
+      {
+        "id": "srd24:cleric:channel-divinity",
+        "name": "Channel Divinity",
+        "max": "@table(cleric, channel-divinity)",
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          },
+          {
+            "on": "short-rest",
+            "amount": 1
+          }
+        ],
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:cleric:cleric-subclass",
+    "kind": "class-feature",
+    "name": "Cleric Subclass",
+    "source": "srd24",
+    "page": "XPHB 71",
+    "tags": [
+      "cleric-feature"
+    ],
+    "text": "You gain a Cleric subclass of your choice. A subclass is a specialization that grants you features at certain Cleric levels. For the rest of your career, you gain each of your subclass's features that are of your Cleric level or lower."
+  },
+  {
+    "id": "srd24:cleric:sear-undead",
+    "kind": "class-feature",
+    "name": "Sear Undead",
+    "source": "srd24",
+    "page": "XPHB 71",
+    "tags": [
+      "cleric-feature"
+    ],
+    "text": "Whenever you use Turn Undead, you can roll a number of d8s equal to your Wisdom modifier (minimum of 1d8) and add the rolls together. Each Undead that fails its saving throw against that use of Turn Undead takes Radiant damage equal to the roll's total. This damage doesn't end the turn effect.",
+    "actions": [
+      {
+        "id": "sear-undead",
+        "name": "Sear Undead",
+        "activation": "action",
+        "cost": {
+          "srd24:cleric:channel-divinity": 1
+        },
+        "save": {
+          "ability": "wis",
+          "dc": "@spellcasting.cleric.dc",
+          "onSuccess": "none"
+        },
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:cleric:divine-strike",
+    "kind": "class-feature",
+    "name": "Divine Strike",
+    "source": "srd24",
+    "page": "XPHB 71",
+    "tags": [
+      "cleric-feature",
+      "cleric-blessed-strikes-option"
+    ],
+    "text": "Once on each of your turns when you hit a creature with an attack roll using a weapon, you can cause the target to take an extra 1d8 Necrotic or Radiant damage (your choice)."
+  },
+  {
+    "id": "srd24:cleric:potent-spellcasting",
+    "kind": "class-feature",
+    "name": "Potent Spellcasting",
+    "source": "srd24",
+    "page": "XPHB 71",
+    "tags": [
+      "cleric-feature",
+      "cleric-blessed-strikes-option"
+    ],
+    "text": "Add your Wisdom modifier to the damage you deal with any Cleric cantrip."
+  },
+  {
+    "id": "srd24:cleric:blessed-strikes",
+    "kind": "class-feature",
+    "name": "Blessed Strikes",
+    "source": "srd24",
+    "page": "XPHB 71",
+    "tags": [
+      "cleric-feature"
+    ],
+    "text": "Divine power infuses you in battle. You gain one of the following options of your choice (if you get either option from a Cleric subclass in an older book, use only the option you choose for this feature).",
+    "choices": [
+      {
+        "id": "srd24:cleric:blessed-strikes:options",
+        "name": "Blessed Strikes",
+        "count": 1,
+        "from": {
+          "kind": "class-feature",
+          "tags": [
+            "cleric-blessed-strikes-option"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:cleric:divine-intervention",
+    "kind": "class-feature",
+    "name": "Divine Intervention",
+    "source": "srd24",
+    "page": "XPHB 71",
+    "tags": [
+      "cleric-feature"
+    ],
+    "text": "You can call on your deity or pantheon to intervene on your behalf. As a Magic action, choose any Cleric spell of level 5 or lower that doesn't require a Reaction to cast. As part of the same action, you cast that spell without expending a spell slot or needing Material components. You can't use this feature again until you finish a Long Rest.",
+    "resources": [
+      {
+        "id": "srd24:cleric:divine-intervention",
+        "name": "Divine Intervention",
+        "max": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "divine-intervention",
+        "name": "Divine Intervention",
+        "activation": "action",
+        "cost": {
+          "srd24:cleric:divine-intervention": 1
+        },
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:cleric:improved-blessed-strikes",
+    "kind": "class-feature",
+    "name": "Improved Blessed Strikes",
+    "source": "srd24",
+    "page": "XPHB 71",
+    "tags": [
+      "cleric-feature"
+    ],
+    "text": "The option you chose for Blessed Strikes grows more powerful.\n\n**Divine Strike.** The extra damage of your Divine Strike increases to 2d8.\n\n**Potent Spellcasting.** When you cast a Cleric cantrip and deal damage to a creature with it, you can give vitality to yourself or another creature within 60 feet of yourself, granting a number of Temporary Hit Points equal to twice your Wisdom modifier."
+  },
+  {
+    "id": "srd24:cleric:epic-boon",
+    "kind": "class-feature",
+    "name": "Epic Boon",
+    "source": "srd24",
+    "page": "XPHB 71",
+    "tags": [
+      "cleric-feature"
+    ],
+    "text": "You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Fate is recommended."
+  },
+  {
+    "id": "srd24:cleric:greater-divine-intervention",
+    "kind": "class-feature",
+    "name": "Greater Divine Intervention",
+    "source": "srd24",
+    "page": "XPHB 71",
+    "tags": [
+      "cleric-feature"
+    ],
+    "text": "You can call on even more powerful divine intervention. When you use your Divine Intervention feature, you can choose Wish when you select a spell. If you do so, you can't use Divine Intervention again until you finish 2d4 Long Rests.",
+    "actions": [
+      {
+        "id": "greater-divine-intervention",
+        "name": "Greater Divine Intervention",
+        "activation": "action",
+        "cost": {
+          "srd24:cleric:divine-intervention": 1
+        },
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ]
+  }
+]

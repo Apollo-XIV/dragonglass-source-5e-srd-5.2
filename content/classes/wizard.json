@@ -1,0 +1,261 @@
+[
+  {
+    "id": "srd24:class:wizard",
+    "kind": "class",
+    "name": "Wizard",
+    "source": "srd24",
+    "page": "XPHB 164",
+    "key": "wizard",
+    "hitDie": "d6",
+    "tags": [
+      "srd-class"
+    ],
+    "text": "**Hit Dice:** 1d6 per wizard level.\n\n**Hit Points at 1st Level:** 6 + your Constitution modifier.\n\n**Hit Points at Higher Levels:** 1d6 (or 4) + your Constitution modifier per wizard level after 1st.\n\n**Armor:** None\n**Weapons:** Simple\n**Tools:** None\n**Saving Throws:** Intelligence, Wisdom\n**Skills:** Choose 2 from arcana, history, insight, investigation, medicine, nature, religion\n\n**Equipment:** You start with the following equipment, in addition to the equipment granted by your background:\n\n*Choose A or B:* (A) 2 Daggers, Arcane Focus (Quarterstaff), Robe, Spellbook, Scholar's Pack, and 5 GP; or (B) 55 GP",
+    "primaryAbility": [
+      "int"
+    ],
+    "spellcasting": {
+      "ability": "int",
+      "progression": "full",
+      "type": "spellbook",
+      "list": "wizard-spell",
+      "cantrips": "@table(wizard, cantrips-known)",
+      "prepared": "@table(wizard, prepared-spells)",
+      "spellbook": "@table(wizard, spellbook-size)"
+    },
+    "tables": {
+      "prepared-spells": [
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        16,
+        16,
+        17,
+        18,
+        19,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "cantrips-known": [
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "spellbook-size": [
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34,
+        36,
+        38,
+        40,
+        42,
+        44
+      ]
+    },
+    "levels": {
+      "1": {
+        "choices": [
+          {
+            "id": "srd24:class:wizard:skill",
+            "name": "Skill Proficiency",
+            "count": 2,
+            "from": {
+              "ids": [
+                "srd24:skill:arcana",
+                "srd24:skill:history",
+                "srd24:skill:insight",
+                "srd24:skill:investigation",
+                "srd24:skill:medicine",
+                "srd24:skill:nature",
+                "srd24:skill:religion"
+              ]
+            }
+          }
+        ],
+        "modifiers": [
+          {
+            "target": "saves.int",
+            "op": "proficiency",
+            "value": "proficient"
+          },
+          {
+            "target": "saves.wis",
+            "op": "proficiency",
+            "value": "proficient"
+          },
+          {
+            "target": "proficiencies.weapon",
+            "op": "include",
+            "value": [
+              "simple"
+            ]
+          }
+        ],
+        "grants": [
+          "srd24:wizard:spellcasting",
+          "srd24:wizard:ritual-adept",
+          "srd24:wizard:arcane-recovery"
+        ]
+      },
+      "2": {
+        "grants": [
+          "srd24:wizard:scholar"
+        ]
+      },
+      "3": {
+        "grants": [
+          "srd24:wizard:wizard-subclass"
+        ],
+        "choices": [
+          {
+            "id": "srd24:class:wizard:subclass",
+            "name": "Wizard Subclass",
+            "count": 1,
+            "from": {
+              "kind": "subclass",
+              "tags": [
+                "wizard-subclass"
+              ]
+            }
+          }
+        ]
+      },
+      "4": {
+        "choices": [
+          {
+            "id": "srd24:class:wizard:asi-4",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "5": {
+        "grants": [
+          "srd24:wizard:memorize-spell"
+        ]
+      },
+      "8": {
+        "choices": [
+          {
+            "id": "srd24:class:wizard:asi-8",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "12": {
+        "choices": [
+          {
+            "id": "srd24:class:wizard:asi-12",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "16": {
+        "choices": [
+          {
+            "id": "srd24:class:wizard:asi-16",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "18": {
+        "grants": [
+          "srd24:wizard:spell-mastery"
+        ]
+      },
+      "19": {
+        "grants": [
+          "srd24:wizard:epic-boon"
+        ],
+        "choices": [
+          {
+            "id": "srd24:class:wizard:epic-boon-19",
+            "name": "Epic Boon",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "epic-boon"
+              ]
+            }
+          }
+        ]
+      },
+      "20": {
+        "grants": [
+          "srd24:wizard:signature-spells"
+        ]
+      }
+    }
+  }
+]

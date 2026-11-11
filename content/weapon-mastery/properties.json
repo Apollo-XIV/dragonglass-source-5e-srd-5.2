@@ -1,0 +1,74 @@
+[
+  {
+    "id": "srd24:mastery-property:cleave",
+    "kind": "mastery-property",
+    "name": "Cleave",
+    "source": "srd24",
+    "key": "cleave",
+    "text": "If you hit a creature with a melee attack roll using this weapon, you can make a melee attack roll with the weapon against a second creature within 5 feet of the first that is also within your reach. On a hit, the second creature takes the weapon's damage, but don't add your ability modifier to that damage unless that modifier is negative. You can make this extra attack only once per turn.",
+    "page": "XPHB 214"
+  },
+  {
+    "id": "srd24:mastery-property:graze",
+    "kind": "mastery-property",
+    "name": "Graze",
+    "source": "srd24",
+    "key": "graze",
+    "text": "If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.",
+    "page": "XPHB 214"
+  },
+  {
+    "id": "srd24:mastery-property:nick",
+    "kind": "mastery-property",
+    "name": "Nick",
+    "source": "srd24",
+    "key": "nick",
+    "text": "When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.",
+    "page": "XPHB 214"
+  },
+  {
+    "id": "srd24:mastery-property:push",
+    "kind": "mastery-property",
+    "name": "Push",
+    "source": "srd24",
+    "key": "push",
+    "text": "If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller.",
+    "page": "XPHB 214"
+  },
+  {
+    "id": "srd24:mastery-property:sap",
+    "kind": "mastery-property",
+    "name": "Sap",
+    "source": "srd24",
+    "key": "sap",
+    "text": "If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.",
+    "page": "XPHB 214"
+  },
+  {
+    "id": "srd24:mastery-property:slow",
+    "kind": "mastery-property",
+    "name": "Slow",
+    "source": "srd24",
+    "key": "slow",
+    "text": "If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn't exceed 10 feet.",
+    "page": "XPHB 214"
+  },
+  {
+    "id": "srd24:mastery-property:topple",
+    "kind": "mastery-property",
+    "name": "Topple",
+    "source": "srd24",
+    "key": "topple",
+    "text": "If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.",
+    "page": "XPHB 214"
+  },
+  {
+    "id": "srd24:mastery-property:vex",
+    "kind": "mastery-property",
+    "name": "Vex",
+    "source": "srd24",
+    "key": "vex",
+    "text": "If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.",
+    "page": "XPHB 214"
+  }
+]

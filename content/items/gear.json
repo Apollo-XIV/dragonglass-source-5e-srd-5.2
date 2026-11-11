@@ -1,0 +1,1536 @@
+[
+  {
+    "id": "srd24:item:acid",
+    "kind": "item",
+    "name": "Acid",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 222",
+    "itemType": "gear",
+    "weight": 1,
+    "value": 2500,
+    "text": "When you take the Attack action, you can replace one of your attacks with throwing a vial of Acid. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 2d6 Acid damage."
+  },
+  {
+    "id": "srd24:item:alchemists-fire",
+    "kind": "item",
+    "name": "Alchemist's Fire",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 222",
+    "itemType": "gear",
+    "weight": 1,
+    "value": 5000,
+    "text": "When you take the Attack action, you can replace one of your attacks with throwing a flask of Alchemist's Fire. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 1d4 Fire damage and start burning."
+  },
+  {
+    "id": "srd24:item:ale-mug",
+    "kind": "item",
+    "name": "Ale (mug)",
+    "source": "srd24",
+    "tags": [
+      "food"
+    ],
+    "page": "XPHB 231",
+    "itemType": "food",
+    "value": 4
+  },
+  {
+    "id": "srd24:item:amulet",
+    "kind": "item",
+    "name": "Amulet",
+    "source": "srd24",
+    "tags": [
+      "spellcasting-focus",
+      "holy-symbol"
+    ],
+    "page": "XPHB 226",
+    "itemType": "focus",
+    "weight": 1,
+    "value": 500,
+    "text": "For an Amulet to be an effective Holy Symbol, it must be worn or held."
+  },
+  {
+    "id": "srd24:item:antitoxin",
+    "kind": "item",
+    "name": "Antitoxin",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 222",
+    "itemType": "gear",
+    "value": 5000,
+    "text": "As a Bonus Action, you can drink a vial of Antitoxin to gain Advantage on saving throws to avoid or end the Poisoned condition for 1 hour."
+  },
+  {
+    "id": "srd24:item:arcane-focus",
+    "kind": "item",
+    "name": "Arcane Focus",
+    "source": "srd24",
+    "tags": [
+      "spellcasting-focus",
+      "arcane-focus",
+      "item-group"
+    ],
+    "page": "XPHB 224",
+    "itemType": "focus",
+    "text": "This group covers: Crystal, Orb, Rod, Staff, Wand."
+  },
+  {
+    "id": "srd24:item:assassins-blood",
+    "kind": "item",
+    "name": "Assassin's Blood",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XDMG 90",
+    "itemType": "gear",
+    "value": 15000,
+    "text": "A creature subjected to Assassin's Blood makes a DC 10 Constitution saving throw. On a failed save, the creature takes 6 (1d12) Poison damage and has the Poisoned condition for 24 hours. On a successful save, the creature takes half as much damage only."
+  },
+  {
+    "id": "srd24:item:backpack",
+    "kind": "item",
+    "name": "Backpack",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 224",
+    "itemType": "gear",
+    "weight": 5,
+    "value": 200,
+    "text": "A Backpack holds up to 30 pounds within 1 cubic foot. It can also serve as a saddlebag.\n\nHolds up to 30 pounds."
+  },
+  {
+    "id": "srd24:item:ball-bearings",
+    "kind": "item",
+    "name": "Ball Bearings",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 224",
+    "itemType": "gear",
+    "weight": 2,
+    "value": 100,
+    "text": "As a Utilize action, you can spill Ball Bearings from their pouch. They spread to cover a level, 10-foot-square area within 10 feet of yourself. A creature that enters this area for the first time on a turn must succeed on a DC 10 Dexterity saving throw or have the Prone condition. It takes 10 minutes to recover the Ball Bearings."
+  },
+  {
+    "id": "srd24:item:barrel",
+    "kind": "item",
+    "name": "Barrel",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 224",
+    "itemType": "gear",
+    "weight": 70,
+    "value": 200,
+    "text": "A Barrel holds up to 40 gallons of liquid or up to 4 cubic feet of dry goods."
+  },
+  {
+    "id": "srd24:item:basic-poison",
+    "kind": "item",
+    "name": "Basic Poison",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 227",
+    "itemType": "gear",
+    "value": 10000,
+    "text": "As a Bonus Action, you can use a vial of Basic Poison to coat one weapon or up to three pieces of ammunition. A creature that takes Piercing or Slashing damage from the poisoned weapon or ammunition takes an extra 1d4 Poison damage. Once applied, the poison retains potency for 1 minute or until its damage is dealt, whichever comes first."
+  },
+  {
+    "id": "srd24:item:basket",
+    "kind": "item",
+    "name": "Basket",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 224",
+    "itemType": "gear",
+    "weight": 2,
+    "value": 40,
+    "text": "A Basket holds up to 40 pounds within 2 cubic feet.\n\nHolds up to 40 pounds."
+  },
+  {
+    "id": "srd24:item:bedroll",
+    "kind": "item",
+    "name": "Bedroll",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 224",
+    "itemType": "gear",
+    "weight": 7,
+    "value": 100,
+    "text": "A Bedroll sleeps one Small or Medium creature. While in a Bedroll, you automatically succeed on saving throws against extreme cold (see the Dungeon Master's Guide)."
+  },
+  {
+    "id": "srd24:item:bell",
+    "kind": "item",
+    "name": "Bell",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 224",
+    "itemType": "gear",
+    "value": 100,
+    "text": "When rung as a Utilize action, a Bell produces a sound that can be heard up to 60 feet away."
+  },
+  {
+    "id": "srd24:item:blanket",
+    "kind": "item",
+    "name": "Blanket",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 224",
+    "itemType": "gear",
+    "weight": 3,
+    "value": 50,
+    "text": "While wrapped in a blanket, you have Advantage on saving throws against extreme cold (see the Dungeon Master's Guide)."
+  },
+  {
+    "id": "srd24:item:block-and-tackle",
+    "kind": "item",
+    "name": "Block and Tackle",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 224",
+    "itemType": "gear",
+    "weight": 5,
+    "value": 100,
+    "text": "A Block and Tackle allows you to hoist up to four times the weight you can normally lift."
+  },
+  {
+    "id": "srd24:item:book",
+    "kind": "item",
+    "name": "Book",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 224",
+    "itemType": "gear",
+    "weight": 5,
+    "value": 2500,
+    "text": "A Book contains fiction or nonfiction. If you consult an accurate nonfiction Book about its topic, you gain a +5 bonus to Intelligence (Arcana, History, Nature, or Religion) checks you make about that topic."
+  },
+  {
+    "id": "srd24:item:bread-loaf",
+    "kind": "item",
+    "name": "Bread (loaf)",
+    "source": "srd24",
+    "tags": [
+      "food"
+    ],
+    "page": "XPHB 231",
+    "itemType": "food",
+    "value": 2
+  },
+  {
+    "id": "srd24:item:bucket",
+    "kind": "item",
+    "name": "Bucket",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 224",
+    "itemType": "gear",
+    "weight": 2,
+    "value": 5,
+    "text": "A Bucket holds up to half a cubic foot of contents."
+  },
+  {
+    "id": "srd24:item:bullseye-lantern",
+    "kind": "item",
+    "name": "Bullseye Lantern",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 226",
+    "itemType": "gear",
+    "weight": 2,
+    "value": 1000,
+    "text": "A Bullseye Lantern burns Oil as fuel to cast Bright Light in a 60-foot Cone and Dim Light for an additional 60 feet."
+  },
+  {
+    "id": "srd24:item:burglars-pack",
+    "kind": "item",
+    "name": "Burglar's Pack",
+    "source": "srd24",
+    "tags": [
+      "equipment",
+      "bundle",
+      "pack"
+    ],
+    "page": "XPHB 224",
+    "itemType": "gear",
+    "weight": 47.5,
+    "value": 1600,
+    "text": "A Burglar's Pack contains the following items: Backpack, Ball Bearings, Bell, 10 Candles, Crowbar, Hooded Lantern, 7 flasks of Oil, 5 days of Rations, Rope, Tinderbox, and Waterskin."
+  },
+  {
+    "id": "srd24:item:burnt-othur-fumes",
+    "kind": "item",
+    "name": "Burnt Othur Fumes",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XDMG 90",
+    "itemType": "gear",
+    "value": 50000,
+    "text": "A creature subjected to Burnt Othur Fumes must succeed on a DC 13 Constitution saving throw or take 10 (3d6) Poison damage, and it must repeat the save at the start of each of its turns. On each successive failed save, the creature takes 3 (1d6) Poison damage. After three successful saves, the poison ends."
+  },
+  {
+    "id": "srd24:item:caltrops",
+    "kind": "item",
+    "name": "Caltrops",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 224",
+    "itemType": "gear",
+    "weight": 2,
+    "value": 100,
+    "text": "As a Utilize action, you can spread Caltrops from their bag to cover a 5-foot-square area within 5 feet of yourself. A creature that enters this area for the first time on a turn must succeed on a DC 15 Dexterity saving throw or take 1 Piercing damage and have its Speed reduced to 0 until the start of its next turn. It takes 10 minutes to recover the Caltrops."
+  },
+  {
+    "id": "srd24:item:candle",
+    "kind": "item",
+    "name": "Candle",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 224",
+    "itemType": "gear",
+    "value": 1,
+    "text": "For 1 hour, a lit Candle sheds Bright Light in a 5-foot radius and Dim Light for an additional 5 feet."
+  },
+  {
+    "id": "srd24:item:chain",
+    "kind": "item",
+    "name": "Chain",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 224",
+    "itemType": "gear",
+    "weight": 10,
+    "value": 500,
+    "text": "As a Utilize action, you can wrap a Chain around an unwilling creature within 5 feet of yourself that has the Grappled, Incapacitated, or Restrained condition if you succeed on a DC 13 Strength (Athletics) check. If the creature's legs are bound, the creature has the Restrained condition until it escapes. Escaping the Chain requires the creature to make a successful DC 18 Dexterity (Acrobatics) check as an action. Bursting the Chain requires a successful DC 20 Strength (Athletics) check as an action."
+  },
+  {
+    "id": "srd24:item:cheese-wedge",
+    "kind": "item",
+    "name": "Cheese (wedge)",
+    "source": "srd24",
+    "tags": [
+      "food"
+    ],
+    "page": "XPHB 231",
+    "itemType": "food",
+    "value": 10
+  },
+  {
+    "id": "srd24:item:chest",
+    "kind": "item",
+    "name": "Chest",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 225",
+    "itemType": "gear",
+    "weight": 25,
+    "value": 500,
+    "text": "A Chest holds up to 12 cubic feet of contents."
+  },
+  {
+    "id": "srd24:item:climbers-kit",
+    "kind": "item",
+    "name": "Climber's Kit",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 225",
+    "itemType": "gear",
+    "weight": 12,
+    "value": 2500,
+    "text": "A Climber's Kit includes boot tips, gloves, pitons, and a harness. As a Utilize action, you can use the Climber's Kit to anchor yourself; when you do, you can't fall more than 25 feet from the anchor point, and you can't move more than 25 feet from there without undoing the anchor as a Bonus Action."
+  },
+  {
+    "id": "srd24:item:common-wine-bottle",
+    "kind": "item",
+    "name": "Common Wine (bottle)",
+    "source": "srd24",
+    "tags": [
+      "food"
+    ],
+    "page": "XPHB 231",
+    "itemType": "food",
+    "value": 20
+  },
+  {
+    "id": "srd24:item:component-pouch",
+    "kind": "item",
+    "name": "Component Pouch",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 225",
+    "itemType": "gear",
+    "weight": 2,
+    "value": 2500,
+    "text": "A Component Pouch is watertight and filled with compartments that hold all the free Material components of your spells."
+  },
+  {
+    "id": "srd24:item:costume",
+    "kind": "item",
+    "name": "Costume",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 225",
+    "itemType": "gear",
+    "weight": 4,
+    "value": 500,
+    "text": "While wearing a Costume, you have Advantage on any ability check you make to impersonate the person or type of person it represents."
+  },
+  {
+    "id": "srd24:item:crawler-mucus",
+    "kind": "item",
+    "name": "Crawler Mucus",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XDMG 90",
+    "itemType": "gear",
+    "value": 20000,
+    "text": "A creature subjected to Carrion Crawler Mucus must succeed on a DC 13 Constitution saving throw or have the Poisoned condition for 1 minute. The creature also has the Paralyzed condition while Poisoned in this way. The creature repeats the save at the end of each of its turns, ending the effect on itself on a success."
+  },
+  {
+    "id": "srd24:item:crossbow-bolt-case",
+    "kind": "item",
+    "name": "Crossbow Bolt Case",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 224",
+    "itemType": "gear",
+    "weight": 1,
+    "value": 100,
+    "text": "A Crossbow Bolt Case holds up to 20 Bolts."
+  },
+  {
+    "id": "srd24:item:crowbar",
+    "kind": "item",
+    "name": "Crowbar",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 225",
+    "itemType": "gear",
+    "weight": 5,
+    "value": 200,
+    "text": "Using a Crowbar gives you Advantage on Strength checks where the Crowbar's leverage can be applied."
+  },
+  {
+    "id": "srd24:item:crystal",
+    "kind": "item",
+    "name": "Crystal",
+    "source": "srd24",
+    "tags": [
+      "spellcasting-focus",
+      "arcane-focus"
+    ],
+    "page": "XPHB 224",
+    "itemType": "focus",
+    "weight": 1,
+    "value": 1000
+  },
+  {
+    "id": "srd24:item:diplomats-pack",
+    "kind": "item",
+    "name": "Diplomat's Pack",
+    "source": "srd24",
+    "tags": [
+      "equipment",
+      "bundle",
+      "pack"
+    ],
+    "page": "XPHB 225",
+    "itemType": "gear",
+    "weight": 39,
+    "value": 3900,
+    "text": "A Diplomat's Pack contains the following items: Chest, Fine Clothes, Ink, 5 Ink Pens, Lamp, 2 Map or Scroll Cases, 4 flasks of Oil, 5 sheets of Paper, 5 sheets of Parchment, Perfume, and Tinderbox."
+  },
+  {
+    "id": "srd24:item:druidic-focus",
+    "kind": "item",
+    "name": "Druidic Focus",
+    "source": "srd24",
+    "tags": [
+      "spellcasting-focus",
+      "druidic-focus",
+      "item-group"
+    ],
+    "page": "XPHB 225",
+    "itemType": "focus",
+    "text": "This group covers: Sprig of mistletoe, Wooden staff, Yew wand."
+  },
+  {
+    "id": "srd24:item:dungeoneers-pack",
+    "kind": "item",
+    "name": "Dungeoneer's Pack",
+    "source": "srd24",
+    "tags": [
+      "equipment",
+      "bundle",
+      "pack"
+    ],
+    "page": "XPHB 225",
+    "itemType": "gear",
+    "weight": 55,
+    "value": 1200,
+    "text": "A Dungeoneer's Pack contains the following items: Backpack, Caltrops, Crowbar, 2 flasks of Oil, 10 days of Rations, Rope, Tinderbox, 10 Torches, and Waterskin."
+  },
+  {
+    "id": "srd24:item:emblem",
+    "kind": "item",
+    "name": "Emblem",
+    "source": "srd24",
+    "tags": [
+      "spellcasting-focus",
+      "holy-symbol"
+    ],
+    "page": "XPHB 226",
+    "itemType": "focus",
+    "value": 500,
+    "text": "For an Emblem to be an effective Holy Symbol, it must be borne on fabric (such as a tabard or banner) or a Shield."
+  },
+  {
+    "id": "srd24:item:entertainers-pack",
+    "kind": "item",
+    "name": "Entertainer's Pack",
+    "source": "srd24",
+    "tags": [
+      "equipment",
+      "bundle",
+      "pack"
+    ],
+    "page": "XPHB 225",
+    "itemType": "gear",
+    "weight": 58.5,
+    "value": 4000,
+    "text": "An Entertainer's Pack contains the following items: Backpack, Bedroll, Bell, Bullseye Lantern, 3 Costumes, Mirror, 8 flasks of Oil, 9 days of Rations, Tinderbox, and Waterskin."
+  },
+  {
+    "id": "srd24:item:essence-of-ether",
+    "kind": "item",
+    "name": "Essence of Ether",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XDMG 90",
+    "itemType": "gear",
+    "value": 30000,
+    "text": "A creature subjected to Essence of Ether must succeed on a DC 15 Constitution saving throw or have the Poisoned condition for 8 hours. The creature also has the Unconscious condition while Poisoned in this way. The creature wakes up if it takes damage or if another creature takes an action to shake it awake."
+  },
+  {
+    "id": "srd24:item:explorers-pack",
+    "kind": "item",
+    "name": "Explorer's Pack",
+    "source": "srd24",
+    "tags": [
+      "equipment",
+      "bundle",
+      "pack"
+    ],
+    "page": "XPHB 225",
+    "itemType": "gear",
+    "weight": 55,
+    "value": 1000,
+    "text": "An Explorer's Pack contains the following items: Backpack, Bedroll, 2 flasks of Oil, 10 days of Rations, Rope, Tinderbox, 10 Torches, and Waterskin."
+  },
+  {
+    "id": "srd24:item:fine-clothes",
+    "kind": "item",
+    "name": "Fine Clothes",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 225",
+    "itemType": "gear",
+    "weight": 6,
+    "value": 1500,
+    "text": "Fine Clothes are made of expensive fabrics and adorned with expertly crafted details. Some events and locations admit only people wearing these clothes."
+  },
+  {
+    "id": "srd24:item:fine-wine-bottle",
+    "kind": "item",
+    "name": "Fine Wine (bottle)",
+    "source": "srd24",
+    "tags": [
+      "food"
+    ],
+    "page": "XPHB 231",
+    "itemType": "food",
+    "value": 1000
+  },
+  {
+    "id": "srd24:item:flask",
+    "kind": "item",
+    "name": "Flask",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 225",
+    "itemType": "gear",
+    "weight": 1,
+    "value": 2,
+    "text": "A Flask holds up to 1 pint."
+  },
+  {
+    "id": "srd24:item:glass-bottle",
+    "kind": "item",
+    "name": "Glass Bottle",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 224",
+    "itemType": "gear",
+    "weight": 2,
+    "value": 200,
+    "text": "A Glass Bottle holds up to 1½ pints."
+  },
+  {
+    "id": "srd24:item:grappling-hook",
+    "kind": "item",
+    "name": "Grappling Hook",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 225",
+    "itemType": "gear",
+    "weight": 4,
+    "value": 200,
+    "text": "As a Utilize action, you can throw the Grappling Hook at a railing, a ledge, or another catch within 50 feet of yourself, and the hook catches on if you succeed on a DC 13 Dexterity (Acrobatics) check. If you tied a Rope to the hook, you can then climb it."
+  },
+  {
+    "id": "srd24:item:healers-kit",
+    "kind": "item",
+    "name": "Healer's Kit",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 225",
+    "itemType": "gear",
+    "weight": 3,
+    "value": 500,
+    "text": "A Healer's Kit has ten uses. As a Utilize action, you can expend one of its uses to stabilize an Unconscious creature that has 0 Hit Points without needing to make a Wisdom (Medicine) check."
+  },
+  {
+    "id": "srd24:item:holy-symbol",
+    "kind": "item",
+    "name": "Holy Symbol",
+    "source": "srd24",
+    "tags": [
+      "spellcasting-focus",
+      "holy-symbol",
+      "item-group"
+    ],
+    "page": "XPHB 226",
+    "itemType": "focus",
+    "text": "This group covers: Amulet, Emblem, Reliquary."
+  },
+  {
+    "id": "srd24:item:holy-water",
+    "kind": "item",
+    "name": "Holy Water",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 226",
+    "itemType": "gear",
+    "weight": 1,
+    "value": 2500,
+    "text": "When you take the Attack action, you can replace one of your attacks with throwing a flask of Holy Water. Target one creature you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 2d8 Radiant damage if it is a Fiend or an Undead."
+  },
+  {
+    "id": "srd24:item:hooded-lantern",
+    "kind": "item",
+    "name": "Hooded Lantern",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 226",
+    "itemType": "gear",
+    "weight": 2,
+    "value": 500,
+    "text": "A Hooded Lantern burns Oil as fuel to cast Bright Light in a 30-foot radius and Dim Light for an additional 30 feet. As a Bonus Action, you can lower the hood, reducing the light to Dim Light in a 5-foot radius, or raise it again."
+  },
+  {
+    "id": "srd24:item:hunting-trap",
+    "kind": "item",
+    "name": "Hunting Trap",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 226",
+    "itemType": "gear",
+    "weight": 25,
+    "value": 500,
+    "text": "As a Utilize action, you can set a Hunting Trap, which is a sawtooth steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take 1d4 Piercing damage and have its Speed reduced to 0 until the start of its next turn. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet). A creature can use its action to make a DC 13 Strength (Athletics) check, freeing itself or another creature within its reach on a success. Each failed check deals 1 Piercing damage to the trapped creature."
+  },
+  {
+    "id": "srd24:item:ink",
+    "kind": "item",
+    "name": "Ink",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 226",
+    "itemType": "gear",
+    "value": 1000,
+    "text": "Ink comes in a 1-ounce bottle, which provides enough ink to write about 500 pages."
+  },
+  {
+    "id": "srd24:item:ink-pen",
+    "kind": "item",
+    "name": "Ink Pen",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 226",
+    "itemType": "gear",
+    "value": 2,
+    "text": "Using Ink, an Ink Pen is used to write or draw."
+  },
+  {
+    "id": "srd24:item:iron-pot",
+    "kind": "item",
+    "name": "Iron Pot",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 228",
+    "itemType": "gear",
+    "weight": 10,
+    "value": 200,
+    "text": "An Iron Pot holds up to 1 gallon."
+  },
+  {
+    "id": "srd24:item:iron-spike",
+    "kind": "item",
+    "name": "Iron Spike",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 228",
+    "itemType": "gear",
+    "weight": 0.5,
+    "value": 10,
+    "text": "Iron Spikes come in bundles of ten. As a Utilize action, you can use a blunt object, such as a Light Hammer, to hammer a spike into wood, earth, or a similar material. You can do so to jam a door shut or to then tie a Rope or Chain to the Spike."
+  },
+  {
+    "id": "srd24:item:iron-spikes",
+    "kind": "item",
+    "name": "Iron Spikes",
+    "source": "srd24",
+    "tags": [
+      "equipment",
+      "bundle"
+    ],
+    "page": "XPHB 228",
+    "itemType": "gear",
+    "weight": 5,
+    "value": 100,
+    "text": "Iron Spikes come in bundles of ten. As a Utilize action, you can use a blunt object, such as a Light Hammer, to hammer a spike into wood, earth, or a similar material. You can do so to jam a door shut or to then tie a Rope or Chain to the Spike."
+  },
+  {
+    "id": "srd24:item:jug",
+    "kind": "item",
+    "name": "Jug",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 226",
+    "itemType": "gear",
+    "weight": 4,
+    "value": 2,
+    "text": "A Jug holds up to 1 gallon."
+  },
+  {
+    "id": "srd24:item:ladder",
+    "kind": "item",
+    "name": "Ladder",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 226",
+    "itemType": "gear",
+    "weight": 25,
+    "value": 10,
+    "text": "A Ladder is 10 feet tall. You must climb to move up or down it."
+  },
+  {
+    "id": "srd24:item:lamp",
+    "kind": "item",
+    "name": "Lamp",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 226",
+    "itemType": "gear",
+    "weight": 1,
+    "value": 50,
+    "text": "A Lamp burns Oil as fuel to cast Bright Light in a 15-foot radius and Dim Light for an additional 30 feet."
+  },
+  {
+    "id": "srd24:item:lock",
+    "kind": "item",
+    "name": "Lock",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 226",
+    "itemType": "gear",
+    "weight": 1,
+    "value": 1000,
+    "text": "A Lock comes with a key. Without the key, a creature can use Thieves' Tools to pick this Lock with a successful DC 15 Dexterity (Sleight of Hand) check."
+  },
+  {
+    "id": "srd24:item:magnifying-glass",
+    "kind": "item",
+    "name": "Magnifying Glass",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 226",
+    "itemType": "gear",
+    "value": 10000,
+    "text": "A Magnifying Glass grants Advantage on any ability check made to appraise or inspect a highly detailed item. Lighting a fire with a Magnifying Glass requires light as bright as sunlight to focus, tinder to ignite, and about 5 minutes for the fire to ignite."
+  },
+  {
+    "id": "srd24:item:malice",
+    "kind": "item",
+    "name": "Malice",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XDMG 91",
+    "itemType": "gear",
+    "value": 25000,
+    "text": "A creature subjected to Malice must succeed on a DC 15 Constitution saving throw or have the Poisoned condition for 1 hour. The creature also has the Blinded condition while Poisoned in this way."
+  },
+  {
+    "id": "srd24:item:manacles",
+    "kind": "item",
+    "name": "Manacles",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 226",
+    "itemType": "gear",
+    "weight": 6,
+    "value": 200,
+    "text": "As a Utilize action, you can use Manacles to bind an unwilling Small or Medium creature within 5 feet of yourself that has the Grappled, Incapacitated, or Restrained condition if you succeed on a DC 13 Dexterity (Sleight of Hand) check. While bound, a creature has Disadvantage on attack rolls, and the creature is Restrained if the Manacles are attached to a chain or hook that is fixed in place. Escaping the Manacles requires a successful DC 20 Dexterity (Sleight of Hand) check as an action. Bursting them requires a successful DC 25 Strength (Athletics) check as an action.\n\nEach set of Manacles comes with a key. Without the key, a creature can use Thieves' Tools to pick the Manacles' lock with a successful DC 15 Dexterity (Sleight of Hand) check."
+  },
+  {
+    "id": "srd24:item:map",
+    "kind": "item",
+    "name": "Map",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 227",
+    "itemType": "gear",
+    "value": 100,
+    "text": "If you consult an accurate Map, you gain a +5 bonus to Wisdom (Survival) checks you make to find your way in the place represented on it."
+  },
+  {
+    "id": "srd24:item:map-or-scroll-case",
+    "kind": "item",
+    "name": "Map or Scroll Case",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 224",
+    "itemType": "gear",
+    "weight": 1,
+    "value": 100,
+    "text": "A Map or Scroll Case holds up to 10 sheets of paper or 5 sheets of parchment."
+  },
+  {
+    "id": "srd24:item:midnight-tears",
+    "kind": "item",
+    "name": "Midnight Tears",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XDMG 91",
+    "itemType": "gear",
+    "value": 150000,
+    "text": "A creature that ingests Midnight Tears suffers no effect until the stroke of midnight. Any effect that ends the Poisoned condition neutralizes this poison. If the poison hasn't been neutralized before midnight, the creature makes a DC 17 Constitution saving throw, taking 31 (9d6) Poison damage on a failed save or half as much damage on a successful one."
+  },
+  {
+    "id": "srd24:item:mirror",
+    "kind": "item",
+    "name": "Mirror",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 227",
+    "itemType": "gear",
+    "weight": 0.5,
+    "value": 500,
+    "text": "A handheld steel Mirror is useful for personal cosmetics but also for peeking around corners and reflecting light as a signal."
+  },
+  {
+    "id": "srd24:item:net",
+    "kind": "item",
+    "name": "Net",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 227",
+    "itemType": "gear",
+    "weight": 3,
+    "value": 100,
+    "text": "When you take the Attack action, you can replace one of your attacks with throwing a Net. Target a creature you can see within 15 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or have the Restrained condition until it escapes. The target succeeds automatically if it is Huge or larger.\n\nTo escape, the target or a creature within 5 feet of it must take an action to make a DC 10 Strength (Athletics) check, freeing the Restrained creature on a success. Destroying the Net (AC 10; 5 HP; Immunity to Bludgeoning, Poison, and Psychic damage) also frees the target, ending the effect."
+  },
+  {
+    "id": "srd24:item:oil",
+    "kind": "item",
+    "name": "Oil",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 227",
+    "itemType": "gear",
+    "weight": 1,
+    "value": 10,
+    "text": "You can douse a creature, object, or space with Oil or use it as fuel, as detailed below.\n\n**Dousing a Creature or an Object.** When you take the Attack action, you can replace one of your attacks with throwing an Oil flask. Target one creature or object within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or be covered in oil. If the target takes Fire damage before the oil dries (after 1 minute), the target takes an extra 5 Fire damage from burning oil.\n\n**Dousing a Space.** You can take the Utilize action to pour an Oil flask on level ground to cover a 5-foot-square area within 5 feet of yourself. If lit, the oil burns until the end of the turn 2 rounds from when the oil was lit (or 12 seconds) and deals 5 Fire damage to any creature that enters the area or ends its turn there. A creature can take this damage only once per turn.\n\n**Fuel.** Oil serves as fuel for Lamps and Lanterns. Once lit, a flask of Oil burns for 6 hours in a Lamp or Lantern. That duration doesn't need to be consecutive; you can extinguish the burning Oil (as a Utilize action) and rekindle it again until it has burned for a total of 6 hours."
+  },
+  {
+    "id": "srd24:item:oil-of-taggit",
+    "kind": "item",
+    "name": "Oil of Taggit",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XDMG 91",
+    "itemType": "gear",
+    "value": 40000,
+    "text": "A creature subjected to Oil of Taggit must succeed on a DC 13 Constitution saving throw or have the Poisoned condition for 24 hours. The creature also has the Unconscious condition while Poisoned in this way. It wakes up if it takes damage."
+  },
+  {
+    "id": "srd24:item:orb",
+    "kind": "item",
+    "name": "Orb",
+    "source": "srd24",
+    "tags": [
+      "spellcasting-focus",
+      "arcane-focus"
+    ],
+    "page": "XPHB 224",
+    "itemType": "focus",
+    "weight": 3,
+    "value": 2000
+  },
+  {
+    "id": "srd24:item:pale-tincture",
+    "kind": "item",
+    "name": "Pale Tincture",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XDMG 91",
+    "itemType": "gear",
+    "value": 25000,
+    "text": "A creature subjected to Pale Tincture must succeed on a DC 16 Constitution saving throw or take 3 (1d6) Poison damage and have the Poisoned condition. The Poisoned creature repeats the save every 24 hours, taking 3 (1d6) Poison damage on a failed save. The damage the poison deals can't be healed by any means while the creature remains Poisoned. After seven successful saves against the poison, the creature is no longer Poisoned."
+  },
+  {
+    "id": "srd24:item:paper",
+    "kind": "item",
+    "name": "Paper",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 227",
+    "itemType": "gear",
+    "value": 20,
+    "text": "One sheet of Paper can hold about 250 handwritten words."
+  },
+  {
+    "id": "srd24:item:parchment",
+    "kind": "item",
+    "name": "Parchment",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 227",
+    "itemType": "gear",
+    "value": 10,
+    "text": "One sheet of Parchment can hold about 250 handwritten words."
+  },
+  {
+    "id": "srd24:item:perfume",
+    "kind": "item",
+    "name": "Perfume",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 227",
+    "itemType": "gear",
+    "value": 500,
+    "text": "Perfume comes in a 4-ounce vial. For 1 hour after applying Perfume to yourself, you have Advantage on Charisma (Persuasion) checks made to influence an Indifferent Humanoid within 5 feet of yourself."
+  },
+  {
+    "id": "srd24:item:pole",
+    "kind": "item",
+    "name": "Pole",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 228",
+    "itemType": "gear",
+    "weight": 7,
+    "value": 5,
+    "text": "A Pole is 10 feet long. You can use it to touch something up to 10 feet away. If you must make a Strength (Athletics) check as part of a High or Long Jump, you can use the Pole to vault, giving yourself Advantage on the check."
+  },
+  {
+    "id": "srd24:item:portable-ram",
+    "kind": "item",
+    "name": "Portable Ram",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 228",
+    "itemType": "gear",
+    "weight": 35,
+    "value": 400,
+    "text": "You can use a Portable Ram to break down doors. When doing so, you gain a +4 bonus to the Strength check. One other character can help you use the ram, giving you Advantage on this check."
+  },
+  {
+    "id": "srd24:item:pouch",
+    "kind": "item",
+    "name": "Pouch",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 228",
+    "itemType": "gear",
+    "weight": 1,
+    "value": 50,
+    "text": "A Pouch holds up to 6 pounds within one-fifth of a cubic foot.\n\nHolds up to 6 pounds."
+  },
+  {
+    "id": "srd24:item:priests-pack",
+    "kind": "item",
+    "name": "Priest's Pack",
+    "source": "srd24",
+    "tags": [
+      "equipment",
+      "bundle",
+      "pack"
+    ],
+    "page": "XPHB 228",
+    "itemType": "gear",
+    "weight": 29,
+    "value": 3300,
+    "text": "A Priest's Pack contains the following items: Backpack, Blanket, Holy Water, Lamp, 7 days of Rations, Robe, and Tinderbox."
+  },
+  {
+    "id": "srd24:item:purple-worm-poison",
+    "kind": "item",
+    "name": "Purple Worm Poison",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XDMG 91",
+    "itemType": "gear",
+    "value": 200000,
+    "text": "A creature subjected to Purple Worm Poison makes a DC 21 Constitution saving throw, taking 35 (10d6) Poison damage on a failed save or half as much damage on a successful one."
+  },
+  {
+    "id": "srd24:item:quiver",
+    "kind": "item",
+    "name": "Quiver",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 228",
+    "itemType": "gear",
+    "weight": 1,
+    "value": 100,
+    "text": "A Quiver holds up to 20 Arrows."
+  },
+  {
+    "id": "srd24:item:rations",
+    "kind": "item",
+    "name": "Rations",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 228",
+    "itemType": "gear",
+    "weight": 2,
+    "value": 50,
+    "text": "Rations consist of travel-ready food, including jerky, dried fruit, hardtack, and nuts. See \"Malnutrition\" for the risks of not eating."
+  },
+  {
+    "id": "srd24:item:reliquary",
+    "kind": "item",
+    "name": "Reliquary",
+    "source": "srd24",
+    "tags": [
+      "spellcasting-focus",
+      "holy-symbol"
+    ],
+    "page": "XPHB 226",
+    "itemType": "focus",
+    "weight": 2,
+    "value": 500,
+    "text": "For a Reliquary to be an effective Holy Symbol, it must be held."
+  },
+  {
+    "id": "srd24:item:robe",
+    "kind": "item",
+    "name": "Robe",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 228",
+    "itemType": "gear",
+    "weight": 4,
+    "value": 100,
+    "text": "A Robe has vocational or ceremonial significance. Some events and locations admit only people wearing a Robe bearing certain colors or symbols."
+  },
+  {
+    "id": "srd24:item:rod",
+    "kind": "item",
+    "name": "Rod",
+    "source": "srd24",
+    "tags": [
+      "spellcasting-focus",
+      "arcane-focus"
+    ],
+    "page": "XPHB 224",
+    "itemType": "focus",
+    "weight": 2,
+    "value": 1000
+  },
+  {
+    "id": "srd24:item:rope",
+    "kind": "item",
+    "name": "Rope",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 228",
+    "itemType": "gear",
+    "weight": 5,
+    "value": 100,
+    "text": "As a Utilize action, you can tie a knot with Rope if you succeed on a DC 10 Dexterity (Sleight of Hand) check. The Rope can be burst with a successful DC 20 Strength (Athletics) check.\n\nYou can bind an unwilling creature with the Rope only if the creature has the Grappled, Incapacitated, or Restrained condition. If the creature's legs are bound, the creature has the Restrained condition until it escapes. Escaping the Rope requires the creature to make a successful DC 15 Dexterity (Acrobatics) check as an action."
+  },
+  {
+    "id": "srd24:item:sack",
+    "kind": "item",
+    "name": "Sack",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 228",
+    "itemType": "gear",
+    "weight": 0.5,
+    "value": 1,
+    "text": "A Sack holds up to 30 pounds within 1 cubic foot.\n\nHolds up to 30 pounds."
+  },
+  {
+    "id": "srd24:item:scholars-pack",
+    "kind": "item",
+    "name": "Scholar's Pack",
+    "source": "srd24",
+    "tags": [
+      "equipment",
+      "bundle",
+      "pack"
+    ],
+    "page": "XPHB 228",
+    "itemType": "gear",
+    "weight": 22,
+    "value": 4000,
+    "text": "A Scholar's Pack contains the following items: Backpack, Book, Ink, Ink Pen, Lamp, 10 flasks of Oil, 10 sheets of Parchment, and Tinderbox."
+  },
+  {
+    "id": "srd24:item:serpent-venom",
+    "kind": "item",
+    "name": "Serpent Venom",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XDMG 91",
+    "itemType": "gear",
+    "value": 20000,
+    "text": "A creature subjected to Serpent Venom must succeed on a DC 11 Constitution saving throw, taking 10 (3d6) Poison damage on a failed save or half as much damage on a successful one."
+  },
+  {
+    "id": "srd24:item:shovel",
+    "kind": "item",
+    "name": "Shovel",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 228",
+    "itemType": "gear",
+    "weight": 5,
+    "value": 200,
+    "text": "Working for 1 hour, you can use a Shovel to dig a hole that is 5 feet on each side in soil or similar material."
+  },
+  {
+    "id": "srd24:item:signal-whistle",
+    "kind": "item",
+    "name": "Signal Whistle",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 228",
+    "itemType": "gear",
+    "value": 5,
+    "text": "When blown as a Utilize action, a Signal Whistle produces a sound that can be heard up to 600 feet away."
+  },
+  {
+    "id": "srd24:item:spiders-sting",
+    "kind": "item",
+    "name": "Spider's Sting",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XDMG 91",
+    "itemType": "gear",
+    "value": 20000,
+    "text": "A creature subjected to Lolth's Sting must succeed on a DC 13 Constitution saving throw or have the Poisoned condition for 1 hour. If the creature fails the save by 5 or more, the creature also has the Unconscious condition while Poisoned in this way. The creature wakes up if it takes damage or if another creature takes an action to shake it awake."
+  },
+  {
+    "id": "srd24:item:sprig-of-mistletoe",
+    "kind": "item",
+    "name": "Sprig of Mistletoe",
+    "source": "srd24",
+    "tags": [
+      "spellcasting-focus",
+      "druidic-focus"
+    ],
+    "page": "XPHB 225",
+    "itemType": "focus",
+    "value": 100
+  },
+  {
+    "id": "srd24:item:spyglass",
+    "kind": "item",
+    "name": "Spyglass",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 229",
+    "itemType": "gear",
+    "weight": 1,
+    "value": 100000,
+    "text": "Objects viewed through a Spyglass are magnified to twice their size."
+  },
+  {
+    "id": "srd24:item:staff",
+    "kind": "item",
+    "name": "Staff",
+    "source": "srd24",
+    "tags": [
+      "spellcasting-focus",
+      "simple-weapon",
+      "arcane-focus"
+    ],
+    "page": "XPHB 224",
+    "itemType": "focus",
+    "weight": 4,
+    "value": 500,
+    "weapon": {
+      "damage": "1d6",
+      "damageType": "bludgeoning",
+      "category": "simple-melee",
+      "properties": [
+        "versatile (1d8)"
+      ]
+    }
+  },
+  {
+    "id": "srd24:item:string",
+    "kind": "item",
+    "name": "String",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 229",
+    "itemType": "gear",
+    "value": 10,
+    "text": "String is 10 feet long. You can tie a knot in it as a Utilize action."
+  },
+  {
+    "id": "srd24:item:tent",
+    "kind": "item",
+    "name": "Tent",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 229",
+    "itemType": "gear",
+    "weight": 20,
+    "value": 200,
+    "text": "A Tent sleeps up to two Small or Medium creatures."
+  },
+  {
+    "id": "srd24:item:tinderbox",
+    "kind": "item",
+    "name": "Tinderbox",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 229",
+    "itemType": "gear",
+    "weight": 1,
+    "value": 50,
+    "text": "A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute."
+  },
+  {
+    "id": "srd24:item:torch",
+    "kind": "item",
+    "name": "Torch",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 229",
+    "itemType": "gear",
+    "weight": 1,
+    "value": 1,
+    "text": "A Torch burns for 1 hour, casting Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. When you take the Attack action, you can attack with the Torch, using it as a Simple Melee weapon. On a hit, the target takes 1 Fire damage."
+  },
+  {
+    "id": "srd24:item:torpor",
+    "kind": "item",
+    "name": "Torpor",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XDMG 91",
+    "itemType": "gear",
+    "value": 60000,
+    "text": "A creature subjected to Torpor poison must succeed on a DC 15 Constitution saving throw or have the Poisoned condition for 4d6 hours. The creature's Speed is halved while the creature is Poisoned in this way."
+  },
+  {
+    "id": "srd24:item:travelers-clothes",
+    "kind": "item",
+    "name": "Traveler's Clothes",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 225",
+    "itemType": "gear",
+    "weight": 4,
+    "value": 200,
+    "text": "Traveler's Clothes are resilient garments designed for travel in various environments."
+  },
+  {
+    "id": "srd24:item:trinket",
+    "kind": "item",
+    "name": "Trinket",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 47",
+    "itemType": "gear",
+    "text": "When you make your character, you can roll once on the Trinkets table to gain a Tiny trinket, a simple item lightly touched by mystery. The DM might also use this table. It can help stock a room in a dungeon or fill a creature's pockets.\n\n**Trinkets**\n| 1d100 | Trinket |\n| --- | --- |\n| 01 | A mummified goblin hand |\n| 02 | A crystal that faintly glows in moonlight |\n| 03 | A gold coin minted in an unknown land |\n| 04 | A diary written in a language you don't know |\n| 05 | A brass ring that never tarnishes |\n| 06 | An old chess piece made from glass |\n| 07 | A pair of knucklebone dice, each with a skull symbol on the side that would normally show six pips |\n| 08 | A small idol depicting a nightmarish creature that gives you unsettling dreams when you sleep near it |\n| 09 | A lock of someone's hair |\n| 10 | The deed for a parcel of land in a realm unknown to you |\n| 11 | A 1-ounce block made from an unknown material |\n| 12 | A small cloth doll skewered with needles |\n| 13 | A tooth from an unknown beast |\n| 14 | An enormous scale, perhaps from a dragon |\n| 15 | A bright-green feather |\n| 16 | An old divination card bearing your likeness |\n| 17 | A glass orb filled with moving smoke |\n| 18 | A 1-pound egg with a bright-red shell |\n| 19 | A pipe that blows bubbles |\n| 20 | A glass jar containing a bit of flesh floating in pickling fluid |\n| 21 | A gnome-crafted music box that plays a song you dimly remember from your childhood |\n| 22 | A wooden statuette of a smug halfling |\n| 23 | A brass orb etched with strange runes |\n| 24 | A multicolored stone disk |\n| 25 | A silver icon of a raven |\n| 26 | A bag containing forty-seven teeth, one of which is rotten |\n| 27 | A shard of obsidian that always feels warm to the touch |\n| 28 | A dragon's talon strung on a leather necklace |\n| 29 | A pair of old socks |\n| 30 | A blank book whose pages refuse to hold ink, chalk, graphite, or any other marking |\n| 31 | A silver badge that is a five-pointed star |\n| 32 | A knife that belonged to a relative |\n| 33 | A glass vial filled with nail clippings |\n| 34 | A rectangular metal device with two tiny metal cups on one end that throws sparks when wet |\n| 35 | A white, sequined glove sized for a human |\n| 36 | A vest with one hundred tiny pockets |\n| 37 | A weightless stone |\n| 38 | A sketch of a goblin |\n| 39 | An empty glass vial that smells of perfume |\n| 40 | A gemstone that looks like a lump of coal when examined by anyone but you |\n| 41 | A scrap of cloth from an old banner |\n| 42 | A rank insignia from a lost legionnaire |\n| 43 | A silver bell without a clapper |\n| 44 | A mechanical canary inside a lamp |\n| 45 | A miniature chest carved to look like it has numerous feet on the bottom |\n| 46 | A dead sprite inside a clear glass bottle |\n| 47 | A metal can that has no opening but sounds as if it is filled with liquid, sand, spiders, or broken glass (your choice) |\n| 48 | A glass orb filled with water, in which swims a clockwork goldfish |\n| 49 | A silver spoon with an M engraved on the handle |\n| 50 | A whistle made from gold-colored wood |\n| 51 | A dead scarab beetle the size of your hand |\n| 52 | Two toy soldiers, one missing a head |\n| 53 | A small box filled with different-sized buttons |\n| 54 | A candle that can't be lit |\n| 55 | A miniature cage with no door |\n| 56 | An old key |\n| 57 | An indecipherable treasure map |\n| 58 | A hilt from a broken sword |\n| 59 | A rabbit's foot |\n| 60 | A glass eye |\n| 61 | A cameo of a hideous person |\n| 62 | A silver skull the size of a coin |\n| 63 | An alabaster mask |\n| 64 | A cone of sticky black incense that stinks |\n| 65 | A nightcap that gives you pleasant dreams when you wear it |\n| 66 | A single caltrop made from bone |\n| 67 | A gold monocle frame without the lens |\n| 68 | A 1-inch cube, each side a different color |\n| 69 | A crystal doorknob |\n| 70 | A packet filled with pink dust |\n| 71 | A fragment of a beautiful song, written as musical notes on two pieces of parchment |\n| 72 | A silver teardrop earring containing a real teardrop |\n| 73 | An eggshell painted with scenes of misery in disturbing detail |\n| 74 | A fan that, when unfolded, shows a sleepy cat |\n| 75 | A set of bone pipes |\n| 76 | A four-leaf clover pressed inside a book discussing manners and etiquette |\n| 77 | A sheet of parchment upon which is drawn a mechanical contraption |\n| 78 | An ornate scabbard that fits no blade you have found |\n| 79 | An invitation to a party where a murder happened |\n| 80 | A bronze pentacle with an etching of a rat's head in its center |\n| 81 | A purple handkerchief embroidered with the name of an archmage |\n| 82 | Half a floor plan for a temple, a castle, or another structure |\n| 83 | A bit of folded cloth that, when unfolded, turns into a stylish cap |\n| 84 | A receipt of deposit at a bank in a far-off city |\n| 85 | A diary with seven missing pages |\n| 86 | An empty silver snuffbox bearing the inscription \"dreams\" on its lid |\n| 87 | An iron holy symbol devoted to an unknown god |\n| 88 | A book about a legendary hero's rise and fall, with the last chapter missing |\n| 89 | A vial of dragon blood |\n| 90 | An ancient arrow of elven design |\n| 91 | A needle that never bends |\n| 92 | An ornate brooch of dwarven design |\n| 93 | An empty wine bottle bearing a pretty label that says, \"The Wizard of Wines Winery, Red Dragon Crush, 331422-W\" |\n| 94 | A mosaic tile with a multicolored, glazed surface |\n| 95 | A petrified mouse |\n| 96 | A black pirate flag adorned with a dragon's skull and crossbones |\n| 97 | A tiny mechanical crab or spider that moves about when it's not being observed |\n| 98 | A glass jar containing lard with a label that reads, \"Griffon Grease\" |\n| 99 | A wooden box with a ceramic bottom that holds a living worm with a head on each end of its body |\n| 00 | A metal urn containing the ashes of a hero |"
+  },
+  {
+    "id": "srd24:item:truth-serum",
+    "kind": "item",
+    "name": "Truth Serum",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XDMG 91",
+    "itemType": "gear",
+    "value": 15000,
+    "text": "A creature subjected to Truth Serum must succeed on a DC 11 Constitution saving throw or have the Poisoned condition for 1 hour. The Poisoned creature can't knowingly communicate a lie."
+  },
+  {
+    "id": "srd24:item:vial",
+    "kind": "item",
+    "name": "Vial",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 229",
+    "itemType": "gear",
+    "value": 100,
+    "text": "A Vial holds up to 4 ounces.\n\nHolds up to 0.25 pounds."
+  },
+  {
+    "id": "srd24:item:wand",
+    "kind": "item",
+    "name": "Wand",
+    "source": "srd24",
+    "tags": [
+      "spellcasting-focus",
+      "arcane-focus"
+    ],
+    "page": "XPHB 224",
+    "itemType": "focus",
+    "weight": 1,
+    "value": 1000
+  },
+  {
+    "id": "srd24:item:waterskin",
+    "kind": "item",
+    "name": "Waterskin",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XPHB 229",
+    "itemType": "gear",
+    "weight": 5,
+    "value": 20,
+    "text": "A Waterskin holds up to 4 pints. If you don't drink sufficient water, you risk dehydration."
+  },
+  {
+    "id": "srd24:item:wooden-staff",
+    "kind": "item",
+    "name": "Wooden Staff",
+    "source": "srd24",
+    "tags": [
+      "spellcasting-focus",
+      "simple-weapon",
+      "druidic-focus"
+    ],
+    "page": "XPHB 225",
+    "itemType": "focus",
+    "weight": 4,
+    "value": 500,
+    "weapon": {
+      "damage": "1d6",
+      "damageType": "bludgeoning",
+      "category": "simple-melee",
+      "properties": [
+        "versatile (1d8)"
+      ]
+    }
+  },
+  {
+    "id": "srd24:item:wyvern-poison",
+    "kind": "item",
+    "name": "Wyvern Poison",
+    "source": "srd24",
+    "tags": [
+      "equipment"
+    ],
+    "page": "XDMG 91",
+    "itemType": "gear",
+    "value": 120000,
+    "text": "A creature subjected to Wyvern Poison makes a DC 14 Constitution saving throw, taking 24 (7d6) Poison damage on a failed save or half as much damage on a successful one."
+  },
+  {
+    "id": "srd24:item:yew-wand",
+    "kind": "item",
+    "name": "Yew Wand",
+    "source": "srd24",
+    "tags": [
+      "spellcasting-focus",
+      "druidic-focus"
+    ],
+    "page": "XPHB 225",
+    "itemType": "focus",
+    "weight": 1,
+    "value": 1000
+  }
+]

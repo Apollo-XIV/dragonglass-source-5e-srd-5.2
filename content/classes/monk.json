@@ -1,0 +1,308 @@
+[
+  {
+    "id": "srd24:class:monk",
+    "kind": "class",
+    "name": "Monk",
+    "source": "srd24",
+    "page": "XPHB 100",
+    "key": "monk",
+    "hitDie": "d8",
+    "tags": [
+      "srd-class"
+    ],
+    "text": "**Hit Dice:** 1d8 per monk level.\n\n**Hit Points at 1st Level:** 8 + your Constitution modifier.\n\n**Hit Points at Higher Levels:** 1d8 (or 5) + your Constitution modifier per monk level after 1st.\n\n**Armor:** None\n**Weapons:** Simple, Martial weapons that have the Light property\n**Tools:** Choose one type of Artisan's Tools or Musical Instrument\n**Saving Throws:** Strength, Dexterity\n**Skills:** Choose 2 from acrobatics, athletics, history, insight, religion, stealth\n\n**Equipment:** You start with the following equipment, in addition to the equipment granted by your background:\n\n*Choose A or B:* (A) Spear, 5 Daggers, Artisan's Tools or Musical Instrument chosen for the tool proficiency above, Explorer's Pack, and 11 GP; or (B) 50 GP",
+    "primaryAbility": [
+      "dex",
+      "wis"
+    ],
+    "tables": {
+      "martial-arts": [
+        "1d6",
+        "1d6",
+        "1d6",
+        "1d6",
+        "1d8",
+        "1d8",
+        "1d8",
+        "1d8",
+        "1d8",
+        "1d8",
+        "1d10",
+        "1d10",
+        "1d10",
+        "1d10",
+        "1d10",
+        "1d10",
+        "1d12",
+        "1d12",
+        "1d12",
+        "1d12"
+      ],
+      "focus-points": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "unarmored-movement": [
+        0,
+        10,
+        10,
+        10,
+        10,
+        15,
+        15,
+        15,
+        15,
+        20,
+        20,
+        20,
+        20,
+        25,
+        25,
+        25,
+        25,
+        30,
+        30,
+        30
+      ]
+    },
+    "levels": {
+      "1": {
+        "choices": [
+          {
+            "id": "srd24:class:monk:skill",
+            "name": "Skill Proficiency",
+            "count": 2,
+            "from": {
+              "ids": [
+                "srd24:skill:acrobatics",
+                "srd24:skill:athletics",
+                "srd24:skill:history",
+                "srd24:skill:insight",
+                "srd24:skill:religion",
+                "srd24:skill:stealth"
+              ]
+            }
+          },
+          {
+            "id": "srd24:class:monk:tool",
+            "name": "Tool Proficiency",
+            "count": 1,
+            "from": {
+              "kind": "tool",
+              "tags": [
+                "artisans-tools",
+                "musical-instrument"
+              ]
+            },
+            "text": "Choose one type of Artisan's Tools or Musical Instrument"
+          }
+        ],
+        "modifiers": [
+          {
+            "target": "saves.str",
+            "op": "proficiency",
+            "value": "proficient"
+          },
+          {
+            "target": "saves.dex",
+            "op": "proficiency",
+            "value": "proficient"
+          },
+          {
+            "target": "proficiencies.weapon",
+            "op": "include",
+            "value": [
+              "simple",
+              "light"
+            ]
+          }
+        ],
+        "grants": [
+          "srd24:monk:martial-arts",
+          "srd24:monk:unarmored-defense"
+        ]
+      },
+      "2": {
+        "grants": [
+          "srd24:monk:monks-focus",
+          "srd24:monk:unarmored-movement",
+          "srd24:monk:uncanny-metabolism"
+        ]
+      },
+      "3": {
+        "grants": [
+          "srd24:monk:deflect-attacks",
+          "srd24:monk:monk-subclass"
+        ],
+        "choices": [
+          {
+            "id": "srd24:class:monk:subclass",
+            "name": "Monk Subclass",
+            "count": 1,
+            "from": {
+              "kind": "subclass",
+              "tags": [
+                "monk-subclass"
+              ]
+            }
+          }
+        ]
+      },
+      "4": {
+        "choices": [
+          {
+            "id": "srd24:class:monk:asi-4",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ],
+        "grants": [
+          "srd24:monk:slow-fall"
+        ]
+      },
+      "5": {
+        "grants": [
+          "srd24:monk:extra-attack",
+          "srd24:monk:stunning-strike"
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd24:monk:empowered-strikes"
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd24:monk:evasion"
+        ]
+      },
+      "8": {
+        "choices": [
+          {
+            "id": "srd24:class:monk:asi-8",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "9": {
+        "grants": [
+          "srd24:monk:acrobatic-movement"
+        ]
+      },
+      "10": {
+        "grants": [
+          "srd24:monk:heightened-focus",
+          "srd24:monk:self-restoration"
+        ]
+      },
+      "12": {
+        "choices": [
+          {
+            "id": "srd24:class:monk:asi-12",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "13": {
+        "grants": [
+          "srd24:monk:deflect-energy"
+        ]
+      },
+      "14": {
+        "grants": [
+          "srd24:monk:disciplined-survivor"
+        ]
+      },
+      "15": {
+        "grants": [
+          "srd24:monk:perfect-focus"
+        ]
+      },
+      "16": {
+        "choices": [
+          {
+            "id": "srd24:class:monk:asi-16",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "18": {
+        "grants": [
+          "srd24:monk:superior-defense"
+        ]
+      },
+      "19": {
+        "grants": [
+          "srd24:monk:epic-boon"
+        ],
+        "choices": [
+          {
+            "id": "srd24:class:monk:epic-boon-19",
+            "name": "Epic Boon",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "epic-boon"
+              ]
+            }
+          }
+        ]
+      },
+      "20": {
+        "grants": [
+          "srd24:monk:body-and-mind"
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,344 @@
+[
+  {
+    "id": "srd24:rogue:expertise",
+    "kind": "class-feature",
+    "name": "Expertise",
+    "source": "srd24",
+    "page": "XPHB 128",
+    "tags": [
+      "rogue-feature"
+    ],
+    "text": "You gain Expertise in two of your skill proficiencies of your choice. Sleight of Hand and Stealth are recommended if you have proficiency in them.\n\nAt Rogue level 6, you gain Expertise in two more of your skill proficiencies of your choice."
+  },
+  {
+    "id": "srd24:rogue:sneak-attack",
+    "kind": "class-feature",
+    "name": "Sneak Attack",
+    "source": "srd24",
+    "page": "XPHB 128",
+    "tags": [
+      "rogue-feature"
+    ],
+    "text": "You know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack roll if you have Advantage on the roll and the attack uses a Finesse or a Ranged weapon. The extra damage's type is the same as the weapon's type.\n\nYou don't need Advantage on the attack roll if at least one of your allies is within 5 feet of the target, the ally doesn't have the Incapacitated condition, and you don't have Disadvantage on the attack roll.\n\nThe extra damage increases as you gain Rogue levels, as shown in the Sneak Attack column of the Rogue Features table."
+  },
+  {
+    "id": "srd24:rogue:thieves-cant",
+    "kind": "class-feature",
+    "name": "Thieves' Cant",
+    "source": "srd24",
+    "page": "XPHB 128",
+    "tags": [
+      "rogue-feature"
+    ],
+    "text": "You picked up various languages in the communities where you plied your roguish talents. You know Thieves' Cant and one other language of your choice, which you choose from the language tables in chapter 2."
+  },
+  {
+    "id": "srd24:rogue:weapon-mastery",
+    "kind": "class-feature",
+    "name": "Weapon Mastery",
+    "source": "srd24",
+    "page": "XPHB 128",
+    "tags": [
+      "rogue-feature"
+    ],
+    "text": "Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as Daggers and Shortbows.\n\nWhenever you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the mastery properties of Scimitars and Shortswords."
+  },
+  {
+    "id": "srd24:rogue:cunning-action",
+    "kind": "class-feature",
+    "name": "Cunning Action",
+    "source": "srd24",
+    "page": "XPHB 129",
+    "tags": [
+      "rogue-feature"
+    ],
+    "text": "Your quick thinking and agility allow you to move and act quickly. On your turn, you can take one of the following actions as a Bonus Action: Dash, Disengage, or Hide.",
+    "actions": [
+      {
+        "id": "dash",
+        "name": "Dash",
+        "activation": "bonus-action",
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      },
+      {
+        "id": "disengage",
+        "name": "Disengage",
+        "activation": "bonus-action",
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      },
+      {
+        "id": "hide",
+        "name": "Hide",
+        "activation": "bonus-action",
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:rogue:rogue-subclass",
+    "kind": "class-feature",
+    "name": "Rogue Subclass",
+    "source": "srd24",
+    "page": "XPHB 129",
+    "tags": [
+      "rogue-feature"
+    ],
+    "text": "You gain a Rogue subclass of your choice. A subclass is a specialization that grants you features at certain Rogue levels. For the rest of your career, you gain each of your subclass's features that are of your Rogue level or lower."
+  },
+  {
+    "id": "srd24:rogue:steady-aim",
+    "kind": "class-feature",
+    "name": "Steady Aim",
+    "source": "srd24",
+    "page": "XPHB 129",
+    "tags": [
+      "rogue-feature"
+    ],
+    "text": "As a Bonus Action, you give yourself Advantage on your next attack roll on the current turn. You can use this feature only if you haven't moved during this turn, and after you use it, your Speed is 0 until the end of the current turn.",
+    "actions": [
+      {
+        "id": "steady-aim",
+        "name": "Steady Aim",
+        "activation": "bonus-action",
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:rogue:poison-cost-1d6",
+    "kind": "class-feature",
+    "name": "Poison (Cost: 1d6)",
+    "source": "srd24",
+    "page": "XPHB 129",
+    "tags": [
+      "rogue-feature"
+    ],
+    "text": "You add a toxin to your strike, forcing the target to make a Constitution saving throw. On a failed save, the target has the Poisoned condition for 1 minute. At the end of each of its turns, the Poisoned target repeats the save, ending the effect on itself on a success.\n\nTo use this effect, you must have a Poisoner's Kit on your person."
+  },
+  {
+    "id": "srd24:rogue:trip-cost-1d6",
+    "kind": "class-feature",
+    "name": "Trip (Cost: 1d6)",
+    "source": "srd24",
+    "page": "XPHB 129",
+    "tags": [
+      "rogue-feature"
+    ],
+    "text": "If the target is Large or smaller, it must succeed on a Dexterity saving throw or have the Prone condition."
+  },
+  {
+    "id": "srd24:rogue:withdraw-cost-1d6",
+    "kind": "class-feature",
+    "name": "Withdraw (Cost: 1d6)",
+    "source": "srd24",
+    "page": "XPHB 129",
+    "tags": [
+      "rogue-feature"
+    ],
+    "text": "Immediately after the attack, you move up to half your Speed without provoking Opportunity Attack."
+  },
+  {
+    "id": "srd24:rogue:cunning-strike",
+    "kind": "class-feature",
+    "name": "Cunning Strike",
+    "source": "srd24",
+    "page": "XPHB 129",
+    "tags": [
+      "rogue-feature"
+    ],
+    "text": "You've developed cunning ways to use your Sneak Attack. When you deal Sneak Attack damage, you can add one of the following Cunning Strike effects. Each effect has a die cost, which is the number of Sneak Attack damage dice you must forgo to add the effect. You remove the die before rolling, and the effect occurs immediately after the attack's damage is dealt. For example, if you add the Poison effect, remove 1d6 from the Sneak Attack's damage before rolling.\n\nIf a Cunning Strike effect requires a saving throw, the DC equals 8 plus your Dexterity modifier and Proficiency Bonus.",
+    "grants": [
+      "srd24:rogue:poison-cost-1d6",
+      "srd24:rogue:trip-cost-1d6",
+      "srd24:rogue:withdraw-cost-1d6"
+    ]
+  },
+  {
+    "id": "srd24:rogue:uncanny-dodge",
+    "kind": "class-feature",
+    "name": "Uncanny Dodge",
+    "source": "srd24",
+    "page": "XPHB 129",
+    "tags": [
+      "rogue-feature"
+    ],
+    "text": "When an attacker that you can see hits you with an attack roll, you can take a Reaction to halve the attack's damage against you (round down).",
+    "actions": [
+      {
+        "id": "uncanny-dodge",
+        "name": "Uncanny Dodge",
+        "activation": "reaction",
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:rogue:expertise-6",
+    "kind": "class-feature",
+    "name": "Expertise",
+    "source": "srd24",
+    "page": "XPHB 129",
+    "tags": [
+      "rogue-feature"
+    ],
+    "text": "You gain Expertise in two of your Skill Proficiencies of your choice."
+  },
+  {
+    "id": "srd24:rogue:evasion",
+    "kind": "class-feature",
+    "name": "Evasion",
+    "source": "srd24",
+    "page": "XPHB 129",
+    "tags": [
+      "rogue-feature"
+    ],
+    "text": "You can nimbly dodge out of the way of certain dangers. When you're subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. You can't use this feature if you have the Incapacitated condition."
+  },
+  {
+    "id": "srd24:rogue:reliable-talent",
+    "kind": "class-feature",
+    "name": "Reliable Talent",
+    "source": "srd24",
+    "page": "XPHB 130",
+    "tags": [
+      "rogue-feature"
+    ],
+    "text": "Whenever you make an ability check that uses one of your skill or tool proficiencies, you can treat a d20 roll of 9 or lower as a 10."
+  },
+  {
+    "id": "srd24:rogue:improved-cunning-strike",
+    "kind": "class-feature",
+    "name": "Improved Cunning Strike",
+    "source": "srd24",
+    "page": "XPHB 130",
+    "tags": [
+      "rogue-feature"
+    ],
+    "text": "You can use up to two Cunning Strike effects when you deal Sneak Attack damage, paying the die cost for each effect."
+  },
+  {
+    "id": "srd24:rogue:daze-cost-2d6",
+    "kind": "class-feature",
+    "name": "Daze (Cost: 2d6)",
+    "source": "srd24",
+    "page": "XPHB 131",
+    "tags": [
+      "rogue-feature"
+    ],
+    "text": "The target must succeed on a Constitution saving throw, or on its next turn, it can do only one of the following: move or take an action or a Bonus Action."
+  },
+  {
+    "id": "srd24:rogue:knock-out-cost-6d6",
+    "kind": "class-feature",
+    "name": "Knock Out (Cost: 6d6)",
+    "source": "srd24",
+    "page": "XPHB 131",
+    "tags": [
+      "rogue-feature"
+    ],
+    "text": "The target must succeed on a Constitution saving throw, or it has the Unconscious condition for 1 minute or until it takes any damage. The Unconscious target repeats the save at the end of each of its turns, ending the effect on itself on a success."
+  },
+  {
+    "id": "srd24:rogue:obscure-cost-3d6",
+    "kind": "class-feature",
+    "name": "Obscure (Cost: 3d6)",
+    "source": "srd24",
+    "page": "XPHB 131",
+    "tags": [
+      "rogue-feature"
+    ],
+    "text": "The target must succeed on a Dexterity saving throw, or it has the Blinded condition until the end of its next turn."
+  },
+  {
+    "id": "srd24:rogue:devious-strikes",
+    "kind": "class-feature",
+    "name": "Devious Strikes",
+    "source": "srd24",
+    "page": "XPHB 131",
+    "tags": [
+      "rogue-feature"
+    ],
+    "text": "You've practiced new ways to use your Sneak Attack deviously. The following effects are now among your Cunning Strike options.",
+    "grants": [
+      "srd24:rogue:daze-cost-2d6",
+      "srd24:rogue:knock-out-cost-6d6",
+      "srd24:rogue:obscure-cost-3d6"
+    ]
+  },
+  {
+    "id": "srd24:rogue:slippery-mind",
+    "kind": "class-feature",
+    "name": "Slippery Mind",
+    "source": "srd24",
+    "page": "XPHB 131",
+    "tags": [
+      "rogue-feature"
+    ],
+    "text": "Your cunning mind is exceptionally difficult to control. You gain proficiency in Wisdom and Charisma saving throws."
+  },
+  {
+    "id": "srd24:rogue:elusive",
+    "kind": "class-feature",
+    "name": "Elusive",
+    "source": "srd24",
+    "page": "XPHB 131",
+    "tags": [
+      "rogue-feature"
+    ],
+    "text": "You're so evasive that attackers rarely gain the upper hand against you. No attack roll can have Advantage against you unless you have the Incapacitated condition."
+  },
+  {
+    "id": "srd24:rogue:epic-boon",
+    "kind": "class-feature",
+    "name": "Epic Boon",
+    "source": "srd24",
+    "page": "XPHB 131",
+    "tags": [
+      "rogue-feature"
+    ],
+    "text": "You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of the Night Spirit is recommended."
+  },
+  {
+    "id": "srd24:rogue:stroke-of-luck",
+    "kind": "class-feature",
+    "name": "Stroke of Luck",
+    "source": "srd24",
+    "page": "XPHB 131",
+    "tags": [
+      "rogue-feature"
+    ],
+    "text": "You have a marvelous knack for succeeding when you need to. If you fail a D20 Test, you can turn the roll into a 20.\n\nOnce you use this feature, you can't use it again until you finish a Short or Long Rest.",
+    "resources": [
+      {
+        "id": "srd24:rogue:stroke-of-luck",
+        "name": "Stroke of Luck",
+        "max": 1,
+        "recharge": [
+          {
+            "on": "short-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ]
+  }
+]

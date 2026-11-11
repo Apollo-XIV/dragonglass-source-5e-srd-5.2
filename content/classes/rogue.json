@@ -1,0 +1,315 @@
+[
+  {
+    "id": "srd24:class:rogue",
+    "kind": "class",
+    "name": "Rogue",
+    "source": "srd24",
+    "page": "XPHB 128",
+    "key": "rogue",
+    "hitDie": "d8",
+    "tags": [
+      "srd-class"
+    ],
+    "text": "**Hit Dice:** 1d8 per rogue level.\n\n**Hit Points at 1st Level:** 8 + your Constitution modifier.\n\n**Hit Points at Higher Levels:** 1d8 (or 5) + your Constitution modifier per rogue level after 1st.\n\n**Armor:** Light\n**Weapons:** Simple, Martial weapons that have the Finesse or Light property\n**Tools:** Thieves' Tools\n**Saving Throws:** Dexterity, Intelligence\n**Skills:** Choose 4 from acrobatics, athletics, deception, insight, intimidation, investigation, perception, persuasion, sleight of hand, stealth\n\n**Equipment:** You start with the following equipment, in addition to the equipment granted by your background:\n\n*Choose A or B:* (A) Leather Armor, 2 Daggers, Shortsword, Shortbow, 20 Arrows, Quiver, Thieves' Tools, Burglar's Pack, and 8 GP; or (B) 100 GP",
+    "primaryAbility": [
+      "dex"
+    ],
+    "x-multiclass-proficiencies": {
+      "skills": [
+        {
+          "choose": {
+            "from": [
+              "acrobatics",
+              "athletics",
+              "deception",
+              "insight",
+              "intimidation",
+              "investigation",
+              "perception",
+              "persuasion",
+              "sleight of hand",
+              "stealth"
+            ],
+            "count": 1
+          }
+        }
+      ],
+      "tools": [
+        "{@item Thieves' Tools|XPHB}"
+      ],
+      "toolProficiencies": [
+        {
+          "thieves' tools": true
+        }
+      ],
+      "armor": [
+        "light"
+      ],
+      "armorProficiencies": [
+        {
+          "light": true
+        }
+      ]
+    },
+    "tables": {
+      "sneak-attack": [
+        "1d6",
+        "1d6",
+        "2d6",
+        "2d6",
+        "3d6",
+        "3d6",
+        "4d6",
+        "4d6",
+        "5d6",
+        "5d6",
+        "6d6",
+        "6d6",
+        "7d6",
+        "7d6",
+        "8d6",
+        "8d6",
+        "9d6",
+        "9d6",
+        "10d6",
+        "10d6"
+      ]
+    },
+    "levels": {
+      "1": {
+        "grants": [
+          "srd24:tool:thieves-tools",
+          "srd24:rogue:expertise",
+          "srd24:rogue:sneak-attack",
+          "srd24:rogue:thieves-cant",
+          "srd24:rogue:weapon-mastery"
+        ],
+        "choices": [
+          {
+            "id": "srd24:class:rogue:skill",
+            "name": "Skill Proficiency",
+            "count": 4,
+            "from": {
+              "ids": [
+                "srd24:skill:acrobatics",
+                "srd24:skill:athletics",
+                "srd24:skill:deception",
+                "srd24:skill:insight",
+                "srd24:skill:intimidation",
+                "srd24:skill:investigation",
+                "srd24:skill:perception",
+                "srd24:skill:persuasion",
+                "srd24:skill:sleight-of-hand",
+                "srd24:skill:stealth"
+              ]
+            }
+          },
+          {
+            "id": "srd24:class:rogue:weapon-mastery-1",
+            "name": "Weapon Mastery",
+            "count": 2,
+            "from": {
+              "kind": "weapon-mastery",
+              "tags": [
+                "simple-weapon",
+                "martial-weapon"
+              ]
+            }
+          }
+        ],
+        "modifiers": [
+          {
+            "target": "saves.dex",
+            "op": "proficiency",
+            "value": "proficient"
+          },
+          {
+            "target": "saves.int",
+            "op": "proficiency",
+            "value": "proficient"
+          },
+          {
+            "target": "proficiencies.armor",
+            "op": "include",
+            "value": [
+              "light"
+            ]
+          },
+          {
+            "target": "proficiencies.weapon",
+            "op": "include",
+            "value": [
+              "simple",
+              "light",
+              "finesse"
+            ]
+          }
+        ]
+      },
+      "2": {
+        "grants": [
+          "srd24:rogue:cunning-action"
+        ]
+      },
+      "3": {
+        "grants": [
+          "srd24:rogue:rogue-subclass",
+          "srd24:rogue:steady-aim"
+        ],
+        "choices": [
+          {
+            "id": "srd24:class:rogue:subclass",
+            "name": "Rogue Subclass",
+            "count": 1,
+            "from": {
+              "kind": "subclass",
+              "tags": [
+                "rogue-subclass"
+              ]
+            }
+          }
+        ]
+      },
+      "4": {
+        "choices": [
+          {
+            "id": "srd24:class:rogue:asi-4",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "5": {
+        "grants": [
+          "srd24:rogue:cunning-strike",
+          "srd24:rogue:uncanny-dodge"
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd24:rogue:expertise-6"
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd24:rogue:evasion",
+          "srd24:rogue:reliable-talent"
+        ]
+      },
+      "8": {
+        "choices": [
+          {
+            "id": "srd24:class:rogue:asi-8",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "10": {
+        "choices": [
+          {
+            "id": "srd24:class:rogue:asi-10",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "11": {
+        "grants": [
+          "srd24:rogue:improved-cunning-strike"
+        ]
+      },
+      "12": {
+        "choices": [
+          {
+            "id": "srd24:class:rogue:asi-12",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "14": {
+        "grants": [
+          "srd24:rogue:devious-strikes"
+        ]
+      },
+      "15": {
+        "grants": [
+          "srd24:rogue:slippery-mind"
+        ]
+      },
+      "16": {
+        "choices": [
+          {
+            "id": "srd24:class:rogue:asi-16",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "18": {
+        "grants": [
+          "srd24:rogue:elusive"
+        ]
+      },
+      "19": {
+        "grants": [
+          "srd24:rogue:epic-boon"
+        ],
+        "choices": [
+          {
+            "id": "srd24:class:rogue:epic-boon-19",
+            "name": "Epic Boon",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "epic-boon"
+              ]
+            }
+          }
+        ]
+      },
+      "20": {
+        "grants": [
+          "srd24:rogue:stroke-of-luck"
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "id": "srd24:subclass:champion",
+    "kind": "subclass",
+    "name": "Champion",
+    "source": "srd24",
+    "page": "XPHB 96",
+    "class": "srd24:class:fighter",
+    "tags": [
+      "fighter-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "3": {
+        "grants": [
+          "srd24:champion:champion"
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd24:champion:additional-fighting-style"
+        ],
+        "choices": [
+          {
+            "id": "srd24:subclass:champion:fighting-style-7",
+            "name": "Fighting Style",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "fighting-style-feat"
+              ]
+            }
+          }
+        ]
+      },
+      "10": {
+        "grants": [
+          "srd24:champion:heroic-warrior"
+        ]
+      },
+      "15": {
+        "grants": [
+          "srd24:champion:superior-critical"
+        ]
+      },
+      "18": {
+        "grants": [
+          "srd24:champion:survivor"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd24:champion:improved-critical",
+    "kind": "subclass-feature",
+    "name": "Improved Critical",
+    "source": "srd24",
+    "page": "XPHB 96",
+    "tags": [
+      "champion-feature",
+      "fighter-feature"
+    ],
+    "text": "Your attack rolls with weapons and Unarmed Strikes can score a Critical Hit on a roll of 19 or 20 on the d20."
+  },
+  {
+    "id": "srd24:champion:remarkable-athlete",
+    "kind": "subclass-feature",
+    "name": "Remarkable Athlete",
+    "source": "srd24",
+    "page": "XPHB 96",
+    "tags": [
+      "champion-feature",
+      "fighter-feature"
+    ],
+    "text": "Thanks to your athleticism, you have Advantage on Initiative rolls and Strength (Athletics) checks.\n\nIn addition, immediately after you score a Critical Hit, you can move up to half your Speed without provoking Opportunity Attack."
+  },
+  {
+    "id": "srd24:champion:champion",
+    "kind": "subclass-feature",
+    "name": "Champion",
+    "source": "srd24",
+    "page": "XPHB 96",
+    "tags": [
+      "champion-feature",
+      "fighter-feature"
+    ],
+    "text": "*Pursue Physical Excellence in Combat*\n\nA Champion focuses on the development of martial prowess in a relentless pursuit of victory. Champions combine rigorous training with physical excellence to deal devastating blows, withstand peril, and garner glory. Whether in athletic contests or bloody battle, Champions strive for the crown of the victor.",
+    "grants": [
+      "srd24:champion:improved-critical",
+      "srd24:champion:remarkable-athlete"
+    ]
+  },
+  {
+    "id": "srd24:champion:additional-fighting-style",
+    "kind": "subclass-feature",
+    "name": "Additional Fighting Style",
+    "source": "srd24",
+    "page": "XPHB 96",
+    "tags": [
+      "champion-feature",
+      "fighter-feature"
+    ],
+    "text": "You gain another Fighting Style feat of your choice."
+  },
+  {
+    "id": "srd24:champion:heroic-warrior",
+    "kind": "subclass-feature",
+    "name": "Heroic Warrior",
+    "source": "srd24",
+    "page": "XPHB 96",
+    "tags": [
+      "champion-feature",
+      "fighter-feature"
+    ],
+    "text": "The thrill of battle drives you toward victory. During combat, you can give yourself Heroic Inspiration whenever you start your turn without it."
+  },
+  {
+    "id": "srd24:champion:superior-critical",
+    "kind": "subclass-feature",
+    "name": "Superior Critical",
+    "source": "srd24",
+    "page": "XPHB 96",
+    "tags": [
+      "champion-feature",
+      "fighter-feature"
+    ],
+    "text": "Your attack rolls with weapons and Unarmed Strikes can now score a Critical Hit on a roll of 18–20 on the d20."
+  },
+  {
+    "id": "srd24:champion:survivor",
+    "kind": "subclass-feature",
+    "name": "Survivor",
+    "source": "srd24",
+    "page": "XPHB 96",
+    "tags": [
+      "champion-feature",
+      "fighter-feature"
+    ],
+    "text": "You attain the pinnacle of resilience in battle, giving you these benefits.\n\n**Defy Death.** You have Advantage on Death Saving Throws. Moreover, when you roll 18–20 on a Death Saving Throw, you gain the benefit of rolling a 20 on it.\n\n**Heroic Rally.** At the start of each of your turns, you regain Hit Points equal to 5 plus your Constitution modifier if you are Bloodied and have at least 1 Hit Point."
+  }
+]

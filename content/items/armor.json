@@ -1,0 +1,259 @@
+[
+  {
+    "id": "srd24:item:breastplate",
+    "kind": "item",
+    "name": "Breastplate",
+    "source": "srd24",
+    "tags": [
+      "armor",
+      "medium-armor"
+    ],
+    "page": "XPHB 219",
+    "itemType": "armor",
+    "weight": 20,
+    "value": 40000,
+    "armor": {
+      "base": 14,
+      "category": "medium",
+      "dexMax": 2
+    }
+  },
+  {
+    "id": "srd24:item:chain-mail",
+    "kind": "item",
+    "name": "Chain Mail",
+    "source": "srd24",
+    "tags": [
+      "armor",
+      "heavy-armor"
+    ],
+    "page": "XPHB 219",
+    "itemType": "armor",
+    "weight": 55,
+    "value": 7500,
+    "armor": {
+      "base": 16,
+      "category": "heavy",
+      "dexMax": null,
+      "stealthDisadvantage": true
+    },
+    "text": "Requires Strength 13; your speed is reduced by 10 feet if your Strength is lower."
+  },
+  {
+    "id": "srd24:item:chain-shirt",
+    "kind": "item",
+    "name": "Chain Shirt",
+    "source": "srd24",
+    "tags": [
+      "armor",
+      "medium-armor"
+    ],
+    "page": "XPHB 219",
+    "itemType": "armor",
+    "weight": 20,
+    "value": 5000,
+    "armor": {
+      "base": 13,
+      "category": "medium",
+      "dexMax": 2
+    }
+  },
+  {
+    "id": "srd24:item:half-plate-armor",
+    "kind": "item",
+    "name": "Half Plate Armor",
+    "source": "srd24",
+    "tags": [
+      "armor",
+      "medium-armor"
+    ],
+    "page": "XPHB 219",
+    "itemType": "armor",
+    "weight": 40,
+    "value": 75000,
+    "armor": {
+      "base": 15,
+      "category": "medium",
+      "dexMax": 2,
+      "stealthDisadvantage": true
+    }
+  },
+  {
+    "id": "srd24:item:hide-armor",
+    "kind": "item",
+    "name": "Hide Armor",
+    "source": "srd24",
+    "tags": [
+      "armor",
+      "medium-armor"
+    ],
+    "page": "XPHB 219",
+    "itemType": "armor",
+    "weight": 12,
+    "value": 1000,
+    "armor": {
+      "base": 12,
+      "category": "medium",
+      "dexMax": 2
+    }
+  },
+  {
+    "id": "srd24:item:leather-armor",
+    "kind": "item",
+    "name": "Leather Armor",
+    "source": "srd24",
+    "tags": [
+      "armor",
+      "light-armor"
+    ],
+    "page": "XPHB 219",
+    "itemType": "armor",
+    "weight": 10,
+    "value": 1000,
+    "armor": {
+      "base": 11,
+      "category": "light"
+    }
+  },
+  {
+    "id": "srd24:item:padded-armor",
+    "kind": "item",
+    "name": "Padded Armor",
+    "source": "srd24",
+    "tags": [
+      "armor",
+      "light-armor"
+    ],
+    "page": "XPHB 219",
+    "itemType": "armor",
+    "weight": 8,
+    "value": 500,
+    "armor": {
+      "base": 11,
+      "category": "light",
+      "stealthDisadvantage": true
+    }
+  },
+  {
+    "id": "srd24:item:plate-armor",
+    "kind": "item",
+    "name": "Plate Armor",
+    "source": "srd24",
+    "tags": [
+      "armor",
+      "heavy-armor"
+    ],
+    "page": "XPHB 219",
+    "itemType": "armor",
+    "weight": 65,
+    "value": 150000,
+    "armor": {
+      "base": 18,
+      "category": "heavy",
+      "dexMax": null,
+      "stealthDisadvantage": true
+    },
+    "text": "Requires Strength 15; your speed is reduced by 10 feet if your Strength is lower."
+  },
+  {
+    "id": "srd24:item:ring-mail",
+    "kind": "item",
+    "name": "Ring Mail",
+    "source": "srd24",
+    "tags": [
+      "armor",
+      "heavy-armor"
+    ],
+    "page": "XPHB 219",
+    "itemType": "armor",
+    "weight": 40,
+    "value": 3000,
+    "armor": {
+      "base": 14,
+      "category": "heavy",
+      "dexMax": null,
+      "stealthDisadvantage": true
+    }
+  },
+  {
+    "id": "srd24:item:scale-mail",
+    "kind": "item",
+    "name": "Scale Mail",
+    "source": "srd24",
+    "tags": [
+      "armor",
+      "medium-armor"
+    ],
+    "page": "XPHB 219",
+    "itemType": "armor",
+    "weight": 45,
+    "value": 5000,
+    "armor": {
+      "base": 14,
+      "category": "medium",
+      "dexMax": 2,
+      "stealthDisadvantage": true
+    }
+  },
+  {
+    "id": "srd24:item:shield",
+    "kind": "item",
+    "name": "Shield",
+    "source": "srd24",
+    "tags": [
+      "armor",
+      "shield"
+    ],
+    "page": "XPHB 219",
+    "itemType": "shield",
+    "weight": 6,
+    "value": 1000,
+    "modifiers": [
+      {
+        "target": "ac",
+        "op": "add",
+        "value": 2,
+        "stackKey": "shield"
+      }
+    ]
+  },
+  {
+    "id": "srd24:item:splint-armor",
+    "kind": "item",
+    "name": "Splint Armor",
+    "source": "srd24",
+    "tags": [
+      "armor",
+      "heavy-armor"
+    ],
+    "page": "XPHB 219",
+    "itemType": "armor",
+    "weight": 60,
+    "value": 20000,
+    "armor": {
+      "base": 17,
+      "category": "heavy",
+      "dexMax": null,
+      "stealthDisadvantage": true
+    },
+    "text": "Requires Strength 15; your speed is reduced by 10 feet if your Strength is lower."
+  },
+  {
+    "id": "srd24:item:studded-leather-armor",
+    "kind": "item",
+    "name": "Studded Leather Armor",
+    "source": "srd24",
+    "tags": [
+      "armor",
+      "light-armor"
+    ],
+    "page": "XPHB 219",
+    "itemType": "armor",
+    "weight": 13,
+    "value": 4500,
+    "armor": {
+      "base": 12,
+      "category": "light"
+    }
+  }
+]

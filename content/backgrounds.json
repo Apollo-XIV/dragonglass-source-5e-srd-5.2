@@ -1,0 +1,144 @@
+[
+  {
+    "id": "srd24:background:acolyte",
+    "kind": "background",
+    "name": "Acolyte",
+    "source": "srd24",
+    "tags": [
+      "srd-background"
+    ],
+    "text": "- **Ability Scores:** Intelligence, Wisdom, Charisma\n- **Feat:** Magic Initiate (Cleric)\n- **Skill Proficiencies:** Insight, Religion\n- **Tool Proficiency:** Calligrapher's Supplies\n- **Equipment:** Choose A or B: (A) Calligrapher's Supplies, Book (prayers), Holy Symbol, Parchment (10 sheets), Robe, 8 GP; or (B) 50 GP",
+    "page": "XPHB 178",
+    "grants": [
+      "srd24:skill:insight",
+      "srd24:skill:religion",
+      "srd24:tool:calligraphers-supplies",
+      "srd24:feat:magic-initiate-cleric"
+    ],
+    "choices": [
+      {
+        "id": "srd24:background:acolyte:abilities",
+        "name": "Ability Score Increase",
+        "count": 3,
+        "repeatable": true,
+        "maxPer": 2,
+        "from": {
+          "ids": [
+            "srd24:ability-point:int",
+            "srd24:ability-point:wis",
+            "srd24:ability-point:cha"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:background:criminal",
+    "kind": "background",
+    "name": "Criminal",
+    "source": "srd24",
+    "tags": [
+      "srd-background"
+    ],
+    "text": "- **Ability Scores:** Dexterity, Constitution, Intelligence\n- **Feat:** Alert\n- **Skill Proficiencies:** Sleight of Hand, Stealth\n- **Tool Proficiency:** Thieves' Tools\n- **Equipment:** Choose A or B: (A) 2 Daggers, Thieves' Tools, Crowbar, 2 Pouches, Traveler's Clothes, 16 GP; or (B) 50 GP",
+    "page": "XPHB 180",
+    "grants": [
+      "srd24:skill:sleight-of-hand",
+      "srd24:skill:stealth",
+      "srd24:tool:thieves-tools",
+      "srd24:feat:alert"
+    ],
+    "choices": [
+      {
+        "id": "srd24:background:criminal:abilities",
+        "name": "Ability Score Increase",
+        "count": 3,
+        "repeatable": true,
+        "maxPer": 2,
+        "from": {
+          "ids": [
+            "srd24:ability-point:dex",
+            "srd24:ability-point:con",
+            "srd24:ability-point:int"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:background:sage",
+    "kind": "background",
+    "name": "Sage",
+    "source": "srd24",
+    "tags": [
+      "srd-background"
+    ],
+    "text": "- **Ability Scores:** Constitution, Intelligence, Wisdom\n- **Feat:** Magic Initiate (Wizard)\n- **Skill Proficiencies:** Arcana, History\n- **Tool Proficiency:** Calligrapher's Supplies\n- **Equipment:** Choose A or B: (A) Quarterstaff, Calligrapher's Supplies, Book (history), Parchment (8 sheets), Robe, 8 GP; or (B) 50 GP",
+    "page": "XPHB 183",
+    "grants": [
+      "srd24:skill:arcana",
+      "srd24:skill:history",
+      "srd24:tool:calligraphers-supplies",
+      "srd24:feat:magic-initiate-wizard"
+    ],
+    "choices": [
+      {
+        "id": "srd24:background:sage:abilities",
+        "name": "Ability Score Increase",
+        "count": 3,
+        "repeatable": true,
+        "maxPer": 2,
+        "from": {
+          "ids": [
+            "srd24:ability-point:con",
+            "srd24:ability-point:int",
+            "srd24:ability-point:wis"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:background:soldier",
+    "kind": "background",
+    "name": "Soldier",
+    "source": "srd24",
+    "tags": [
+      "srd-background"
+    ],
+    "text": "- **Ability Scores:** Strength, Dexterity, Constitution\n- **Feat:** Savage Attacker\n- **Skill Proficiencies:** Athletics, Intimidation\n- **Tool Proficiency:** Choose one kind of Gaming Set\n- **Equipment:** Choose A or B: (A) Spear, Shortbow, 20 Arrows, Gaming Set (same as above), Healer's Kit, Quiver, Traveler's Clothes, 14 GP; or (B) 50 GP",
+    "page": "XPHB 185",
+    "grants": [
+      "srd24:skill:athletics",
+      "srd24:skill:intimidation",
+      "srd24:feat:savage-attacker"
+    ],
+    "choices": [
+      {
+        "id": "srd24:background:soldier:abilities",
+        "name": "Ability Score Increase",
+        "count": 3,
+        "repeatable": true,
+        "maxPer": 2,
+        "from": {
+          "ids": [
+            "srd24:ability-point:str",
+            "srd24:ability-point:dex",
+            "srd24:ability-point:con"
+          ]
+        }
+      },
+      {
+        "id": "srd24:background:soldier:tool",
+        "name": "Tool Proficiency",
+        "count": 1,
+        "from": {
+          "kind": "tool",
+          "tags": [
+            "gaming-set"
+          ]
+        }
+      }
+    ]
+  }
+]

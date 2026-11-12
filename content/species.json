@@ -183,18 +183,18 @@
     ]
   },
   {
-    "id": "srd24:dragonborn-black:breath-weapon",
+    "id": "srd24:subspecies:dragonborn-dragonborn-black:breath-weapon",
     "kind": "species-trait",
     "name": "Breath Weapon",
     "source": "srd24",
     "tags": [
-      "dragonborn-black-trait"
+      "dragonborn-dragonborn-black-trait"
     ],
     "text": "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 Acid damage. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).\n\nYou can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
     "page": "XPHB 187",
     "resources": [
       {
-        "id": "srd24:dragonborn-black:breath-weapon",
+        "id": "srd24:subspecies:dragonborn-dragonborn-black:breath-weapon",
         "name": "Breath Weapon",
         "max": "@prof",
         "recharge": [
@@ -219,24 +219,24 @@
           "review": "auto"
         },
         "cost": {
-          "srd24:dragonborn-black:breath-weapon": 1
+          "srd24:subspecies:dragonborn-dragonborn-black:breath-weapon": 1
         }
       }
     ]
   },
   {
-    "id": "srd24:dragonborn-black:damage-resistance",
+    "id": "srd24:subspecies:dragonborn-dragonborn-black:damage-resistance",
     "kind": "species-trait",
     "name": "Damage Resistance",
     "source": "srd24",
     "tags": [
-      "dragonborn-black-trait"
+      "dragonborn-dragonborn-black-trait"
     ],
     "text": "You have Resistance to Acid damage.",
     "page": "XPHB 187"
   },
   {
-    "id": "srd24:subspecies:dragonborn-black",
+    "id": "srd24:subspecies:dragonborn-dragonborn-black",
     "kind": "subspecies",
     "name": "Dragonborn (Black)",
     "source": "srd24",
@@ -256,23 +256,23 @@
       }
     ],
     "grants": [
-      "srd24:dragonborn-black:breath-weapon",
-      "srd24:dragonborn-black:damage-resistance"
+      "srd24:subspecies:dragonborn-dragonborn-black:breath-weapon",
+      "srd24:subspecies:dragonborn-dragonborn-black:damage-resistance"
     ]
   },
   {
-    "id": "srd24:dragonborn-blue:breath-weapon",
+    "id": "srd24:subspecies:dragonborn-dragonborn-blue:breath-weapon",
     "kind": "species-trait",
     "name": "Breath Weapon",
     "source": "srd24",
     "tags": [
-      "dragonborn-blue-trait"
+      "dragonborn-dragonborn-blue-trait"
     ],
     "text": "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 Lightning damage. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).\n\nYou can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
     "page": "XPHB 187",
     "resources": [
       {
-        "id": "srd24:dragonborn-blue:breath-weapon",
+        "id": "srd24:subspecies:dragonborn-dragonborn-blue:breath-weapon",
         "name": "Breath Weapon",
         "max": "@prof",
         "recharge": [
@@ -297,24 +297,24 @@
           "review": "auto"
         },
         "cost": {
-          "srd24:dragonborn-blue:breath-weapon": 1
+          "srd24:subspecies:dragonborn-dragonborn-blue:breath-weapon": 1
         }
       }
     ]
   },
   {
-    "id": "srd24:dragonborn-blue:damage-resistance",
+    "id": "srd24:subspecies:dragonborn-dragonborn-blue:damage-resistance",
     "kind": "species-trait",
     "name": "Damage Resistance",
     "source": "srd24",
     "tags": [
-      "dragonborn-blue-trait"
+      "dragonborn-dragonborn-blue-trait"
     ],
     "text": "You have Resistance to Lightning damage.",
     "page": "XPHB 187"
   },
   {
-    "id": "srd24:subspecies:dragonborn-blue",
+    "id": "srd24:subspecies:dragonborn-dragonborn-blue",
     "kind": "subspecies",
     "name": "Dragonborn (Blue)",
     "source": "srd24",
@@ -334,23 +334,23 @@
       }
     ],
     "grants": [
-      "srd24:dragonborn-blue:breath-weapon",
-      "srd24:dragonborn-blue:damage-resistance"
+      "srd24:subspecies:dragonborn-dragonborn-blue:breath-weapon",
+      "srd24:subspecies:dragonborn-dragonborn-blue:damage-resistance"
     ]
   },
   {
-    "id": "srd24:dragonborn-brass:breath-weapon",
+    "id": "srd24:subspecies:dragonborn-dragonborn-brass:breath-weapon",
     "kind": "species-trait",
     "name": "Breath Weapon",
     "source": "srd24",
     "tags": [
-      "dragonborn-brass-trait"
+      "dragonborn-dragonborn-brass-trait"
     ],
     "text": "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 Fire damage. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).\n\nYou can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
     "page": "XPHB 187",
     "resources": [
       {
-        "id": "srd24:dragonborn-brass:breath-weapon",
+        "id": "srd24:subspecies:dragonborn-dragonborn-brass:breath-weapon",
         "name": "Breath Weapon",
         "max": "@prof",
         "recharge": [
@@ -375,24 +375,24 @@
           "review": "auto"
         },
         "cost": {
-          "srd24:dragonborn-brass:breath-weapon": 1
+          "srd24:subspecies:dragonborn-dragonborn-brass:breath-weapon": 1
         }
       }
     ]
   },
   {
-    "id": "srd24:dragonborn-brass:damage-resistance",
+    "id": "srd24:subspecies:dragonborn-dragonborn-brass:damage-resistance",
     "kind": "species-trait",
     "name": "Damage Resistance",
     "source": "srd24",
     "tags": [
-      "dragonborn-brass-trait"
+      "dragonborn-dragonborn-brass-trait"
     ],
     "text": "You have Resistance to Fire damage.",
     "page": "XPHB 187"
   },
   {
-    "id": "srd24:subspecies:dragonborn-brass",
+    "id": "srd24:subspecies:dragonborn-dragonborn-brass",
     "kind": "subspecies",
     "name": "Dragonborn (Brass)",
     "source": "srd24",
@@ -412,23 +412,23 @@
       }
     ],
     "grants": [
-      "srd24:dragonborn-brass:breath-weapon",
-      "srd24:dragonborn-brass:damage-resistance"
+      "srd24:subspecies:dragonborn-dragonborn-brass:breath-weapon",
+      "srd24:subspecies:dragonborn-dragonborn-brass:damage-resistance"
     ]
   },
   {
-    "id": "srd24:dragonborn-bronze:breath-weapon",
+    "id": "srd24:subspecies:dragonborn-dragonborn-bronze:breath-weapon",
     "kind": "species-trait",
     "name": "Breath Weapon",
     "source": "srd24",
     "tags": [
-      "dragonborn-bronze-trait"
+      "dragonborn-dragonborn-bronze-trait"
     ],
     "text": "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 Lightning damage. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).\n\nYou can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
     "page": "XPHB 187",
     "resources": [
       {
-        "id": "srd24:dragonborn-bronze:breath-weapon",
+        "id": "srd24:subspecies:dragonborn-dragonborn-bronze:breath-weapon",
         "name": "Breath Weapon",
         "max": "@prof",
         "recharge": [
@@ -453,24 +453,24 @@
           "review": "auto"
         },
         "cost": {
-          "srd24:dragonborn-bronze:breath-weapon": 1
+          "srd24:subspecies:dragonborn-dragonborn-bronze:breath-weapon": 1
         }
       }
     ]
   },
   {
-    "id": "srd24:dragonborn-bronze:damage-resistance",
+    "id": "srd24:subspecies:dragonborn-dragonborn-bronze:damage-resistance",
     "kind": "species-trait",
     "name": "Damage Resistance",
     "source": "srd24",
     "tags": [
-      "dragonborn-bronze-trait"
+      "dragonborn-dragonborn-bronze-trait"
     ],
     "text": "You have Resistance to Lightning damage.",
     "page": "XPHB 187"
   },
   {
-    "id": "srd24:subspecies:dragonborn-bronze",
+    "id": "srd24:subspecies:dragonborn-dragonborn-bronze",
     "kind": "subspecies",
     "name": "Dragonborn (Bronze)",
     "source": "srd24",
@@ -490,23 +490,23 @@
       }
     ],
     "grants": [
-      "srd24:dragonborn-bronze:breath-weapon",
-      "srd24:dragonborn-bronze:damage-resistance"
+      "srd24:subspecies:dragonborn-dragonborn-bronze:breath-weapon",
+      "srd24:subspecies:dragonborn-dragonborn-bronze:damage-resistance"
     ]
   },
   {
-    "id": "srd24:dragonborn-copper:breath-weapon",
+    "id": "srd24:subspecies:dragonborn-dragonborn-copper:breath-weapon",
     "kind": "species-trait",
     "name": "Breath Weapon",
     "source": "srd24",
     "tags": [
-      "dragonborn-copper-trait"
+      "dragonborn-dragonborn-copper-trait"
     ],
     "text": "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 Acid damage. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).\n\nYou can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
     "page": "XPHB 187",
     "resources": [
       {
-        "id": "srd24:dragonborn-copper:breath-weapon",
+        "id": "srd24:subspecies:dragonborn-dragonborn-copper:breath-weapon",
         "name": "Breath Weapon",
         "max": "@prof",
         "recharge": [
@@ -531,24 +531,24 @@
           "review": "auto"
         },
         "cost": {
-          "srd24:dragonborn-copper:breath-weapon": 1
+          "srd24:subspecies:dragonborn-dragonborn-copper:breath-weapon": 1
         }
       }
     ]
   },
   {
-    "id": "srd24:dragonborn-copper:damage-resistance",
+    "id": "srd24:subspecies:dragonborn-dragonborn-copper:damage-resistance",
     "kind": "species-trait",
     "name": "Damage Resistance",
     "source": "srd24",
     "tags": [
-      "dragonborn-copper-trait"
+      "dragonborn-dragonborn-copper-trait"
     ],
     "text": "You have Resistance to Acid damage.",
     "page": "XPHB 187"
   },
   {
-    "id": "srd24:subspecies:dragonborn-copper",
+    "id": "srd24:subspecies:dragonborn-dragonborn-copper",
     "kind": "subspecies",
     "name": "Dragonborn (Copper)",
     "source": "srd24",
@@ -568,23 +568,23 @@
       }
     ],
     "grants": [
-      "srd24:dragonborn-copper:breath-weapon",
-      "srd24:dragonborn-copper:damage-resistance"
+      "srd24:subspecies:dragonborn-dragonborn-copper:breath-weapon",
+      "srd24:subspecies:dragonborn-dragonborn-copper:damage-resistance"
     ]
   },
   {
-    "id": "srd24:dragonborn-gold:breath-weapon",
+    "id": "srd24:subspecies:dragonborn-dragonborn-gold:breath-weapon",
     "kind": "species-trait",
     "name": "Breath Weapon",
     "source": "srd24",
     "tags": [
-      "dragonborn-gold-trait"
+      "dragonborn-dragonborn-gold-trait"
     ],
     "text": "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 Fire damage. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).\n\nYou can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
     "page": "XPHB 187",
     "resources": [
       {
-        "id": "srd24:dragonborn-gold:breath-weapon",
+        "id": "srd24:subspecies:dragonborn-dragonborn-gold:breath-weapon",
         "name": "Breath Weapon",
         "max": "@prof",
         "recharge": [
@@ -609,24 +609,24 @@
           "review": "auto"
         },
         "cost": {
-          "srd24:dragonborn-gold:breath-weapon": 1
+          "srd24:subspecies:dragonborn-dragonborn-gold:breath-weapon": 1
         }
       }
     ]
   },
   {
-    "id": "srd24:dragonborn-gold:damage-resistance",
+    "id": "srd24:subspecies:dragonborn-dragonborn-gold:damage-resistance",
     "kind": "species-trait",
     "name": "Damage Resistance",
     "source": "srd24",
     "tags": [
-      "dragonborn-gold-trait"
+      "dragonborn-dragonborn-gold-trait"
     ],
     "text": "You have Resistance to Fire damage.",
     "page": "XPHB 187"
   },
   {
-    "id": "srd24:subspecies:dragonborn-gold",
+    "id": "srd24:subspecies:dragonborn-dragonborn-gold",
     "kind": "subspecies",
     "name": "Dragonborn (Gold)",
     "source": "srd24",
@@ -646,23 +646,23 @@
       }
     ],
     "grants": [
-      "srd24:dragonborn-gold:breath-weapon",
-      "srd24:dragonborn-gold:damage-resistance"
+      "srd24:subspecies:dragonborn-dragonborn-gold:breath-weapon",
+      "srd24:subspecies:dragonborn-dragonborn-gold:damage-resistance"
     ]
   },
   {
-    "id": "srd24:dragonborn-green:breath-weapon",
+    "id": "srd24:subspecies:dragonborn-dragonborn-green:breath-weapon",
     "kind": "species-trait",
     "name": "Breath Weapon",
     "source": "srd24",
     "tags": [
-      "dragonborn-green-trait"
+      "dragonborn-dragonborn-green-trait"
     ],
     "text": "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 Poison damage. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).\n\nYou can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
     "page": "XPHB 187",
     "resources": [
       {
-        "id": "srd24:dragonborn-green:breath-weapon",
+        "id": "srd24:subspecies:dragonborn-dragonborn-green:breath-weapon",
         "name": "Breath Weapon",
         "max": "@prof",
         "recharge": [
@@ -687,24 +687,24 @@
           "review": "auto"
         },
         "cost": {
-          "srd24:dragonborn-green:breath-weapon": 1
+          "srd24:subspecies:dragonborn-dragonborn-green:breath-weapon": 1
         }
       }
     ]
   },
   {
-    "id": "srd24:dragonborn-green:damage-resistance",
+    "id": "srd24:subspecies:dragonborn-dragonborn-green:damage-resistance",
     "kind": "species-trait",
     "name": "Damage Resistance",
     "source": "srd24",
     "tags": [
-      "dragonborn-green-trait"
+      "dragonborn-dragonborn-green-trait"
     ],
     "text": "You have Resistance to Poison damage.",
     "page": "XPHB 187"
   },
   {
-    "id": "srd24:subspecies:dragonborn-green",
+    "id": "srd24:subspecies:dragonborn-dragonborn-green",
     "kind": "subspecies",
     "name": "Dragonborn (Green)",
     "source": "srd24",
@@ -724,23 +724,23 @@
       }
     ],
     "grants": [
-      "srd24:dragonborn-green:breath-weapon",
-      "srd24:dragonborn-green:damage-resistance"
+      "srd24:subspecies:dragonborn-dragonborn-green:breath-weapon",
+      "srd24:subspecies:dragonborn-dragonborn-green:damage-resistance"
     ]
   },
   {
-    "id": "srd24:dragonborn-red:breath-weapon",
+    "id": "srd24:subspecies:dragonborn-dragonborn-red:breath-weapon",
     "kind": "species-trait",
     "name": "Breath Weapon",
     "source": "srd24",
     "tags": [
-      "dragonborn-red-trait"
+      "dragonborn-dragonborn-red-trait"
     ],
     "text": "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 Fire damage. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).\n\nYou can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
     "page": "XPHB 187",
     "resources": [
       {
-        "id": "srd24:dragonborn-red:breath-weapon",
+        "id": "srd24:subspecies:dragonborn-dragonborn-red:breath-weapon",
         "name": "Breath Weapon",
         "max": "@prof",
         "recharge": [
@@ -765,24 +765,24 @@
           "review": "auto"
         },
         "cost": {
-          "srd24:dragonborn-red:breath-weapon": 1
+          "srd24:subspecies:dragonborn-dragonborn-red:breath-weapon": 1
         }
       }
     ]
   },
   {
-    "id": "srd24:dragonborn-red:damage-resistance",
+    "id": "srd24:subspecies:dragonborn-dragonborn-red:damage-resistance",
     "kind": "species-trait",
     "name": "Damage Resistance",
     "source": "srd24",
     "tags": [
-      "dragonborn-red-trait"
+      "dragonborn-dragonborn-red-trait"
     ],
     "text": "You have Resistance to Fire damage.",
     "page": "XPHB 187"
   },
   {
-    "id": "srd24:subspecies:dragonborn-red",
+    "id": "srd24:subspecies:dragonborn-dragonborn-red",
     "kind": "subspecies",
     "name": "Dragonborn (Red)",
     "source": "srd24",
@@ -802,23 +802,23 @@
       }
     ],
     "grants": [
-      "srd24:dragonborn-red:breath-weapon",
-      "srd24:dragonborn-red:damage-resistance"
+      "srd24:subspecies:dragonborn-dragonborn-red:breath-weapon",
+      "srd24:subspecies:dragonborn-dragonborn-red:damage-resistance"
     ]
   },
   {
-    "id": "srd24:dragonborn-silver:breath-weapon",
+    "id": "srd24:subspecies:dragonborn-dragonborn-silver:breath-weapon",
     "kind": "species-trait",
     "name": "Breath Weapon",
     "source": "srd24",
     "tags": [
-      "dragonborn-silver-trait"
+      "dragonborn-dragonborn-silver-trait"
     ],
     "text": "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 Cold damage. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).\n\nYou can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
     "page": "XPHB 187",
     "resources": [
       {
-        "id": "srd24:dragonborn-silver:breath-weapon",
+        "id": "srd24:subspecies:dragonborn-dragonborn-silver:breath-weapon",
         "name": "Breath Weapon",
         "max": "@prof",
         "recharge": [
@@ -843,24 +843,24 @@
           "review": "auto"
         },
         "cost": {
-          "srd24:dragonborn-silver:breath-weapon": 1
+          "srd24:subspecies:dragonborn-dragonborn-silver:breath-weapon": 1
         }
       }
     ]
   },
   {
-    "id": "srd24:dragonborn-silver:damage-resistance",
+    "id": "srd24:subspecies:dragonborn-dragonborn-silver:damage-resistance",
     "kind": "species-trait",
     "name": "Damage Resistance",
     "source": "srd24",
     "tags": [
-      "dragonborn-silver-trait"
+      "dragonborn-dragonborn-silver-trait"
     ],
     "text": "You have Resistance to Cold damage.",
     "page": "XPHB 187"
   },
   {
-    "id": "srd24:subspecies:dragonborn-silver",
+    "id": "srd24:subspecies:dragonborn-dragonborn-silver",
     "kind": "subspecies",
     "name": "Dragonborn (Silver)",
     "source": "srd24",
@@ -880,23 +880,23 @@
       }
     ],
     "grants": [
-      "srd24:dragonborn-silver:breath-weapon",
-      "srd24:dragonborn-silver:damage-resistance"
+      "srd24:subspecies:dragonborn-dragonborn-silver:breath-weapon",
+      "srd24:subspecies:dragonborn-dragonborn-silver:damage-resistance"
     ]
   },
   {
-    "id": "srd24:dragonborn-white:breath-weapon",
+    "id": "srd24:subspecies:dragonborn-dragonborn-white:breath-weapon",
     "kind": "species-trait",
     "name": "Breath Weapon",
     "source": "srd24",
     "tags": [
-      "dragonborn-white-trait"
+      "dragonborn-dragonborn-white-trait"
     ],
     "text": "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 Cold damage. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).\n\nYou can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
     "page": "XPHB 187",
     "resources": [
       {
-        "id": "srd24:dragonborn-white:breath-weapon",
+        "id": "srd24:subspecies:dragonborn-dragonborn-white:breath-weapon",
         "name": "Breath Weapon",
         "max": "@prof",
         "recharge": [
@@ -921,24 +921,24 @@
           "review": "auto"
         },
         "cost": {
-          "srd24:dragonborn-white:breath-weapon": 1
+          "srd24:subspecies:dragonborn-dragonborn-white:breath-weapon": 1
         }
       }
     ]
   },
   {
-    "id": "srd24:dragonborn-white:damage-resistance",
+    "id": "srd24:subspecies:dragonborn-dragonborn-white:damage-resistance",
     "kind": "species-trait",
     "name": "Damage Resistance",
     "source": "srd24",
     "tags": [
-      "dragonborn-white-trait"
+      "dragonborn-dragonborn-white-trait"
     ],
     "text": "You have Resistance to Cold damage.",
     "page": "XPHB 187"
   },
   {
-    "id": "srd24:subspecies:dragonborn-white",
+    "id": "srd24:subspecies:dragonborn-dragonborn-white",
     "kind": "subspecies",
     "name": "Dragonborn (White)",
     "source": "srd24",
@@ -958,8 +958,8 @@
       }
     ],
     "grants": [
-      "srd24:dragonborn-white:breath-weapon",
-      "srd24:dragonborn-white:damage-resistance"
+      "srd24:subspecies:dragonborn-dragonborn-white:breath-weapon",
+      "srd24:subspecies:dragonborn-dragonborn-white:damage-resistance"
     ]
   },
   {
@@ -1216,29 +1216,29 @@
     ]
   },
   {
-    "id": "srd24:drow-lineage:darkvision",
+    "id": "srd24:subspecies:elf-drow-lineage:darkvision",
     "kind": "species-trait",
     "name": "Darkvision",
     "source": "srd24",
     "tags": [
-      "drow-lineage-trait"
+      "elf-drow-lineage-trait"
     ],
     "text": "You have Darkvision with a range of 120 feet.",
     "page": "XPHB 189"
   },
   {
-    "id": "srd24:drow-lineage:elven-lineage-drow",
+    "id": "srd24:subspecies:elf-drow-lineage:elven-lineage-drow",
     "kind": "species-trait",
     "name": "Elven Lineage (Drow)",
     "source": "srd24",
     "tags": [
-      "drow-lineage-trait"
+      "elf-drow-lineage-trait"
     ],
     "text": "You are part of a lineage that grants you supernatural abilities. The range of your Darkvision increases to 120 feet. You also know the Dancing Lights cantrip.\n\nWhen you reach character level 3, you learn the Faerie Fire spell. When you reach character level 5, you also learn the Darkness spell. You always have these spells prepared, and you can cast each spell once without a spell slot. Once you cast either of these spells with this trait, you can't cast that spell with it again until you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage).",
     "page": "XPHB 189"
   },
   {
-    "id": "srd24:subspecies:drow-lineage",
+    "id": "srd24:subspecies:elf-drow-lineage",
     "kind": "subspecies",
     "name": "Drow Lineage",
     "source": "srd24",
@@ -1250,7 +1250,7 @@
     "page": "XPHB 189",
     "choices": [
       {
-        "id": "srd24:subspecies:drow-lineage:ability",
+        "id": "srd24:subspecies:elf-drow-lineage:ability",
         "name": "Spellcasting ability",
         "count": 1,
         "from": {
@@ -1274,7 +1274,7 @@
       {
         "spell": "srd24:spell:dancing-lights",
         "ability": {
-          "choice": "srd24:subspecies:drow-lineage:ability"
+          "choice": "srd24:subspecies:elf-drow-lineage:ability"
         }
       }
     ],
@@ -1284,7 +1284,7 @@
           {
             "spell": "srd24:spell:faerie-fire",
             "ability": {
-              "choice": "srd24:subspecies:drow-lineage:ability"
+              "choice": "srd24:subspecies:elf-drow-lineage:ability"
             },
             "uses": 1,
             "recharge": [
@@ -1301,7 +1301,7 @@
           {
             "spell": "srd24:spell:darkness",
             "ability": {
-              "choice": "srd24:subspecies:drow-lineage:ability"
+              "choice": "srd24:subspecies:elf-drow-lineage:ability"
             },
             "uses": 1,
             "recharge": [
@@ -1316,23 +1316,23 @@
     },
     "levelsBy": "character",
     "grants": [
-      "srd24:drow-lineage:darkvision",
-      "srd24:drow-lineage:elven-lineage-drow"
+      "srd24:subspecies:elf-drow-lineage:darkvision",
+      "srd24:subspecies:elf-drow-lineage:elven-lineage-drow"
     ]
   },
   {
-    "id": "srd24:high-elf-lineage:elven-lineage-high-elf",
+    "id": "srd24:subspecies:elf-high-elf-lineage:elven-lineage-high-elf",
     "kind": "species-trait",
     "name": "Elven Lineage (High Elf)",
     "source": "srd24",
     "tags": [
-      "high-elf-lineage-trait"
+      "elf-high-elf-lineage-trait"
     ],
     "text": "You are part of a lineage that grants you supernatural abilities. You know the Prestidigitation cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Wizard spell list.\n\nWhen you reach character level 3, you learn the Detect Magic spell. When you reach character level 5, you also learn the Misty Step spell. You always have these spells prepared, and you can cast each spell once without a spell slot. Once you cast either of these spells with this trait, you can't cast that spell with it again until you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage).",
     "page": "XPHB 189"
   },
   {
-    "id": "srd24:subspecies:high-elf-lineage",
+    "id": "srd24:subspecies:elf-high-elf-lineage",
     "kind": "subspecies",
     "name": "High Elf Lineage",
     "source": "srd24",
@@ -1344,7 +1344,7 @@
     "page": "XPHB 189",
     "choices": [
       {
-        "id": "srd24:subspecies:high-elf-lineage:known-spells",
+        "id": "srd24:subspecies:elf-high-elf-lineage:known-spells",
         "name": "Cantrip",
         "count": 1,
         "from": {
@@ -1356,7 +1356,7 @@
         }
       },
       {
-        "id": "srd24:subspecies:high-elf-lineage:ability",
+        "id": "srd24:subspecies:elf-high-elf-lineage:ability",
         "name": "Spellcasting ability",
         "count": 1,
         "from": {
@@ -1372,10 +1372,10 @@
     "innateSpells": [
       {
         "spell": {
-          "choice": "srd24:subspecies:high-elf-lineage:known-spells"
+          "choice": "srd24:subspecies:elf-high-elf-lineage:known-spells"
         },
         "ability": {
-          "choice": "srd24:subspecies:high-elf-lineage:ability"
+          "choice": "srd24:subspecies:elf-high-elf-lineage:ability"
         }
       }
     ],
@@ -1385,7 +1385,7 @@
           {
             "spell": "srd24:spell:detect-magic",
             "ability": {
-              "choice": "srd24:subspecies:high-elf-lineage:ability"
+              "choice": "srd24:subspecies:elf-high-elf-lineage:ability"
             },
             "uses": 1,
             "recharge": [
@@ -1402,7 +1402,7 @@
           {
             "spell": "srd24:spell:misty-step",
             "ability": {
-              "choice": "srd24:subspecies:high-elf-lineage:ability"
+              "choice": "srd24:subspecies:elf-high-elf-lineage:ability"
             },
             "uses": 1,
             "recharge": [
@@ -1417,22 +1417,22 @@
     },
     "levelsBy": "character",
     "grants": [
-      "srd24:high-elf-lineage:elven-lineage-high-elf"
+      "srd24:subspecies:elf-high-elf-lineage:elven-lineage-high-elf"
     ]
   },
   {
-    "id": "srd24:wood-elf-lineage:elven-lineage-wood-elf",
+    "id": "srd24:subspecies:elf-wood-elf-lineage:elven-lineage-wood-elf",
     "kind": "species-trait",
     "name": "Elven Lineage (Wood Elf)",
     "source": "srd24",
     "tags": [
-      "wood-elf-lineage-trait"
+      "elf-wood-elf-lineage-trait"
     ],
     "text": "You are part of a lineage that grants you supernatural abilities. Your Speed increases to 35 feet. You also know the Druidcraft cantrip.\n\nWhen you reach character level 3, you learn the Longstrider spell. When you reach character level 5, you also learn the Pass without Trace spell. You always have these spells prepared, and you can cast each spell once without a spell slot. Once you cast either of these spells with this trait, you can't cast that spell with it again until you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage).",
     "page": "XPHB 189"
   },
   {
-    "id": "srd24:subspecies:wood-elf-lineage",
+    "id": "srd24:subspecies:elf-wood-elf-lineage",
     "kind": "subspecies",
     "name": "Wood Elf Lineage",
     "source": "srd24",
@@ -1444,7 +1444,7 @@
     "page": "XPHB 189",
     "choices": [
       {
-        "id": "srd24:subspecies:wood-elf-lineage:ability",
+        "id": "srd24:subspecies:elf-wood-elf-lineage:ability",
         "name": "Spellcasting ability",
         "count": 1,
         "from": {
@@ -1468,7 +1468,7 @@
       {
         "spell": "srd24:spell:druidcraft",
         "ability": {
-          "choice": "srd24:subspecies:wood-elf-lineage:ability"
+          "choice": "srd24:subspecies:elf-wood-elf-lineage:ability"
         }
       }
     ],
@@ -1478,7 +1478,7 @@
           {
             "spell": "srd24:spell:longstrider",
             "ability": {
-              "choice": "srd24:subspecies:wood-elf-lineage:ability"
+              "choice": "srd24:subspecies:elf-wood-elf-lineage:ability"
             },
             "uses": 1,
             "recharge": [
@@ -1495,7 +1495,7 @@
           {
             "spell": "srd24:spell:pass-without-trace",
             "ability": {
-              "choice": "srd24:subspecies:wood-elf-lineage:ability"
+              "choice": "srd24:subspecies:elf-wood-elf-lineage:ability"
             },
             "uses": 1,
             "recharge": [
@@ -1510,7 +1510,7 @@
     },
     "levelsBy": "character",
     "grants": [
-      "srd24:wood-elf-lineage:elven-lineage-wood-elf"
+      "srd24:subspecies:elf-wood-elf-lineage:elven-lineage-wood-elf"
     ]
   },
   {
@@ -1615,18 +1615,18 @@
     ]
   },
   {
-    "id": "srd24:forest-gnome-lineage:gnomish-lineage-forest-gnome",
+    "id": "srd24:subspecies:gnome-forest-gnome-lineage:gnomish-lineage-forest-gnome",
     "kind": "species-trait",
     "name": "Gnomish Lineage (Forest Gnome)",
     "source": "srd24",
     "tags": [
-      "forest-gnome-lineage-trait"
+      "gnome-forest-gnome-lineage-trait"
     ],
     "text": "You know the Minor Illusion cantrip. You also always have the Speak with Animals spell prepared. You can cast it without a spell slot a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest. You can also use any spell slots you have to cast the spell.",
     "page": "XPHB 191"
   },
   {
-    "id": "srd24:subspecies:forest-gnome-lineage",
+    "id": "srd24:subspecies:gnome-forest-gnome-lineage",
     "kind": "subspecies",
     "name": "Forest Gnome Lineage",
     "source": "srd24",
@@ -1638,7 +1638,7 @@
     "page": "XPHB 191",
     "choices": [
       {
-        "id": "srd24:subspecies:forest-gnome-lineage:ability",
+        "id": "srd24:subspecies:gnome-forest-gnome-lineage:ability",
         "name": "Spellcasting ability",
         "count": 1,
         "from": {
@@ -1655,7 +1655,7 @@
       {
         "spell": "srd24:spell:minor-illusion",
         "ability": {
-          "choice": "srd24:subspecies:forest-gnome-lineage:ability"
+          "choice": "srd24:subspecies:gnome-forest-gnome-lineage:ability"
         }
       }
     ],
@@ -1665,7 +1665,7 @@
           {
             "spell": "srd24:spell:speak-with-animals",
             "ability": {
-              "choice": "srd24:subspecies:forest-gnome-lineage:ability"
+              "choice": "srd24:subspecies:gnome-forest-gnome-lineage:ability"
             },
             "uses": "@prof",
             "recharge": [
@@ -1680,22 +1680,22 @@
     },
     "levelsBy": "character",
     "grants": [
-      "srd24:forest-gnome-lineage:gnomish-lineage-forest-gnome"
+      "srd24:subspecies:gnome-forest-gnome-lineage:gnomish-lineage-forest-gnome"
     ]
   },
   {
-    "id": "srd24:rock-gnome-lineage:gnomish-lineage-rock-gnome",
+    "id": "srd24:subspecies:gnome-rock-gnome-lineage:gnomish-lineage-rock-gnome",
     "kind": "species-trait",
     "name": "Gnomish Lineage (Rock Gnome)",
     "source": "srd24",
     "tags": [
-      "rock-gnome-lineage-trait"
+      "gnome-rock-gnome-lineage-trait"
     ],
     "text": "You know the Mending and Prestidigitation cantrips. In addition, you can spend 10 minutes casting Prestidigitation to create a Tiny clockwork device (AC 5, 1 HP), such as a toy, fire starter, or music box. When you create the device, you determine its function by choosing one effect from Prestidigitation; the device produces that effect whenever you or another creature takes a Bonus Action to activate it with a touch. If the chosen effect has options within it, you choose one of those options for the device when you create it. For example, if you choose the spell's ignite-extinguish effect, you determine whether the device ignites or extinguishes fire; the device doesn't do both. You can have three such devices in existence at a time, and each falls apart 8 hours after its creation or when you dismantle it with a touch as a Utilize action.",
     "page": "XPHB 191"
   },
   {
-    "id": "srd24:subspecies:rock-gnome-lineage",
+    "id": "srd24:subspecies:gnome-rock-gnome-lineage",
     "kind": "subspecies",
     "name": "Rock Gnome Lineage",
     "source": "srd24",
@@ -1707,7 +1707,7 @@
     "page": "XPHB 191",
     "choices": [
       {
-        "id": "srd24:subspecies:rock-gnome-lineage:ability",
+        "id": "srd24:subspecies:gnome-rock-gnome-lineage:ability",
         "name": "Spellcasting ability",
         "count": 1,
         "from": {
@@ -1724,18 +1724,18 @@
       {
         "spell": "srd24:spell:mending",
         "ability": {
-          "choice": "srd24:subspecies:rock-gnome-lineage:ability"
+          "choice": "srd24:subspecies:gnome-rock-gnome-lineage:ability"
         }
       },
       {
         "spell": "srd24:spell:prestidigitation",
         "ability": {
-          "choice": "srd24:subspecies:rock-gnome-lineage:ability"
+          "choice": "srd24:subspecies:gnome-rock-gnome-lineage:ability"
         }
       }
     ],
     "grants": [
-      "srd24:rock-gnome-lineage:gnomish-lineage-rock-gnome"
+      "srd24:subspecies:gnome-rock-gnome-lineage:gnomish-lineage-rock-gnome"
     ]
   },
   {
@@ -1863,18 +1863,18 @@
     ]
   },
   {
-    "id": "srd24:cloud-giant-ancestry:giant-ancestry-cloud",
+    "id": "srd24:subspecies:goliath-cloud-giant-ancestry:giant-ancestry-cloud",
     "kind": "species-trait",
     "name": "Giant Ancestry (Cloud)",
     "source": "srd24",
     "tags": [
-      "cloud-giant-ancestry-trait"
+      "goliath-cloud-giant-ancestry-trait"
     ],
     "text": "You are descended from Giants, granting you a supernatural boon; you can use this boon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest:\n\n- **Cloud's Jaunt.** As a Bonus Action, you magically teleport up to 30 feet to an unoccupied space you can see.",
     "page": "XPHB 192",
     "resources": [
       {
-        "id": "srd24:cloud-giant-ancestry:giant-ancestry-cloud",
+        "id": "srd24:subspecies:goliath-cloud-giant-ancestry:giant-ancestry-cloud",
         "name": "Giant Ancestry (Cloud)",
         "max": "@prof",
         "recharge": [
@@ -1899,13 +1899,13 @@
           "review": "auto"
         },
         "cost": {
-          "srd24:cloud-giant-ancestry:giant-ancestry-cloud": 1
+          "srd24:subspecies:goliath-cloud-giant-ancestry:giant-ancestry-cloud": 1
         }
       }
     ]
   },
   {
-    "id": "srd24:subspecies:cloud-giant-ancestry",
+    "id": "srd24:subspecies:goliath-cloud-giant-ancestry",
     "kind": "subspecies",
     "name": "Cloud Giant Ancestry",
     "source": "srd24",
@@ -1916,22 +1916,22 @@
     "species": "srd24:species:goliath",
     "page": "XPHB 192",
     "grants": [
-      "srd24:cloud-giant-ancestry:giant-ancestry-cloud"
+      "srd24:subspecies:goliath-cloud-giant-ancestry:giant-ancestry-cloud"
     ]
   },
   {
-    "id": "srd24:fire-giant-ancestry:giant-ancestry-fire",
+    "id": "srd24:subspecies:goliath-fire-giant-ancestry:giant-ancestry-fire",
     "kind": "species-trait",
     "name": "Giant Ancestry (Fire)",
     "source": "srd24",
     "tags": [
-      "fire-giant-ancestry-trait"
+      "goliath-fire-giant-ancestry-trait"
     ],
     "text": "You are descended from Giants, granting you a supernatural boon; you can use this boon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest:\n\n- **Fire's Burn.** When you hit a target with an attack roll and deal damage to it, you can also deal 1d10 Fire damage to that target.",
     "page": "XPHB 192",
     "resources": [
       {
-        "id": "srd24:fire-giant-ancestry:giant-ancestry-fire",
+        "id": "srd24:subspecies:goliath-fire-giant-ancestry:giant-ancestry-fire",
         "name": "Giant Ancestry (Fire)",
         "max": "@prof",
         "recharge": [
@@ -1956,13 +1956,13 @@
           "review": "auto"
         },
         "cost": {
-          "srd24:fire-giant-ancestry:giant-ancestry-fire": 1
+          "srd24:subspecies:goliath-fire-giant-ancestry:giant-ancestry-fire": 1
         }
       }
     ]
   },
   {
-    "id": "srd24:subspecies:fire-giant-ancestry",
+    "id": "srd24:subspecies:goliath-fire-giant-ancestry",
     "kind": "subspecies",
     "name": "Fire Giant Ancestry",
     "source": "srd24",
@@ -1973,22 +1973,22 @@
     "species": "srd24:species:goliath",
     "page": "XPHB 192",
     "grants": [
-      "srd24:fire-giant-ancestry:giant-ancestry-fire"
+      "srd24:subspecies:goliath-fire-giant-ancestry:giant-ancestry-fire"
     ]
   },
   {
-    "id": "srd24:frost-giant-ancestry:giant-ancestry-frost",
+    "id": "srd24:subspecies:goliath-frost-giant-ancestry:giant-ancestry-frost",
     "kind": "species-trait",
     "name": "Giant Ancestry (Frost)",
     "source": "srd24",
     "tags": [
-      "frost-giant-ancestry-trait"
+      "goliath-frost-giant-ancestry-trait"
     ],
     "text": "You are descended from Giants, granting you a supernatural boon; you can use this boon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest:\n\n- **Frost's Chill.** When you hit a target with an attack roll and deal damage to it, you can also deal 1d6 Cold damage to that target and reduce its Speed by 10 feet until the start of your next turn.",
     "page": "XPHB 192",
     "resources": [
       {
-        "id": "srd24:frost-giant-ancestry:giant-ancestry-frost",
+        "id": "srd24:subspecies:goliath-frost-giant-ancestry:giant-ancestry-frost",
         "name": "Giant Ancestry (Frost)",
         "max": "@prof",
         "recharge": [
@@ -2013,13 +2013,13 @@
           "review": "auto"
         },
         "cost": {
-          "srd24:frost-giant-ancestry:giant-ancestry-frost": 1
+          "srd24:subspecies:goliath-frost-giant-ancestry:giant-ancestry-frost": 1
         }
       }
     ]
   },
   {
-    "id": "srd24:subspecies:frost-giant-ancestry",
+    "id": "srd24:subspecies:goliath-frost-giant-ancestry",
     "kind": "subspecies",
     "name": "Frost Giant Ancestry",
     "source": "srd24",
@@ -2030,22 +2030,22 @@
     "species": "srd24:species:goliath",
     "page": "XPHB 192",
     "grants": [
-      "srd24:frost-giant-ancestry:giant-ancestry-frost"
+      "srd24:subspecies:goliath-frost-giant-ancestry:giant-ancestry-frost"
     ]
   },
   {
-    "id": "srd24:hill-giant-ancestry:giant-ancestry-hill",
+    "id": "srd24:subspecies:goliath-hill-giant-ancestry:giant-ancestry-hill",
     "kind": "species-trait",
     "name": "Giant Ancestry (Hill)",
     "source": "srd24",
     "tags": [
-      "hill-giant-ancestry-trait"
+      "goliath-hill-giant-ancestry-trait"
     ],
     "text": "You are descended from Giants, granting you a supernatural boon; you can use this boon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest:\n\n- **Hill's Tumble.** When you hit a Large or smaller creature with an attack roll and deal damage to it, you can give that target the Prone condition.",
     "page": "XPHB 192",
     "resources": [
       {
-        "id": "srd24:hill-giant-ancestry:giant-ancestry-hill",
+        "id": "srd24:subspecies:goliath-hill-giant-ancestry:giant-ancestry-hill",
         "name": "Giant Ancestry (Hill)",
         "max": "@prof",
         "recharge": [
@@ -2070,13 +2070,13 @@
           "review": "auto"
         },
         "cost": {
-          "srd24:hill-giant-ancestry:giant-ancestry-hill": 1
+          "srd24:subspecies:goliath-hill-giant-ancestry:giant-ancestry-hill": 1
         }
       }
     ]
   },
   {
-    "id": "srd24:subspecies:hill-giant-ancestry",
+    "id": "srd24:subspecies:goliath-hill-giant-ancestry",
     "kind": "subspecies",
     "name": "Hill Giant Ancestry",
     "source": "srd24",
@@ -2087,22 +2087,22 @@
     "species": "srd24:species:goliath",
     "page": "XPHB 192",
     "grants": [
-      "srd24:hill-giant-ancestry:giant-ancestry-hill"
+      "srd24:subspecies:goliath-hill-giant-ancestry:giant-ancestry-hill"
     ]
   },
   {
-    "id": "srd24:stone-giant-ancestry:giant-ancestry-stone",
+    "id": "srd24:subspecies:goliath-stone-giant-ancestry:giant-ancestry-stone",
     "kind": "species-trait",
     "name": "Giant Ancestry (Stone)",
     "source": "srd24",
     "tags": [
-      "stone-giant-ancestry-trait"
+      "goliath-stone-giant-ancestry-trait"
     ],
     "text": "You are descended from Giants, granting you a supernatural boon; you can use this boon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest:\n\n- **Stone's Endurance.** When you take damage, you can take a Reaction to roll 1d12. Add your Constitution modifier to the number rolled and reduce the damage by that total.",
     "page": "XPHB 192",
     "resources": [
       {
-        "id": "srd24:stone-giant-ancestry:giant-ancestry-stone",
+        "id": "srd24:subspecies:goliath-stone-giant-ancestry:giant-ancestry-stone",
         "name": "Giant Ancestry (Stone)",
         "max": "@prof",
         "recharge": [
@@ -2127,13 +2127,13 @@
           "review": "auto"
         },
         "cost": {
-          "srd24:stone-giant-ancestry:giant-ancestry-stone": 1
+          "srd24:subspecies:goliath-stone-giant-ancestry:giant-ancestry-stone": 1
         }
       }
     ]
   },
   {
-    "id": "srd24:subspecies:stone-giant-ancestry",
+    "id": "srd24:subspecies:goliath-stone-giant-ancestry",
     "kind": "subspecies",
     "name": "Stone Giant Ancestry",
     "source": "srd24",
@@ -2144,22 +2144,22 @@
     "species": "srd24:species:goliath",
     "page": "XPHB 192",
     "grants": [
-      "srd24:stone-giant-ancestry:giant-ancestry-stone"
+      "srd24:subspecies:goliath-stone-giant-ancestry:giant-ancestry-stone"
     ]
   },
   {
-    "id": "srd24:storm-giant-ancestry:giant-ancestry-storm",
+    "id": "srd24:subspecies:goliath-storm-giant-ancestry:giant-ancestry-storm",
     "kind": "species-trait",
     "name": "Giant Ancestry (Storm)",
     "source": "srd24",
     "tags": [
-      "storm-giant-ancestry-trait"
+      "goliath-storm-giant-ancestry-trait"
     ],
     "text": "You are descended from Giants, granting you a supernatural boon; you can use this boon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest:\n\n- **Storm's Thunder.** When you take damage from a creature within 60 feet of you, you can take a Reaction to deal 1d8 Thunder damage to that creature.",
     "page": "XPHB 192",
     "resources": [
       {
-        "id": "srd24:storm-giant-ancestry:giant-ancestry-storm",
+        "id": "srd24:subspecies:goliath-storm-giant-ancestry:giant-ancestry-storm",
         "name": "Giant Ancestry (Storm)",
         "max": "@prof",
         "recharge": [
@@ -2184,13 +2184,13 @@
           "review": "auto"
         },
         "cost": {
-          "srd24:storm-giant-ancestry:giant-ancestry-storm": 1
+          "srd24:subspecies:goliath-storm-giant-ancestry:giant-ancestry-storm": 1
         }
       }
     ]
   },
   {
-    "id": "srd24:subspecies:storm-giant-ancestry",
+    "id": "srd24:subspecies:goliath-storm-giant-ancestry",
     "kind": "subspecies",
     "name": "Storm Giant Ancestry",
     "source": "srd24",
@@ -2201,7 +2201,7 @@
     "species": "srd24:species:goliath",
     "page": "XPHB 192",
     "grants": [
-      "srd24:storm-giant-ancestry:giant-ancestry-storm"
+      "srd24:subspecies:goliath-storm-giant-ancestry:giant-ancestry-storm"
     ]
   },
   {
@@ -2537,18 +2537,18 @@
     ]
   },
   {
-    "id": "srd24:abyssal-legacy:fiendish-legacy-abyssal",
+    "id": "srd24:subspecies:tiefling-abyssal-legacy:fiendish-legacy-abyssal",
     "kind": "species-trait",
     "name": "Fiendish Legacy (Abyssal)",
     "source": "srd24",
     "tags": [
-      "abyssal-legacy-trait"
+      "tiefling-abyssal-legacy-trait"
     ],
     "text": "You are the recipient of a legacy that grants you supernatural abilities. You have Resistance to Poison damage. You also know the Poison Spray cantrip.\n\nWhen you reach character level 3, you learn the Ray of Sickness spell. When you reach character level 5, you also learn the Hold Person spell. You always have these spells prepared, and you can cast each spell once without a spell slot. Once you cast either of these spells with this trait, you can't cast that spell with it again until you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy).",
     "page": "XPHB 197"
   },
   {
-    "id": "srd24:subspecies:abyssal-legacy",
+    "id": "srd24:subspecies:tiefling-abyssal-legacy",
     "kind": "subspecies",
     "name": "Abyssal Legacy",
     "source": "srd24",
@@ -2560,7 +2560,7 @@
     "page": "XPHB 197",
     "choices": [
       {
-        "id": "srd24:subspecies:abyssal-legacy:ability",
+        "id": "srd24:subspecies:tiefling-abyssal-legacy:ability",
         "name": "Spellcasting ability",
         "count": 1,
         "from": {
@@ -2591,13 +2591,13 @@
       {
         "spell": "srd24:spell:thaumaturgy",
         "ability": {
-          "choice": "srd24:subspecies:abyssal-legacy:ability"
+          "choice": "srd24:subspecies:tiefling-abyssal-legacy:ability"
         }
       },
       {
         "spell": "srd24:spell:poison-spray",
         "ability": {
-          "choice": "srd24:subspecies:abyssal-legacy:ability"
+          "choice": "srd24:subspecies:tiefling-abyssal-legacy:ability"
         }
       }
     ],
@@ -2607,7 +2607,7 @@
           {
             "spell": "srd24:spell:ray-of-sickness",
             "ability": {
-              "choice": "srd24:subspecies:abyssal-legacy:ability"
+              "choice": "srd24:subspecies:tiefling-abyssal-legacy:ability"
             },
             "uses": 1,
             "recharge": [
@@ -2624,7 +2624,7 @@
           {
             "spell": "srd24:spell:hold-person",
             "ability": {
-              "choice": "srd24:subspecies:abyssal-legacy:ability"
+              "choice": "srd24:subspecies:tiefling-abyssal-legacy:ability"
             },
             "uses": 1,
             "recharge": [
@@ -2639,22 +2639,22 @@
     },
     "levelsBy": "character",
     "grants": [
-      "srd24:abyssal-legacy:fiendish-legacy-abyssal"
+      "srd24:subspecies:tiefling-abyssal-legacy:fiendish-legacy-abyssal"
     ]
   },
   {
-    "id": "srd24:chthonic-legacy:fiendish-legacy-chthonic",
+    "id": "srd24:subspecies:tiefling-chthonic-legacy:fiendish-legacy-chthonic",
     "kind": "species-trait",
     "name": "Fiendish Legacy (Chthonic)",
     "source": "srd24",
     "tags": [
-      "chthonic-legacy-trait"
+      "tiefling-chthonic-legacy-trait"
     ],
     "text": "You are the recipient of a legacy that grants you supernatural abilities. You have Resistance to Necrotic damage. You also know the Chill Touch cantrip.\n\nWhen you reach character level 3, you learn the False Life spell. When you reach character level 5, you also learn the Ray of Enfeeblement spell. You always have these spells prepared, and you can cast each spell once without a spell slot. Once you cast either of these spells with this trait, you can't cast that spell with it again until you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy).",
     "page": "XPHB 197"
   },
   {
-    "id": "srd24:subspecies:chthonic-legacy",
+    "id": "srd24:subspecies:tiefling-chthonic-legacy",
     "kind": "subspecies",
     "name": "Chthonic Legacy",
     "source": "srd24",
@@ -2666,7 +2666,7 @@
     "page": "XPHB 197",
     "choices": [
       {
-        "id": "srd24:subspecies:chthonic-legacy:ability",
+        "id": "srd24:subspecies:tiefling-chthonic-legacy:ability",
         "name": "Spellcasting ability",
         "count": 1,
         "from": {
@@ -2692,13 +2692,13 @@
       {
         "spell": "srd24:spell:thaumaturgy",
         "ability": {
-          "choice": "srd24:subspecies:chthonic-legacy:ability"
+          "choice": "srd24:subspecies:tiefling-chthonic-legacy:ability"
         }
       },
       {
         "spell": "srd24:spell:chill-touch",
         "ability": {
-          "choice": "srd24:subspecies:chthonic-legacy:ability"
+          "choice": "srd24:subspecies:tiefling-chthonic-legacy:ability"
         }
       }
     ],
@@ -2708,7 +2708,7 @@
           {
             "spell": "srd24:spell:false-life",
             "ability": {
-              "choice": "srd24:subspecies:chthonic-legacy:ability"
+              "choice": "srd24:subspecies:tiefling-chthonic-legacy:ability"
             },
             "uses": 1,
             "recharge": [
@@ -2725,7 +2725,7 @@
           {
             "spell": "srd24:spell:ray-of-enfeeblement",
             "ability": {
-              "choice": "srd24:subspecies:chthonic-legacy:ability"
+              "choice": "srd24:subspecies:tiefling-chthonic-legacy:ability"
             },
             "uses": 1,
             "recharge": [
@@ -2740,22 +2740,22 @@
     },
     "levelsBy": "character",
     "grants": [
-      "srd24:chthonic-legacy:fiendish-legacy-chthonic"
+      "srd24:subspecies:tiefling-chthonic-legacy:fiendish-legacy-chthonic"
     ]
   },
   {
-    "id": "srd24:infernal-legacy:fiendish-legacy-infernal",
+    "id": "srd24:subspecies:tiefling-infernal-legacy:fiendish-legacy-infernal",
     "kind": "species-trait",
     "name": "Fiendish Legacy (Infernal)",
     "source": "srd24",
     "tags": [
-      "infernal-legacy-trait"
+      "tiefling-infernal-legacy-trait"
     ],
     "text": "You are the recipient of a legacy that grants you supernatural abilities. You have Resistance to Fire damage. You also know the Fire Bolt cantrip.\n\nWhen you reach character level 3, you learn the Hellish Rebuke spell. When you reach character level 5, you also learn the Darkness spell. You always have these spells prepared, and you can cast each spell once without a spell slot. Once you cast either of these spells with this trait, you can't cast that spell with it again until you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy).",
     "page": "XPHB 197"
   },
   {
-    "id": "srd24:subspecies:infernal-legacy",
+    "id": "srd24:subspecies:tiefling-infernal-legacy",
     "kind": "subspecies",
     "name": "Infernal Legacy",
     "source": "srd24",
@@ -2767,7 +2767,7 @@
     "page": "XPHB 197",
     "choices": [
       {
-        "id": "srd24:subspecies:infernal-legacy:ability",
+        "id": "srd24:subspecies:tiefling-infernal-legacy:ability",
         "name": "Spellcasting ability",
         "count": 1,
         "from": {
@@ -2793,13 +2793,13 @@
       {
         "spell": "srd24:spell:thaumaturgy",
         "ability": {
-          "choice": "srd24:subspecies:infernal-legacy:ability"
+          "choice": "srd24:subspecies:tiefling-infernal-legacy:ability"
         }
       },
       {
         "spell": "srd24:spell:fire-bolt",
         "ability": {
-          "choice": "srd24:subspecies:infernal-legacy:ability"
+          "choice": "srd24:subspecies:tiefling-infernal-legacy:ability"
         }
       }
     ],
@@ -2809,7 +2809,7 @@
           {
             "spell": "srd24:spell:hellish-rebuke",
             "ability": {
-              "choice": "srd24:subspecies:infernal-legacy:ability"
+              "choice": "srd24:subspecies:tiefling-infernal-legacy:ability"
             },
             "uses": 1,
             "recharge": [
@@ -2826,7 +2826,7 @@
           {
             "spell": "srd24:spell:darkness",
             "ability": {
-              "choice": "srd24:subspecies:infernal-legacy:ability"
+              "choice": "srd24:subspecies:tiefling-infernal-legacy:ability"
             },
             "uses": 1,
             "recharge": [
@@ -2841,7 +2841,7 @@
     },
     "levelsBy": "character",
     "grants": [
-      "srd24:infernal-legacy:fiendish-legacy-infernal"
+      "srd24:subspecies:tiefling-infernal-legacy:fiendish-legacy-infernal"
     ]
   }
 ]

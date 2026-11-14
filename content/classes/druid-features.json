@@ -32,7 +32,31 @@
       "druid-feature",
       "druid-primal-order-option"
     ],
-    "text": "Trained for battle, you gain proficiency with Martial weapons and training with Medium armor."
+    "text": "Trained for battle, you gain proficiency with Martial weapons and training with Medium armor.",
+    "modifiers": [
+      {
+        "target": "proficiencies.weapon",
+        "op": "include",
+        "value": [
+          "martial"
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      },
+      {
+        "target": "proficiencies.armor",
+        "op": "include",
+        "value": [
+          "medium"
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
   },
   {
     "id": "srd24:druid:primal-order",

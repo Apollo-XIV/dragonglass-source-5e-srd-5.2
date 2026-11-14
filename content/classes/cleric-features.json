@@ -20,7 +20,31 @@
       "cleric-feature",
       "cleric-divine-order-option"
     ],
-    "text": "Trained for battle, you gain proficiency with Martial weapons and training with Heavy armor."
+    "text": "Trained for battle, you gain proficiency with Martial weapons and training with Heavy armor.",
+    "modifiers": [
+      {
+        "target": "proficiencies.weapon",
+        "op": "include",
+        "value": [
+          "martial"
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      },
+      {
+        "target": "proficiencies.armor",
+        "op": "include",
+        "value": [
+          "heavy"
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
   },
   {
     "id": "srd24:cleric:thaumaturge",

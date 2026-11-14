@@ -65,7 +65,40 @@
     "page": "XPHB 222",
     "itemType": "gear",
     "value": 5000,
-    "text": "As a Bonus Action, you can drink a vial of Antitoxin to gain Advantage on saving throws to avoid or end the Poisoned condition for 1 hour."
+    "text": "As a Bonus Action, you can drink a vial of Antitoxin to gain Advantage on saving throws to avoid or end the Poisoned condition for 1 hour.",
+    "actions": [
+      {
+        "id": "drink-antitoxin",
+        "name": "Drink Antitoxin",
+        "activation": "bonus-action",
+        "applies": "antitoxin",
+        "duration": "1 hour",
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ],
+    "effects": [
+      {
+        "id": "antitoxin",
+        "name": "Antitoxin",
+        "duration": "1 hour",
+        "modifiers": [
+          {
+            "target": "saves.all",
+            "op": "advantage",
+            "when": {
+              "text": "to avoid or end the Poisoned condition"
+            }
+          }
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
   },
   {
     "id": "srd24:item:arcane-focus",
@@ -230,7 +263,57 @@
     "itemType": "gear",
     "weight": 5,
     "value": 2500,
-    "text": "A Book contains fiction or nonfiction. If you consult an accurate nonfiction Book about its topic, you gain a +5 bonus to Intelligence (Arcana, History, Nature, or Religion) checks you make about that topic."
+    "text": "A Book contains fiction or nonfiction. If you consult an accurate nonfiction Book about its topic, you gain a +5 bonus to Intelligence (Arcana, History, Nature, or Religion) checks you make about that topic.",
+    "modifiers": [
+      {
+        "target": "skills.arcana",
+        "op": "add",
+        "value": 5,
+        "when": {
+          "text": "if you consult an accurate nonfiction Book about its topic"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      },
+      {
+        "target": "skills.history",
+        "op": "add",
+        "value": 5,
+        "when": {
+          "text": "if you consult an accurate nonfiction Book about its topic"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      },
+      {
+        "target": "skills.nature",
+        "op": "add",
+        "value": 5,
+        "when": {
+          "text": "if you consult an accurate nonfiction Book about its topic"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      },
+      {
+        "target": "skills.religion",
+        "op": "add",
+        "value": 5,
+        "when": {
+          "text": "if you consult an accurate nonfiction Book about its topic"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
   },
   {
     "id": "srd24:item:bread-loaf",
@@ -896,7 +979,21 @@
     "page": "XPHB 227",
     "itemType": "gear",
     "value": 100,
-    "text": "If you consult an accurate Map, you gain a +5 bonus to Wisdom (Survival) checks you make to find your way in the place represented on it."
+    "text": "If you consult an accurate Map, you gain a +5 bonus to Wisdom (Survival) checks you make to find your way in the place represented on it.",
+    "modifiers": [
+      {
+        "target": "skills.survival",
+        "op": "add",
+        "value": 5,
+        "when": {
+          "text": "if you consult an accurate Map, to find your way in the place represented on it"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
   },
   {
     "id": "srd24:item:map-or-scroll-case",
@@ -1072,7 +1169,21 @@
     "itemType": "gear",
     "weight": 35,
     "value": 400,
-    "text": "You can use a Portable Ram to break down doors. When doing so, you gain a +4 bonus to the Strength check. One other character can help you use the ram, giving you Advantage on this check."
+    "text": "You can use a Portable Ram to break down doors. When doing so, you gain a +4 bonus to the Strength check. One other character can help you use the ram, giving you Advantage on this check.",
+    "modifiers": [
+      {
+        "target": "checks.str",
+        "op": "add",
+        "value": 4,
+        "when": {
+          "text": "when using the ram to break down doors"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
   },
   {
     "id": "srd24:item:pouch",

@@ -620,7 +620,40 @@
           "ability": "con"
         },
         "damage": "1d4",
-        "damageType": "less"
+        "damageType": "less",
+        "applies": "enlarge",
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ],
+    "effects": [
+      {
+        "id": "enlarge",
+        "name": "Enlarged",
+        "modifiers": [
+          {
+            "target": "checks.str",
+            "op": "advantage"
+          },
+          {
+            "target": "saves.str",
+            "op": "advantage"
+          },
+          {
+            "target": "damage.all",
+            "op": "add",
+            "value": "1d4",
+            "when": {
+              "text": "with its enlarged weapons or Unarmed Strikes on a hit"
+            }
+          }
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
       }
     ]
   },

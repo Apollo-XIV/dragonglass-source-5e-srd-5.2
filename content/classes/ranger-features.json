@@ -234,7 +234,20 @@
     "tags": [
       "ranger-feature"
     ],
-    "text": "You have Advantage on attack rolls against the creature currently marked by your Hunter's Mark."
+    "text": "You have Advantage on attack rolls against the creature currently marked by your Hunter's Mark.",
+    "modifiers": [
+      {
+        "target": "attacks.all",
+        "op": "advantage",
+        "when": {
+          "text": "against the creature currently marked by your Hunter's Mark"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
   },
   {
     "id": "srd24:ranger:feral-senses",

@@ -76,7 +76,40 @@
     "tags": [
       "fighter-feature"
     ],
-    "text": "You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action, except the Magic action.\n\nOnce you use this feature, you can't do so again until you finish a Short or Long Rest. Starting at level 17, you can use it twice before a rest but only once on a turn."
+    "text": "You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action, except the Magic action.\n\nOnce you use this feature, you can't do so again until you finish a Short or Long Rest. Starting at level 17, you can use it twice before a rest but only once on a turn.",
+    "resources": [
+      {
+        "id": "srd24:fighter:action-surge",
+        "name": "Action Surge",
+        "max": "1 + floor(@level(fighter) / 17)",
+        "recharge": [
+          {
+            "on": "short-rest",
+            "amount": "all"
+          }
+        ],
+        "unit": "uses",
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "action-surge",
+        "name": "Action Surge",
+        "activation": "special",
+        "cost": {
+          "srd24:fighter:action-surge": 1
+        },
+        "text": "On your turn, take one additional action, except the Magic action.",
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
   },
   {
     "id": "srd24:fighter:tactical-mind",
@@ -197,7 +230,40 @@
     "tags": [
       "fighter-feature"
     ],
-    "text": "You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action, except the Magic action.\n\nOnce you use this feature, you can't do so again until you finish a Short or Long Rest. Starting at level 17, you can use it twice before a rest but only once on a turn."
+    "text": "You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action, except the Magic action.\n\nOnce you use this feature, you can't do so again until you finish a Short or Long Rest. Starting at level 17, you can use it twice before a rest but only once on a turn.",
+    "resources": [
+      {
+        "id": "srd24:fighter:action-surge",
+        "name": "Action Surge",
+        "max": "1 + floor(@level(fighter) / 17)",
+        "recharge": [
+          {
+            "on": "short-rest",
+            "amount": "all"
+          }
+        ],
+        "unit": "uses",
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "action-surge",
+        "name": "Action Surge",
+        "activation": "special",
+        "cost": {
+          "srd24:fighter:action-surge": 1
+        },
+        "text": "On your turn, take one additional action, except the Magic action.",
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
   },
   {
     "id": "srd24:fighter:indomitable-17",

@@ -776,6 +776,21 @@
         "target": "damage.srd24:item:bracers-of-archery",
         "op": "add",
         "value": 2
+      },
+      {
+        "target": "proficiencies.weapon",
+        "op": "include",
+        "value": [
+          "longbow",
+          "shortbow"
+        ],
+        "when": {
+          "text": "while wearing these bracers"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
       }
     ],
     "text": "While wearing these bracers, you have proficiency with the Longbow and Shortbow, and you gain a +2 bonus to damage rolls made with such weapons."
@@ -1410,7 +1425,46 @@
         "value": 1
       }
     ],
-    "text": "You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.\n\nYou can take a Bonus Action to magically coat the blade with poison. The poison remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 15 Constitution saving throw or take 2d10 Poison damage and have the Poisoned condition for 1 minute. The weapon can't be used this way again until the next dawn."
+    "text": "You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.\n\nYou can take a Bonus Action to magically coat the blade with poison. The poison remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 15 Constitution saving throw or take 2d10 Poison damage and have the Poisoned condition for 1 minute. The weapon can't be used this way again until the next dawn.",
+    "resources": [
+      {
+        "id": "srd24:item:dagger-of-venom:poison-coating",
+        "name": "Poison Coating",
+        "max": 1,
+        "recharge": [
+          {
+            "on": "dawn",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "poison-coating",
+        "name": "Poison Coating",
+        "activation": "bonus-action",
+        "cost": {
+          "srd24:item:dagger-of-venom:poison-coating": 1
+        },
+        "damage": "2d10",
+        "damageType": "poison",
+        "save": {
+          "ability": "con",
+          "dc": "15"
+        },
+        "duration": "1 minute",
+        "text": "Poison remains for 1 minute or until an attack hits a creature; on a failed save the target also has the Poisoned condition for 1 minute.",
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
   },
   {
     "id": "srd24:item:decanter-of-endless-water",
@@ -2177,7 +2231,21 @@
     "itemType": "wondrous",
     "rarity": "uncommon",
     "attunement": true,
-    "text": "While wearing these gloves, climbing and swimming don't cost you extra movement, and you gain a +5 bonus to Strength (Athletics) checks made to climb or swim."
+    "text": "While wearing these gloves, climbing and swimming don't cost you extra movement, and you gain a +5 bonus to Strength (Athletics) checks made to climb or swim.",
+    "modifiers": [
+      {
+        "target": "skills.athletics",
+        "op": "add",
+        "value": 5,
+        "when": {
+          "text": "checks made to climb or swim, while wearing these gloves"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
   },
   {
     "id": "srd24:item:gloves-of-thievery",
@@ -2191,7 +2259,21 @@
     "page": "XDMG 265",
     "itemType": "wondrous",
     "rarity": "uncommon",
-    "text": "These gloves are imperceptible while worn. While wearing them, you gain a +5 bonus to Dexterity (Sleight of Hand) checks."
+    "text": "These gloves are imperceptible while worn. While wearing them, you gain a +5 bonus to Dexterity (Sleight of Hand) checks.",
+    "modifiers": [
+      {
+        "target": "skills.sleight-of-hand",
+        "op": "add",
+        "value": 5,
+        "when": {
+          "text": "while wearing them"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
   },
   {
     "id": "srd24:item:goggles-of-night",
@@ -2646,7 +2728,31 @@
     "itemType": "wondrous",
     "rarity": "rare",
     "attunement": true,
-    "text": "{#itemEntry Ioun Stone|XDMG}\n\nWhile this dark-blue rhomboid orbits your head, you have Advantage on Initiative rolls and Wisdom (Perception) checks."
+    "text": "{#itemEntry Ioun Stone|XDMG}\n\nWhile this dark-blue rhomboid orbits your head, you have Advantage on Initiative rolls and Wisdom (Perception) checks.",
+    "modifiers": [
+      {
+        "target": "initiative",
+        "op": "advantage",
+        "when": {
+          "text": "while the stone orbits your head"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      },
+      {
+        "target": "skills.perception",
+        "op": "advantage",
+        "when": {
+          "text": "while the stone orbits your head"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
   },
   {
     "id": "srd24:item:ioun-stone-fortitude",
@@ -3439,6 +3545,20 @@
         "value": [
           "poison"
         ]
+      },
+      {
+        "target": "conditionImmunities",
+        "op": "include",
+        "value": [
+          "poisoned"
+        ],
+        "when": {
+          "text": "while you wear it"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
       }
     ],
     "text": "This delicate silver chain has a brilliant-cut black gem pendant. While you wear it, you have Immunity to the Poisoned condition and Poison damage."
@@ -3956,8 +4076,13 @@
     "actions": [
       {
         "id": "drink",
-        "name": "Drink Potion of Greater Healing",
-        "activation": "action"
+        "name": "Drink",
+        "activation": "action",
+        "heal": "4d4 + 4",
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
       }
     ],
     "text": "You regain 4d4 + 4 Hit Points when you drink this potion. The potion's red liquid glimmers when agitated."
@@ -4482,8 +4607,13 @@
     "actions": [
       {
         "id": "drink",
-        "name": "Drink Potion of Superior Healing",
-        "activation": "action"
+        "name": "Drink",
+        "activation": "action",
+        "heal": "8d4 + 8",
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
       }
     ],
     "text": "You regain 8d4 + 8 Hit Points when you drink this potion. The potion's red liquid glimmers when agitated."
@@ -4505,8 +4635,13 @@
     "actions": [
       {
         "id": "drink",
-        "name": "Drink Potion of Supreme Healing",
-        "activation": "action"
+        "name": "Drink",
+        "activation": "action",
+        "heal": "10d4 + 20",
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
       }
     ],
     "text": "You regain 10d4 + 20 Hit Points when you drink this potion. The potion's red liquid glimmers when agitated."
@@ -4831,6 +4966,17 @@
         "target": "speed.fly",
         "op": "base",
         "value": "@speed.walk"
+      },
+      {
+        "target": "attacks.all",
+        "op": "advantage",
+        "when": {
+          "text": "against Elementals, while wearing the ring"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
       }
     ],
     "resources": [
@@ -4865,6 +5011,17 @@
         "value": [
           "acid"
         ]
+      },
+      {
+        "target": "attacks.all",
+        "op": "advantage",
+        "when": {
+          "text": "against Elementals, while wearing the ring"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
       }
     ],
     "resources": [
@@ -4906,6 +5063,17 @@
         "value": [
           "fire"
         ]
+      },
+      {
+        "target": "attacks.all",
+        "op": "advantage",
+        "when": {
+          "text": "against Elementals, while wearing the ring"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
       }
     ],
     "resources": [
@@ -4943,7 +5111,20 @@
         "notes": "Regains 1d4 + 1 charges at dawn."
       }
     ],
-    "text": "The Ring of Elemental Command (water) is linked to the Elemental Plane of Water. Every Ring of Elemental Command has the following two properties:\n\n- **Elemental Bane.** While wearing the ring, you have Advantage on attack rolls against Elementals and they have Disadvantage on attack rolls against you.\n- **Elemental Compulsion.** While wearing the ring, you can take a Magic action to try to compel an Elemental you see within 60 feet of yourself. The Elemental makes a DC 18 Wisdom saving throw. On a failed save, the Elemental has the Charmed condition until the start your next turn, and you determine what it does with its move and action on its next turn.\n\n**Elemental Focus.** While wearing the ring, you benefit from additional properties corresponding to the ring's linked Elemental Plane:\n\n- **Water.** You know Aquan, you gain a Swim Speed of 60 feet, and you can breathe underwater.\n\n**Spellcasting.** The ring has 5 charges and regains 1d4 + 1 expended charges daily at dawn. While wearing the ring, you can cast a spell from it. A spell cast from the ring has a save DC of 18. Choose the spell from the following list: Create or Destroy Water (1 charge), Ice Storm (2 charges), Tsunami (5 charges), Wall of Ice (3 charges), Water Walk (2 charges)"
+    "text": "The Ring of Elemental Command (water) is linked to the Elemental Plane of Water. Every Ring of Elemental Command has the following two properties:\n\n- **Elemental Bane.** While wearing the ring, you have Advantage on attack rolls against Elementals and they have Disadvantage on attack rolls against you.\n- **Elemental Compulsion.** While wearing the ring, you can take a Magic action to try to compel an Elemental you see within 60 feet of yourself. The Elemental makes a DC 18 Wisdom saving throw. On a failed save, the Elemental has the Charmed condition until the start your next turn, and you determine what it does with its move and action on its next turn.\n\n**Elemental Focus.** While wearing the ring, you benefit from additional properties corresponding to the ring's linked Elemental Plane:\n\n- **Water.** You know Aquan, you gain a Swim Speed of 60 feet, and you can breathe underwater.\n\n**Spellcasting.** The ring has 5 charges and regains 1d4 + 1 expended charges daily at dawn. While wearing the ring, you can cast a spell from it. A spell cast from the ring has a save DC of 18. Choose the spell from the following list: Create or Destroy Water (1 charge), Ice Storm (2 charges), Tsunami (5 charges), Wall of Ice (3 charges), Water Walk (2 charges)",
+    "modifiers": [
+      {
+        "target": "attacks.all",
+        "op": "advantage",
+        "when": {
+          "text": "against Elementals, while wearing the ring"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
   },
   {
     "id": "srd24:item:ring-of-evasion",
@@ -5521,7 +5702,27 @@
         "notes": "Regains 1d3 charges at dawn."
       }
     ],
-    "text": "This robe has 3 charges, and it regains 1d3 expended charges daily at dawn. While you wear it, you can take a Magic action and expend 1 charge to cause the garment to display a shifting pattern of dazzling hues until the end of your next turn. During this time, the robe sheds Bright Light in a 30-foot radius and Dim Light for an additional 30 feet, and creatures that can see you have Disadvantage on attack rolls against you. Any creature in the Bright Light that can see you when the robe's power is activated must succeed on a DC 15 Wisdom saving throw or have the Stunned condition until the effect ends."
+    "text": "This robe has 3 charges, and it regains 1d3 expended charges daily at dawn. While you wear it, you can take a Magic action and expend 1 charge to cause the garment to display a shifting pattern of dazzling hues until the end of your next turn. During this time, the robe sheds Bright Light in a 30-foot radius and Dim Light for an additional 30 feet, and creatures that can see you have Disadvantage on attack rolls against you. Any creature in the Bright Light that can see you when the robe's power is activated must succeed on a DC 15 Wisdom saving throw or have the Stunned condition until the effect ends.",
+    "actions": [
+      {
+        "id": "scintillating-colors",
+        "name": "Scintillating Colors",
+        "activation": "action",
+        "cost": {
+          "charges": 1
+        },
+        "save": {
+          "ability": "wis",
+          "dc": "15"
+        },
+        "duration": "until the end of your next turn",
+        "text": "Creatures in the Bright Light that can see you must succeed on the save or be Stunned until the effect ends.",
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
   },
   {
     "id": "srd24:item:robe-of-stars",
@@ -5553,7 +5754,22 @@
         "notes": "Regains 1d6 charges."
       }
     ],
-    "text": "This black or dark-blue robe is embroidered with small white or silver stars. You gain a +1 bonus to saving throws while you wear it.\n\nSix stars, located on the robe's upper-front portion, are particularly large. While wearing this robe, you can take a Magic action to remove one of the stars and expend it to cast the level 5 version of Magic Missile. Daily at dusk, 1d6 removed stars reappear on the robe.\n\nWhile you wear the robe, you can take a Magic action to enter the Astral Plane along with everything you are wearing and carrying. You remain there until you take a Magic action to return to the plane you were on. You reappear in the last space you occupied or, if that space is occupied, the nearest unoccupied space."
+    "text": "This black or dark-blue robe is embroidered with small white or silver stars. You gain a +1 bonus to saving throws while you wear it.\n\nSix stars, located on the robe's upper-front portion, are particularly large. While wearing this robe, you can take a Magic action to remove one of the stars and expend it to cast the level 5 version of Magic Missile. Daily at dusk, 1d6 removed stars reappear on the robe.\n\nWhile you wear the robe, you can take a Magic action to enter the Astral Plane along with everything you are wearing and carrying. You remain there until you take a Magic action to return to the plane you were on. You reappear in the last space you occupied or, if that space is occupied, the nearest unoccupied space.",
+    "actions": [
+      {
+        "id": "magic-missile",
+        "name": "Magic Missile (level 5)",
+        "activation": "action",
+        "cost": {
+          "charges": 1
+        },
+        "text": "Remove a star and expend it to cast the level 5 version of Magic Missile.",
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
   },
   {
     "id": "srd24:item:robe-of-the-archmagi",
@@ -5876,6 +6092,28 @@
         "op": "add",
         "value": 2,
         "stackKey": "shield"
+      },
+      {
+        "target": "initiative",
+        "op": "advantage",
+        "when": {
+          "text": "while holding this Shield"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      },
+      {
+        "target": "skills.perception",
+        "op": "advantage",
+        "when": {
+          "text": "while holding this Shield"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
       }
     ],
     "text": "While holding this Shield, you have Advantage on Initiative rolls and Wisdom (Perception) checks. The Shield is emblazoned with a symbol of an eye."

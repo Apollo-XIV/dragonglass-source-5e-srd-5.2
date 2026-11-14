@@ -263,7 +263,20 @@
       "land-feature",
       "druid-feature"
     ],
-    "text": "You are immune to the Poisoned condition, and you have Resistance to a damage type associated with your current land choice in the Circle Spells feature, as shown in the Nature's Ward table.\n\n**Nature's Ward**\n| Land Type | Resistance |\n| --- | --- |\n| Arid | Fire |\n| Polar | Cold |\n| Temperate | Lightning |\n| Tropical | Poison |"
+    "text": "You are immune to the Poisoned condition, and you have Resistance to a damage type associated with your current land choice in the Circle Spells feature, as shown in the Nature's Ward table.\n\n**Nature's Ward**\n| Land Type | Resistance |\n| --- | --- |\n| Arid | Fire |\n| Polar | Cold |\n| Temperate | Lightning |\n| Tropical | Poison |",
+    "modifiers": [
+      {
+        "target": "conditionImmunities",
+        "op": "include",
+        "value": [
+          "poisoned"
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
   },
   {
     "id": "srd24:land:natures-sanctuary",

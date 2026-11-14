@@ -4,6 +4,7 @@
     "kind": "ability-point",
     "name": "Strength +1",
     "source": "srd24",
+    "ability": "str",
     "modifiers": [
       {
         "target": "abilities.str.score",
@@ -17,6 +18,7 @@
     "kind": "ability-point",
     "name": "Dexterity +1",
     "source": "srd24",
+    "ability": "dex",
     "modifiers": [
       {
         "target": "abilities.dex.score",
@@ -30,6 +32,7 @@
     "kind": "ability-point",
     "name": "Constitution +1",
     "source": "srd24",
+    "ability": "con",
     "modifiers": [
       {
         "target": "abilities.con.score",
@@ -43,6 +46,7 @@
     "kind": "ability-point",
     "name": "Intelligence +1",
     "source": "srd24",
+    "ability": "int",
     "modifiers": [
       {
         "target": "abilities.int.score",
@@ -56,6 +60,7 @@
     "kind": "ability-point",
     "name": "Wisdom +1",
     "source": "srd24",
+    "ability": "wis",
     "modifiers": [
       {
         "target": "abilities.wis.score",
@@ -69,6 +74,7 @@
     "kind": "ability-point",
     "name": "Charisma +1",
     "source": "srd24",
+    "ability": "cha",
     "modifiers": [
       {
         "target": "abilities.cha.score",

@@ -418,15 +418,32 @@
     "text": "You gain the following benefits.\n\n**Punch and Grab.** When you hit a creature with an Unarmed Strike as part of the Attack action on your turn, you can use both the Damage and the Grapple option. You can use this benefit only once per turn.\n\n**Attack Advantage.** You have Advantage on attack rolls against a creature Grappled by you.\n\n**Fast Wrestler.** You don't have to spend extra movement to move a creature Grappled by you if the creature is your size or smaller.",
     "page": "XPHB 204",
     "requires": {
-      "all": [
+      "any": [
         {
-          "type": "level",
-          "min": 4
+          "all": [
+            {
+              "type": "level",
+              "min": 4
+            },
+            {
+              "type": "ability",
+              "ability": "str",
+              "min": 13
+            }
+          ]
         },
         {
-          "type": "ability",
-          "ability": "str",
-          "min": 13
+          "all": [
+            {
+              "type": "level",
+              "min": 4
+            },
+            {
+              "type": "ability",
+              "ability": "dex",
+              "min": 13
+            }
+          ]
         }
       ]
     },

@@ -149,19 +149,8 @@
     "text": "",
     "page": "XPHB 187",
     "x-size": "Medium",
-    "modifiers": [
-      {
-        "target": "speed.walk",
-        "op": "base",
-        "value": 30
-      },
-      {
-        "target": "senses.darkvision",
-        "op": "base",
-        "value": 60
-      }
-    ],
     "grants": [
+      "srd24:language:common",
       "srd24:dragonborn:draconic-ancestry",
       "srd24:dragonborn:breath-weapon",
       "srd24:dragonborn:damage-resistance",
@@ -169,6 +158,17 @@
       "srd24:dragonborn:draconic-flight"
     ],
     "choices": [
+      {
+        "id": "srd24:species:dragonborn:language",
+        "name": "Language",
+        "count": 2,
+        "from": {
+          "kind": "language",
+          "tags": [
+            "standard-language"
+          ]
+        }
+      },
       {
         "id": "srd24:species:dragonborn:subspecies",
         "name": "Lineage",
@@ -179,6 +179,18 @@
             "dragonborn-subspecies"
           ]
         }
+      }
+    ],
+    "modifiers": [
+      {
+        "target": "speed.walk",
+        "op": "base",
+        "value": 30
+      },
+      {
+        "target": "senses.darkvision",
+        "op": "base",
+        "value": 60
       }
     ]
   },
@@ -1078,6 +1090,26 @@
     "text": "",
     "page": "XPHB 188",
     "x-size": "Medium",
+    "grants": [
+      "srd24:language:common",
+      "srd24:dwarf:darkvision",
+      "srd24:dwarf:dwarven-resilience",
+      "srd24:dwarf:dwarven-toughness",
+      "srd24:dwarf:stonecunning"
+    ],
+    "choices": [
+      {
+        "id": "srd24:species:dwarf:language",
+        "name": "Language",
+        "count": 2,
+        "from": {
+          "kind": "language",
+          "tags": [
+            "standard-language"
+          ]
+        }
+      }
+    ],
     "modifiers": [
       {
         "target": "speed.walk",
@@ -1096,12 +1128,6 @@
           "poison"
         ]
       }
-    ],
-    "grants": [
-      "srd24:dwarf:darkvision",
-      "srd24:dwarf:dwarven-resilience",
-      "srd24:dwarf:dwarven-toughness",
-      "srd24:dwarf:stonecunning"
     ]
   },
   {
@@ -1170,6 +1196,14 @@
     "text": "",
     "page": "XPHB 189",
     "x-size": "Medium",
+    "grants": [
+      "srd24:language:common",
+      "srd24:elf:darkvision",
+      "srd24:elf:elven-lineage",
+      "srd24:elf:fey-ancestry",
+      "srd24:elf:keen-senses",
+      "srd24:elf:trance"
+    ],
     "choices": [
       {
         "id": "srd24:species:elf:skill",
@@ -1180,6 +1214,17 @@
             "srd24:skill:insight",
             "srd24:skill:perception",
             "srd24:skill:survival"
+          ]
+        }
+      },
+      {
+        "id": "srd24:species:elf:language",
+        "name": "Language",
+        "count": 2,
+        "from": {
+          "kind": "language",
+          "tags": [
+            "standard-language"
           ]
         }
       },
@@ -1206,13 +1251,6 @@
         "op": "base",
         "value": 60
       }
-    ],
-    "grants": [
-      "srd24:elf:darkvision",
-      "srd24:elf:elven-lineage",
-      "srd24:elf:fey-ancestry",
-      "srd24:elf:keen-senses",
-      "srd24:elf:trance"
     ]
   },
   {
@@ -1595,24 +1633,24 @@
     "text": "",
     "page": "XPHB 191",
     "x-size": "Small",
-    "modifiers": [
-      {
-        "target": "speed.walk",
-        "op": "base",
-        "value": 30
-      },
-      {
-        "target": "senses.darkvision",
-        "op": "base",
-        "value": 60
-      }
-    ],
     "grants": [
+      "srd24:language:common",
       "srd24:gnome:darkvision",
       "srd24:gnome:gnomish-cunning",
       "srd24:gnome:gnomish-lineage"
     ],
     "choices": [
+      {
+        "id": "srd24:species:gnome:language",
+        "name": "Language",
+        "count": 2,
+        "from": {
+          "kind": "language",
+          "tags": [
+            "standard-language"
+          ]
+        }
+      },
       {
         "id": "srd24:species:gnome:subspecies",
         "name": "Lineage",
@@ -1623,6 +1661,18 @@
             "gnome-subspecies"
           ]
         }
+      }
+    ],
+    "modifiers": [
+      {
+        "target": "speed.walk",
+        "op": "base",
+        "value": 30
+      },
+      {
+        "target": "senses.darkvision",
+        "op": "base",
+        "value": 60
       }
     ]
   },
@@ -1880,19 +1930,24 @@
     "text": "",
     "page": "XPHB 192",
     "x-size": "Medium",
-    "modifiers": [
-      {
-        "target": "speed.walk",
-        "op": "base",
-        "value": 35
-      }
-    ],
     "grants": [
+      "srd24:language:common",
       "srd24:goliath:giant-ancestry",
       "srd24:goliath:large-form",
       "srd24:goliath:powerful-build"
     ],
     "choices": [
+      {
+        "id": "srd24:species:goliath:language",
+        "name": "Language",
+        "count": 2,
+        "from": {
+          "kind": "language",
+          "tags": [
+            "standard-language"
+          ]
+        }
+      },
       {
         "id": "srd24:species:goliath:subspecies",
         "name": "Lineage",
@@ -1903,6 +1958,13 @@
             "goliath-subspecies"
           ]
         }
+      }
+    ],
+    "modifiers": [
+      {
+        "target": "speed.walk",
+        "op": "base",
+        "value": 35
       }
     ]
   },
@@ -2303,18 +2365,32 @@
     "text": "",
     "page": "XPHB 193",
     "x-size": "Small",
+    "grants": [
+      "srd24:language:common",
+      "srd24:halfling:brave",
+      "srd24:halfling:halfling-nimbleness",
+      "srd24:halfling:luck",
+      "srd24:halfling:naturally-stealthy"
+    ],
+    "choices": [
+      {
+        "id": "srd24:species:halfling:language",
+        "name": "Language",
+        "count": 2,
+        "from": {
+          "kind": "language",
+          "tags": [
+            "standard-language"
+          ]
+        }
+      }
+    ],
     "modifiers": [
       {
         "target": "speed.walk",
         "op": "base",
         "value": 30
       }
-    ],
-    "grants": [
-      "srd24:halfling:brave",
-      "srd24:halfling:halfling-nimbleness",
-      "srd24:halfling:luck",
-      "srd24:halfling:naturally-stealthy"
     ]
   },
   {
@@ -2361,6 +2437,12 @@
     "text": "",
     "page": "XPHB 194",
     "x-size": "Small or Medium",
+    "grants": [
+      "srd24:language:common",
+      "srd24:human:resourceful",
+      "srd24:human:skillful",
+      "srd24:human:versatile"
+    ],
     "choices": [
       {
         "id": "srd24:species:human:skill",
@@ -2380,6 +2462,17 @@
             "origin-feat"
           ]
         }
+      },
+      {
+        "id": "srd24:species:human:language",
+        "name": "Language",
+        "count": 2,
+        "from": {
+          "kind": "language",
+          "tags": [
+            "standard-language"
+          ]
+        }
       }
     ],
     "modifiers": [
@@ -2388,11 +2481,6 @@
         "op": "base",
         "value": 30
       }
-    ],
-    "grants": [
-      "srd24:human:resourceful",
-      "srd24:human:skillful",
-      "srd24:human:versatile"
     ]
   },
   {
@@ -2487,6 +2575,25 @@
     "text": "",
     "page": "XPHB 195",
     "x-size": "Medium",
+    "grants": [
+      "srd24:language:common",
+      "srd24:orc:adrenaline-rush",
+      "srd24:orc:darkvision",
+      "srd24:orc:relentless-endurance"
+    ],
+    "choices": [
+      {
+        "id": "srd24:species:orc:language",
+        "name": "Language",
+        "count": 2,
+        "from": {
+          "kind": "language",
+          "tags": [
+            "standard-language"
+          ]
+        }
+      }
+    ],
     "modifiers": [
       {
         "target": "speed.walk",
@@ -2498,11 +2605,6 @@
         "op": "base",
         "value": 120
       }
-    ],
-    "grants": [
-      "srd24:orc:adrenaline-rush",
-      "srd24:orc:darkvision",
-      "srd24:orc:relentless-endurance"
     ]
   },
   {
@@ -2549,24 +2651,24 @@
     "text": "",
     "page": "XPHB 197",
     "x-size": "Small or Medium",
-    "modifiers": [
-      {
-        "target": "speed.walk",
-        "op": "base",
-        "value": 30
-      },
-      {
-        "target": "senses.darkvision",
-        "op": "base",
-        "value": 60
-      }
-    ],
     "grants": [
+      "srd24:language:common",
       "srd24:tiefling:darkvision",
       "srd24:tiefling:fiendish-legacy",
       "srd24:tiefling:otherworldly-presence"
     ],
     "choices": [
+      {
+        "id": "srd24:species:tiefling:language",
+        "name": "Language",
+        "count": 2,
+        "from": {
+          "kind": "language",
+          "tags": [
+            "standard-language"
+          ]
+        }
+      },
       {
         "id": "srd24:species:tiefling:subspecies",
         "name": "Lineage",
@@ -2577,6 +2679,18 @@
             "tiefling-subspecies"
           ]
         }
+      }
+    ],
+    "modifiers": [
+      {
+        "target": "speed.walk",
+        "op": "base",
+        "value": 30
+      },
+      {
+        "target": "senses.darkvision",
+        "op": "base",
+        "value": 60
       }
     ]
   },

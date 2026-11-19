@@ -144,5 +144,18 @@
     "display": "list",
     "browsable": true,
     "order": 122
+  },
+  {
+    "id": "srd24:kind:expertise",
+    "kind": "kind",
+    "name": "Expertise",
+    "source": "srd24",
+    "key": "expertise",
+    "label": "Expertise",
+    "plural": "Expertise",
+    "tab": null,
+    "display": "list",
+    "browsable": true,
+    "order": 123
   }
 ]

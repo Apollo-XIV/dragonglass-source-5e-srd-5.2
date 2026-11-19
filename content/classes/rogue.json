@@ -14,6 +14,16 @@
     "primaryAbility": [
       "dex"
     ],
+    "multiclassRequires": {
+      "all": [
+        {
+          "type": "ability",
+          "ability": "dex",
+          "min": 13
+        }
+      ],
+      "text": "Dexterity 13"
+    },
     "x-multiclass-proficiencies": {
       "skills": [
         {
@@ -115,6 +125,17 @@
                 "martial-weapon"
               ]
             }
+          },
+          {
+            "id": "srd24:class:rogue:expertise-1",
+            "name": "Expertise",
+            "count": 2,
+            "from": {
+              "kind": "expertise",
+              "tags": [
+                "expertise-skill"
+              ]
+            }
           }
         ],
         "modifiers": [
@@ -195,6 +216,19 @@
       "6": {
         "grants": [
           "srd24:rogue:expertise-6"
+        ],
+        "choices": [
+          {
+            "id": "srd24:class:rogue:expertise-6",
+            "name": "Expertise",
+            "count": 2,
+            "from": {
+              "kind": "expertise",
+              "tags": [
+                "expertise-skill"
+              ]
+            }
+          }
         ]
       },
       "7": {

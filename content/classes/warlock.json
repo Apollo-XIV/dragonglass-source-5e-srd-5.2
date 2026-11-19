@@ -14,6 +14,16 @@
     "primaryAbility": [
       "cha"
     ],
+    "multiclassRequires": {
+      "all": [
+        {
+          "type": "ability",
+          "ability": "cha",
+          "min": 13
+        }
+      ],
+      "text": "Charisma 13"
+    },
     "x-multiclass-proficiencies": {
       "armor": [
         "light"

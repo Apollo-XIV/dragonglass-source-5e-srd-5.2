@@ -14,6 +14,16 @@
     "primaryAbility": [
       "cha"
     ],
+    "multiclassRequires": {
+      "all": [
+        {
+          "type": "ability",
+          "ability": "cha",
+          "min": 13
+        }
+      ],
+      "text": "Charisma 13"
+    },
     "x-multiclass-proficiencies": {
       "skills": [
         {
@@ -194,6 +204,19 @@
         "grants": [
           "srd24:bard:expertise",
           "srd24:bard:jack-of-all-trades"
+        ],
+        "choices": [
+          {
+            "id": "srd24:class:bard:expertise-2",
+            "name": "Expertise",
+            "count": 2,
+            "from": {
+              "kind": "expertise",
+              "tags": [
+                "expertise-skill"
+              ]
+            }
+          }
         ]
       },
       "3": {
@@ -259,6 +282,19 @@
       "9": {
         "grants": [
           "srd24:bard:expertise-9"
+        ],
+        "choices": [
+          {
+            "id": "srd24:class:bard:expertise-9",
+            "name": "Expertise",
+            "count": 2,
+            "from": {
+              "kind": "expertise",
+              "tags": [
+                "expertise-skill"
+              ]
+            }
+          }
         ]
       },
       "10": {

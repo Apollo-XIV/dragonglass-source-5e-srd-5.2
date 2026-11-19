@@ -15,6 +15,21 @@
       "dex",
       "wis"
     ],
+    "multiclassRequires": {
+      "all": [
+        {
+          "type": "ability",
+          "ability": "dex",
+          "min": 13
+        },
+        {
+          "type": "ability",
+          "ability": "wis",
+          "min": 13
+        }
+      ],
+      "text": "Dexterity 13 and Wisdom 13"
+    },
     "x-multiclass-proficiencies": {
       "skills": [
         {
@@ -178,6 +193,17 @@
         ],
         "choices": [
           {
+            "id": "srd24:class:ranger:expertise-2",
+            "name": "Expertise",
+            "count": 1,
+            "from": {
+              "kind": "expertise",
+              "tags": [
+                "expertise-skill"
+              ]
+            }
+          },
+          {
             "id": "srd24:class:ranger:fighting-style-2",
             "name": "Fighting Style",
             "count": 1,
@@ -253,6 +279,19 @@
       "9": {
         "grants": [
           "srd24:ranger:expertise"
+        ],
+        "choices": [
+          {
+            "id": "srd24:class:ranger:expertise-9",
+            "name": "Expertise",
+            "count": 2,
+            "from": {
+              "kind": "expertise",
+              "tags": [
+                "expertise-skill"
+              ]
+            }
+          }
         ]
       },
       "10": {

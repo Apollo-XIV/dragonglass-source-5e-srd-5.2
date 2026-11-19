@@ -14,6 +14,16 @@
     "primaryAbility": [
       "int"
     ],
+    "multiclassRequires": {
+      "all": [
+        {
+          "type": "ability",
+          "ability": "int",
+          "min": 13
+        }
+      ],
+      "text": "Intelligence 13"
+    },
     "spellcasting": {
       "ability": "int",
       "progression": "full",

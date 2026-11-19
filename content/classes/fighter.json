@@ -15,6 +15,21 @@
       "str",
       "dex"
     ],
+    "multiclassRequires": {
+      "any": [
+        {
+          "type": "ability",
+          "ability": "str",
+          "min": 13
+        },
+        {
+          "type": "ability",
+          "ability": "dex",
+          "min": 13
+        }
+      ],
+      "text": "Strength 13 or Dexterity 13"
+    },
     "x-multiclass-proficiencies": {
       "weapons": [
         "martial"

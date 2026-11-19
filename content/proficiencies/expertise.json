@@ -1,0 +1,460 @@
+[
+  {
+    "id": "srd24:expertise:acrobatics",
+    "kind": "expertise",
+    "name": "Acrobatics",
+    "source": "srd24",
+    "tags": [
+      "expertise-skill"
+    ],
+    "requires": {
+      "all": [
+        {
+          "type": "proficiency",
+          "proficiency": "acrobatics"
+        }
+      ]
+    },
+    "modifiers": [
+      {
+        "target": "skills.acrobatics",
+        "op": "proficiency",
+        "value": "expertise"
+      }
+    ]
+  },
+  {
+    "id": "srd24:expertise:animal-handling",
+    "kind": "expertise",
+    "name": "Animal Handling",
+    "source": "srd24",
+    "tags": [
+      "expertise-skill"
+    ],
+    "requires": {
+      "all": [
+        {
+          "type": "proficiency",
+          "proficiency": "animal-handling"
+        }
+      ]
+    },
+    "modifiers": [
+      {
+        "target": "skills.animal-handling",
+        "op": "proficiency",
+        "value": "expertise"
+      }
+    ]
+  },
+  {
+    "id": "srd24:expertise:arcana",
+    "kind": "expertise",
+    "name": "Arcana",
+    "source": "srd24",
+    "tags": [
+      "expertise-skill"
+    ],
+    "requires": {
+      "all": [
+        {
+          "type": "proficiency",
+          "proficiency": "arcana"
+        }
+      ]
+    },
+    "modifiers": [
+      {
+        "target": "skills.arcana",
+        "op": "proficiency",
+        "value": "expertise"
+      }
+    ]
+  },
+  {
+    "id": "srd24:expertise:athletics",
+    "kind": "expertise",
+    "name": "Athletics",
+    "source": "srd24",
+    "tags": [
+      "expertise-skill"
+    ],
+    "requires": {
+      "all": [
+        {
+          "type": "proficiency",
+          "proficiency": "athletics"
+        }
+      ]
+    },
+    "modifiers": [
+      {
+        "target": "skills.athletics",
+        "op": "proficiency",
+        "value": "expertise"
+      }
+    ]
+  },
+  {
+    "id": "srd24:expertise:deception",
+    "kind": "expertise",
+    "name": "Deception",
+    "source": "srd24",
+    "tags": [
+      "expertise-skill"
+    ],
+    "requires": {
+      "all": [
+        {
+          "type": "proficiency",
+          "proficiency": "deception"
+        }
+      ]
+    },
+    "modifiers": [
+      {
+        "target": "skills.deception",
+        "op": "proficiency",
+        "value": "expertise"
+      }
+    ]
+  },
+  {
+    "id": "srd24:expertise:history",
+    "kind": "expertise",
+    "name": "History",
+    "source": "srd24",
+    "tags": [
+      "expertise-skill"
+    ],
+    "requires": {
+      "all": [
+        {
+          "type": "proficiency",
+          "proficiency": "history"
+        }
+      ]
+    },
+    "modifiers": [
+      {
+        "target": "skills.history",
+        "op": "proficiency",
+        "value": "expertise"
+      }
+    ]
+  },
+  {
+    "id": "srd24:expertise:insight",
+    "kind": "expertise",
+    "name": "Insight",
+    "source": "srd24",
+    "tags": [
+      "expertise-skill"
+    ],
+    "requires": {
+      "all": [
+        {
+          "type": "proficiency",
+          "proficiency": "insight"
+        }
+      ]
+    },
+    "modifiers": [
+      {
+        "target": "skills.insight",
+        "op": "proficiency",
+        "value": "expertise"
+      }
+    ]
+  },
+  {
+    "id": "srd24:expertise:intimidation",
+    "kind": "expertise",
+    "name": "Intimidation",
+    "source": "srd24",
+    "tags": [
+      "expertise-skill"
+    ],
+    "requires": {
+      "all": [
+        {
+          "type": "proficiency",
+          "proficiency": "intimidation"
+        }
+      ]
+    },
+    "modifiers": [
+      {
+        "target": "skills.intimidation",
+        "op": "proficiency",
+        "value": "expertise"
+      }
+    ]
+  },
+  {
+    "id": "srd24:expertise:investigation",
+    "kind": "expertise",
+    "name": "Investigation",
+    "source": "srd24",
+    "tags": [
+      "expertise-skill"
+    ],
+    "requires": {
+      "all": [
+        {
+          "type": "proficiency",
+          "proficiency": "investigation"
+        }
+      ]
+    },
+    "modifiers": [
+      {
+        "target": "skills.investigation",
+        "op": "proficiency",
+        "value": "expertise"
+      }
+    ]
+  },
+  {
+    "id": "srd24:expertise:medicine",
+    "kind": "expertise",
+    "name": "Medicine",
+    "source": "srd24",
+    "tags": [
+      "expertise-skill"
+    ],
+    "requires": {
+      "all": [
+        {
+          "type": "proficiency",
+          "proficiency": "medicine"
+        }
+      ]
+    },
+    "modifiers": [
+      {
+        "target": "skills.medicine",
+        "op": "proficiency",
+        "value": "expertise"
+      }
+    ]
+  },
+  {
+    "id": "srd24:expertise:nature",
+    "kind": "expertise",
+    "name": "Nature",
+    "source": "srd24",
+    "tags": [
+      "expertise-skill"
+    ],
+    "requires": {
+      "all": [
+        {
+          "type": "proficiency",
+          "proficiency": "nature"
+        }
+      ]
+    },
+    "modifiers": [
+      {
+        "target": "skills.nature",
+        "op": "proficiency",
+        "value": "expertise"
+      }
+    ]
+  },
+  {
+    "id": "srd24:expertise:perception",
+    "kind": "expertise",
+    "name": "Perception",
+    "source": "srd24",
+    "tags": [
+      "expertise-skill"
+    ],
+    "requires": {
+      "all": [
+        {
+          "type": "proficiency",
+          "proficiency": "perception"
+        }
+      ]
+    },
+    "modifiers": [
+      {
+        "target": "skills.perception",
+        "op": "proficiency",
+        "value": "expertise"
+      }
+    ]
+  },
+  {
+    "id": "srd24:expertise:performance",
+    "kind": "expertise",
+    "name": "Performance",
+    "source": "srd24",
+    "tags": [
+      "expertise-skill"
+    ],
+    "requires": {
+      "all": [
+        {
+          "type": "proficiency",
+          "proficiency": "performance"
+        }
+      ]
+    },
+    "modifiers": [
+      {
+        "target": "skills.performance",
+        "op": "proficiency",
+        "value": "expertise"
+      }
+    ]
+  },
+  {
+    "id": "srd24:expertise:persuasion",
+    "kind": "expertise",
+    "name": "Persuasion",
+    "source": "srd24",
+    "tags": [
+      "expertise-skill"
+    ],
+    "requires": {
+      "all": [
+        {
+          "type": "proficiency",
+          "proficiency": "persuasion"
+        }
+      ]
+    },
+    "modifiers": [
+      {
+        "target": "skills.persuasion",
+        "op": "proficiency",
+        "value": "expertise"
+      }
+    ]
+  },
+  {
+    "id": "srd24:expertise:religion",
+    "kind": "expertise",
+    "name": "Religion",
+    "source": "srd24",
+    "tags": [
+      "expertise-skill"
+    ],
+    "requires": {
+      "all": [
+        {
+          "type": "proficiency",
+          "proficiency": "religion"
+        }
+      ]
+    },
+    "modifiers": [
+      {
+        "target": "skills.religion",
+        "op": "proficiency",
+        "value": "expertise"
+      }
+    ]
+  },
+  {
+    "id": "srd24:expertise:sleight-of-hand",
+    "kind": "expertise",
+    "name": "Sleight of Hand",
+    "source": "srd24",
+    "tags": [
+      "expertise-skill"
+    ],
+    "requires": {
+      "all": [
+        {
+          "type": "proficiency",
+          "proficiency": "sleight-of-hand"
+        }
+      ]
+    },
+    "modifiers": [
+      {
+        "target": "skills.sleight-of-hand",
+        "op": "proficiency",
+        "value": "expertise"
+      }
+    ]
+  },
+  {
+    "id": "srd24:expertise:stealth",
+    "kind": "expertise",
+    "name": "Stealth",
+    "source": "srd24",
+    "tags": [
+      "expertise-skill"
+    ],
+    "requires": {
+      "all": [
+        {
+          "type": "proficiency",
+          "proficiency": "stealth"
+        }
+      ]
+    },
+    "modifiers": [
+      {
+        "target": "skills.stealth",
+        "op": "proficiency",
+        "value": "expertise"
+      }
+    ]
+  },
+  {
+    "id": "srd24:expertise:survival",
+    "kind": "expertise",
+    "name": "Survival",
+    "source": "srd24",
+    "tags": [
+      "expertise-skill"
+    ],
+    "requires": {
+      "all": [
+        {
+          "type": "proficiency",
+          "proficiency": "survival"
+        }
+      ]
+    },
+    "modifiers": [
+      {
+        "target": "skills.survival",
+        "op": "proficiency",
+        "value": "expertise"
+      }
+    ]
+  },
+  {
+    "id": "srd24:expertise:thieves-tools",
+    "kind": "expertise",
+    "name": "Thieves' Tools",
+    "source": "srd24",
+    "tags": [
+      "expertise-tool"
+    ],
+    "requires": {
+      "all": [
+        {
+          "type": "proficiency",
+          "proficiency": "srd24:tool:thieves-tools"
+        }
+      ]
+    },
+    "modifiers": [
+      {
+        "target": "proficiencies.tool-expertise",
+        "op": "include",
+        "value": [
+          "srd24:tool:thieves-tools"
+        ]
+      }
+    ]
+  }
+]

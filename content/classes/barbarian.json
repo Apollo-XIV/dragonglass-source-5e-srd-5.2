@@ -14,6 +14,16 @@
     "primaryAbility": [
       "str"
     ],
+    "multiclassRequires": {
+      "all": [
+        {
+          "type": "ability",
+          "ability": "str",
+          "min": 13
+        }
+      ],
+      "text": "Strength 13"
+    },
     "x-multiclass-proficiencies": {
       "weapons": [
         "martial"

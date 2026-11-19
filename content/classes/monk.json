@@ -15,6 +15,21 @@
       "dex",
       "wis"
     ],
+    "multiclassRequires": {
+      "all": [
+        {
+          "type": "ability",
+          "ability": "dex",
+          "min": 13
+        },
+        {
+          "type": "ability",
+          "ability": "wis",
+          "min": 13
+        }
+      ],
+      "text": "Dexterity 13 and Wisdom 13"
+    },
     "tables": {
       "martial-arts": [
         "1d6",

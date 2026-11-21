@@ -169,6 +169,20 @@
           "review": "auto"
         }
       }
+    ],
+    "actions": [
+      {
+        "id": "sorcerous-restoration",
+        "name": "Sorcerous Restoration",
+        "activation": "special",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd24:sorcerer:sorcerous-restoration": 1
+        }
+      }
     ]
   },
   {

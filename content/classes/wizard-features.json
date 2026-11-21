@@ -47,6 +47,20 @@
           "review": "auto"
         }
       }
+    ],
+    "actions": [
+      {
+        "id": "arcane-recovery",
+        "name": "Arcane Recovery",
+        "activation": "special",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd24:wizard:arcane-recovery": 1
+        }
+      }
     ]
   },
   {

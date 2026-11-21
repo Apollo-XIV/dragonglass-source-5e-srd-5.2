@@ -294,6 +294,20 @@
           "review": "auto"
         }
       }
+    ],
+    "actions": [
+      {
+        "id": "relentless-rage",
+        "name": "Relentless Rage",
+        "activation": "special",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd24:barbarian:relentless-rage": 1
+        }
+      }
     ]
   },
   {
@@ -331,6 +345,20 @@
         "provenance": {
           "source": "pack:release-5.3.3",
           "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "persistent-rage",
+        "name": "Persistent Rage",
+        "activation": "special",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd24:barbarian:persistent-rage": 1
         }
       }
     ]

@@ -2562,6 +2562,20 @@
           "review": "auto"
         }
       }
+    ],
+    "actions": [
+      {
+        "id": "relentless-endurance",
+        "name": "Relentless Endurance",
+        "activation": "special",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd24:orc:relentless-endurance": 1
+        }
+      }
     ]
   },
   {

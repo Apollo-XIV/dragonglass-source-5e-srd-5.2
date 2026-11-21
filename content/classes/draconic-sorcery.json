@@ -217,6 +217,20 @@
           "review": "auto"
         }
       }
+    ],
+    "actions": [
+      {
+        "id": "dragon-companion",
+        "name": "Dragon Companion",
+        "activation": "special",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd24:draconic:dragon-companion": 1
+        }
+      }
     ]
   }
 ]

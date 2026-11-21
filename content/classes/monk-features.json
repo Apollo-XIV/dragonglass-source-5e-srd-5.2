@@ -235,6 +235,20 @@
           "review": "auto"
         }
       }
+    ],
+    "actions": [
+      {
+        "id": "uncanny-metabolism",
+        "name": "Uncanny Metabolism",
+        "activation": "special",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd24:monk:uncanny-metabolism": 1
+        }
+      }
     ]
   },
   {

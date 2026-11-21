@@ -36,6 +36,20 @@
           "review": "auto"
         }
       }
+    ],
+    "actions": [
+      {
+        "id": "favored-enemy",
+        "name": "Favored Enemy",
+        "activation": "special",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd24:ranger:favored-enemy": 1
+        }
+      }
     ]
   },
   {

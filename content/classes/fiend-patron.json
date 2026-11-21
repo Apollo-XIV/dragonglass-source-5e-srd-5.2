@@ -122,6 +122,20 @@
           "review": "auto"
         }
       }
+    ],
+    "actions": [
+      {
+        "id": "dark-ones-own-luck",
+        "name": "Dark One's Own Luck",
+        "activation": "special",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd24:fiend:dark-ones-own-luck": 1
+        }
+      }
     ]
   },
   {
@@ -161,6 +175,20 @@
         "provenance": {
           "source": "pack:release-5.3.3",
           "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "hurl-through-hell",
+        "name": "Hurl Through Hell",
+        "activation": "special",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd24:fiend:hurl-through-hell": 1
         }
       }
     ]

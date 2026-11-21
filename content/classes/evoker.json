@@ -274,6 +274,20 @@
           "review": "auto"
         }
       }
+    ],
+    "actions": [
+      {
+        "id": "overchannel",
+        "name": "Overchannel",
+        "activation": "special",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd24:evoker:overchannel": 1
+        }
+      }
     ]
   }
 ]

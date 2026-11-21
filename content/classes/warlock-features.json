@@ -58,6 +58,20 @@
           "review": "auto"
         }
       }
+    ],
+    "actions": [
+      {
+        "id": "magical-cunning",
+        "name": "Magical Cunning",
+        "activation": "special",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd24:warlock:magical-cunning": 1
+        }
+      }
     ]
   },
   {

@@ -201,6 +201,20 @@
           "review": "auto"
         }
       }
+    ],
+    "actions": [
+      {
+        "id": "wild-resurgence",
+        "name": "Wild Resurgence",
+        "activation": "special",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd24:druid:wild-resurgence": 1
+        }
+      }
     ]
   },
   {
@@ -308,6 +322,20 @@
         "provenance": {
           "source": "pack:release-5.3.3",
           "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "archdruid",
+        "name": "Archdruid",
+        "activation": "special",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd24:druid:archdruid": 1
         }
       }
     ]

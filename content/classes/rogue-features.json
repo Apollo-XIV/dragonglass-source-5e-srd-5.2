@@ -339,6 +339,20 @@
           "review": "auto"
         }
       }
+    ],
+    "actions": [
+      {
+        "id": "stroke-of-luck",
+        "name": "Stroke of Luck",
+        "activation": "special",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd24:rogue:stroke-of-luck": 1
+        }
+      }
     ]
   }
 ]

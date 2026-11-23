@@ -32,18 +32,22 @@
         "name": "Acid Arrow (acid, 4d4)",
         "activation": "action",
         "range": "90 feet",
+        "attack": {
+          "type": "ranged-spell"
+        },
         "damage": "4d4",
-        "damageType": "acid",
-        "notes": "Ranged spell attack."
+        "damageType": "acid"
       },
       {
         "id": "cast-acid-2d4",
         "name": "Acid Arrow (acid, 2d4)",
         "activation": "action",
         "range": "90 feet",
+        "attack": {
+          "type": "ranged-spell"
+        },
         "damage": "2d4",
-        "damageType": "acid",
-        "notes": "Ranged spell attack."
+        "damageType": "acid"
       }
     ]
   },
@@ -542,7 +546,9 @@
         "range": "Touch",
         "save": {
           "ability": "dex"
-        }
+        },
+        "damage": "3d6",
+        "notes": "The damage type is chosen when the spell is cast."
       }
     ]
   },
@@ -619,8 +625,6 @@
         "save": {
           "ability": "con"
         },
-        "damage": "1d4",
-        "damageType": "less",
         "applies": "enlarge",
         "provenance": {
           "source": "llm:claude-sonnet-5-5",
@@ -789,7 +793,9 @@
         "name": "Flame Blade",
         "activation": "bonus-action",
         "range": "Self",
-        "notes": "Melee spell attack."
+        "attack": {
+          "type": "melee-spell"
+        }
       }
     ]
   },
@@ -1499,7 +1505,16 @@
     "components": "V",
     "duration": "Instantaneous",
     "text": "Up to five creatures of your choice who remain within range for the spell's entire casting gain the benefits of a Short Rest and also regain 2d8 Hit Points. A creature can't be affected by this spell again until that creature finishes a Long Rest.",
-    "higherLevels": "The healing increases by 1d8 for each spell slot level above 2."
+    "higherLevels": "The healing increases by 1d8 for each spell slot level above 2.",
+    "actions": [
+      {
+        "id": "cast",
+        "name": "Prayer of Healing",
+        "activation": "minute",
+        "range": "30 feet",
+        "heal": "2d8"
+      }
+    ]
   },
   {
     "id": "srd24:spell:protection-from-poison",
@@ -1632,9 +1647,11 @@
         "name": "Scorching Ray",
         "activation": "action",
         "range": "120 feet",
+        "attack": {
+          "type": "ranged-spell"
+        },
         "damage": "2d6",
-        "damageType": "fire",
-        "notes": "Ranged spell attack."
+        "damageType": "fire"
       }
     ]
   },
@@ -1885,7 +1902,9 @@
         "name": "Spiritual Weapon",
         "activation": "bonus-action",
         "range": "60 feet",
-        "notes": "Melee spell attack."
+        "attack": {
+          "type": "melee-spell"
+        }
       }
     ]
   },

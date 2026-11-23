@@ -80,9 +80,11 @@
         "name": "Chill Touch",
         "activation": "action",
         "range": "Touch",
+        "attack": {
+          "type": "melee-spell"
+        },
         "damage": "1d10",
-        "damageType": "necrotic",
-        "notes": "Melee spell attack."
+        "damageType": "necrotic"
       }
     ]
   },
@@ -182,9 +184,11 @@
         "name": "Eldritch Blast",
         "activation": "action",
         "range": "120 feet",
+        "attack": {
+          "type": "ranged-spell"
+        },
         "damage": "1d10",
-        "damageType": "force",
-        "notes": "Ranged spell attack."
+        "damageType": "force"
       }
     ]
   },
@@ -255,9 +259,11 @@
         "name": "Fire Bolt",
         "activation": "action",
         "range": "120 feet",
+        "attack": {
+          "type": "ranged-spell"
+        },
         "damage": "1d10",
-        "damageType": "fire",
-        "notes": "Ranged spell attack."
+        "damageType": "fire"
       }
     ]
   },
@@ -491,9 +497,11 @@
         "name": "Poison Spray",
         "activation": "action",
         "range": "30 feet",
+        "attack": {
+          "type": "ranged-spell"
+        },
         "damage": "1d12",
-        "damageType": "poison",
-        "notes": "Ranged spell attack."
+        "damageType": "poison"
       }
     ]
   },
@@ -564,9 +572,11 @@
         "name": "Produce Flame",
         "activation": "bonus-action",
         "range": "Self",
+        "attack": {
+          "type": "ranged-spell"
+        },
         "damage": "1d8",
-        "damageType": "fire",
-        "notes": "Ranged spell attack."
+        "damageType": "fire"
       }
     ]
   },
@@ -606,9 +616,11 @@
         "name": "Ray of Frost",
         "activation": "action",
         "range": "60 feet",
+        "attack": {
+          "type": "ranged-spell"
+        },
         "damage": "1d8",
-        "damageType": "cold",
-        "notes": "Ranged spell attack."
+        "damageType": "cold"
       }
     ]
   },
@@ -762,9 +774,11 @@
         "name": "Shocking Grasp",
         "activation": "action",
         "range": "Touch",
+        "attack": {
+          "type": "melee-spell"
+        },
         "damage": "1d8",
-        "damageType": "lightning",
-        "notes": "Melee spell attack."
+        "damageType": "lightning"
       }
     ]
   },
@@ -803,9 +817,12 @@
         "name": "Sorcerous Burst",
         "activation": "action",
         "range": "120 feet",
+        "attack": {
+          "type": "ranged-spell"
+        },
         "damage": "1d8",
         "damageType": "acid",
-        "notes": "Ranged spell attack. Also deals cold and fire and lightning and poison and psychic and thunder damage; see the description."
+        "notes": "Also deals cold and fire and lightning and poison and psychic and thunder damage; see the description."
       }
     ]
   },
@@ -876,9 +893,11 @@
         "name": "Starry Wisp",
         "activation": "action",
         "range": "60 feet",
+        "attack": {
+          "type": "ranged-spell"
+        },
         "damage": "1d8",
-        "damageType": "radiant",
-        "notes": "Ranged spell attack."
+        "damageType": "radiant"
       }
     ]
   },

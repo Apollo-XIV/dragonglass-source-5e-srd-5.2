@@ -757,7 +757,16 @@
     "components": "V",
     "duration": "Instantaneous",
     "text": "Up to six creatures of your choice that you can see within range regain Hit Points equal to 2d4 plus your spellcasting ability modifier.",
-    "higherLevels": "The healing increases by 1d4 for each spell slot level above 3."
+    "higherLevels": "The healing increases by 1d4 for each spell slot level above 3.",
+    "actions": [
+      {
+        "id": "cast",
+        "name": "Mass Healing Word",
+        "activation": "bonus-action",
+        "range": "60 feet",
+        "heal": "2d4 + @spellcasting.mod"
+      }
+    ]
   },
   {
     "id": "srd24:spell:meld-into-stone",
@@ -1322,9 +1331,11 @@
         "name": "Vampiric Touch",
         "activation": "action",
         "range": "Self",
+        "attack": {
+          "type": "melee-spell"
+        },
         "damage": "3d6",
-        "damageType": "necrotic",
-        "notes": "Melee spell attack."
+        "damageType": "necrotic"
       }
     ]
   },

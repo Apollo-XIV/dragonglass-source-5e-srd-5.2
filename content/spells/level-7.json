@@ -28,7 +28,9 @@
         "name": "Arcane Sword",
         "activation": "action",
         "range": "90 feet",
-        "notes": "Melee spell attack."
+        "attack": {
+          "type": "melee-spell"
+        }
       }
     ]
   },
@@ -65,7 +67,8 @@
           "ability": "dex"
         },
         "damage": "6d12",
-        "damageType": "radiant"
+        "damageType": "radiant",
+        "heal": "4d12 + @spellcasting.mod"
       }
     ]
   },
@@ -101,7 +104,9 @@
         "range": "150 feet",
         "save": {
           "ability": "dex"
-        }
+        },
+        "damage": "12d6",
+        "damageType": "fire"
       }
     ]
   },
@@ -480,7 +485,16 @@
     "range": "Touch",
     "components": "V, S, M (a prayer wheel)",
     "duration": "1 hour",
-    "text": "A creature you touch regains 4d8 + 15 Hit Points. For the duration, the target regains 1 Hit Point at the start of each of its turns, and any severed body parts regrow after 2 minutes."
+    "text": "A creature you touch regains 4d8 + 15 Hit Points. For the duration, the target regains 1 Hit Point at the start of each of its turns, and any severed body parts regrow after 2 minutes.",
+    "actions": [
+      {
+        "id": "cast",
+        "name": "Regenerate",
+        "activation": "minute",
+        "range": "Touch",
+        "heal": "4d8 + 15"
+      }
+    ]
   },
   {
     "id": "srd24:spell:resurrection",

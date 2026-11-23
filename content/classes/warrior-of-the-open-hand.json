@@ -10,10 +10,11 @@
       "monk-subclass",
       "srd-subclass"
     ],
+    "text": "*Master Unarmed Combat Techniques*\n\nWarriors of the Open Hand are masters of unarmed combat. They learn techniques to push and trip their opponents and manipulate their own energy to protect themselves from harm.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:open-hand:warrior-of-the-open-hand"
+          "srd24:open-hand:open-hand-technique"
         ]
       },
       "6": {
@@ -44,21 +45,6 @@
       "monk-feature"
     ],
     "text": "Whenever you hit a creature with an attack granted by your Flurry of Blows, you can impose one of the following effects on that target.\n\n**Addle.** The target can't make Opportunity Attack until the start of its next turn.\n\n**Push.** The target must succeed on a Strength saving throw or be pushed up to 15 feet away from you.\n\n**Topple.** The target must succeed on a Dexterity saving throw or have the Prone condition."
-  },
-  {
-    "id": "srd24:open-hand:warrior-of-the-open-hand",
-    "kind": "subclass-feature",
-    "name": "Warrior of the Open Hand",
-    "source": "srd24",
-    "page": "XPHB 107",
-    "tags": [
-      "open-hand-feature",
-      "monk-feature"
-    ],
-    "text": "*Master Unarmed Combat Techniques*\n\nWarriors of the Open Hand are masters of unarmed combat. They learn techniques to push and trip their opponents and manipulate their own energy to protect themselves from harm.",
-    "grants": [
-      "srd24:open-hand:open-hand-technique"
-    ]
   },
   {
     "id": "srd24:open-hand:wholeness-of-body",

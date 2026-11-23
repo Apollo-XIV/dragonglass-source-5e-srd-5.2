@@ -10,10 +10,11 @@
       "barbarian-subclass",
       "srd-subclass"
     ],
+    "text": "*Channel Rage into Violent Fury*\n\nBarbarians who walk the Path of the Berserker direct their Rage primarily toward violence. Their path is one of untrammeled fury, and they thrill in the chaos of battle as they allow their Rage to seize and empower them.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:berserker:path-of-the-berserker"
+          "srd24:berserker:frenzy"
         ]
       },
       "6": {
@@ -44,21 +45,6 @@
       "barbarian-feature"
     ],
     "text": "If you use Reckless Attack while your Rage is active, you deal extra damage to the first target you hit on your turn with a Strength-based attack. To determine the extra damage, roll a number of d6s equal to your Rage Damage bonus, and add them together. The damage has the same type as the weapon or Unarmed Strike used for the attack."
-  },
-  {
-    "id": "srd24:berserker:path-of-the-berserker",
-    "kind": "subclass-feature",
-    "name": "Path of the Berserker",
-    "source": "srd24",
-    "page": "XPHB 54",
-    "tags": [
-      "berserker-feature",
-      "barbarian-feature"
-    ],
-    "text": "*Channel Rage into Violent Fury*\n\nBarbarians who walk the Path of the Berserker direct their Rage primarily toward violence. Their path is one of untrammeled fury, and they thrill in the chaos of battle as they allow their Rage to seize and empower them.",
-    "grants": [
-      "srd24:berserker:frenzy"
-    ]
   },
   {
     "id": "srd24:berserker:mindless-rage",

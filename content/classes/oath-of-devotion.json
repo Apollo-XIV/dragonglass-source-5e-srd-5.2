@@ -10,10 +10,12 @@
       "paladin-subclass",
       "srd-subclass"
     ],
+    "text": "*Uphold the Ideals of Justice and Order*\n\nThe Oath of Devotion binds Paladins to the ideals of justice and order. These Paladins meet the archetype of the knight in shining armor. They hold themselves to the highest standards of conduct, and some—for better or worse—hold the rest of the world to the same standards.\n\nMany who swear this oath are devoted to gods of law and good and use their gods' tenets as the measure of personal devotion. Others hold angels as their ideals and incorporate images of angelic wings into their helmets or coats of arms.\n\nThese paladins share the following tenets:\n\n- Let your word be your promise.\n- Protect the weak and never fear to act.\n- Let your honorable deeds be an example.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:devotion:oath-of-devotion",
+          "srd24:devotion:oath-of-devotion-spells",
+          "srd24:devotion:sacred-weapon",
           "srd24:spell:protection-from-evil-and-good",
           "srd24:spell:shield-of-faith"
         ]
@@ -95,22 +97,6 @@
           "review": "auto"
         }
       }
-    ]
-  },
-  {
-    "id": "srd24:devotion:oath-of-devotion",
-    "kind": "subclass-feature",
-    "name": "Oath of Devotion",
-    "source": "srd24",
-    "page": "XPHB 113",
-    "tags": [
-      "devotion-feature",
-      "paladin-feature"
-    ],
-    "text": "*Uphold the Ideals of Justice and Order*\n\nThe Oath of Devotion binds Paladins to the ideals of justice and order. These Paladins meet the archetype of the knight in shining armor. They hold themselves to the highest standards of conduct, and some—for better or worse—hold the rest of the world to the same standards.\n\nMany who swear this oath are devoted to gods of law and good and use their gods' tenets as the measure of personal devotion. Others hold angels as their ideals and incorporate images of angelic wings into their helmets or coats of arms.\n\nThese paladins share the following tenets:\n\n- Let your word be your promise.\n- Protect the weak and never fear to act.\n- Let your honorable deeds be an example.",
-    "grants": [
-      "srd24:devotion:oath-of-devotion-spells",
-      "srd24:devotion:sacred-weapon"
     ]
   },
   {

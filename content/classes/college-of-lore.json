@@ -10,10 +10,12 @@
       "bard-subclass",
       "srd-subclass"
     ],
+    "text": "*Plumb the Depths of Magical Knowledge*\n\nBards of the College of Lore collect spells and secrets from diverse sources, such as scholarly tomes, mystical rites, and peasant tales. The college's members gather in libraries and universities to share their lore with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at self-important figures of authority.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:lore:college-of-lore"
+          "srd24:lore:bonus-proficiencies",
+          "srd24:lore:cutting-words"
         ]
       },
       "6": {
@@ -82,22 +84,6 @@
           "review": "auto"
         }
       }
-    ]
-  },
-  {
-    "id": "srd24:lore:college-of-lore",
-    "kind": "subclass-feature",
-    "name": "College of Lore",
-    "source": "srd24",
-    "page": "XPHB 66",
-    "tags": [
-      "lore-feature",
-      "bard-feature"
-    ],
-    "text": "*Plumb the Depths of Magical Knowledge*\n\nBards of the College of Lore collect spells and secrets from diverse sources, such as scholarly tomes, mystical rites, and peasant tales. The college's members gather in libraries and universities to share their lore with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at self-important figures of authority.",
-    "grants": [
-      "srd24:lore:bonus-proficiencies",
-      "srd24:lore:cutting-words"
     ]
   },
   {

@@ -10,10 +10,12 @@
       "sorcerer-subclass",
       "srd-subclass"
     ],
+    "text": "*Breathe the Magic of Dragons*\n\nYour innate magic comes from the gift of a dragon. Perhaps an ancient dragon facing death bequeathed some of its magical power to you or your ancestor. You might have absorbed magic from a site infused with dragons' power. Or perhaps you handled a treasure taken from a dragon's hoard that was steeped in draconic power. Or you might have a dragon for an ancestor.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:draconic:draconic-sorcery",
+          "srd24:draconic:draconic-resilience",
+          "srd24:draconic:draconic-spells",
           "srd24:spell:alter-self",
           "srd24:spell:chromatic-orb",
           "srd24:spell:command",
@@ -99,22 +101,6 @@
       "sorcerer-feature"
     ],
     "text": "When you reach a Sorcerer level specified in the Draconic Spells table, you thereafter always have the listed spells prepared.\n\n**Draconic Spells**\n| Sorcerer Level | Spells |\n| --- | --- |\n| 3 | Alter Self, Chromatic Orb, Command, Dragon's Breath |\n| 5 | Fear, Fly |\n| 7 | Arcane Eye, Charm Monster |\n| 9 | Legend Lore, Summon Dragon |"
-  },
-  {
-    "id": "srd24:draconic:draconic-sorcery",
-    "kind": "subclass-feature",
-    "name": "Draconic Sorcery",
-    "source": "srd24",
-    "page": "XPHB 148",
-    "tags": [
-      "draconic-feature",
-      "sorcerer-feature"
-    ],
-    "text": "*Breathe the Magic of Dragons*\n\nYour innate magic comes from the gift of a dragon. Perhaps an ancient dragon facing death bequeathed some of its magical power to you or your ancestor. You might have absorbed magic from a site infused with dragons' power. Or perhaps you handled a treasure taken from a dragon's hoard that was steeped in draconic power. Or you might have a dragon for an ancestor.",
-    "grants": [
-      "srd24:draconic:draconic-resilience",
-      "srd24:draconic:draconic-spells"
-    ]
   },
   {
     "id": "srd24:draconic:elemental-affinity",

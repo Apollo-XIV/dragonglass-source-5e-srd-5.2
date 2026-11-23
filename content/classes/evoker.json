@@ -10,10 +10,12 @@
       "wizard-subclass",
       "srd-subclass"
     ],
+    "text": "*Create Explosive Elemental Effects*\n\nYour studies focus on magic that creates powerful elemental effects such as bitter cold, searing flame, rolling thunder, crackling lightning, and burning acid. Some Evokers find employment in military forces, serving as artillery to blast armies from afar. Others use their power to protect others, while some seek their own gain.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:evoker:evoker"
+          "srd24:evoker:evocation-savant",
+          "srd24:evoker:potent-cantrip"
         ],
         "choices": [
           {
@@ -206,22 +208,6 @@
       "wizard-feature"
     ],
     "text": "Your damaging cantrips affect even creatures that avoid the brunt of the effect. When you cast a cantrip at a creature and you miss with the attack roll or the target succeeds on a saving throw against the cantrip, the target takes half the cantrip's damage (if any) but suffers no additional effect from the cantrip."
-  },
-  {
-    "id": "srd24:evoker:evoker",
-    "kind": "subclass-feature",
-    "name": "Evoker",
-    "source": "srd24",
-    "page": "XPHB 174",
-    "tags": [
-      "evoker-feature",
-      "wizard-feature"
-    ],
-    "text": "*Create Explosive Elemental Effects*\n\nYour studies focus on magic that creates powerful elemental effects such as bitter cold, searing flame, rolling thunder, crackling lightning, and burning acid. Some Evokers find employment in military forces, serving as artillery to blast armies from afar. Others use their power to protect others, while some seek their own gain.",
-    "grants": [
-      "srd24:evoker:evocation-savant",
-      "srd24:evoker:potent-cantrip"
-    ]
   },
   {
     "id": "srd24:evoker:sculpt-spells",

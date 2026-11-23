@@ -10,10 +10,12 @@
       "warlock-subclass",
       "srd-subclass"
     ],
+    "text": "*Make a Deal with the Lower Planes*\n\nYour pact draws on the Lower Planes, the realms of perdition. You might forge a bargain with a demon lord such as Demogorgon or Orcus; an archdevil such as Asmodeus; or a pit fiend, balor, yugoloth, or night hag that is especially mighty. That patron's aims are evil—the corruption or destruction of all things, ultimately including you—and your path is defined by the extent to which you strive against those aims.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:fiend:fiend-patron",
+          "srd24:fiend:fiend-spells",
+          "srd24:fiend:dark-ones-blessing",
           "srd24:spell:burning-hands",
           "srd24:spell:command",
           "srd24:spell:scorching-ray",
@@ -78,22 +80,6 @@
       "warlock-feature"
     ],
     "text": "When you reduce an enemy to 0 Hit Points, you gain Temporary Hit Points equal to your Charisma modifier plus your Warlock level (minimum of 1 Temporary Hit Point). You also gain this benefit if someone else reduces an enemy within 10 feet of you to 0 Hit Points."
-  },
-  {
-    "id": "srd24:fiend:fiend-patron",
-    "kind": "subclass-feature",
-    "name": "Fiend Patron",
-    "source": "srd24",
-    "page": "XPHB 161",
-    "tags": [
-      "fiend-feature",
-      "warlock-feature"
-    ],
-    "text": "*Make a Deal with the Lower Planes*\n\nYour pact draws on the Lower Planes, the realms of perdition. You might forge a bargain with a demon lord such as Demogorgon or Orcus; an archdevil such as Asmodeus; or a pit fiend, balor, yugoloth, or night hag that is especially mighty. That patron's aims are evil—the corruption or destruction of all things, ultimately including you—and your path is defined by the extent to which you strive against those aims.",
-    "grants": [
-      "srd24:fiend:fiend-spells",
-      "srd24:fiend:dark-ones-blessing"
-    ]
   },
   {
     "id": "srd24:fiend:dark-ones-own-luck",

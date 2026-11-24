@@ -1172,7 +1172,21 @@
       "elf-trait"
     ],
     "text": "You have proficiency in the Insight, Perception, or Survival skill.",
-    "page": "XPHB 189"
+    "page": "XPHB 189",
+    "choices": [
+      {
+        "id": "srd24:species:elf:skill",
+        "name": "Skill Proficiency",
+        "count": 1,
+        "from": {
+          "ids": [
+            "srd24:skill:insight",
+            "srd24:skill:perception",
+            "srd24:skill:survival"
+          ]
+        }
+      }
+    ]
   },
   {
     "id": "srd24:elf:trance",
@@ -1205,18 +1219,6 @@
       "srd24:elf:trance"
     ],
     "choices": [
-      {
-        "id": "srd24:species:elf:skill",
-        "name": "Skill Proficiency",
-        "count": 1,
-        "from": {
-          "ids": [
-            "srd24:skill:insight",
-            "srd24:skill:perception",
-            "srd24:skill:survival"
-          ]
-        }
-      },
       {
         "id": "srd24:species:elf:language",
         "name": "Language",
@@ -2413,7 +2415,17 @@
       "human-trait"
     ],
     "text": "You gain proficiency in one skill of your choice.",
-    "page": "XPHB 194"
+    "page": "XPHB 194",
+    "choices": [
+      {
+        "id": "srd24:species:human:skill",
+        "name": "Skill Proficiency",
+        "count": 1,
+        "from": {
+          "kind": "skill"
+        }
+      }
+    ]
   },
   {
     "id": "srd24:human:versatile",
@@ -2424,7 +2436,20 @@
       "human-trait"
     ],
     "text": "You gain an Origin feat of your choice.",
-    "page": "XPHB 194"
+    "page": "XPHB 194",
+    "choices": [
+      {
+        "id": "srd24:species:human:feat",
+        "name": "Feat",
+        "count": 1,
+        "from": {
+          "kind": "feat",
+          "tags": [
+            "origin-feat"
+          ]
+        }
+      }
+    ]
   },
   {
     "id": "srd24:species:human",
@@ -2444,25 +2469,6 @@
       "srd24:human:versatile"
     ],
     "choices": [
-      {
-        "id": "srd24:species:human:skill",
-        "name": "Skill Proficiency",
-        "count": 1,
-        "from": {
-          "kind": "skill"
-        }
-      },
-      {
-        "id": "srd24:species:human:feat",
-        "name": "Feat",
-        "count": 1,
-        "from": {
-          "kind": "feat",
-          "tags": [
-            "origin-feat"
-          ]
-        }
-      },
       {
         "id": "srd24:species:human:language",
         "name": "Language",

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "srd24:rogue:kit",
+    "kind": "equipment-option",
+    "name": "Equipment",
+    "source": "srd24",
+    "equipment": [
+      {
+        "item": "srd24:item:leather-armor"
+      },
+      {
+        "item": "srd24:item:dagger",
+        "quantity": 2
+      },
+      {
+        "item": "srd24:item:shortsword"
+      },
+      {
+        "item": "srd24:item:shortbow"
+      },
+      {
+        "item": "srd24:item:arrows-20"
+      },
+      {
+        "item": "srd24:item:quiver"
+      },
+      {
+        "item": "srd24:item:thieves-tools"
+      },
+      {
+        "item": "srd24:item:burglars-pack"
+      },
+      {
+        "currency": {
+          "gp": 8
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:rogue:gold",
+    "kind": "equipment-option",
+    "name": "Starting gold",
+    "source": "srd24",
+    "text": "100 GP",
+    "equipment": [
+      {
+        "gold": {
+          "multiplier": 100
+        }
+      }
+    ]
+  }
+]

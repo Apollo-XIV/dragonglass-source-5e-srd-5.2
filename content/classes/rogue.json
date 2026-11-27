@@ -87,14 +87,19 @@
     },
     "levels": {
       "1": {
-        "grants": [
-          "srd24:tool:thieves-tools",
-          "srd24:rogue:expertise",
-          "srd24:rogue:sneak-attack",
-          "srd24:rogue:thieves-cant",
-          "srd24:rogue:weapon-mastery"
-        ],
         "choices": [
+          {
+            "id": "srd24:rogue:starting-equipment",
+            "count": 1,
+            "from": {
+              "kind": "equipment-option",
+              "ids": [
+                "srd24:rogue:kit",
+                "srd24:rogue:gold"
+              ]
+            },
+            "text": "*Choose A or B:* (A) Leather Armor, 2 Daggers, Shortsword, Shortbow, 20 Arrows, Quiver, Thieves' Tools, Burglar's Pack, and 8 GP; or (B) 100 GP"
+          },
           {
             "id": "srd24:class:rogue:skill",
             "name": "Skill Proficiency",
@@ -137,6 +142,13 @@
               ]
             }
           }
+        ],
+        "grants": [
+          "srd24:tool:thieves-tools",
+          "srd24:rogue:expertise",
+          "srd24:rogue:sneak-attack",
+          "srd24:rogue:thieves-cant",
+          "srd24:rogue:weapon-mastery"
         ],
         "modifiers": [
           {

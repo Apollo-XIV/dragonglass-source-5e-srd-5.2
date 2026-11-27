@@ -1,0 +1,46 @@
+[
+  {
+    "id": "srd24:criminal:kit",
+    "kind": "equipment-option",
+    "name": "Equipment",
+    "source": "srd24",
+    "equipment": [
+      {
+        "item": "srd24:item:dagger",
+        "quantity": 2
+      },
+      {
+        "item": "srd24:item:thieves-tools"
+      },
+      {
+        "item": "srd24:item:crowbar"
+      },
+      {
+        "item": "srd24:item:pouch",
+        "quantity": 2
+      },
+      {
+        "item": "srd24:item:travelers-clothes"
+      },
+      {
+        "currency": {
+          "gp": 16
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:criminal:gold",
+    "kind": "equipment-option",
+    "name": "Starting gold",
+    "source": "srd24",
+    "text": "50 GP",
+    "equipment": [
+      {
+        "gold": {
+          "multiplier": 50
+        }
+      }
+    ]
+  }
+]

@@ -97,6 +97,19 @@
       "1": {
         "choices": [
           {
+            "id": "srd24:fighter:starting-equipment",
+            "count": 1,
+            "from": {
+              "kind": "equipment-option",
+              "ids": [
+                "srd24:fighter:kit-a",
+                "srd24:fighter:kit-b",
+                "srd24:fighter:gold"
+              ]
+            },
+            "text": "*Choose A, B, or C:* (A) Chain Mail, Greatsword, Flail, 8 Javelins, Dungeoneer's Pack, and 4 GP; (B) Studded Leather Armor, Scimitar, Shortsword, Longbow, 20 Arrows, Quiver, Dungeoneer's Pack, and 11 GP; or (C) 155 GP"
+          },
+          {
             "id": "srd24:class:fighter:skill",
             "name": "Skill Proficiency",
             "count": 2,

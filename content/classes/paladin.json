@@ -104,6 +104,18 @@
       "1": {
         "choices": [
           {
+            "id": "srd24:paladin:starting-equipment",
+            "count": 1,
+            "from": {
+              "kind": "equipment-option",
+              "ids": [
+                "srd24:paladin:kit",
+                "srd24:paladin:gold"
+              ]
+            },
+            "text": "*Choose A or B:* (A) Chain Mail, Shield, Longsword, 6 Javelins, Holy Symbol, Priest's Pack, and 9 GP; or (B) 150 GP"
+          },
+          {
             "id": "srd24:class:paladin:skill",
             "name": "Skill Proficiency",
             "count": 2,

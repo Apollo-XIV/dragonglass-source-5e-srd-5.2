@@ -105,6 +105,18 @@
       "1": {
         "choices": [
           {
+            "id": "srd24:wizard:starting-equipment",
+            "count": 1,
+            "from": {
+              "kind": "equipment-option",
+              "ids": [
+                "srd24:wizard:kit",
+                "srd24:wizard:gold"
+              ]
+            },
+            "text": "*Choose A or B:* (A) 2 Daggers, Arcane Focus (Quarterstaff), Robe, Spellbook, Scholar's Pack, and 5 GP; or (B) 55 GP"
+          },
+          {
             "id": "srd24:class:wizard:skill",
             "name": "Skill Proficiency",
             "count": 2,

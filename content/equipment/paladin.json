@@ -1,0 +1,48 @@
+[
+  {
+    "id": "srd24:paladin:kit",
+    "kind": "equipment-option",
+    "name": "Equipment",
+    "source": "srd24",
+    "equipment": [
+      {
+        "item": "srd24:item:chain-mail"
+      },
+      {
+        "item": "srd24:item:shield"
+      },
+      {
+        "item": "srd24:item:longsword"
+      },
+      {
+        "item": "srd24:item:javelin",
+        "quantity": 6
+      },
+      {
+        "item": "srd24:item:holy-symbol"
+      },
+      {
+        "item": "srd24:item:priests-pack"
+      },
+      {
+        "currency": {
+          "gp": 9
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:paladin:gold",
+    "kind": "equipment-option",
+    "name": "Starting gold",
+    "source": "srd24",
+    "text": "150 GP",
+    "equipment": [
+      {
+        "gold": {
+          "multiplier": 150
+        }
+      }
+    ]
+  }
+]

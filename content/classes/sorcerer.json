@@ -104,6 +104,18 @@
       "1": {
         "choices": [
           {
+            "id": "srd24:sorcerer:starting-equipment",
+            "count": 1,
+            "from": {
+              "kind": "equipment-option",
+              "ids": [
+                "srd24:sorcerer:kit",
+                "srd24:sorcerer:gold"
+              ]
+            },
+            "text": "*Choose A or B:* (A) Spear, 2 Daggers, Arcane Focus (crystal), Dungeoneer's Pack, and 28 GP; or (B) 50 GP"
+          },
+          {
             "id": "srd24:class:sorcerer:skill",
             "name": "Skill Proficiency",
             "count": 2,

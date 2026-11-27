@@ -109,6 +109,18 @@
       "1": {
         "choices": [
           {
+            "id": "srd24:barbarian:starting-equipment",
+            "count": 1,
+            "from": {
+              "kind": "equipment-option",
+              "ids": [
+                "srd24:barbarian:kit",
+                "srd24:barbarian:gold"
+              ]
+            },
+            "text": "*Choose A or B:* (A) Greataxe, 4 Handaxes, Explorer's Pack, and 15 GP; or (B) 75 GP"
+          },
+          {
             "id": "srd24:class:barbarian:skill",
             "name": "Skill Proficiency",
             "count": 2,

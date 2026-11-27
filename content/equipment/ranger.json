@@ -1,0 +1,53 @@
+[
+  {
+    "id": "srd24:ranger:kit",
+    "kind": "equipment-option",
+    "name": "Equipment",
+    "source": "srd24",
+    "equipment": [
+      {
+        "item": "srd24:item:studded-leather-armor"
+      },
+      {
+        "item": "srd24:item:scimitar"
+      },
+      {
+        "item": "srd24:item:shortsword"
+      },
+      {
+        "item": "srd24:item:longbow"
+      },
+      {
+        "item": "srd24:item:arrows-20"
+      },
+      {
+        "item": "srd24:item:quiver"
+      },
+      {
+        "item": "srd24:item:sprig-of-mistletoe"
+      },
+      {
+        "item": "srd24:item:explorers-pack"
+      },
+      {
+        "currency": {
+          "gp": 7
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:ranger:gold",
+    "kind": "equipment-option",
+    "name": "Starting gold",
+    "source": "srd24",
+    "text": "150 GP",
+    "equipment": [
+      {
+        "gold": {
+          "multiplier": 150
+        }
+      }
+    ]
+  }
+]

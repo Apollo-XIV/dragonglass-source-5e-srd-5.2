@@ -118,6 +118,18 @@
       "1": {
         "choices": [
           {
+            "id": "srd24:cleric:starting-equipment",
+            "count": 1,
+            "from": {
+              "kind": "equipment-option",
+              "ids": [
+                "srd24:cleric:kit",
+                "srd24:cleric:gold"
+              ]
+            },
+            "text": "*Choose A or B:* (A) Chain Shirt, Shield, Mace, Holy Symbol, Priest's Pack, 7 GP; or (B) 110 GP"
+          },
+          {
             "id": "srd24:class:cleric:skill",
             "name": "Skill Proficiency",
             "count": 2,

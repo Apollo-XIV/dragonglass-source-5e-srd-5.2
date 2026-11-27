@@ -1,0 +1,63 @@
+[
+  {
+    "id": "srd24:monk:kit",
+    "kind": "equipment-option",
+    "name": "Equipment",
+    "source": "srd24",
+    "equipment": [
+      {
+        "item": "srd24:item:spear"
+      },
+      {
+        "item": "srd24:item:dagger",
+        "quantity": 5
+      },
+      {
+        "item": "srd24:item:explorers-pack"
+      },
+      {
+        "currency": {
+          "gp": 11
+        }
+      }
+    ],
+    "choices": [
+      {
+        "id": "srd24:monk:kit:pick",
+        "name": "Musical instrument or artisan's tools",
+        "count": 1,
+        "to": "inventory",
+        "from": {
+          "anyOf": [
+            {
+              "kind": "item",
+              "tags": [
+                "musical-instrument"
+              ]
+            },
+            {
+              "kind": "item",
+              "tags": [
+                "artisans-tools"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:monk:gold",
+    "kind": "equipment-option",
+    "name": "Starting gold",
+    "source": "srd24",
+    "text": "50 GP",
+    "equipment": [
+      {
+        "gold": {
+          "multiplier": 50
+        }
+      }
+    ]
+  }
+]

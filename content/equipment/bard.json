@@ -1,0 +1,53 @@
+[
+  {
+    "id": "srd24:bard:kit",
+    "kind": "equipment-option",
+    "name": "Equipment",
+    "source": "srd24",
+    "equipment": [
+      {
+        "item": "srd24:item:leather-armor"
+      },
+      {
+        "item": "srd24:item:dagger",
+        "quantity": 2
+      },
+      {
+        "item": "srd24:item:entertainers-pack"
+      },
+      {
+        "currency": {
+          "gp": 19
+        }
+      }
+    ],
+    "choices": [
+      {
+        "id": "srd24:bard:kit:pick",
+        "name": "Musical instrument",
+        "count": 1,
+        "to": "inventory",
+        "from": {
+          "kind": "item",
+          "tags": [
+            "musical-instrument"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:bard:gold",
+    "kind": "equipment-option",
+    "name": "Starting gold",
+    "source": "srd24",
+    "text": "90 GP",
+    "equipment": [
+      {
+        "gold": {
+          "multiplier": 90
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "srd24:sorcerer:kit",
+    "kind": "equipment-option",
+    "name": "Equipment",
+    "source": "srd24",
+    "equipment": [
+      {
+        "item": "srd24:item:spear"
+      },
+      {
+        "item": "srd24:item:dagger",
+        "quantity": 2
+      },
+      {
+        "item": "srd24:item:crystal"
+      },
+      {
+        "item": "srd24:item:dungeoneers-pack"
+      },
+      {
+        "currency": {
+          "gp": 28
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:sorcerer:gold",
+    "kind": "equipment-option",
+    "name": "Starting gold",
+    "source": "srd24",
+    "text": "50 GP",
+    "equipment": [
+      {
+        "gold": {
+          "multiplier": 50
+        }
+      }
+    ]
+  }
+]

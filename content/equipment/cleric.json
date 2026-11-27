@@ -1,0 +1,44 @@
+[
+  {
+    "id": "srd24:cleric:kit",
+    "kind": "equipment-option",
+    "name": "Equipment",
+    "source": "srd24",
+    "equipment": [
+      {
+        "item": "srd24:item:chain-shirt"
+      },
+      {
+        "item": "srd24:item:shield"
+      },
+      {
+        "item": "srd24:item:mace"
+      },
+      {
+        "item": "srd24:item:holy-symbol"
+      },
+      {
+        "item": "srd24:item:priests-pack"
+      },
+      {
+        "currency": {
+          "gp": 70
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:cleric:gold",
+    "kind": "equipment-option",
+    "name": "Starting gold",
+    "source": "srd24",
+    "text": "110 GP",
+    "equipment": [
+      {
+        "gold": {
+          "multiplier": 110
+        }
+      }
+    ]
+  }
+]

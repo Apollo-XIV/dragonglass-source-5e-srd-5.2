@@ -1,0 +1,45 @@
+[
+  {
+    "id": "srd24:sage:kit",
+    "kind": "equipment-option",
+    "name": "Equipment",
+    "source": "srd24",
+    "equipment": [
+      {
+        "item": "srd24:item:quarterstaff"
+      },
+      {
+        "item": "srd24:item:calligraphers-supplies"
+      },
+      {
+        "item": "srd24:item:book"
+      },
+      {
+        "item": "srd24:item:parchment",
+        "quantity": 8
+      },
+      {
+        "item": "srd24:item:robe"
+      },
+      {
+        "currency": {
+          "gp": 8
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:sage:gold",
+    "kind": "equipment-option",
+    "name": "Starting gold",
+    "source": "srd24",
+    "text": "50 GP",
+    "equipment": [
+      {
+        "gold": {
+          "multiplier": 50
+        }
+      }
+    ]
+  }
+]

@@ -119,13 +119,19 @@
     },
     "levels": {
       "1": {
-        "grants": [
-          "srd24:spell:hunters-mark",
-          "srd24:ranger:spellcasting",
-          "srd24:ranger:favored-enemy",
-          "srd24:ranger:weapon-mastery"
-        ],
         "choices": [
+          {
+            "id": "srd24:ranger:starting-equipment",
+            "count": 1,
+            "from": {
+              "kind": "equipment-option",
+              "ids": [
+                "srd24:ranger:kit",
+                "srd24:ranger:gold"
+              ]
+            },
+            "text": "*Choose A or B:* (A) Studded Leather Armor, Scimitar, Shortsword, Longbow, 20 Arrows, Quiver, Druidic Focus (sprig of mistletoe), Explorer's Pack, and 7 GP; or (B) 150 GP"
+          },
           {
             "id": "srd24:class:ranger:skill",
             "name": "Skill Proficiency",
@@ -155,6 +161,12 @@
               ]
             }
           }
+        ],
+        "grants": [
+          "srd24:spell:hunters-mark",
+          "srd24:ranger:spellcasting",
+          "srd24:ranger:favored-enemy",
+          "srd24:ranger:weapon-mastery"
         ],
         "modifiers": [
           {

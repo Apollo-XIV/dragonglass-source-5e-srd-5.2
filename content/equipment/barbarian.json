@@ -1,0 +1,39 @@
+[
+  {
+    "id": "srd24:barbarian:kit",
+    "kind": "equipment-option",
+    "name": "Equipment",
+    "source": "srd24",
+    "equipment": [
+      {
+        "item": "srd24:item:greataxe"
+      },
+      {
+        "item": "srd24:item:handaxe",
+        "quantity": 4
+      },
+      {
+        "item": "srd24:item:explorers-pack"
+      },
+      {
+        "currency": {
+          "gp": 15
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:barbarian:gold",
+    "kind": "equipment-option",
+    "name": "Starting gold",
+    "source": "srd24",
+    "text": "75 GP",
+    "equipment": [
+      {
+        "gold": {
+          "multiplier": 75
+        }
+      }
+    ]
+  }
+]

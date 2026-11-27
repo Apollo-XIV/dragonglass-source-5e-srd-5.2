@@ -1,0 +1,61 @@
+[
+  {
+    "id": "srd24:soldier:kit",
+    "kind": "equipment-option",
+    "name": "Equipment",
+    "source": "srd24",
+    "equipment": [
+      {
+        "item": "srd24:item:spear"
+      },
+      {
+        "item": "srd24:item:shortbow"
+      },
+      {
+        "item": "srd24:item:arrows-20"
+      },
+      {
+        "item": "srd24:item:healers-kit"
+      },
+      {
+        "item": "srd24:item:quiver"
+      },
+      {
+        "item": "srd24:item:travelers-clothes"
+      },
+      {
+        "currency": {
+          "gp": 14
+        }
+      }
+    ],
+    "choices": [
+      {
+        "id": "srd24:soldier:kit:pick",
+        "name": "Gaming set",
+        "count": 1,
+        "to": "inventory",
+        "from": {
+          "kind": "item",
+          "tags": [
+            "gaming-set"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:soldier:gold",
+    "kind": "equipment-option",
+    "name": "Starting gold",
+    "source": "srd24",
+    "text": "50 GP",
+    "equipment": [
+      {
+        "gold": {
+          "multiplier": 50
+        }
+      }
+    ]
+  }
+]

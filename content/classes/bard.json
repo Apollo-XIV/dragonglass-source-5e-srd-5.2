@@ -149,6 +149,18 @@
       "1": {
         "choices": [
           {
+            "id": "srd24:bard:starting-equipment",
+            "count": 1,
+            "from": {
+              "kind": "equipment-option",
+              "ids": [
+                "srd24:bard:kit",
+                "srd24:bard:gold"
+              ]
+            },
+            "text": "*Choose A or B:* (A) Leather Armor, 2 Dagger, Musical Instrument of your choice, Entertainer's Pack, 19 GP; or (B) 90 GP"
+          },
+          {
             "id": "srd24:class:bard:skill",
             "name": "Skill Proficiency",
             "count": 3,

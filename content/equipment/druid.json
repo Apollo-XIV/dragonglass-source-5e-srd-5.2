@@ -1,0 +1,47 @@
+[
+  {
+    "id": "srd24:druid:kit",
+    "kind": "equipment-option",
+    "name": "Equipment",
+    "source": "srd24",
+    "equipment": [
+      {
+        "item": "srd24:item:leather-armor"
+      },
+      {
+        "item": "srd24:item:shield"
+      },
+      {
+        "item": "srd24:item:sickle"
+      },
+      {
+        "item": "srd24:item:druidic-focus"
+      },
+      {
+        "item": "srd24:item:explorers-pack"
+      },
+      {
+        "item": "srd24:item:herbalism-kit"
+      },
+      {
+        "currency": {
+          "gp": 9
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:druid:gold",
+    "kind": "equipment-option",
+    "name": "Starting gold",
+    "source": "srd24",
+    "text": "50 GP",
+    "equipment": [
+      {
+        "gold": {
+          "multiplier": 50
+        }
+      }
+    ]
+  }
+]

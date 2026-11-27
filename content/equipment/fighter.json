@@ -1,0 +1,79 @@
+[
+  {
+    "id": "srd24:fighter:kit-a",
+    "kind": "equipment-option",
+    "name": "Equipment (option A)",
+    "source": "srd24",
+    "equipment": [
+      {
+        "item": "srd24:item:chain-mail"
+      },
+      {
+        "item": "srd24:item:greatsword"
+      },
+      {
+        "item": "srd24:item:flail"
+      },
+      {
+        "item": "srd24:item:javelin",
+        "quantity": 8
+      },
+      {
+        "item": "srd24:item:dungeoneers-pack"
+      },
+      {
+        "currency": {
+          "gp": 4
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:fighter:kit-b",
+    "kind": "equipment-option",
+    "name": "Equipment (option B)",
+    "source": "srd24",
+    "equipment": [
+      {
+        "item": "srd24:item:studded-leather-armor"
+      },
+      {
+        "item": "srd24:item:scimitar"
+      },
+      {
+        "item": "srd24:item:shortsword"
+      },
+      {
+        "item": "srd24:item:longbow"
+      },
+      {
+        "item": "srd24:item:arrows-20"
+      },
+      {
+        "item": "srd24:item:quiver"
+      },
+      {
+        "item": "srd24:item:dungeoneers-pack"
+      },
+      {
+        "currency": {
+          "gp": 11
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:fighter:gold",
+    "kind": "equipment-option",
+    "name": "Starting gold",
+    "source": "srd24",
+    "text": "155 GP",
+    "equipment": [
+      {
+        "gold": {
+          "multiplier": 155
+        }
+      }
+    ]
+  }
+]

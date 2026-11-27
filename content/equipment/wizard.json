@@ -1,0 +1,45 @@
+[
+  {
+    "id": "srd24:wizard:kit",
+    "kind": "equipment-option",
+    "name": "Equipment",
+    "source": "srd24",
+    "equipment": [
+      {
+        "item": "srd24:item:dagger",
+        "quantity": 2
+      },
+      {
+        "item": "srd24:item:quarterstaff"
+      },
+      {
+        "item": "srd24:item:robe"
+      },
+      {
+        "item": "srd24:item:spellbook"
+      },
+      {
+        "item": "srd24:item:scholars-pack"
+      },
+      {
+        "currency": {
+          "gp": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:wizard:gold",
+    "kind": "equipment-option",
+    "name": "Starting gold",
+    "source": "srd24",
+    "text": "55 GP",
+    "equipment": [
+      {
+        "gold": {
+          "multiplier": 55
+        }
+      }
+    ]
+  }
+]

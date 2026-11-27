@@ -1,0 +1,12 @@
+[
+  {
+    "id": "srd24:item:spellbook",
+    "kind": "item",
+    "name": "Spellbook",
+    "source": "srd24",
+    "itemType": "gear",
+    "tags": [
+      "equipment"
+    ]
+  }
+]

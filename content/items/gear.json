@@ -133,7 +133,8 @@
     "name": "Backpack",
     "source": "srd24",
     "tags": [
-      "equipment"
+      "equipment",
+      "container"
     ],
     "page": "XPHB 224",
     "itemType": "gear",
@@ -161,7 +162,8 @@
     "name": "Barrel",
     "source": "srd24",
     "tags": [
-      "equipment"
+      "equipment",
+      "container"
     ],
     "page": "XPHB 224",
     "itemType": "gear",
@@ -188,7 +190,8 @@
     "name": "Basket",
     "source": "srd24",
     "tags": [
-      "equipment"
+      "equipment",
+      "container"
     ],
     "page": "XPHB 224",
     "itemType": "gear",
@@ -363,13 +366,49 @@
     "tags": [
       "equipment",
       "bundle",
-      "pack"
+      "pack",
+      "container"
     ],
     "page": "XPHB 224",
     "itemType": "gear",
     "weight": 47.5,
     "value": 1600,
-    "text": "A Burglar's Pack contains the following items: Backpack, Ball Bearings, Bell, 10 Candles, Crowbar, Hooded Lantern, 7 flasks of Oil, 5 days of Rations, Rope, Tinderbox, and Waterskin."
+    "text": "A Burglar's Pack contains the following items: Backpack, Ball Bearings, Bell, 10 Candles, Crowbar, Hooded Lantern, 7 flasks of Oil, 5 days of Rations, Rope, Tinderbox, and Waterskin.",
+    "contents": [
+      {
+        "item": "srd24:item:ball-bearings"
+      },
+      {
+        "item": "srd24:item:bell"
+      },
+      {
+        "item": "srd24:item:candle",
+        "quantity": 10
+      },
+      {
+        "item": "srd24:item:crowbar"
+      },
+      {
+        "item": "srd24:item:hooded-lantern"
+      },
+      {
+        "item": "srd24:item:oil",
+        "quantity": 7
+      },
+      {
+        "item": "srd24:item:rations",
+        "quantity": 5
+      },
+      {
+        "item": "srd24:item:rope"
+      },
+      {
+        "item": "srd24:item:tinderbox"
+      },
+      {
+        "item": "srd24:item:waterskin"
+      }
+    ]
   },
   {
     "id": "srd24:item:burnt-othur-fumes",
@@ -443,7 +482,8 @@
     "name": "Chest",
     "source": "srd24",
     "tags": [
-      "equipment"
+      "equipment",
+      "container"
     ],
     "page": "XPHB 225",
     "itemType": "gear",
@@ -524,7 +564,8 @@
     "name": "Crossbow Bolt Case",
     "source": "srd24",
     "tags": [
-      "equipment"
+      "equipment",
+      "container"
     ],
     "page": "XPHB 224",
     "itemType": "gear",
@@ -568,13 +609,54 @@
     "tags": [
       "equipment",
       "bundle",
-      "pack"
+      "pack",
+      "container"
     ],
     "page": "XPHB 225",
     "itemType": "gear",
     "weight": 39,
     "value": 3900,
-    "text": "A Diplomat's Pack contains the following items: Chest, Fine Clothes, Ink, 5 Ink Pens, Lamp, 2 Map or Scroll Cases, 4 flasks of Oil, 5 sheets of Paper, 5 sheets of Parchment, Perfume, and Tinderbox."
+    "text": "A Diplomat's Pack contains the following items: Chest, Fine Clothes, Ink, 5 Ink Pens, Lamp, 2 Map or Scroll Cases, 4 flasks of Oil, 5 sheets of Paper, 5 sheets of Parchment, Perfume, and Tinderbox.",
+    "contents": [
+      {
+        "item": "srd24:item:chest"
+      },
+      {
+        "item": "srd24:item:fine-clothes"
+      },
+      {
+        "item": "srd24:item:ink"
+      },
+      {
+        "item": "srd24:item:ink-pen",
+        "quantity": 5
+      },
+      {
+        "item": "srd24:item:lamp"
+      },
+      {
+        "item": "srd24:item:map-or-scroll-case",
+        "quantity": 2
+      },
+      {
+        "item": "srd24:item:oil",
+        "quantity": 4
+      },
+      {
+        "item": "srd24:item:paper",
+        "quantity": 5
+      },
+      {
+        "item": "srd24:item:parchment",
+        "quantity": 5
+      },
+      {
+        "item": "srd24:item:perfume"
+      },
+      {
+        "item": "srd24:item:tinderbox"
+      }
+    ]
   },
   {
     "id": "srd24:item:druidic-focus",
@@ -598,13 +680,43 @@
     "tags": [
       "equipment",
       "bundle",
-      "pack"
+      "pack",
+      "container"
     ],
     "page": "XPHB 225",
     "itemType": "gear",
     "weight": 55,
     "value": 1200,
-    "text": "A Dungeoneer's Pack contains the following items: Backpack, Caltrops, Crowbar, 2 flasks of Oil, 10 days of Rations, Rope, Tinderbox, 10 Torches, and Waterskin."
+    "text": "A Dungeoneer's Pack contains the following items: Backpack, Caltrops, Crowbar, 2 flasks of Oil, 10 days of Rations, Rope, Tinderbox, 10 Torches, and Waterskin.",
+    "contents": [
+      {
+        "item": "srd24:item:caltrops"
+      },
+      {
+        "item": "srd24:item:crowbar"
+      },
+      {
+        "item": "srd24:item:oil",
+        "quantity": 2
+      },
+      {
+        "item": "srd24:item:rations",
+        "quantity": 10
+      },
+      {
+        "item": "srd24:item:rope"
+      },
+      {
+        "item": "srd24:item:tinderbox"
+      },
+      {
+        "item": "srd24:item:torch",
+        "quantity": 10
+      },
+      {
+        "item": "srd24:item:waterskin"
+      }
+    ]
   },
   {
     "id": "srd24:item:emblem",
@@ -628,13 +740,46 @@
     "tags": [
       "equipment",
       "bundle",
-      "pack"
+      "pack",
+      "container"
     ],
     "page": "XPHB 225",
     "itemType": "gear",
     "weight": 58.5,
     "value": 4000,
-    "text": "An Entertainer's Pack contains the following items: Backpack, Bedroll, Bell, Bullseye Lantern, 3 Costumes, Mirror, 8 flasks of Oil, 9 days of Rations, Tinderbox, and Waterskin."
+    "text": "An Entertainer's Pack contains the following items: Backpack, Bedroll, Bell, Bullseye Lantern, 3 Costumes, Mirror, 8 flasks of Oil, 9 days of Rations, Tinderbox, and Waterskin.",
+    "contents": [
+      {
+        "item": "srd24:item:bedroll"
+      },
+      {
+        "item": "srd24:item:bell"
+      },
+      {
+        "item": "srd24:item:bullseye-lantern"
+      },
+      {
+        "item": "srd24:item:costume",
+        "quantity": 3
+      },
+      {
+        "item": "srd24:item:mirror"
+      },
+      {
+        "item": "srd24:item:oil",
+        "quantity": 8
+      },
+      {
+        "item": "srd24:item:rations",
+        "quantity": 9
+      },
+      {
+        "item": "srd24:item:tinderbox"
+      },
+      {
+        "item": "srd24:item:waterskin"
+      }
+    ]
   },
   {
     "id": "srd24:item:essence-of-ether",
@@ -657,13 +802,40 @@
     "tags": [
       "equipment",
       "bundle",
-      "pack"
+      "pack",
+      "container"
     ],
     "page": "XPHB 225",
     "itemType": "gear",
     "weight": 55,
     "value": 1000,
-    "text": "An Explorer's Pack contains the following items: Backpack, Bedroll, 2 flasks of Oil, 10 days of Rations, Rope, Tinderbox, 10 Torches, and Waterskin."
+    "text": "An Explorer's Pack contains the following items: Backpack, Bedroll, 2 flasks of Oil, 10 days of Rations, Rope, Tinderbox, 10 Torches, and Waterskin.",
+    "contents": [
+      {
+        "item": "srd24:item:bedroll"
+      },
+      {
+        "item": "srd24:item:oil",
+        "quantity": 2
+      },
+      {
+        "item": "srd24:item:rations",
+        "quantity": 10
+      },
+      {
+        "item": "srd24:item:rope"
+      },
+      {
+        "item": "srd24:item:tinderbox"
+      },
+      {
+        "item": "srd24:item:torch",
+        "quantity": 10
+      },
+      {
+        "item": "srd24:item:waterskin"
+      }
+    ]
   },
   {
     "id": "srd24:item:fine-clothes",
@@ -1001,7 +1173,8 @@
     "name": "Map or Scroll Case",
     "source": "srd24",
     "tags": [
-      "equipment"
+      "equipment",
+      "container"
     ],
     "page": "XPHB 224",
     "itemType": "gear",
@@ -1191,7 +1364,8 @@
     "name": "Pouch",
     "source": "srd24",
     "tags": [
-      "equipment"
+      "equipment",
+      "container"
     ],
     "page": "XPHB 228",
     "itemType": "gear",
@@ -1207,13 +1381,35 @@
     "tags": [
       "equipment",
       "bundle",
-      "pack"
+      "pack",
+      "container"
     ],
     "page": "XPHB 228",
     "itemType": "gear",
     "weight": 29,
     "value": 3300,
-    "text": "A Priest's Pack contains the following items: Backpack, Blanket, Holy Water, Lamp, 7 days of Rations, Robe, and Tinderbox."
+    "text": "A Priest's Pack contains the following items: Backpack, Blanket, Holy Water, Lamp, 7 days of Rations, Robe, and Tinderbox.",
+    "contents": [
+      {
+        "item": "srd24:item:blanket"
+      },
+      {
+        "item": "srd24:item:holy-water"
+      },
+      {
+        "item": "srd24:item:lamp"
+      },
+      {
+        "item": "srd24:item:rations",
+        "quantity": 7
+      },
+      {
+        "item": "srd24:item:robe"
+      },
+      {
+        "item": "srd24:item:tinderbox"
+      }
+    ]
   },
   {
     "id": "srd24:item:purple-worm-poison",
@@ -1234,7 +1430,8 @@
     "name": "Quiver",
     "source": "srd24",
     "tags": [
-      "equipment"
+      "equipment",
+      "container"
     ],
     "page": "XPHB 228",
     "itemType": "gear",
@@ -1319,7 +1516,8 @@
     "name": "Sack",
     "source": "srd24",
     "tags": [
-      "equipment"
+      "equipment",
+      "container"
     ],
     "page": "XPHB 228",
     "itemType": "gear",
@@ -1335,13 +1533,39 @@
     "tags": [
       "equipment",
       "bundle",
-      "pack"
+      "pack",
+      "container"
     ],
     "page": "XPHB 228",
     "itemType": "gear",
     "weight": 22,
     "value": 4000,
-    "text": "A Scholar's Pack contains the following items: Backpack, Book, Ink, Ink Pen, Lamp, 10 flasks of Oil, 10 sheets of Parchment, and Tinderbox."
+    "text": "A Scholar's Pack contains the following items: Backpack, Book, Ink, Ink Pen, Lamp, 10 flasks of Oil, 10 sheets of Parchment, and Tinderbox.",
+    "contents": [
+      {
+        "item": "srd24:item:book"
+      },
+      {
+        "item": "srd24:item:ink"
+      },
+      {
+        "item": "srd24:item:ink-pen"
+      },
+      {
+        "item": "srd24:item:lamp"
+      },
+      {
+        "item": "srd24:item:oil",
+        "quantity": 10
+      },
+      {
+        "item": "srd24:item:parchment",
+        "quantity": 10
+      },
+      {
+        "item": "srd24:item:tinderbox"
+      }
+    ]
   },
   {
     "id": "srd24:item:serpent-venom",

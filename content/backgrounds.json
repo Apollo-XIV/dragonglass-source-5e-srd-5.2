@@ -29,6 +29,17 @@
             "srd24:ability-point:cha"
           ]
         }
+      },
+      {
+        "id": "srd24:acolyte:starting-equipment",
+        "count": 1,
+        "from": {
+          "kind": "equipment-option",
+          "ids": [
+            "srd24:acolyte:kit",
+            "srd24:acolyte:gold"
+          ]
+        }
       }
     ]
   },
@@ -62,6 +73,17 @@
             "srd24:ability-point:int"
           ]
         }
+      },
+      {
+        "id": "srd24:criminal:starting-equipment",
+        "count": 1,
+        "from": {
+          "kind": "equipment-option",
+          "ids": [
+            "srd24:criminal:kit",
+            "srd24:criminal:gold"
+          ]
+        }
       }
     ]
   },
@@ -93,6 +115,17 @@
             "srd24:ability-point:con",
             "srd24:ability-point:int",
             "srd24:ability-point:wis"
+          ]
+        }
+      },
+      {
+        "id": "srd24:sage:starting-equipment",
+        "count": 1,
+        "from": {
+          "kind": "equipment-option",
+          "ids": [
+            "srd24:sage:kit",
+            "srd24:sage:gold"
           ]
         }
       }
@@ -136,6 +169,17 @@
           "kind": "tool",
           "tags": [
             "gaming-set"
+          ]
+        }
+      },
+      {
+        "id": "srd24:soldier:starting-equipment",
+        "count": 1,
+        "from": {
+          "kind": "equipment-option",
+          "ids": [
+            "srd24:soldier:kit",
+            "srd24:soldier:gold"
           ]
         }
       }

@@ -1,0 +1,48 @@
+[
+  {
+    "id": "srd24:warlock:kit",
+    "kind": "equipment-option",
+    "name": "Equipment",
+    "source": "srd24",
+    "equipment": [
+      {
+        "item": "srd24:item:leather-armor"
+      },
+      {
+        "item": "srd24:item:sickle"
+      },
+      {
+        "item": "srd24:item:dagger",
+        "quantity": 2
+      },
+      {
+        "item": "srd24:item:orb"
+      },
+      {
+        "item": "srd24:item:book"
+      },
+      {
+        "item": "srd24:item:scholars-pack"
+      },
+      {
+        "currency": {
+          "gp": 15
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:warlock:gold",
+    "kind": "equipment-option",
+    "name": "Starting gold",
+    "source": "srd24",
+    "text": "100 GP",
+    "equipment": [
+      {
+        "gold": {
+          "multiplier": 100
+        }
+      }
+    ]
+  }
+]
